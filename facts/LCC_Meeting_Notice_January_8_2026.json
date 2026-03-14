@@ -1,0 +1,51 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Statehouse",
+    "Room 548-S"
+  ],
+  "entities": [
+    {
+      "name": "Speaker Dan Hawkins",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gordon L. Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislative Administrative Services",
+      "type": "ORG"
+    },
+    {
+      "name": "YouTube",
+      "type": "OTHER"
+    },
+    {
+      "name": "Harmony",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "Thursday, January 8, 2026",
+      "year": 2026,
+      "description": "Legislative Coordinating Council meeting"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "In accordance with K.S.A. 46-1201, you are hereby given notice that the Legislative Coordinating Council will meet at 1:30 p.m.,",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

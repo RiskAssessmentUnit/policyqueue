@@ -1,0 +1,30 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The new threshold for implementation and compliance costs is $1,000,000 or more for businesses, local government, or individuals in the initial five-year period following adoption of the rule and regulation.",
+      "note": null
+    },
+    {
+      "quote": "Implementation and compliance costs” was defined as direct costs that are readily ascertainable based upon standard business practices, including, but not limited to, fees, the cost to obtain a license or registration, the cost of equipment required to be installed or used, additional operating costs incurred, the cost of monitoring and reporting and any other costs to comply with the requirements of the proposed rule and regulation.",
+      "note": null
+    }
+  ]
+}

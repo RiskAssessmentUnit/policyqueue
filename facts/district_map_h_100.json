@@ -1,0 +1,41 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Sedgwick"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "miles",
+      "year": null
+    },
+    {
+      "label": "1",
+      "value": 1,
+      "unit": "miles",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    },
+    {
+      "quote": "House District 100",
+      "note": null
+    },
+    {
+      "quote": "Sedgwick County:  City:  Wichita(part)",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

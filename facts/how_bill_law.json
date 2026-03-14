@@ -1,0 +1,23 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": 2012,
+      "description": "Bill Becomes Law"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Governor Signs Bill into Law"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

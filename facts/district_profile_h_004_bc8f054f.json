@@ -1,0 +1,21 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 234,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Population",
+      "value": 232,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

@@ -1,0 +1,922 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": "Paid parental leave for legislative employees",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas",
+    "Topeka",
+    "Kansas Statehouse",
+    "Capitol Grounds",
+    "Kansas state capitol"
+  ],
+  "entities": [
+    {
+      "name": "LCC",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas legislature",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "NCSL",
+      "type": "ORG"
+    },
+    {
+      "name": "NBCSL",
+      "type": "ORG"
+    },
+    {
+      "name": "CSG",
+      "type": "ORG"
+    },
+    {
+      "name": "CSG-Midwest",
+      "type": "ORG"
+    },
+    {
+      "name": "ALEC",
+      "type": "ORG"
+    },
+    {
+      "name": "NCOIL",
+      "type": "ORG"
+    },
+    {
+      "name": "The Energy Council",
+      "type": "ORG"
+    },
+    {
+      "name": "Governor",
+      "type": "PERSON"
+    },
+    {
+      "name": "President of the Senate",
+      "type": "PERSON"
+    },
+    {
+      "name": "Speaker of the House of Representatives",
+      "type": "PERSON"
+    },
+    {
+      "name": "director of legislative research",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "director of legislative administrative services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "revisor of statutes",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "state librarian",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "legislators",
+      "type": "PERSON"
+    },
+    {
+      "name": "Speaker Pro Tem",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Senate Vice-President",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "House Minority Leader",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Senate Minority Leader",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "President",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Vice-President",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Majority Leader of the Senate",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Minority Leader of the Senate",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Speaker",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Majority Leader of the House",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Minority Leader of the House",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Legislative Intern Program Coordinator",
+      "type": "ORG"
+    },
+    {
+      "name": "director of legislative administrative services",
+      "type": "PERSON"
+    },
+    {
+      "name": "chairperson or vice-chairperson of the Council",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Legislature",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislative Post Audit Committee",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas highway patrol",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas bureau of investigation",
+      "type": "ORG"
+    },
+    {
+      "name": "LCC",
+      "type": "ORG"
+    },
+    {
+      "name": "Director of legislative administrative services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Speaker of the house",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "President of the senate",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislative employees",
+      "type": "PERSON"
+    },
+    {
+      "name": "Director of Legislative Administrative Services",
+      "type": "PERSON"
+    },
+    {
+      "name": "Speaker",
+      "type": "PERSON"
+    },
+    {
+      "name": "President",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Human Rights Commission",
+      "type": "ORG"
+    },
+    {
+      "name": "Federal Equal Employment Opportunity Commission",
+      "type": "ORG"
+    },
+    {
+      "name": "Dillon House Advisory Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Capitol Restoration Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas State Building Construction Committee",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Committee on Appropriations of the House of Representatives",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Committee on Ways and Means of the Senate",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislative Counsel",
+      "type": "ORG"
+    },
+    {
+      "name": "Council of State Governments",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "K.S.A. 75-3212(e)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 75-3213",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 46-1209(c)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 46-1210(a)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 46-1211(a)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 46-1211a",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 46-1212a(a)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "K.S.A. 46-137a",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "May 4, 1976",
+      "value": null,
+      "unit": "DATE",
+      "year": 1976
+    },
+    {
+      "label": "Nov. 4, 1991",
+      "value": null,
+      "unit": "DATE",
+      "year": 1991
+    },
+    {
+      "label": "Nov. 24, 1997",
+      "value": null,
+      "unit": "DATE",
+      "year": 1997
+    },
+    {
+      "label": "February 16, 1998",
+      "value": null,
+      "unit": "DATE",
+      "year": 1998
+    },
+    {
+      "label": "December 19, 2019",
+      "value": null,
+      "unit": "DATE",
+      "year": 2019
+    },
+    {
+      "label": "January 12, 1998",
+      "value": null,
+      "unit": "DATE",
+      "year": 1998
+    },
+    {
+      "label": "46-1214(a)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "46-1212",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "46-1207",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "46-1209(c)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "46-1206",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "50¢",
+      "value": 0.5,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "15¢",
+      "value": 0.15,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Intern allowance",
+      "value": 600,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Intern allowance",
+      "value": 1200,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "postage and newsletter printing allotment",
+      "value": 6000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "postage and newsletter printing allotment",
+      "value": 18000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "50",
+      "value": 50,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "1979",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1979
+    },
+    {
+      "label": "1981",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1981
+    },
+    {
+      "label": "1984",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1984
+    },
+    {
+      "label": "1987",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1987
+    },
+    {
+      "label": "1990",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1990
+    },
+    {
+      "label": "1991",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1991
+    },
+    {
+      "label": "1995",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1995
+    },
+    {
+      "label": "1998",
+      "value": null,
+      "unit": "YEAR",
+      "year": 1998
+    },
+    {
+      "label": "2012",
+      "value": null,
+      "unit": "YEAR",
+      "year": 2012
+    },
+    {
+      "label": "2025",
+      "value": null,
+      "unit": "YEAR",
+      "year": 2025
+    },
+    {
+      "label": "10",
+      "value": 10,
+      "unit": "pages"
+    },
+    {
+      "label": "$1",
+      "value": 1,
+      "unit": "USD"
+    },
+    {
+      "label": "2 years",
+      "value": null,
+      "unit": "YEAR"
+    },
+    {
+      "label": "8",
+      "value": 8,
+      "unit": "WEEKS",
+      "year": 2021
+    },
+    {
+      "label": "4",
+      "value": 4,
+      "unit": "WEEKS",
+      "year": 2021
+    },
+    {
+      "label": "100%",
+      "value": 100,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "26",
+      "value": 26,
+      "unit": "WEEKS",
+      "year": 2021
+    },
+    {
+      "label": "reimbursement",
+      "value": 750,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "cost",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "May 4, 1976",
+      "year": 1976,
+      "description": "Retroactive travel authorization; delegate changes"
+    },
+    {
+      "date": "May 4, 1976",
+      "year": 1976,
+      "description": "Deductions from travel and subsistence expense reimbursements"
+    },
+    {
+      "date": "May 4, 1976",
+      "year": 1976,
+      "description": "Charge of expenses"
+    },
+    {
+      "date": "May 4, 1976",
+      "year": 1976,
+      "description": "Travel authorization"
+    },
+    {
+      "date": "Nov. 4, 1991",
+      "year": 1991,
+      "description": "Revised policies"
+    },
+    {
+      "date": "Nov. 24, 1997",
+      "year": 1997,
+      "description": "Revised policies"
+    },
+    {
+      "date": "February 16, 1998",
+      "year": 1998,
+      "description": "Revised policies"
+    },
+    {
+      "date": "December 19, 2019",
+      "year": 2019,
+      "description": "Revised policies"
+    },
+    {
+      "date": "May 4, 1976",
+      "year": 1976,
+      "description": "Study resolutions"
+    },
+    {
+      "date": "May 26, 1994",
+      "year": 1994,
+      "description": "Policy 12 amendment"
+    },
+    {
+      "date": "Aug. 6, 1976",
+      "year": 1976,
+      "description": "Policy 15 amendment"
+    },
+    {
+      "date": "Nov. 4, 1991",
+      "year": 1991,
+      "description": "Policy 11 revocation"
+    },
+    {
+      "date": "May 4, 1976",
+      "year": 1976,
+      "description": "Policies adopted"
+    },
+    {
+      "date": "May 21, 1982",
+      "year": 1982,
+      "description": "Policy 26 amended"
+    },
+    {
+      "date": "June 11, 1976",
+      "year": 1976,
+      "description": "Policy 33 adopted"
+    },
+    {
+      "date": "June 1, 1984",
+      "year": 1984,
+      "description": "Policy 33 amended"
+    },
+    {
+      "date": "September 10, 1976",
+      "year": 1976,
+      "description": "Policies amended"
+    },
+    {
+      "date": "November 4, 1991",
+      "year": 1991,
+      "description": "Policies amended and revoked"
+    },
+    {
+      "date": "September 9, 1999",
+      "year": 1999,
+      "description": "Policy 26 amended"
+    },
+    {
+      "date": "June 30, 2011",
+      "year": 2011,
+      "description": "Policy 33 amended"
+    },
+    {
+      "date": "June 11, 1976",
+      "year": 1976,
+      "description": null
+    },
+    {
+      "date": "Nov. 4, 1991",
+      "year": 1991,
+      "description": null
+    },
+    {
+      "date": "June 16, 1999",
+      "year": 1999,
+      "description": null
+    },
+    {
+      "date": "July 18, 2005",
+      "year": 2005,
+      "description": null
+    },
+    {
+      "date": "September 27, 2005",
+      "year": 2005,
+      "description": null
+    },
+    {
+      "date": "December 18, 2013",
+      "year": 2013,
+      "description": null
+    },
+    {
+      "date": "December 19, 2019",
+      "year": 2019,
+      "description": null
+    },
+    {
+      "date": "June 11, 1976",
+      "year": 1976,
+      "description": "Policy adopted"
+    },
+    {
+      "date": "July 1, 2024",
+      "year": 2024,
+      "description": "Allotments for postage and printing of newsletters combined"
+    },
+    {
+      "date": "December 14, 2006",
+      "year": 2006,
+      "description": "Postage and newsletter printing expenses shall be incurred"
+    },
+    {
+      "date": "December 14, 2006",
+      "year": 2006,
+      "description": "Reimbursement for the purchase of postage stamps under this section is prohibited"
+    },
+    {
+      "date": "Nov. 4, 1977",
+      "year": 1977,
+      "description": "Adopted policy 40."
+    },
+    {
+      "date": "May 4, 1979",
+      "year": 1979,
+      "description": "Adopted policy 41."
+    },
+    {
+      "date": "June 1, 1979",
+      "year": 1979,
+      "description": "Adopted policy 42."
+    },
+    {
+      "date": "July 12, 1979",
+      "year": 1979,
+      "description": "Adopted policy 43."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Adopted Sept. 10, 1979"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Amended February 16, 1998"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Amended August 5, 1998"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Amended November 13, 2012"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Adopted March 18, 2025"
+    },
+    {
+      "date": "Sept. 7, 1984",
+      "year": 1984,
+      "description": "Adopted"
+    },
+    {
+      "date": "June 8, 1987",
+      "year": 1987,
+      "description": "Adopted"
+    },
+    {
+      "date": "June 26, 1995",
+      "year": 1995,
+      "description": "Revoked"
+    },
+    {
+      "date": "December 4, 1990",
+      "year": 1990,
+      "description": "Adopted"
+    },
+    {
+      "date": "January 12, 1981",
+      "year": 1981,
+      "description": "Adopted"
+    },
+    {
+      "date": "July 2, 1981",
+      "year": 1981,
+      "description": "Adopted"
+    },
+    {
+      "date": "November 4, 1991",
+      "year": 1991,
+      "description": "Adopted"
+    },
+    {
+      "date": "Sept. 10, 1979",
+      "year": 1979,
+      "description": "Adopted"
+    },
+    {
+      "date": "Nov. 4, 1991",
+      "year": 1991,
+      "description": "Adopted"
+    },
+    {
+      "date": "June 16, 1999",
+      "year": 1999,
+      "description": "Amended"
+    },
+    {
+      "date": "May 26, 1994",
+      "year": 1994,
+      "description": "Adopted"
+    },
+    {
+      "date": "February 9, 2018",
+      "year": 2018,
+      "description": "Amended"
+    },
+    {
+      "date": "July 10, 1996",
+      "year": 1996,
+      "description": "Adopted"
+    },
+    {
+      "date": "December 16, 2003",
+      "year": 2003,
+      "description": "Adopted"
+    },
+    {
+      "date": "October 5, 1990",
+      "year": 1990,
+      "description": "Adopted"
+    },
+    {
+      "date": "November 2, 1990",
+      "year": 1990,
+      "description": "Adopted"
+    },
+    {
+      "date": "May 28, 1991",
+      "year": 1991,
+      "description": "Adopted"
+    },
+    {
+      "date": "August 11, 1992",
+      "year": 1992,
+      "description": "Adopted"
+    },
+    {
+      "date": "November 24, 1997",
+      "year": 1997,
+      "description": "Amended"
+    },
+    {
+      "date": "September 9, 1999",
+      "year": 1999,
+      "description": "Amended"
+    },
+    {
+      "date": "November 15, 2000",
+      "year": 2000,
+      "description": "Amended"
+    },
+    {
+      "date": "August 5, 2021",
+      "year": 2021,
+      "description": "Paid parental leave policy effective date"
+    },
+    {
+      "date": "May 29, 2019",
+      "year": 2019,
+      "description": "Paid parental leave policy adopted"
+    },
+    {
+      "date": "December 16, 2003",
+      "year": 2003,
+      "description": "adoption of “Kansas Legislature Information Technology Policies”"
+    },
+    {
+      "date": "May 7, 1992",
+      "year": 1992,
+      "description": "stationery printed by the state should not be used for campaign purposes"
+    },
+    {
+      "date": "November 4, 1991",
+      "year": 1991,
+      "description": "limitations on printing of legislator documents"
+    },
+    {
+      "date": "September 16, 1998",
+      "year": 1998,
+      "description": "refusal to comply with Policy 43 reservation requirements for the privilege of using rooms under the jurisdiction of the Legislative Coordinating Council"
+    },
+    {
+      "date": "October 12, 2000",
+      "year": 2000,
+      "description": "committee or task force of the Council of State Governments"
+    },
+    {
+      "date": "June 21, 2001",
+      "year": 2001,
+      "description": "legislators who change their flight reservations will be reimbursed for those changes only if the change was necessary due to legislative business or because of an emergency or event cancellation"
+    },
+    {
+      "date": "September 28, 2001",
+      "year": 2001,
+      "description": "steering committee for capitol restoration"
+    },
+    {
+      "date": "December 8, 2008",
+      "year": 2008,
+      "description": "out-of-state travel"
+    },
+    {
+      "date": "June 6, 2009",
+      "year": 2009,
+      "description": "out-of-state travel"
+    },
+    {
+      "date": "December 19, 2019",
+      "year": 2019,
+      "description": "revocation of out-of-state travel policy"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Retroactive approval will not be given for attendance by any legislator at a meeting or course of training but when",
+      "note": ""
+    },
+    {
+      "quote": "In any case where all or any portion of the expenses of a legislator for attending any meeting is paid",
+      "note": ""
+    },
+    {
+      "quote": "Legislators, expenses not to exceed actual, K.S.A. 75-3212(e), 75-3213.",
+      "note": ""
+    },
+    {
+      "quote": "Any member of the LCC is authorized to travel in-state, out-of-state, or internationally to Canada or Mexico, to perform duties",
+      "note": ""
+    },
+    {
+      "quote": "Legislative staff, employees of central staff agencies and leadership staff are permitted to travel at state expense to meetings of",
+      "note": ""
+    },
+    {
+      "quote": "Members of the LCC and legislative staff designated in Policy 4 when traveling in-state shall be allowed their actual expenses",
+      "note": ""
+    },
+    {
+      "quote": "No officer or employee of the legislative research department, office of revisor of statutes or division of legislative administrative services",
+      "note": "Policy 14"
+    },
+    {
+      "quote": "Meeting authorization, K.S.A. 46-1207.",
+      "note": "Note: Policy 20"
+    },
+    {
+      "quote": "A committee chairperson shall not approve a voucher for compensation or expenses, or both, for a legislator’s attendance at a",
+      "note": "Policy 24"
+    },
+    {
+      "quote": "No travel expenses or allowances shall be paid to any conferee, including any legislator not a member of such committee,",
+      "note": "Policy 24"
+    },
+    {
+      "quote": "No special committee or select committee shall establish a subcommittee or subcommittees other than a subcommittee or subcommittees meeting on",
+      "note": "Policy 25"
+    },
+    {
+      "quote": "The director of legislative administrative services may employ secretaries to assist the legislative research department in the preparation of minutes",
+      "note": "Policy 26"
+    }
+  ],
+  "uncertainties": [
+    "What constitutes a 'conflict of interest'?",
+    "The policy does not specify how the director of legislative administrative services will verify threats against public officials.",
+    null
+  ],
+  "recommended_next_queries": [
+    "What is the current policy on payment of tuition and educational training costs for legislative staff members?",
+    "What is the process for approving requests for use of the house of representatives chamber?",
+    "Implementation of paid parental leave policy",
+    "Impact of paid parental leave policy on state budget"
+  ]
+}

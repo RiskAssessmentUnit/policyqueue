@@ -1,0 +1,20 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Shawnee",
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

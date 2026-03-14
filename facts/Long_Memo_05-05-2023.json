@@ -1,0 +1,66 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 10058400,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Taxes",
+      "value": 10153200,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Total Receipts",
+      "value": 9701200,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Receipts",
+      "value": 10123400,
+      "unit": "USD",
+      "year": 2024
+    }
+  ],
+  "events": [
+    {
+      "date": "November 2022",
+      "year": 2022,
+      "description": "Revised estimate"
+    },
+    {
+      "date": "April 2023",
+      "year": 2023,
+      "description": "Revised estimate"
+    },
+    {
+      "date": "April 2023",
+      "year": 2023,
+      "description": "Comparison of April 2023 Estimate to November 2022 Estimate"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$10,134,300",
+      "note": "Total Taxes in FY 2023 Revised"
+    },
+    {
+      "quote": "$10,262,300",
+      "note": "Total Taxes in FY 2024 Revised"
+    },
+    {
+      "quote": "$9,829,400",
+      "note": "Total Receipts in FY 2023 Revised"
+    },
+    {
+      "quote": "$10,233,700",
+      "note": "Total Receipts in FY 2024 Revised"
+    }
+  ]
+}

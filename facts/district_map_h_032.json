@@ -1,0 +1,24 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wyandotte County",
+    "Kansas City"
+  ],
+  "entities": [
+    {
+      "name": "House District 32",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

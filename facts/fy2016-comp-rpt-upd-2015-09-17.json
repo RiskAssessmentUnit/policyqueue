@@ -1,0 +1,401 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2016 Governor’s Budget Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "SGF",
+      "value": 6332077417,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "All Funds",
+      "value": 15326725757,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total savings from KPERS employer contribution rate reduction",
+      "value": 76.7,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "Amount of bonds issued to reduce UAL and employer contributions",
+      "value": 1.0,
+      "unit": "BILLION USD",
+      "year": null
+    },
+    {
+      "label": "Estimated debt service payments for the bonds",
+      "value": 34.1,
+      "unit": "USD MILLION",
+      "year": 2016
+    },
+    {
+      "label": "Estimated debt service payments for the bonds",
+      "value": 65.3,
+      "unit": "USD MILLION",
+      "year": 2017
+    },
+    {
+      "label": "Estimated savings from the State General Fund in FY 2016",
+      "value": 45.1,
+      "unit": "USD MILLION",
+      "year": 2016
+    },
+    {
+      "label": "Estimated total savings from the State General Fund in FY 2017",
+      "value": 97.8,
+      "unit": "USD MILLION",
+      "year": 2017
+    },
+    {
+      "label": "Estimated net savings from the State General Fund in FY 2016",
+      "value": 11.0,
+      "unit": "USD MILLION",
+      "year": 2016
+    },
+    {
+      "label": "Estimated net savings from the State General Fund in FY 2017",
+      "value": 32.5,
+      "unit": "USD MILLION",
+      "year": 2017
+    },
+    {
+      "label": "Amount of transfers from the State General Fund to the Bioscience Development and Investment Fund in FY 2015",
+      "value": 32.0,
+      "unit": "USD MILLION",
+      "year": 2015
+    },
+    {
+      "label": "Amount of transfers from the State General Fund to the Bioscience Development and Investment Fund in FY 2016",
+      "value": 35.0,
+      "unit": "USD MILLION",
+      "year": 2016
+    },
+    {
+      "label": "Amount of transfers from the State General Fund to the Bioscience Development and Investment Fund in FY 2017",
+      "value": 75.0,
+      "unit": "USD MILLION",
+      "year": 2017
+    },
+    {
+      "label": "Revised FY 2015 Estimate of State General Fund Receipts",
+      "value": 5944000000,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "Increase from November 2014 Estimate",
+      "value": 175700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Increase in Interest Earnings in FY 2016",
+      "value": 9780000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Increase in Interest Earnings in FY 2017",
+      "value": 500000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Transfers In",
+      "value": 258148772,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Transfers Out",
+      "value": 222500000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Transfers",
+      "value": 331624772,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Net Transfers",
+      "value": 301700000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total--General Government",
+      "value": 45041851,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Subtotal--KDADS",
+      "value": 7905713,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Human Services",
+      "value": 12560113,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Subtotal--Regents",
+      "value": 128123593,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Education",
+      "value": 130114169,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Subtotal--Corrections",
+      "value": 9712070,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 1052810914,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 819991992,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 1222223514,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 27744138,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "FTE Positions",
+      "value": 390.65,
+      "unit": "FTE",
+      "year": 2016
+    },
+    {
+      "label": "Non-FTE Unclassified Permanent Positions",
+      "value": 167.0,
+      "unit": "N/A",
+      "year": 2016
+    },
+    {
+      "label": null,
+      "value": 106,
+      "unit": "OTHER",
+      "year": 2017
+    },
+    {
+      "label": null,
+      "value": 106,
+      "unit": "OTHER",
+      "year": 2016
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 18468.08,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 112.6,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Education",
+      "value": 18580.68,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Department of Corrections",
+      "value": 481.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--El Dorado Correctional Facility",
+      "value": 485.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Ellsworth Correctional Facility",
+      "value": 235.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Hutchinson Correctional Facility",
+      "value": 509.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Lansing Correctional Facility",
+      "value": 682.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Larned Corr. Mental Health Facility",
+      "value": 186.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Norton Correctional Facility",
+      "value": 264.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Topeka Correctional Facility",
+      "value": 263.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Winfield Correctional Facility",
+      "value": 201.0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "null",
+      "value": 251,
+      "unit": "PAGE",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "January 2015",
+      "year": 2015,
+      "description": "Governor Brownback proposed a biennial budget for all state agencies for FY 2016 and FY 2017."
+    },
+    {
+      "date": "2015 Legislature",
+      "year": 2015,
+      "description": "Approved additional changes to further reduce Medicaid costs."
+    },
+    {
+      "date": "July 1, 2015",
+      "year": 2015,
+      "description": "Sun setting of the current school finance formula"
+    },
+    {
+      "date": "March 25, 2015",
+      "year": 2015,
+      "description": "Adoption of the school finance policy in House Substitute for Senate Bill 7"
+    },
+    {
+      "date": "April 16, 2015",
+      "year": 2015,
+      "description": "Signing of Senate Bill 228 by the Governor"
+    },
+    {
+      "date": "July 2, 2015",
+      "year": 2015,
+      "description": "Authorization of issuance of bonds by the State Finance Council"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Enactment of House Sub. for SB 4 (the rescission bill)"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Enactment of House Sub. for SB 112 (the omnibus appropriations bill)"
+    },
+    {
+      "date": "FY 2016",
+      "year": 2016,
+      "description": "Transfers In and Out of the State"
+    },
+    {
+      "date": "FY 2017",
+      "year": 2017,
+      "description": "Transfers In and Out of the State General Fund"
+    },
+    {
+      "date": "FY 2016",
+      "year": 2016,
+      "description": "Governor's Approved Recommendation"
+    },
+    {
+      "date": "FY 2016",
+      "year": 2016,
+      "description": "Budget for FY 2016"
+    },
+    {
+      "date": "FY 2017",
+      "year": 2017,
+      "description": "Budget for FY 2017"
+    },
+    {
+      "date": "null",
+      "year": null,
+      "description": "null"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The State has successfully transitioned Kansas’ Medicaid program to a managed care model in an effort to provide better care coordination and better outcomes for patients.",
+      "note": "Medicaid savings"
+    },
+    {
+      "quote": "A mix of KanCare policy and contractual changes will be implemented by the State that will achieve $50.0 million in State General Fund expenditure savings in each of the approved FY 2016 and FY 2017 budgets.",
+      "note": "Medicaid savings"
+    },
+    {
+      "quote": "The lower contributions are not projected to keep the System from being fully funded by the end of the amortization period, which is currently FY 2033, but they will slow the rate at which the System’s funded ratio improves.",
+      "note": "From the document, describing the impact of reducing the KPERS employer contribution rate"
+    },
+    {
+      "quote": "The bonds are subject to the approval of the State Finance Council and a maximum 5.0 percent interest rate, all inclusive cost.",
+      "note": "From the document, describing the terms of the bonds issued to reduce UAL and employer contributions"
+    },
+    {
+      "quote": "The revised FY 2015 estimate of State General Fund receipts is $5.944 billion, which is an increase of $175.7 million from the estimate made in November 2014.",
+      "note": null
+    },
+    {
+      "quote": "The increase in interest earnings in FY 2016 is mainly attributed to $8.9 million in realized capital gains from the State Treasurer’s Unclaimed Property Portfolio that will be deposited in the State General Fund in July 2015.",
+      "note": null
+    },
+    {
+      "quote": "17,000,000",
+      "note": "Transfers In: Economic Dev't Initiatives Fund"
+    },
+    {
+      "quote": "24,500,000",
+      "note": "Transfers In: Kansas Lottery - Gaming Revenues Fund"
+    }
+  ]
+}

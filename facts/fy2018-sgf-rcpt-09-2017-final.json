@@ -1,0 +1,92 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2018 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Cumulative Estimate",
+      "value": 740720000,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Cumulative Actual",
+      "value": 766271206,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Dollar Change",
+      "value": 2551206,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Percent Change",
+      "value": 3.45,
+      "unit": "PERCENT",
+      "year": 2018
+    },
+    {
+      "label": "Total Taxes",
+      "value": 1516460037,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Other Taxes",
+      "value": -8289793,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 1524749830,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Taxes",
+      "value": 602585045,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 602284689,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Receipts",
+      "value": 589842228,
+      "unit": "USD",
+      "year": 2018
+    }
+  ],
+  "events": [
+    {
+      "date": "10/2/2017",
+      "year": 2017,
+      "description": "*  Miscellaneous taxes include corporate franchise taxes and fees."
+    },
+    {
+      "date": "10/2/2017",
+      "description": "Note: *  Miscellaneous taxes include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Receipts $1,509,850,000 $1,595,008,668 $85,158,668 5.64 % $1,333,485,345 $261,523,323 19.61 % % of Total Received: 105.64% 119.61%",
+      "note": "Table showing total receipts and percentage of total received"
+    },
+    {
+      "quote": "$243,180,000 $255,096,867 $11,916,867 4.90 % $242,585,068 $12,511,799 5.16 %",
+      "note": "Total Severance Taxes"
+    },
+    {
+      "quote": "$243,180,000 $255,096,867 $11,916,867 4.90 % $242,585,068 $12,511,799 5.16 %",
+      "note": "Total Excise Taxes"
+    }
+  ]
+}

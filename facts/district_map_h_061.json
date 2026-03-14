@@ -1,0 +1,75 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "118TH RD",
+    "238TH RD",
+    "99",
+    "BARNES RD",
+    "BLUEBIRD RD",
+    "BUTTERFIELD RD",
+    "Belvue",
+    "Big Blue River",
+    "CEDAR BLUFF RD",
+    "Delia",
+    "E 4TH ST",
+    "E 6TH ST",
+    "E MARLATT AVE",
+    "Emmett",
+    "FLINT ROCK RD",
+    "GILLASPIE RD",
+    "HOPKINS CREEK RD",
+    "Havensville",
+    "Holton",
+    "ILLINOIS AVE",
+    "JUNIETTA RD",
+    "Jackson",
+    "Kansas River",
+    "Louisville",
+    "MCMANUS RD",
+    "MOODY RD",
+    "MOUNT ZION RD",
+    "Manhattan",
+    "N RD",
+    "NW 94TH ST",
+    "Olsburg",
+    "Onaga",
+    "PARALLEL RD",
+    "Pottawatomie",
+    "Q RD",
+    "ROCKENHAM RD",
+    "Riley",
+    "SALZER RD",
+    "SAY RD",
+    "SCHOOL CREEK RD",
+    "SNODGRASS RD",
+    "St. Marys",
+    "TUTTLE CREEK BLVD",
+    "Tuttle Creek Reservoir",
+    "U.S. HWY 24",
+    "Westmoreland",
+    "Wheaton"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "House District 61",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

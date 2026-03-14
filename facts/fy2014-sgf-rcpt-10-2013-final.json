@@ -1,0 +1,59 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2014 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 1812339780,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "% of Total Received",
+      "value": 98.51,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "Total Receipts",
+      "value": 1771358487,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "% of Total Received",
+      "value": 98.94,
+      "unit": "PERCENT"
+    }
+  ],
+  "events": [
+    {
+      "date": "October 2013",
+      "year": null,
+      "description": "Final revenue report for FY 2014"
+    },
+    {
+      "date": "11/1/2013",
+      "year": null,
+      "description": "Report date"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Taxes: $1,839,695,000",
+      "note": null
+    },
+    {
+      "quote": "% of Total Received: 98.51%",
+      "note": null
+    },
+    {
+      "quote": "Total Receipts: $1,790,275,000",
+      "note": null
+    },
+    {
+      "quote": "% of Total Received: 98.94%",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "5",
+      "value": 5,
+      "unit": "miles",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

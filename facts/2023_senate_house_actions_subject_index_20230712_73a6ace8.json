@@ -1,0 +1,84 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Senate Actions Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "tax revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "STAR bond revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "STAR bonds revenue",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total Appropriations",
+      "value": 0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "STAR Bond Revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "02/23/2023",
+      "year": 2023,
+      "description": "Passed as amended; Yea: 39 Nay: 0—SJ 192"
+    },
+    {
+      "date": "July 10, 2023",
+      "year": null,
+      "description": null
+    },
+    {
+      "date": "2023-07-10",
+      "year": 2023,
+      "description": "STAR bonds revenue report"
+    },
+    {
+      "date": "July 10, 2023",
+      "year": 2023,
+      "description": "Subject Index Report"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Kansas State Budget Report"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Expanding the use of bond proceeds under the Kansas reinvestment housing incentive district act and the transferability of income, privilege and premium tax credits issued under the Kansas housing investor tax credit act.",
+      "note": null
+    },
+    {
+      "quote": "STAR bonds revenue",
+      "note": "No further information available"
+    },
+    {
+      "quote": "Bold Nos. - Enacted",
+      "note": "Indicates legislation that has been enacted"
+    }
+  ]
+}

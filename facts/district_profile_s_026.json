@@ -1,0 +1,41 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 73990,
+      "unit": "COUNT",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Census of Population and Housing",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

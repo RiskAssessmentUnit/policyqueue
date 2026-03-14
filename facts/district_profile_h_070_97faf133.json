@@ -1,0 +1,33 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 284306,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total Population",
+      "value": 22912,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Total Persons in Household",
+      "value": 22624,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 2047,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

@@ -1,0 +1,54 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "State General Fund Receipts Estimates for FY 2014 and FY 2015",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "FY 2014 Estimate",
+      "value": 5857000000,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "FY 2014 Revised Estimate",
+      "value": 5857000000,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "FY 2015 Estimate",
+      "value": 5917000000,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "FY 2014 vs FY 2013",
+      "value": -7.6,
+      "unit": "PERCENT",
+      "year": 2014
+    },
+    {
+      "label": "FY 2015 vs FY 2014",
+      "value": 1.0,
+      "unit": "PERCENT",
+      "year": 2015
+    }
+  ],
+  "events": [
+    {
+      "date": "November 8, 2013",
+      "year": null,
+      "description": "Consensus Group met and developed estimates for FY 2014 and FY 2015"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The revised estimate of $5.857 billion represents 7.6 percent below final FY 2013 receipts.",
+      "note": "Source: Kansas Legislative Research Department"
+    },
+    {
+      "quote": "The initial estimate for FY 2015 is $5.917 billion, which is $60.6 million, or 1.0 percent, above the newly revised FY 2014 figure.",
+      "note": "Source: Kansas Legislative Research Department"
+    }
+  ]
+}

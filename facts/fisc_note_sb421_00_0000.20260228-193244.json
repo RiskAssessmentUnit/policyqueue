@@ -1,0 +1,45 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Renee Erickson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Laura Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Adam C. Proffitt",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "February 3, 2026"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The bill would provide that no student could be discriminated against or penalized by a school operated by a school district for the following:  (1) engaging in religious, political, or ideological speech or viewpoint when other students are engaging in similar activities;",
+      "note": ""
+    },
+    {
+      "quote": "The bill would allow one or more students to organize religious, political, or ideological clubs or organizations.",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "Any fiscal effect associated with SB 421 is not reflected in The FY 2027 Governor's Budget Report.",
+    "a fiscal effect estimate was not provided"
+  ],
+  "recommended_next_queries": []
+}

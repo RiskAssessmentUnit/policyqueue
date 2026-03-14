@@ -1,0 +1,72 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2017 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 639215710,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Receipts",
+      "value": 738046421,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 636637670,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Other Taxes: Insurance Premiums",
+      "value": 2578040,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Other Taxes: Miscellaneous",
+      "value": 2165801,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Other Revenues: Interest",
+      "value": 988022,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Other Revenues: Net Transfers",
+      "value": 86794857,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Other Revenues: Agency Earnings",
+      "value": 10853832,
+      "unit": "USD",
+      "year": 2017
+    }
+  ],
+  "events": [
+    {
+      "date": "5/1/2017",
+      "year": 2017,
+      "description": "Note: Miscellaneous taxes include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "100.28%109.40%",
+      "note": "% of Total Received"
+    },
+    {
+      "quote": "100.38%114.77%",
+      "note": "% of Total Received"
+    }
+  ]
+}

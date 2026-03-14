@@ -1,0 +1,17 @@
+{
+  "keywords": [
+    "star bond",
+    "tax revenue",
+    "sales tax",
+    "income tax",
+    "consensus revenue",
+    "budget",
+    "appropriation",
+    "committee",
+    "minutes"
+  ],
+  "max_json_chars_in_draft": 9000,
+  "only_new_drafts": true,
+  "domain_hints": ["site:ks.gov", "site:kansas.gov", "site:kslegislature.org"],
+  "verify_mode": "links_only"
+}

@@ -1,0 +1,405 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "110",
+      "value": 110,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "73",
+      "value": 73,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "107",
+      "value": 107,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "109",
+      "value": 109,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "111",
+      "value": 111,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "69",
+      "value": 69,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "122",
+      "value": 122,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "112",
+      "value": 112,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "113",
+      "value": 113,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "104",
+      "value": 104,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "64",
+      "value": 64,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "61",
+      "value": 61,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "47",
+      "value": 47,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "70",
+      "value": 70,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "101",
+      "value": 101,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "74",
+      "value": 74,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "90",
+      "value": 90,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "72",
+      "value": 72,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "93",
+      "value": 93,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "77",
+      "value": 77,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "85",
+      "value": 85,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "82",
+      "value": 82,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "75",
+      "value": 75,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "60",
+      "value": 60,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "76",
+      "value": 76,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "13",
+      "value": 13,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "59",
+      "value": 59,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "9",
+      "value": 9,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "50",
+      "value": 50,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "42",
+      "value": 42,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "65",
+      "value": 65,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "51",
+      "value": 51,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "117",
+      "value": 117,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "71",
+      "value": 71,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "54",
+      "value": 54,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "68",
+      "value": 68,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "119",
+      "value": 119,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "114",
+      "value": 114,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "115",
+      "value": 115,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "5",
+      "value": 5,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "41",
+      "value": 41,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "121",
+      "value": 121,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "38",
+      "value": 38,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "43",
+      "value": 43,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "2",
+      "value": 2,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "40",
+      "value": 40,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "79",
+      "value": 79,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "116",
+      "value": 116,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "80",
+      "value": 80,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "12",
+      "value": 12,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "11",
+      "value": 11,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "7",
+      "value": 7,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "1",
+      "value": 1,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "4",
+      "value": 4,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "27",
+      "value": 27,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "6",
+      "value": 6,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "3",
+      "value": 3,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "118",
+      "value": 118,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "62",
+      "value": 62,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "106",
+      "value": 106,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "63",
+      "value": 63,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "123",
+      "value": 123,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "125",
+      "value": 125,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "124",
+      "value": 124,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "120",
+      "value": 120,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "2022",
+      "value": 2022,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

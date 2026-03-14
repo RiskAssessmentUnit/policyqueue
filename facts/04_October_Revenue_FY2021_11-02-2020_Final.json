@@ -1,0 +1,26 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 596567392,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total Receipts",
+      "value": 648007471,
+      "unit": "USD",
+      "year": 2021
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "FY 2021 State General Fund Receipts Final Report: October 2020",
+      "note": ""
+    }
+  ]
+}

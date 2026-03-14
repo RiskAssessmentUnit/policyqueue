@@ -1,0 +1,49 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Manhattan"
+  ],
+  "entities": [
+    {
+      "name": "House District 66",
+      "type": "OTHER"
+    },
+    {
+      "name": "Riley County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "miles",
+      "value": 0,
+      "unit": "MILES",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Riley County:  City:  Manhattan(part)",
+      "note": null
+    },
+    {
+      "quote": "Township:  Manhattan(part)",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

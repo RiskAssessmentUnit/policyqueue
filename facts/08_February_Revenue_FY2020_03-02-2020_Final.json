@@ -1,0 +1,56 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2020 State General Fund Receipts Final Report: February 2020",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 4474600291,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 4741976921,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Taxes",
+      "value": 448259350,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 444148484,
+      "unit": "USD",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "3/2/2020",
+      "year": 2020,
+      "description": "* Liquor gallonage taxes include cereal malt beverages. ** Corporate franchise is now listed separately from miscellaneous."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "*    Liquor gallonage taxes include cereal malt beverages.",
+      "note": ""
+    },
+    {
+      "quote": "**  Corporate franchise is now listed separately from miscellaneous.",
+      "note": ""
+    },
+    {
+      "quote": "*    Liquor gallonage taxes include cereal malt beverages.",
+      "note": null
+    },
+    {
+      "quote": "**  Corporate franchise is now listed separately from miscellaneous.",
+      "note": null
+    }
+  ]
+}

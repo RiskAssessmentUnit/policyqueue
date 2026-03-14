@@ -1,0 +1,32 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Sen. Titus",
+      "type": "PERSON"
+    },
+    {
+      "name": "Senate",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Prefiled Date: January 3, 2025"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Exempting the state of Kansas from daylight saving time but providing for moving to permanent daylight saving time upon an act of Congress requiring such move.",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

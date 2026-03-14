@@ -1,0 +1,302 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 2943582,
+      "unit": "OTHER",
+      "year": 2021
+    },
+    {
+      "label": null,
+      "value": 2937150,
+      "unit": "OTHER",
+      "year": 2022
+    },
+    {
+      "label": null,
+      "value": 2940546,
+      "unit": "OTHER",
+      "year": 2023
+    },
+    {
+      "label": "Population 2021",
+      "value": 7.1,
+      "unit": "",
+      "year": 2021
+    },
+    {
+      "label": "Population 2022",
+      "value": 7.1,
+      "unit": "",
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": 7.1,
+      "unit": "",
+      "year": 2023
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2023",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2021",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2021
+    },
+    {
+      "label": "Population 2022",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2023
+    },
+    {
+      "label": "Population 2024",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2024
+    },
+    {
+      "label": "Population 2021",
+      "value": 142,
+      "unit": "OTHER",
+      "year": 2021
+    },
+    {
+      "label": "Population 2022",
+      "value": 143,
+      "unit": "OTHER",
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": 148,
+      "unit": "OTHER",
+      "year": 2023
+    },
+    {
+      "label": "Population 2024",
+      "value": 1,
+      "unit": "OTHER",
+      "year": 2024
+    },
+    {
+      "label": "2021 Population",
+      "value": 613219,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "2022 Population",
+      "value": 619195,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "2023 Population",
+      "value": 622237,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "2021-2022 Growth",
+      "value": 976,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "2022-2023 Growth",
+      "value": 3042,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "2022-2023 % Change",
+      "value": 1.0,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "2021-2022 % Change",
+      "value": 0.5,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2023",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2024",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2021
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2022
+    },
+    {
+      "label": "Pop. 2023",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 3099957,
+      "unit": "NUMBER",
+      "year": 2024
+    },
+    {
+      "label": "Growth (2021-2022)",
+      "value": 65,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "Growth (2022-2023)",
+      "value": 14,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population (2021)",
+      "value": 3099957,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "Population (2022)",
+      "value": 3100622,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "Population (2023)",
+      "value": 3100388,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population (2024)",
+      "value": 3099957,
+      "unit": "NUMBER",
+      "year": 2024
+    },
+    {
+      "label": "Population",
+      "value": 167046,
+      "unit": "PERSON",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 165746,
+      "unit": "PERSON",
+      "year": 2022
+    },
+    {
+      "label": "Population",
+      "value": 165281,
+      "unit": "PERSON",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Certified to the Secretary of State by Division of the Budget on July 1, 2024"
+    },
+    {
+      "date": "July 1, 2024",
+      "year": 2024,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": "July 1, 2024",
+      "year": null,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": "July 1, 2023",
+      "year": null,
+      "description": "Annual population certifications provided to the Kansas Secretary of State"
+    },
+    {
+      "date": "July 1, 2022",
+      "year": null,
+      "description": "Annual population certifications provided to the Kansas Secretary of State"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Certified to the Secretary of State by Division of the Budget on July 1, 2024",
+      "note": ""
+    },
+    {
+      "quote": "Pop. 2021",
+      "note": ""
+    },
+    {
+      "quote": "Pop. 2022",
+      "note": ""
+    },
+    {
+      "quote": "Pop. 2023",
+      "note": ""
+    },
+    {
+      "quote": "* Numbers shown reflect the annual population certifications provided to the Kansas Secretary of State for 2021, 2022 and 2023 and do not reflect subsequent adjustments made by the U. S. Census Bureau.",
+      "note": "Source: U.S. Census Bureau"
+    }
+  ]
+}

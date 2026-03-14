@@ -1,0 +1,64 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Butler",
+    "Chautauqua",
+    "Cowley",
+    "Elk",
+    "Montgomery"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 104,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 5,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 4,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 2,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 1,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 69,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    },
+    {
+      "quote": "Legend\nDistrict\nCity & District Boundary\nCounty\nCity Limits\nHighways\nStreets",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

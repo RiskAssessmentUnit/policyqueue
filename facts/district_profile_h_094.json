@@ -1,0 +1,25 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 23375,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Percentage of Total Population",
+      "value": 100.0,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

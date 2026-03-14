@@ -1,0 +1,30 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "November 5, 2025",
+      "year": 2025,
+      "description": "LCC meeting"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "November 5, 2025, 2:00 p.m. Room 548-S, Statehouse",
+      "note": "LCC meeting agenda"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

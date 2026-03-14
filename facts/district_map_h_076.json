@@ -1,0 +1,45 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Admire",
+    "Allen",
+    "Burlington",
+    "Bushong",
+    "Coffey",
+    "Emporia",
+    "Gridley",
+    "Hartford",
+    "LeRoy",
+    "Lebo",
+    "Lyndon",
+    "Lyon",
+    "Melvern",
+    "Neosho Rapids",
+    "New Strawn",
+    "Olivet",
+    "Olpe",
+    "Osage",
+    "Osage City",
+    "Quenemo",
+    "Reading",
+    "Vassar",
+    "Waverly"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "House District 76",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

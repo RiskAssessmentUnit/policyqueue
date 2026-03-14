@@ -1,0 +1,35 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Arkansas River",
+    "Rice, Rush and Stafford Counties",
+    "Barton County",
+    "Pawnee County"
+  ],
+  "entities": [
+    {
+      "name": "House District 113",
+      "type": "PROJECT"
+    },
+    {
+      "name": "2022 Legislative District Profiles",
+      "type": "NEWS"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Legend\nDistrict\nCity & District Boundary\nCounty\nCity Limits\nHighways\nStreets",
+      "note": null
+    },
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

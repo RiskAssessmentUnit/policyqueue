@@ -1,0 +1,68 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kanorado",
+    "Bird City",
+    "McDonald",
+    "Goodland",
+    "Brewster",
+    "Edson",
+    "Wallace",
+    "Sharon Springs",
+    "St. Francis",
+    "Weskan",
+    "Ludell",
+    "Herndon",
+    "Atwood",
+    "Oberlin",
+    "Dresden",
+    "Norcatur",
+    "Jennings",
+    "Clayton",
+    "Levant",
+    "Colby",
+    "Gem",
+    "Oakley",
+    "Rexford",
+    "Menlo"
+  ],
+  "entities": [
+    {
+      "name": "Cheyenne County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Decatur County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Rawlins County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Sherman County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Thomas County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Wallace County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

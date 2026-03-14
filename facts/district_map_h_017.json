@@ -1,0 +1,33 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Shawnee",
+    "Lenexa"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "435",
+      "value": 435,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "7",
+      "value": 7,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

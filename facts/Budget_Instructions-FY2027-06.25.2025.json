@@ -1,0 +1,166 @@
+{
+  "program_type": "BUDGET",
+  "title": "Budget Instructions to State Agencies",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Year",
+      "value": null,
+      "unit": "YEAR",
+      "year": null
+    },
+    {
+      "label": "Budget Cycle",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Prior year's actual expenditures",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Fiscal Year 2027 Budget",
+      "value": null,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "State law requires IT project plan approval",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Total",
+      "value": 500000,
+      "unit": "USD"
+    },
+    {
+      "label": "Shift Differential for Regular Employees",
+      "value": 0.3,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Shift Differential for Regular Employees",
+      "value": 0.3,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "KPERS Regular State & School Member Retirement Retirement Rate",
+      "value": 11.68,
+      "unit": "PERCENT",
+      "year": 2026
+    },
+    {
+      "label": "KPERS Regular State & School Member Retirement Retirement Rate",
+      "value": 11.32,
+      "unit": "PERCENT",
+      "year": 2027
+    },
+    {
+      "label": "New Motor Vehicles—Passenger (Retail Prices) Sedan, 4-door compact",
+      "value": 30039,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "New Motor Vehicles—Passenger (Retail Prices) Sedan, 4-door compact",
+      "value": 34244,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Statewide Contract Management Fee",
+      "value": 1.0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Master Lease Purchase Program interest rates (May 2025)",
+      "value": 3.9,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "June",
+      "year": null,
+      "description": "Agencies develop capital improvement budget requests"
+    },
+    {
+      "date": "July 1",
+      "year": null,
+      "description": "Agencies submit five-year capital improvement plans"
+    },
+    {
+      "date": "September 15",
+      "year": null,
+      "description": "Agency strategic plans and budget requests are submitted to the Division of the Budget"
+    },
+    {
+      "date": "November 10",
+      "year": null,
+      "description": "Division of the Budget provides its budget recommendations to agencies"
+    },
+    {
+      "date": "January",
+      "year": null,
+      "description": "Governor presents recommendations regarding agency budgets to the Legislature"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "New funds or accounts that wish to have created"
+    },
+    {
+      "date": "July 1, 2024",
+      "year": 2024,
+      "description": "Implementation of House Sub for SB 291 allows judicial and legislative branches to create their own process for IT project approval"
+    },
+    {
+      "date": "July 1, 2024",
+      "year": 2024,
+      "description": "Working after retirement rate changes to 30.00% after wages of $40,000"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "For this upcoming budget cycle, agencies should continue to evaluate, improve, and refine performance measures based on last summer’s review by agencies, the Division of the Budget and the Kansas Legislative Research Department and based on the review of performance measures by the Legislature this past session.",
+      "note": ""
+    },
+    {
+      "quote": "Please see the Division of the Budget’s website (https://budget.kansas.gov/pbb-resources/) for resources on PBB.",
+      "note": ""
+    },
+    {
+      "quote": "Agencies should submit budgets using the regular budget process and the strategic planning process discussed below.",
+      "note": ""
+    },
+    {
+      "quote": "Only in this way can rational decisions be made within limited budgetary resources at the different levels, with a clear understanding of the effect of those inputs on outputs and outcomes.",
+      "note": ""
+    },
+    {
+      "quote": "One of the biggest environmental factors for state agencies is the state’s fiscal status.  No discussion of an organization’s operating environment would be complete without an understanding of the revenue and expenditure estimates of the state as a whole, as well as of individual agencies.",
+      "note": "External/Internal Assessment"
+    },
+    {
+      "quote": "As required by KSA 75-3717, the narrative description for each new or expanded program must include an estimate of anticipated expenditures that would be required to support the new or expanded program for the budget year and three ensuing fiscal years",
+      "note": null
+    },
+    {
+      "quote": "The Kansas Information Technology Office (KITO) supports the statutory responsibilities of the executive branch Chief Information Technology Officer (CITO) and the Chief Information Technology Architect (CITA).",
+      "note": "KITO is responsible for IT project approval and reporting"
+    },
+    {
+      "quote": "Longevity bonuses will be budgeted at $40 per year of service for employees hired prior to June 15, 2008 (KSA 75-5541).",
+      "note": "Note: This is a policy for budgeting longevity bonuses."
+    }
+  ]
+}

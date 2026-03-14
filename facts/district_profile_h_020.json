@@ -1,0 +1,38 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 238650,
+      "unit": null
+    },
+    {
+      "label": "Under 5 years of age",
+      "value": 573,
+      "unit": null
+    },
+    {
+      "label": "5 to 17 years of age",
+      "value": 1835,
+      "unit": null
+    },
+    {
+      "label": "18 to 21 years of age",
+      "value": 384,
+      "unit": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

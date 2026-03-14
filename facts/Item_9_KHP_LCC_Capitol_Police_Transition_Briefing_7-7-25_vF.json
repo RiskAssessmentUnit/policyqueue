@@ -1,0 +1,64 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka",
+    "Salina"
+  ],
+  "entities": [
+    {
+      "name": "Erik Smith",
+      "type": "PERSON"
+    },
+    {
+      "name": "Laura Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Murl Riedel",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Highway Patrol",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "2022",
+      "value": null,
+      "unit": "YEAR"
+    },
+    {
+      "label": "FTE",
+      "value": null,
+      "unit": "JOBS"
+    }
+  ],
+  "events": [
+    {
+      "date": "July 7, 2025",
+      "year": 2025,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Pursuant to K.S.A. 74-2105(b),",
+      "note": "Kansas Highway Patrol (KHP) respectfully advises the Legislative Coordinating Council"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "What are the specific changes to the Capitol Police?"
+  ]
+}

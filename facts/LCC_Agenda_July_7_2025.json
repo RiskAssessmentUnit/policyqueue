@@ -1,0 +1,20 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "STAR bond district and project for a major professional sports complex.",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "STAR bond district and project details",
+    "Kansas sports complex plans"
+  ]
+}

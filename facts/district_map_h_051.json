@@ -1,0 +1,27 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Manhattan",
+    "Wamego",
+    "St. George"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": null,
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

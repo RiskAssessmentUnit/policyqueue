@@ -1,0 +1,43 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Estimated receipts increase for FY 2016",
+      "value": 77.63,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Estimated receipts increase for FY 2017",
+      "value": 152.872,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Estimated receipts increase for FY 2016 and FY 2017 combined",
+      "value": 230.502,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "June 24, 2016",
+      "year": 2016,
+      "description": "Special session legislation, Sub HB 2001, was enacted."
+    },
+    {
+      "date": "December 4, 2016",
+      "year": 2016,
+      "description": "The Consensus Group will meet to consider revisions to the newly adjusted FY 2017 estimates and to make the initial estimates for FY 2018 and FY 2019."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The most recent estimates of State General Fund (SGF) receipts for FY 2017 have been adjusted to reflect legislation enacted during the 2016 special session.",
+      "note": null
+    }
+  ]
+}

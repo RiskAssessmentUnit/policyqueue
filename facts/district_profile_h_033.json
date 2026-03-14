@@ -1,0 +1,24 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka",
+    "KS"
+  ],
+  "entities": [
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,289 @@
+# 2021 SB 50
+
+- Generated: 2026-03-11 19:19:58
+- Facts file: `facts/FY2022_Comparison_Report-07.12.2021.json`
+
+## Entities
+
+- {'name': 'Laura Kelly', 'type': 'PERSON'}
+- {'name': 'Kansas Division of the Budget', 'type': 'ORG'}
+- {'name': 'Adam Proffitt', 'type': 'PERSON'}
+- {'name': 'Shelly Davis', 'type': 'PERSON'}
+- {'name': 'Julie Thomas', 'type': 'PERSON'}
+- {'name': 'Jeff Arpin', 'type': 'PERSON'}
+- {'name': 'Konnie Leffler', 'type': 'PERSON'}
+- {'name': 'Sean Tomb', 'type': 'PERSON'}
+- {'name': 'Brendan Yorkey', 'type': 'PERSON'}
+- {'name': 'John Kirk', 'type': 'PERSON'}
+- {'name': 'Sheena Ward', 'type': 'PERSON'}
+- {'name': 'Bill Schafer', 'type': 'PERSON'}
+- {'name': 'Cheri Froetschner', 'type': 'PERSON'}
+- {'name': 'Leyton Gunn', 'type': 'PERSON'}
+- {'name': 'Governor Kelly', 'type': 'PERSON'}
+- {'name': 'Kansas Legislative Research Department', 'type': 'ORG'}
+- {'name': 'University of Kansas', 'type': 'ORG'}
+- {'name': 'Kansas State University', 'type': 'ORG'}
+- {'name': 'Wichita State University', 'type': 'ORG'}
+- {'name': 'Department', 'type': 'GOV_BODY'}
+- {'name': 'Governor', 'type': 'PERSON'}
+- {'name': 'Legislature', 'type': 'GOV_BODY'}
+- {'name': 'Division of the Budget', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Legislative Research Department', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Aging and Disability Services', 'type': 'ORG'}
+- {'name': 'Kansas Department of Transportation', 'type': 'ORG'}
+- {'name': 'Kansas Department of Health and Environment', 'type': 'ORG'}
+- {'name': 'Consensus Revenue Estimating Group', 'type': 'ORG'}
+- {'name': 'Division of the Budget', 'type': 'ORG'}
+- {'name': 'Department of Revenue', 'type': 'ORG'}
+- {'name': 'Kansas', 'type': 'GOV_BODY'}
+- {'name': 'United States', 'type': 'GOV_BODY'}
+- {'name': 'China', 'type': 'GOV_BODY'}
+- {'name': 'Mexico', 'type': 'GOV_BODY'}
+- {'name': 'Canada', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Agriculture', 'type': 'ORG'}
+- {'name': 'U.S. Department of the Treasury', 'type': 'ORG'}
+- {'name': 'Internal Revenue Service', 'type': 'ORG'}
+- {'name': 'CRE Group', 'type': 'ORG'}
+- {'name': 'Kansas Department of Revenue', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Corporation Commission', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Lottery', 'type': 'GOV_BODY'}
+- {'name': 'Department of Education', 'type': 'GOV_BODY'}
+- {'name': 'Department of Administration', 'type': 'GOV_BODY'}
+- {'name': 'Department of Transportation', 'type': 'GOV_BODY'}
+- {'name': 'Department of Revenue', 'type': 'GOV_BODY'}
+- {'name': 'Insurance Department', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Water Office', 'type': 'GOV_BODY'}
+- {'name': 'State Treasurer', 'type': 'GOV_BODY'}
+- {'name': 'Attorney General', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of State', 'type': 'GOV_BODY'}
+- {'name': 'Regents Institutions', 'type': 'PROJECT'}
+- {'name': 'Siemens Manufacturing Incentive', 'type': 'PROJECT'}
+- {'name': 'ELARF', 'type': 'PROJECT'}
+- {'name': 'KUMC Graduate Students', 'type': 'PROJECT'}
+- {'name': 'Spirit Aerosystems Incentive', 'type': 'PROJECT'}
+- {'name': 'Cancer Research and Pub. Info. Trust Fund', 'type': 'PROJECT'}
+- {'name': 'Tribal Gaming Program Loan Repayment', 'type': 'PROJECT'}
+- {'name': 'Scrap Metal Theft Reduction Fee Fund', 'type': 'PROJECT'}
+- {'name': 'Sexually Violent Predator Expense Fund', 'type': 'PROJECT'}
+- {'name': 'Tort Claims', 'type': 'PROJECT'}
+- {'name': 'Democracy Fund', 'type': 'PROJECT'}
+- {'name': 'Learning Quest Matching Funds', 'type': 'PROJECT'}
+- {'name': 'Bridge Funding Payment Plan', 'type': 'PROJECT'}
+- {'name': 'Local Ad Valorem Tax Reduction Fund', 'type': 'PROJECT'}
+- {'name': 'School District Cap. Improvements Fund', 'type': 'PROJECT'}
+- {'name': 'Regents Faculty of Distinction Program', 'type': 'PROJECT'}
+- {'name': 'State Fair', 'type': 'PROJECT'}
+- {'name': 'John Redmond Debt Service', 'type': 'PROJECT'}
+- {'name': 'Water Marketing Fund-John Redmond', 'type': 'PROJECT'}
+- {'name': 'Water Marketing Fund-Water Assurance', 'type': 'PROJECT'}
+- {'name': 'Public Service Regulation Fund', 'type': 'PROJECT'}
+- {'name': 'PMIB', 'type': 'PROJECT'}
+- {'name': 'PMIB Investment Portfolio Fee Fund', 'type': 'PROJECT'}
+- {'name': 'Gaming Revenues Fund', 'type': 'PROJECT'}
+- {'name': 'Car Company Tax Fund', 'type': 'PROJECT'}
+- {'name': 'Securities Act Fee Fund', 'type': 'PROJECT'}
+- {'name': 'State Safety Fund', 'type': 'PROJECT'}
+- {'name': 'Federal Cash Management Fund', 'type': 'PROJECT'}
+- {'name': 'Health Care Stabilization Fund', 'type': 'PROJECT'}
+- {'name': 'Support for KUMC Graduate Students', 'type': 'PROJECT'}
+- {'name': 'State Treasurer Operating Fund', 'type': 'PROJECT'}
+- {'name': 'State Highway Fund', 'type': 'PROJECT'}
+- {'name': 'Overhead Payment/Purchasing', 'type': 'PROJECT'}
+- {'name': 'State Finance Council', 'type': 'PROJECT'}
+- {'name': 'Coronavirus Prevention Fund', 'type': 'PROJECT'}
+- {'name': 'State Water Plan Fund', 'type': 'PROJECT'}
+- {'name': 'State General Fund', 'type': 'PROJECT'}
+- {'name': 'Governor’s', 'type': 'OTHER'}
+- {'name': 'Legislature', 'type': 'OTHER'}
+- {'name': 'Attorney General', 'type': 'ORG'}
+- {'name': 'Judicial Branch', 'type': 'ORG'}
+- {'name': 'Children’s Cabinet', 'type': 'ORG'}
+- {'name': 'Department of Education', 'type': 'ORG'}
+- {'name': 'Department of Health & Environment', 'type': 'ORG'}
+- {'name': 'Department for Aging & Disability Services', 'type': 'ORG'}
+- {'name': 'Department for Children & Families', 'type': 'ORG'}
+- {'name': 'Kansas Lottery', 'type': 'ORG'}
+- {'name': 'Department of Commerce', 'type': 'ORG'}
+- {'name': 'Department of Administration', 'type': 'ORG'}
+- {'name': 'Public Broadcasting', 'type': 'ORG'}
+- {'name': 'Kansas Department for Aging and Disability Services', 'type': 'ORG'}
+- {'name': 'Kansas Department of Commerce', 'type': 'ORG'}
+- {'name': 'Kansas Department of Wildlife and Parks', 'type': 'ORG'}
+- {'name': 'Kansas Commission on Veterans Affairs Office', 'type': 'ORG'}
+- {'name': 'State Gaming Revenues Fund', 'type': 'GOV_BODY'}
+- {'name': 'State General Fund', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Agriculture', 'type': 'GOV_BODY'}
+- {'name': 'University of Kansas Geological Survey', 'type': 'ORG'}
+- {'name': 'Kansas Department of Health and Environment', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Labor', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Water Office', 'type': 'ORG'}
+- {'name': 'Department of Agriculture', 'type': 'GOV_BODY'}
+- {'name': 'Department of Health and Environment', 'type': 'GOV_BODY'}
+- {'name': 'U.S. Army Corps of Engineers', 'type': 'ORG'}
+- {'name': 'The Arbuckle Group', 'type': 'PROJECT'}
+- {'name': 'Legislature', 'type': 'ORG'}
+- {'name': 'Kansas Development Finance Authority', 'type': 'ORG'}
+- {'name': 'State Finance Council', 'type': 'ORG'}
+- {'name': 'SPARK Taskforce', 'type': 'ORG'}
+- {'name': 'Kansas Legislature', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Public Employees Retirement System', 'type': 'ORG'}
+- {'name': 'State Finance Council', 'type': 'GOV_BODY'}
+- {'name': 'Department of Commerce', 'type': 'GOV_BODY'}
+- {'name': 'Department of Wildlife and Parks', 'type': 'GOV_BODY'}
+- {'name': 'Department of Labor', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Bioscience Authority', 'type': 'ORG'}
+- {'name': 'Office of the State Bank Commissioner', 'type': 'ORG'}
+- {'name': 'Governor', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of State', 'type': 'PERSON'}
+- {'name': 'State Treasurer', 'type': 'PERSON'}
+- {'name': 'Judiciary', 'type': 'GOV_BODY'}
+- {'name': 'Department for Aging and Disability Services', 'type': 'ORG'}
+- {'name': 'Department for Children and Families', 'type': 'ORG'}
+- {'name': 'Commission on Veterans Affairs Office', 'type': 'ORG'}
+- {'name': 'Department of Labor', 'type': 'ORG'}
+- {'name': 'Kansas Guardianship Program', 'type': 'ORG'}
+- {'name': 'Divisions of Public Health and Health Care Finance in the Department of Health and Environment', 'type': 'ORG'}
+- {'name': 'KDHE', 'type': 'ORG'}
+- {'name': 'KDADS', 'type': 'ORG'}
+- {'name': 'DOC', 'type': 'ORG'}
+- {'name': 'DCF', 'type': 'ORG'}
+- {'name': 'Consensus Group', 'type': 'OTHER'}
+- {'name': 'Strengthening People and Revitalizing Kansas Taskforce', 'type': 'OTHER'}
+- {'name': 'Centers for Medicare and Medicaid Services', 'type': 'ORG'}
+- {'name': 'Department of Health and Human Services', 'type': 'ORG'}
+- {'name': '2021 Kansas Legislature', 'type': 'GOV_BODY'}
+- {'name': '2021 Legislature', 'type': 'GOV_BODY'}
+- {'name': 'U.S. Department of Health and Human Services', 'type': 'GOV_BODY'}
+- {'name': 'Department for Children and Families', 'type': 'GOV_BODY'}
+- {'name': 'Department for Aging & Disability Services', 'type': 'GOV_BODY'}
+- {'name': 'KanCare', 'type': 'ORG'}
+- {'name': 'Ember Hope', 'type': 'ORG'}
+- {'name': 'Department for Children & Families', 'type': 'GOV_BODY'}
+- {'name': 'Department of Health & Environment—Health', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Neurological Institute', 'type': 'PROJECT'}
+- {'name': 'Larned State Hospital', 'type': 'PROJECT'}
+- {'name': 'Osawatomie State Hospital', 'type': 'PROJECT'}
+- {'name': 'Parsons State Hospital & Training Center', 'type': 'PROJECT'}
+- {'name': 'KDHE—Health', 'type': 'ORG'}
+- {'name': 'Division of Public Health', 'type': 'ORG'}
+- {'name': 'Division of Health Care Finance', 'type': 'ORG'}
+- {'name': 'Kansas Commission on Veterans Affairs Office', 'type': 'GOV_BODY'}
+- {'name': 'Dolly Parton', 'type': 'PERSON'}
+- {'name': 'USD 499—Galena', 'type': 'ORG'}
+- {'name': 'Kansas State University Extension Systems and Agricultural Research Programs', 'type': 'ORG'}
+- {'name': "Children's Cabinet", 'type': 'GOV_BODY'}
+- {'name': 'Board of Regents', 'type': 'GOV_BODY'}
+- {'name': 'Kansas State University Veterinary Medical Center', 'type': 'ORG'}
+- {'name': 'Kansas State University ESARP', 'type': 'ORG'}
+- {'name': 'University of Kansas Medical Center', 'type': 'ORG'}
+- {'name': 'Pittsburg State University', 'type': 'ORG'}
+- {'name': 'Emporia State University', 'type': 'ORG'}
+- {'name': 'Fort Hays State University', 'type': 'ORG'}
+- {'name': 'Board of Regents', 'type': 'ORG'}
+- {'name': 'Office of the Governor', 'type': 'ORG'}
+- {'name': 'University of Kansas Medical Center', 'type': 'PROJECT'}
+- {'name': 'Federal Student Financial Assistance', 'type': 'PROJECT'}
+- {'name': 'Reading Recovery Program', 'type': 'PROJECT'}
+- {'name': 'Kansas Academy of Math & Science', 'type': 'PROJECT'}
+- {'name': 'Agricultural Experiment Station', 'type': 'PROJECT'}
+- {'name': 'Veterinary Training Program', 'type': 'PROJECT'}
+- {'name': 'Historical Society', 'type': 'ORG'}
+- {'name': 'University of Kansas', 'type': 'PROJECT'}
+- {'name': 'Wichita State University', 'type': 'PROJECT'}
+- {'name': 'Historical Society', 'type': 'PROJECT'}
+- {'name': 'Department of Agriculture', 'type': 'ORG'}
+- {'name': 'Department of Transportation', 'type': 'ORG'}
+- {'name': 'Department of Wildlife & Parks', 'type': 'ORG'}
+- {'name': "Governor's", 'type': 'GOV_BODY'}
+- {'name': 'Agriculture & Natural Resources', 'type': 'GOV_BODY'}
+- {'name': 'Commission on Veterans Affairs', 'type': 'GOV_BODY'}
+- {'name': 'Fort Hays State University', 'type': 'PROJECT'}
+- {'name': 'Kansas State University', 'type': 'PROJECT'}
+- {'name': 'KSU--Veterinary Medical Center', 'type': 'PROJECT'}
+- {'name': 'Rural Health Bridging', 'type': 'PROJECT'}
+- {'name': 'Psychiatry Rural Health Bridging', 'type': 'PROJECT'}
+- {'name': 'Kansas Humanities Council', 'type': 'ORG'}
+- {'name': 'Department of Corrections', 'type': 'GOV_BODY'}
+- {'name': 'Adjutant General', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Sentencing Commission', 'type': 'GOV_BODY'}
+- {'name': 'Legislative', 'type': 'ORG'}
+- {'name': 'Kansas State Fair', 'type': 'PROJECT'}
+- {'name': 'Commission on Veterans Affairs', 'type': 'ORG'}
+- {'name': 'Adjutant General', 'type': 'ORG'}
+- {'name': 'Kansas Bureau of Investigation', 'type': 'ORG'}
+- {'name': 'Department of Corrections', 'type': 'ORG'}
+- {'name': 'Kansas State', 'type': 'OTHER'}
+- {'name': 'General Government', 'type': 'ORG'}
+- {'name': 'Office of Information Technology Services', 'type': 'ORG'}
+- {'name': 'Office of Administrative Hearings', 'type': 'ORG'}
+- {'name': 'Kansas Corporation Commission', 'type': 'ORG'}
+- {'name': 'Citizens Utility Ratepayer Board', 'type': 'ORG'}
+- {'name': 'Kansas Human Rights Commission', 'type': 'ORG'}
+- {'name': 'Board of Indigents Defense Services', 'type': 'ORG'}
+- {'name': 'Health Care Stabilization', 'type': 'PROJECT'}
+- {'name': 'Pooled Money Investment Board', 'type': 'ORG'}
+- {'name': 'Kansas Racing & Gaming Commission', 'type': 'ORG'}
+- {'name': 'Board of Tax Appeals', 'type': 'ORG'}
+- {'name': 'Abstracters Board of Examiners', 'type': 'ORG'}
+- {'name': 'Board of Accountancy', 'type': 'ORG'}
+- {'name': 'Board of Barbering', 'type': 'ORG'}
+- {'name': 'Behavioral Sciences Regulatory Board', 'type': 'ORG'}
+- {'name': 'Board of Cosmetology', 'type': 'ORG'}
+- {'name': 'Department of Credit Unions', 'type': 'ORG'}
+- {'name': 'Kansas Dental Board', 'type': 'ORG'}
+- {'name': 'Governmental Ethics Commission', 'type': 'ORG'}
+- {'name': 'Legislative Coordinating Council', 'type': 'GOV_BODY'}
+- {'name': 'Legislative Research Department', 'type': 'GOV_BODY'}
+- {'name': 'Legislative Division of Post Audit', 'type': 'GOV_BODY'}
+- {'name': 'Revisor of Statutes', 'type': 'GOV_BODY'}
+- {'name': 'Judicial Council', 'type': 'GOV_BODY'}
+- {'name': 'Board of Healing Arts', 'type': 'ORG'}
+- {'name': 'Hearing Instruments Board of Examiners', 'type': 'ORG'}
+- {'name': 'Board of Mortuary Arts', 'type': 'ORG'}
+- {'name': 'Board of Nursing', 'type': 'ORG'}
+- {'name': 'Board of Examiners in Optometry', 'type': 'ORG'}
+- {'name': 'Board of Pharmacy', 'type': 'ORG'}
+- {'name': 'Real Estate Appraisal Board', 'type': 'ORG'}
+- {'name': 'Kansas Real Estate Commission', 'type': 'ORG'}
+- {'name': 'Board of Technical Professions', 'type': 'ORG'}
+- {'name': 'Board of Veterinary Examiners', 'type': 'ORG'}
+- {'name': 'Insurance Department', 'type': 'ORG'}
+- {'name': 'Kansas Neurological Institute', 'type': 'ORG'}
+- {'name': 'Gov', 'type': 'GOV_BODY'}
+- {'name': 'Leg', 'type': 'GOV_BODY'}
+- {'name': 'State Library', 'type': 'ORG'}
+- {'name': 'El Dorado Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Ellsworth Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Hutchinson Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Lansing Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Larned Correctional Mental Health Facility', 'type': 'PROJECT'}
+- {'name': 'Norton Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Topeka Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Winfield Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Kansas Juvenile Correctional Complex', 'type': 'PROJECT'}
+- {'name': 'Emergency Medical Services Board', 'type': 'ORG'}
+- {'name': 'State Fire Marshal', 'type': 'ORG'}
+- {'name': 'Highway Patrol', 'type': 'ORG'}
+- {'name': 'Comm. on Peace Officers Standards & Training', 'type': 'ORG'}
+- {'name': 'Sentencing Commission', 'type': 'ORG'}
+- {'name': 'Agriculture & Natural Resources', 'type': 'ORG'}
+
+## Evidence (quotes)
+
+> Readers of The FY 2022 Comparison Report can access this information on the Kansas Division of the Budget’s website at
+
+> The revised estimate of SGF receipts for FY 2021 is $8.1 billion, an increase of $392.2 million from the previous
+
+> The new FY 2022 estimate is $537.9 million or 6.6 percent below the newly revised FY 2021 estimate.
+
+> The bill is estimated to reduce SGF revenue by $101.2 million in FY 2022.
+
+> The FY 2022 ending balance is projected to be $546.8 million, or 6.7 percent of expenditures.
+
+> The Legislature directed the Department to fund the grant from federal funds received under various federal COVID-19 education programs.
+
+> The Governor recommended and the Legislature concurred with restoring state support for higher education that was recommended by the Division
+
+> The Governor’s Budget Recommendation No. provided $[amount] million from the State General Fund for FY 2022 to the Postsecondary Education
+
+<!-- content-hash:8e598f773dc4e03e -->

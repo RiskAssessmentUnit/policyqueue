@@ -1,0 +1,45 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Overland Park",
+    "Shawnee",
+    "Lenexa"
+  ],
+  "entities": [
+    {
+      "name": "House District 23",
+      "type": "OTHER"
+    },
+    {
+      "name": "Johnson County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "5",
+      "value": 5,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "40",
+      "value": 40,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": []
+}

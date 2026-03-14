@@ -1,0 +1,98 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 284306,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Voting Age Population",
+      "value": 20251,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 1640,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 222,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Total Population",
+      "value": 22624,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Total Persons in Household",
+      "value": 19655,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 711,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 284,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Total Persons in Household",
+      "value": 22624,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Profile produced by:",
+      "note": "Kansas Legislative Research Department"
+    },
+    {
+      "quote": "Data Source:",
+      "note": "U.S. Census Bureau"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

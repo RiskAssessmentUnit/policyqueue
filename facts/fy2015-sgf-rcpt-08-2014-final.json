@@ -1,0 +1,41 @@
+{
+  "program_type": "BOND_FINANCE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Division of the Budget",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Receipts",
+      "value": 764423547,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "Revenue Source: Property Tax/Fee",
+      "value": 181327466,
+      "unit": "USD",
+      "year": 2015
+    }
+  ],
+  "events": [
+    {
+      "date": "August 2014",
+      "year": null,
+      "description": "Final revenue report for FY 2015"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "September 2, 2014: Final report uploaded to Division of the Budget website"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

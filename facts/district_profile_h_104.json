@@ -1,0 +1,65 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 23611,
+      "unit": "NUMBER"
+    },
+    {
+      "label": "White",
+      "value": 20767,
+      "unit": "NUMBER"
+    },
+    {
+      "label": "Black",
+      "value": 458,
+      "unit": "NUMBER"
+    },
+    {
+      "label": "American Indian",
+      "value": 339,
+      "unit": "NUMBER"
+    },
+    {
+      "label": "Asian",
+      "value": 114,
+      "unit": "NUMBER"
+    },
+    {
+      "label": "Hispanic",
+      "value": 173,
+      "unit": "NUMBER"
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    null
+  ]
+}

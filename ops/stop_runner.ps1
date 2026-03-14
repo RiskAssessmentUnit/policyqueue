@@ -1,0 +1,1 @@
+Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -match 'runner_focus_v4\.py|approver\.py' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }; Write-Host 'Stopped matching runner/approver processes.'

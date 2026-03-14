@@ -1,0 +1,41 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Sedgwick"
+  ],
+  "entities": [
+    {
+      "name": "House District 97",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "94",
+      "note": null
+    },
+    {
+      "quote": "100",
+      "note": null
+    },
+    {
+      "quote": "105",
+      "note": null
+    },
+    {
+      "quote": "2.5 miles",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

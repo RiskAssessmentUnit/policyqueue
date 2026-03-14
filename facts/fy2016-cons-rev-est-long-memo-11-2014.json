@@ -1,0 +1,95 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "SGF Receipts Estimates for FY 2015, FY 2016, and FY 2017",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "FY 2015 Estimate",
+      "value": 5769000000,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "FY 2016 Estimate",
+      "value": 5811000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "FY 2017 Estimate",
+      "value": 5877000000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "FY 2015 Growth",
+      "value": 2.0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "FY 2016 Growth",
+      "value": 1.1,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "FY 2016 vs FY 2015",
+      "value": 4200000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Estimated SGF Receipts for FY 2015",
+      "value": 5769000000,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "Estimated SGF Receipts for FY 2016",
+      "value": 5811000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Estimated SGF Receipts for FY 2017",
+      "value": 5877000000,
+      "unit": "USD",
+      "year": 2017
+    }
+  ],
+  "events": [
+    {
+      "date": "November 10, 2014",
+      "year": null,
+      "description": "The Consensus Group met to revise the estimate for FY 2015 and develop the initial estimates for FY 2016 and FY 2017."
+    },
+    {
+      "date": "November 17, 2014",
+      "year": 2014,
+      "description": "State General Fund Receipts Estimates for FY 2015, FY 2016, and FY 2017"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Estimates for the State General Fund (SGF) are developed using a consensus process.",
+      "note": "Page 1"
+    },
+    {
+      "quote": "The revised estimate of $5.769 billion represents 2.0 percent growth above final FY 2014 receipts.",
+      "note": "Page 1"
+    },
+    {
+      "quote": "The initial estimate for FY 2016 is $5.811 billion, which is $42.7 million, or 0.7 percent, above the newly revised FY 2015 figure.",
+      "note": "Page 1"
+    },
+    {
+      "quote": "The initial FY 2017 estimate of $5.877 billion represents $65.2 million growth (1.1 percent) above the new FY 2016 figure.",
+      "note": "Page 1"
+    },
+    {
+      "quote": "The revised estimate of SGF receipts for FY 2015 is $5.769 billion, a decrease of $205.9 million below the previous estimate.",
+      "note": "Source: Kansas Legislative Research Department, Gov. Brownback/LCC – KLRD/DOB – SGF Receipts Estimates for FY 2015, FY 2016, and FY 2017 – November 17, 2014"
+    }
+  ]
+}

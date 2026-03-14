@@ -1,0 +1,187 @@
+# Research Draft: Item_1_PROPOSED_MINUTES_LCC_September_24_2025
+
+- Source JSON: `Item_1_PROPOSED_MINUTES_LCC_September_24_2025.json`
+- Keyword hits: **committee, minutes**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "OTHER",
+  "title": "Proposed Minutes Legislative Coordinating Council",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Room 548-S, Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dan Hawkins",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chase Blasi",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tim Shallenburger",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chris Croft",
+      "type": "PERSON"
+    },
+    {
+      "name": "Brandon Woodard",
+      "type": "PERSON"
+    },
+    {
+      "name": "Shirley Morrow",
+      "type": "PERSON"
+    },
+    {
+      "name": "Nick Hoheisel",
+      "type": "PERSON"
+    },
+    {
+      "name": "Will Carpenter",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kenny Titus",
+      "type": "PERSON"
+    },
+    {
+      "name": "Jim Minnix",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gordon Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Barbara Ballard",
+      "type": "PERSON"
+    },
+    {
+      "name": "Renee Erickson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "Revisor of Statutes",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "Joint Committee on Fiduciary Financial Institutions Oversight",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Joint Committee on Pensions, Investments and Benefits",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Special Committee on Health and Social Services",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Water Program Task Force",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Legislative Coordinating Council Subcommittee on Administration",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Education Funding Task Force",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Legislative Highlights",
+      "type": "PROJECT"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "430,320",
+      "value": 430320,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "86,064",
+      "value": 86064,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "September 24, 2025",
+      "year": 2025,
+      "description": "Meeting of the Legislative Coordinating Council"
+    },
+    {
+      "date": "August 14, 2025",
+      "year": 2025,
+      "description": "Meeting of the Legislative Coordinating Council"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Notice of intent to dispose of school buildings"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Vice Chairperson Hawkins moved to approve the 2026 session pay proposal as presented.",
+      "note": "Meeting of the Legislative Coordinating Council"
+    },
+    {
+      "quote": "The motion carried.",
+      "note": "Meeting of the Legislative Coordinating Council"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
+
+
+---
+
+## Web Verification (links only)
+
+Search query:
+`Research Draft Item_1_PROPOSED_MINUTES_LCC_September_24_2025 site:ks.gov site:kansas.gov`
+
+Search link:
+https://duckduckgo.com/?q=Research+Draft+Item_1_PROPOSED_MINUTES_LCC_September_24_2025+site%3Aks.gov+site%3Akansas.gov
+
+Checked:
+**2026-03-05**
+
+Status: **REVIEWED (LINKS ONLY)**
+
+Notes:
+- Open the link and confirm against authoritative sources.
+- Add 1–3 official URLs under this section.

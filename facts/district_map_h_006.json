@@ -1,0 +1,44 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Miami County",
+    "Bucyrus",
+    "Hillsdale",
+    "Louisburg",
+    "Osawatomie",
+    "Paola",
+    "Somerset",
+    "Spring Hill"
+  ],
+  "entities": [
+    {
+      "name": "House District 6",
+      "type": "OTHER"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas public policy",
+    "Kansas public finance"
+  ]
+}

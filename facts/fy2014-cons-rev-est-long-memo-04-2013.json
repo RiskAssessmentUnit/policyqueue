@@ -1,0 +1,21 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2013 CRE Est.",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 6212500,
+      "unit": "USD",
+      "year": 2013
+    },
+    {
+      "label": "Total Receipts",
+      "value": 6169100,
+      "unit": "USD",
+      "year": 2013
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

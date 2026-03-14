@@ -1,0 +1,41 @@
+{
+  "program_type": "STAR_BOND",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total cost for 5-year renewal",
+      "value": 430320,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Annual payment",
+      "value": 86064,
+      "unit": "USD",
+      "year": 2025
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "The 2021 legislative session opened with all committees and chambers being streamed to the public."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The 2020 Legislative Session in March the Kansas Statehouse was temporarily closed due to the COVID-19 pandemic."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The total cost for the 5-year renewal is $430,320.",
+      "note": null
+    },
+    {
+      "quote": "The annual payment will be $86,064.",
+      "note": null
+    }
+  ]
+}

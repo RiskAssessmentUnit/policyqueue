@@ -1,0 +1,53 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 22476,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "22,688",
+      "value": 22688,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "100.0%",
+      "value": 100,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Data Source:",
+      "note": "U.S. Census Bureau"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,19 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,21 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 19,
+      "unit": "OTHER",
+      "year": 2022
+    },
+    {
+      "label": "Cities",
+      "value": 8,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

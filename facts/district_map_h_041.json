@@ -1,0 +1,37 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Leavenworth",
+    "Missouri River"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "92",
+      "value": 92,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "73",
+      "value": 73,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    },
+    {
+      "quote": "District\nCity & District Boundary\nCounty\nCity Limits\nHighways\nStreets",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,34 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2017 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 520820000,
+      "unit": "USD"
+    },
+    {
+      "label": "Total Receipts",
+      "value": 5451580000,
+      "unit": "USD"
+    }
+  ],
+  "events": [
+    {
+      "date": "6/1/2017",
+      "year": 2017,
+      "description": "Source: [PAGE 1]"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Receipts $5,451,580,000",
+      "note": "Source: [PAGE 1]"
+    },
+    {
+      "quote": "Total Taxes $5,208,200,000",
+      "note": "Source: [PAGE 1]"
+    }
+  ]
+}

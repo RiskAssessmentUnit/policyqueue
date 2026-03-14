@@ -1,0 +1,32 @@
+{
+  "program_type": "BUDGET",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Cost of two-volume set",
+      "value": 80.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Number of copies to be printed",
+      "value": 150,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "August 14, 2025",
+      "year": 2025,
+      "description": "Recommendation to order 150 sets of permanent journals"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Proceeds from the sales are deposited into the State General Fund.",
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas State General Fund Receipts Estimates",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total SGF Receipts",
+      "value": 10227,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Increase over Previous Estimate",
+      "value": 1659,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Total Taxes",
+      "value": 1014,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Increase over Previous Estimate",
+      "value": 149,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Other Revenues",
+      "value": 16.9,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "SGF interest earnings (FY 2026)",
+      "value": 289800000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "SGF interest earnings (FY 2027)",
+      "value": 212000000,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Net transfers out of the SGF (FY 2026)",
+      "value": 298400000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Net transfers out of the SGF (FY 2027)",
+      "value": 440900000,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Insurance premiums tax estimate (FY 2026)",
+      "value": 223000000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Insurance premiums tax estimate (FY 2027)",
+      "value": 227000000,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Agency earnings (FY 2026)",
+      "value": 133800000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Agency earnings (FY 2027)",
+      "value": 124800000,
+      "unit": "USD",
+      "year": 2027
+    }
+  ],
+  "events": [
+    {
+      "date": "November 21, 2025",
+      "year": null,
+      "description": "Kansas Legislative Research Department"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "South Dakota v. Wayfair decision in 2018"
+    },
+    {
+      "date": "July 2021",
+      "year": null,
+      "description": "State legislation requiring marketplace facilitators to collect and remit use taxes"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Consensus revenue estimating process for 51 years"
+    },
+    {
+      "date": "November 13, 2025",
+      "year": null,
+      "description": "Consensus revenue estimating process meeting to discuss estimates and come to a consensus for FY 2026 and FY 2027"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The revised estimate of SGF receipts for FY 2026 is $10.227 billion, which is an increase of $165.9 million above the previous estimate.",
+      "note": null
+    },
+    {
+      "quote": "The revised FY 2026 taxes-only estimate is $101.4 million, or 1.0 percent, above actual FY 2025 taxes-only receipts.",
+      "note": null
+    },
+    {
+      "quote": "Compensating use tax receipt growth appears to have returned to more normal levels.",
+      "note": "Page 6"
+    },
+    {
+      "quote": "The FY 2027 estimate forecasts further growth of 3.2 percent.",
+      "note": "Page 6"
+    },
+    {
+      "quote": "The adjusted original estimate is the estimate made in November or December prior to the start of the next fiscal year in July and adjusted to account for legislation enacted, if any, that affected receipts to the SGF.",
+      "note": "Page 7"
+    },
+    {
+      "quote": "The final estimate made in March or April is the adjusted original estimate plus or minus changes subsequently made by the Consensus Revenue Estimating Group.",
+      "note": "Page 7"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Saline County",
+    "Assaria",
+    "Bavaria",
+    "Bridgeport",
+    "Brookville",
+    "Falun",
+    "Gypsum",
+    "Kipp",
+    "Mentor",
+    "Smolan",
+    "Salina"
+  ],
+  "entities": [
+    {
+      "name": "House District 69",
+      "type": "OTHER"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "2022 Legislative District Profiles",
+    "Kansas Legislative Research Department"
+  ]
+}

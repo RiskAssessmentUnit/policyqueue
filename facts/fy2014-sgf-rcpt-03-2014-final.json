@@ -1,0 +1,43 @@
+{
+  "program_type": "BOND_FINANCE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Division of the Budget",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 4125672205,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "% of Total Received",
+      "value": 103.59,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Total Taxes: $3,982,965,000",
+      "note": ""
+    },
+    {
+      "quote": "% of Total Received: 103.58%",
+      "note": ""
+    },
+    {
+      "quote": "Other Revenues: Interest $9,050,000",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

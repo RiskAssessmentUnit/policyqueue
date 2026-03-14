@@ -1,0 +1,37 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kingman County",
+    "Pratt County",
+    "Reno County"
+  ],
+  "entities": [
+    {
+      "name": "House District 114",
+      "type": "PROJECT"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 104,
+      "unit": null
+    },
+    {
+      "label": null,
+      "value": 118,
+      "unit": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,108 @@
+# Research Draft: CRE_Long_Memo_May_2018
+
+- Source JSON: `CRE_Long_Memo_May_2018.json`
+- Keyword hits: **consensus revenue**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "State General Fund Receipt Revisions for FY 2018 and FY 2019",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Estimate for FY 2018",
+      "value": 7031000000,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Estimate for FY 2019",
+      "value": 7100000000,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Increase in estimate for FY 2018",
+      "value": 217100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Increase in estimate for FY 2019",
+      "value": 316700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Increase in total taxes estimate for FY 2018",
+      "value": 225600000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Increase in total taxes estimate for FY 2019",
+      "value": 314800000,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "April 20, 2018",
+      "year": 2018,
+      "description": "Consensus Revenue Estimating Group met"
+    },
+    {
+      "date": "November 2017",
+      "year": 2017,
+      "description": "Previous estimate made"
+    },
+    {
+      "date": "April 17, 2018",
+      "year": 2018,
+      "description": "Tax filing deadline"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The estimate for total taxes was increased by $225.6 million, while the estimate for other revenues was decreased by $8.5 million.",
+      "note": "Revised estimate for FY 2018"
+    },
+    {
+      "quote": "The revised forecast for FY 2019 represents a 1.0 percent increase above the newly revised FY 2018 figure.",
+      "note": "Revised estimate for FY 2019"
+    }
+  ]
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
+
+
+---
+
+## Web Verification (links only)
+
+Search query:
+`Research Draft CRE_Long_Memo_May_2018 site:ks.gov site:kansas.gov`
+
+Search link:
+https://duckduckgo.com/?q=Research+Draft+CRE_Long_Memo_May_2018+site%3Aks.gov+site%3Akansas.gov
+
+Checked:
+**2026-03-05**
+
+Status: **REVIEWED (LINKS ONLY)**
+
+Notes:
+- Open the link and confirm against authoritative sources.
+- Add 1–3 official URLs under this section.

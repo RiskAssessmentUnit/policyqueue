@@ -1,0 +1,16 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [
+    "chunk_json_parse_failed"
+  ],
+  "recommended_next_queries": []
+}

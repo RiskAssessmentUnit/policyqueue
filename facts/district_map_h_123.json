@@ -1,0 +1,44 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Garden City"
+  ],
+  "entities": [
+    {
+      "name": "House District 123",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "50",
+      "value": 50,
+      "unit": "miles",
+      "year": null
+    },
+    {
+      "label": "83",
+      "value": 83,
+      "unit": "miles",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

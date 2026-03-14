@@ -1,0 +1,46 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas Senate District 24",
+    "Topeka, KS"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 72705,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Percentage of population (White)",
+      "value": 100.0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population under 5 years of age",
+      "value": 2233,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Population (Female)",
+      "value": 61237,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Housing Units",
+      "value": 32854,
+      "unit": "COUNT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

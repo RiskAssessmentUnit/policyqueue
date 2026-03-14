@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Division of the Budget IBARS Quick Reference Guide",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Data Download: FY 20PY actual revenues",
+      "value": null,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "FY 20CY appropriated, reappropriated, and lapsed amounts",
+      "value": null,
+      "unit": null,
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "August 31, 2021",
+      "year": null,
+      "description": "Data Download: FY 20PY actual revenues; FY 20CY appropriated, reappropriated, and lapsed amounts will be loaded into Ibars."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The Budget Instructions and Cost Indices can be found at the Agency Information Center https://budget.kansas.gov/agency-info/",
+      "note": "Reference to budget instructions and cost indices"
+    },
+    {
+      "quote": "Data Download: FY 20PY actual revenues; FY 20CY appropriated, reappropriated, and lapsed amounts will be loaded into Ibars.",
+      "note": "SMART data should not be changed."
+    }
+  ]
+}

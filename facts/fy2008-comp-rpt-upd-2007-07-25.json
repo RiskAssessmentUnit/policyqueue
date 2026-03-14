@@ -1,0 +1,293 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2007 Transfers In and Out of the State General Fund",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Nominal Kansas Personal Income",
+      "value": 101075,
+      "unit": "Dollars in Millions",
+      "year": 2007
+    },
+    {
+      "label": "Nominal Kansas Personal Income",
+      "value": 106379,
+      "unit": "Dollars in Millions",
+      "year": 2008
+    },
+    {
+      "label": "Total Transfers",
+      "value": 95457500,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Interest",
+      "value": 39159974,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Net Transfers",
+      "value": 121801182,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Beginning Balance",
+      "value": 3708488,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Released Encumbrances",
+      "value": 114000,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Adjusted Balance",
+      "value": 3822488,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Transfer In from KEY Fund",
+      "value": 43651166,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Total Available",
+      "value": 47473654,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Expenditures",
+      "value": 47473654,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Ending Balance",
+      "value": 3710767,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Transfer Ending Balance to CIRF",
+      "value": -3710767,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Transfer to State General Fund",
+      "value": 1250000,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Transfer to State General Fund (reduced)",
+      "value": 1000000,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Staffing for additional examinations",
+      "value": 2,
+      "unit": "FTE",
+      "year": 2007
+    },
+    {
+      "label": "Total--General Government",
+      "value": 3482919,
+      "unit": "USD",
+      "year": 2008
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 5347954,
+      "unit": "USD",
+      "year": 2008
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 21675311,
+      "unit": "USD",
+      "year": 2008
+    },
+    {
+      "label": "Authorized Positions--General Government",
+      "value": 775.45,
+      "unit": "FTE",
+      "year": 2008
+    },
+    {
+      "label": "Authorized Positions--Public Safety",
+      "value": 5223954,
+      "unit": "USD",
+      "year": 2008
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 5715.81,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 114.9,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Total--General Government",
+      "value": 5830.71,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Total--Human Services",
+      "value": 8475.35,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "Total--Education",
+      "value": 547.0,
+      "unit": "USD",
+      "year": 2007
+    },
+    {
+      "label": "FTE Positions",
+      "value": 31711.88,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Non-FTE Unclassified Permanent Positions",
+      "value": 69,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Subtotal--FTE Positions",
+      "value": 310570,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Subtotal--Non-FTE Unclass. Perm. Pos.",
+      "value": 56,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Subtotal--Corrections",
+      "value": 317470,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Subtotal--FTE Positions",
+      "value": 62750,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Subtotal--Non-FTE Unclass. Perm. Pos.",
+      "value": 20.5,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Subtotal--Juvenile Justice",
+      "value": 648,
+      "unit": "NUMBER",
+      "year": 2008
+    },
+    {
+      "label": "Total Positions",
+      "value": 42515.49,
+      "unit": "USD",
+      "year": 2008
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "The Consensus Group met on April 16, 2007, to revise the FY 2007 and FY 2008 estimates,"
+    },
+    {
+      "date": "FY 2007",
+      "year": 2007,
+      "description": "Transfers In and Out of the State General Fund"
+    },
+    {
+      "date": null,
+      "year": 2008,
+      "description": "HealthWave Program or Project"
+    },
+    {
+      "date": "Fall 2006",
+      "year": 2006,
+      "description": "Legislative Coordinating Council approved budgets"
+    },
+    {
+      "date": "2008",
+      "year": 2008,
+      "description": "HB 2081 implemented electronic filing for Campaign Finance Act reports"
+    },
+    {
+      "date": "FY 2007",
+      "year": 2007,
+      "description": "Authorized Positions by Agency"
+    },
+    {
+      "date": "FY 2008",
+      "year": 2008,
+      "description": "Expenditures from the State General Fund for Capital Improvements by Agency"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2007-2008"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The revised FY 2007 estimate of State General Fund receipts is $5.721 billion, which is a $129.0 million increase from the previous estimate made in November 2006 and is $326.9 million, or 6.1 percent, above actual FY 2006 receipts.",
+      "note": null
+    },
+    {
+      "quote": "The Governor recommended the replacement of $2.0 million from the Children’s Initiatives Fund in FY 2008 for the HealthWave Program.",
+      "note": "No note provided"
+    },
+    {
+      "quote": "The balance of the fund, $1.25 million, was recommended by the Governor to be transferred to the State General Fund.",
+      "note": "Page 50"
+    },
+    {
+      "quote": "The Legislature reduced the transfer to $1.0 million.",
+      "note": "Page 50"
+    },
+    {
+      "quote": "The Legislature approved $3,490,777 from the State General Fund to implement the pay plan approved by the Legislature for all employees.",
+      "note": "Page 51"
+    },
+    {
+      "quote": "The Legislature added additional staffing, above the Governor’s recommendation, to meet the courts’ growing workload.",
+      "note": "Page 51"
+    },
+    {
+      "quote": "Total--FTE Positions 1,269.79 --",
+      "note": "Page 184"
+    },
+    {
+      "quote": "Total--FTE Positions 41,226.80 3.00 41,229.80",
+      "note": "Page 185"
+    }
+  ]
+}

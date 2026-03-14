@@ -1,0 +1,87 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "N 127TH ST E",
+    "N 159TH ST E",
+    "E 21ST ST N",
+    "S 159TH ST E",
+    "E HARRY ST",
+    "S 127TH ST E",
+    "SW 60TH ST",
+    "SW 70TH ST",
+    "SW TUMBLEWEED RD",
+    "SW INDIANOLA RD",
+    "SW 80TH ST",
+    "E 13TH ST N",
+    "N 143RD ST E",
+    "E NORTH POINT DR",
+    "E LINCOLN",
+    "S BROOKHAVEN DR",
+    "S FAIRLAND",
+    "W CENTRAL AVE",
+    "E 21ST ST",
+    "N GWENDA CT",
+    "E CENTRAL AVE",
+    "S BROWN DR",
+    "S PRAIRIE CREEK RD",
+    "N PRAIRIE CREEK RD",
+    "N ANDOVER RD"
+  ],
+  "entities": [
+    {
+      "name": "Andover",
+      "type": "OTHER"
+    },
+    {
+      "name": "Butler",
+      "type": "OTHER"
+    },
+    {
+      "name": "Sedgwick",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 35,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 400,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 54,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 96,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2022",
+      "year": 2022,
+      "description": "2022 Legislative District Profiles"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "House District 99"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

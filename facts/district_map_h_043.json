@@ -1,0 +1,30 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Douglas County",
+    "Johnson County",
+    "Edgerton",
+    "Gardner",
+    "Olathe"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "JOBS"
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

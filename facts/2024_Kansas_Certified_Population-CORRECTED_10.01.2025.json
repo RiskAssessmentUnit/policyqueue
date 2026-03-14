@@ -1,0 +1,132 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 7,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 98,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Population 2022",
+      "value": 2022,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": 2023,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "Population 2024",
+      "value": 2024,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "Population 2025",
+      "value": 2025,
+      "unit": null,
+      "year": 2025
+    },
+    {
+      "label": "% Chg 2022-2023",
+      "value": 0.4,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "% Chg 2023-2024",
+      "value": 0.7,
+      "unit": "PERCENT",
+      "year": 2024
+    },
+    {
+      "label": "# Growth 2022-2023",
+      "value": 2,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "# Growth 2023-2024",
+      "value": 5,
+      "unit": "NUMBER",
+      "year": 2024
+    },
+    {
+      "label": "Growth 2022-2023",
+      "value": 27,
+      "unit": "COUNT",
+      "year": 2023
+    },
+    {
+      "label": "Growth 2023-2024",
+      "value": 47,
+      "unit": "COUNT",
+      "year": 2024
+    },
+    {
+      "label": "Population",
+      "value": 323520,
+      "unit": "PERSONS",
+      "year": 2025
+    },
+    {
+      "label": "Population Growth",
+      "value": 274,
+      "unit": "PERSONS",
+      "year": 2025
+    },
+    {
+      "label": "Population Change",
+      "value": 0.9,
+      "unit": "PERCENT",
+      "year": 2025
+    },
+    {
+      "label": "Certified Population",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "2022",
+      "value": null,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "2023",
+      "value": null,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "2024",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "(27)",
+      "note": "Population growth from 2022 to 2023"
+    },
+    {
+      "quote": "(47)",
+      "note": "Population growth from 2023 to 2024"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 75866,
+      "unit": "number",
+      "year": 2020
+    },
+    {
+      "label": "75.0% of population",
+      "value": 75.0,
+      "unit": "PERCENT",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Population",
+      "note": "number and percent of total population"
+    },
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    "Kansas population demographics"
+  ]
+}

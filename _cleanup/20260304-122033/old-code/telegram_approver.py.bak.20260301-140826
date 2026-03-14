@@ -1,0 +1,111 @@
+﻿import os
+CHAT_ID = ''
+BOT_TOKEN = ''
+import os
+import sys
+import json
+import time
+import urllib.request
+import urllib.parse
+from pathlib import Path
+
+ROOT = Path.home() / "policyqueue"
+POSTS_DIR = ROOT / "posts"
+APPROVED_DIR = ROOT / "approved"
+SENT_DIR = ROOT / "sent"
+LOGS = ROOT / "logs"
+LOGFILE = LOGS / "telegram_approver.log"
+
+# ---- PUT YOUR VALUES HERE (simplest, avoids env var issues) ----
+BOT_TOKEN = "AAHJYbQK3cHQNohZUWA5tVkCNqzjUhawgy4"
+CHAT_ID = "8501376562"
+# ---------------------------------------------------------------
+
+# Optional: set to 1 to run forever; otherwise it runs once
+LOOP = os.environ.get("PQ_TG_LOOP", "0").strip() == "1"
+SLEEP_SEC = int(os.environ.get("PQ_TG_SLEEP", "60"))
+
+def log(msg: str):
+    LOGS.mkdir(parents=True, exist_ok=True)
+    ts = time.strftime("%Y-%m-%d %H:%M:%S")
+    LOGFILE.open("a", encoding="utf-8").write(f"{ts}  {msg}\n")
+
+def http_post_form(url: str, data: dict, timeout=30) -> dict:
+    payload = urllib.parse.urlencode(data).encode("utf-8")
+    req = urllib.request.Request(url, data=payload, method="POST")
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8", errors="replace"))
+
+def tg_send_message(text: str) -> dict:
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    return http_post_form(url, {
+        "chat_id": CHAT_ID,
+        "text": text,
+        "disable_web_page_preview": "true"
+    })
+
+def tg_send_file(path: Path, caption: str = ""):
+    # Simple fallback: send message with content if file is small
+    # (Telegram multipart upload is more code; keep it reliable.)
+    body = path.read_text(encoding="utf-8", errors="replace")
+    if len(body) <= 3500:
+        return tg_send_message(caption + "\n\n" + body if caption else body)
+    else:
+        # If huge, just send first chunk + filename note
+        chunk = body[:3500]
+        return tg_send_message((caption + "\n\n" if caption else "") + f"[{path.name}] (truncated)\n\n{chunk}")
+
+def ensure_dirs():
+    for p in (ROOT, POSTS_DIR, APPROVED_DIR, SENT_DIR, LOGS):
+        p.mkdir(parents=True, exist_ok=True)
+
+def pick_next_post():
+    # Python 3.9 compatible: avoid union operator in type hints at runtime
+    posts = sorted([p for p in POSTS_DIR.glob("*.post.txt") if p.is_file()],
+                   key=lambda p: p.stat().st_mtime)
+    return posts[0] if posts else None
+
+def run_once():
+    ensure_dirs()
+
+    if "AAHJYbQK3cHQNohZUWA5tVkCNqzjUhawgy4" in BOT_TOKEN or "8501376562" in CHAT_ID or not BOT_TOKEN.strip() or not CHAT_ID.strip():
+        print("ERROR: BOT_TOKEN/CHAT_ID missing. Set them in file or env (PQ_TG_BOT_TOKEN/PQ_TG_CHAT_ID).")
+        log("ERROR missing BOT_TOKEN/CHAT_ID")
+        return 2
+
+    p = pick_next_post()
+    if not p:
+        print("No .post.txt files found in posts/")
+        log("No posts to send.")
+        return 0
+
+    # Send it
+    try:
+        log(f"Sending {p.name} to Telegram")
+        tg_send_file(p, caption="Draft for approval:")
+        # Move to sent/ so we don't spam duplicates
+        SENT_DIR.mkdir(parents=True, exist_ok=True)
+        dest = SENT_DIR / p.name
+        p.replace(dest)
+        log(f"Moved to sent/: {dest.name}")
+        print(f"Sent: {dest.name}")
+        return 0
+    except Exception as e:
+        log(f"ERROR sending {p.name}: {repr(e)}")
+        print("ERROR:", repr(e))
+        return 1
+
+def main():
+    if LOOP:
+        print("Telegram approver running in LOOP mode. Ctrl+C to stop.")
+        while True:
+            code = run_once()
+            time.sleep(SLEEP_SEC)
+    else:
+        sys.exit(run_once())
+
+if __name__ == "__main__":
+    main()
+
+
+

@@ -1,0 +1,50 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "W 91ST ST",
+    "MISSION RD",
+    "W 95TH ST",
+    "ROE AVE",
+    "NALL AVE",
+    "W 99TH ST",
+    "W 87TH ST",
+    "METCALF AVE",
+    "LEE BLVD",
+    "W 92ND ST",
+    "BELINDER RD",
+    "MEADOW LN",
+    "SOMERSET DR",
+    "W 83RD ST",
+    "LAMAR AVE",
+    "W 103RD ST",
+    "W 89TH ST",
+    "STATE LINE RD",
+    "W 85TH TER"
+  ],
+  "entities": [
+    {
+      "name": "Johnson County",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "miles",
+      "value": 1,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

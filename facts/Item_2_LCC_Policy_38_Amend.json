@@ -1,0 +1,78 @@
+{
+  "program_type": "BILL",
+  "title": "Policy 38. Correspondence and mailing",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "U.S. Postal Service",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislative Administrative Services",
+      "type": "ORG"
+    },
+    {
+      "name": "Council",
+      "type": "ORG"
+    },
+    {
+      "name": "LCC",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Maximum postage and newsletter printing allotment",
+      "value": 6000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Maximum postage and newsletter printing allotment",
+      "value": 18000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Minimum number of pieces for reimbursement",
+      "value": 500,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2024",
+      "year": 2024,
+      "description": "New policy provision takes effect"
+    },
+    {
+      "date": "December 14",
+      "year": null,
+      "description": "Postage and newsletter printing expenses must be incurred by"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "It shall be unlawful for any person to use for such person's personal use, or to allow any unauthorized person",
+      "note": "K.S.A. 21-6006"
+    },
+    {
+      "quote": "The use of state postage in the mailing of personal correspondence is a misdemeanor.",
+      "note": "K.S.A. 21-6006"
+    },
+    {
+      "quote": "The maximum allotment amount established under this paragraph will change in relation to postage rate changes made by the U.S.",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    null
+  ]
+}

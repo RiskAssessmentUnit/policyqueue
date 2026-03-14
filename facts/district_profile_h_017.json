@@ -1,0 +1,37 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 232233512,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": ""
+    },
+    {
+      "quote": "Profile produced by: Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

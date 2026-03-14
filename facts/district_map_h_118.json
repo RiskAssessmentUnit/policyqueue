@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Gove",
+    "Logan",
+    "Scott",
+    "Lane",
+    "Wichita",
+    "Greeley",
+    "Trego",
+    "Ness"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

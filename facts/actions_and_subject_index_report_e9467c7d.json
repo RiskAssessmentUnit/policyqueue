@@ -1,0 +1,120 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Limiting the annual amount of expenditures and demand transfers from the state general fund",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Annual amount of expenditures",
+      "value": 0,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Demand transfers from the state general fund",
+      "value": 0,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Revenue for KPERS",
+      "value": 100,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Tax credit for contributions",
+      "value": 1000000,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Aggregate tax credit limit",
+      "value": 5000000,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "STAR BOND",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "01/16/2025",
+      "year": 2025,
+      "description": "Bill by Assessment and Taxation"
+    },
+    {
+      "date": "02/11/2025",
+      "year": 2025,
+      "description": "Senate—Committee Report recommending bill be passed as amended by Committee on Assessment and Taxation"
+    },
+    {
+      "date": "01/12/2026",
+      "year": 2026,
+      "description": "Senate—Withdrawn from Calendar, Rereferred to Committee on Assessment and Taxation"
+    },
+    {
+      "date": "02/13/2025",
+      "year": 2025,
+      "description": "Committee Report recommending bill be passed by Committee on Ways and Means"
+    },
+    {
+      "date": "03/20/2025",
+      "year": 2025,
+      "description": "Committee of the Whole - Be passed"
+    },
+    {
+      "date": "03/21/2025",
+      "year": 2025,
+      "description": "House—Received and Introduced"
+    },
+    {
+      "date": "02/04/2026",
+      "year": 2026,
+      "description": "House—Hearing: Tuesday, February 10, 2026, 9:00 AM Room 112-N"
+    },
+    {
+      "date": "02/10/2026",
+      "year": 2026,
+      "description": "House—Hearing: Tuesday, February 10, 2026, 9:04 AM Room 112-N"
+    },
+    {
+      "date": "02/10/2025",
+      "year": 2025,
+      "description": "Referred to Committee on Education—SJ 129"
+    },
+    {
+      "date": "02/20/2025",
+      "year": 2025,
+      "description": "Withdrawn from Committee on Public Health and Welfare; Referred to Committee on Ways and Means—SJ 209"
+    },
+    {
+      "date": "02/25/2025",
+      "year": 2025,
+      "description": "Withdrawn from Committee on Ways and Means; Rereferred to Committee on Public Health and Welfare—SJ 212"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": null,
+      "note": null
+    },
+    {
+      "quote": "02/07/2025 Senate—Introduced—SJ 124",
+      "note": "Introduced in Senate"
+    },
+    {
+      "quote": "02/10/2025 Senate—Referred to Committee on Education—SJ 129",
+      "note": "Referred to Committee on Education"
+    }
+  ]
+}

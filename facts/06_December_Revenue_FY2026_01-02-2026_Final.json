@@ -1,0 +1,46 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2026 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 11326300000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 1045000000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Total Receipts",
+      "value": 11544800000,
+      "unit": "USD",
+      "year": 2026
+    }
+  ],
+  "events": [
+    {
+      "date": "1/2/2026",
+      "year": 2026,
+      "description": "Kansas Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$739,400,000",
+      "note": "Total tax revenue"
+    },
+    {
+      "quote": "$682,436,433",
+      "note": "Actual tax revenue"
+    },
+    {
+      "quote": "$1,154,480,000",
+      "note": "Total receipts"
+    }
+  ]
+}

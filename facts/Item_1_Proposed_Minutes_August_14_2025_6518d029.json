@@ -1,0 +1,35 @@
+{
+  "program_type": "OTHER",
+  "title": "Legislative Coordinating Council Meeting Minutes",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Annual cost for extended vendor support",
+      "value": 400000,
+      "unit": "USD",
+      "year": 2025
+    }
+  ],
+  "events": [
+    {
+      "date": "July 7, 2025",
+      "year": 2025,
+      "description": "KLISS Modernization Project Steering Committee update"
+    },
+    {
+      "date": "September 2, 2025",
+      "year": 2025,
+      "description": "Deadline for significant progress on KLISS bill drafting system"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Vice Chairperson Hawkins moved to approve moving data center services to cloud environment with Amazon Web Services for $245,000 annually",
+      "note": "Motion carried"
+    },
+    {
+      "quote": "Senate Majority Leader Blasi moved that Mr. Day be directed to repost the Legislative CITO position with an annual salary of an amount up to the highest salary of the Executive CITO and Judicial CITO",
+      "note": "Motion carried"
+    }
+  ]
+}

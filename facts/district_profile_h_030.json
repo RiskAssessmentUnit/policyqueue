@@ -1,0 +1,28 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

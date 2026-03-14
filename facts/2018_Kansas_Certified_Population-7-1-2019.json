@@ -1,0 +1,146 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population 2016",
+      "value": null,
+      "unit": null,
+      "year": 2016
+    },
+    {
+      "label": "Population 2017",
+      "value": null,
+      "unit": null,
+      "year": 2017
+    },
+    {
+      "label": "Population 2018",
+      "value": null,
+      "unit": null,
+      "year": 2018
+    },
+    {
+      "label": "Population 2016",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population 2017",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population 2018",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population 2019",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Growth 2016-2017",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Growth 2017-2018",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Growth 2018-2019",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Change 2017-2018",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Change 2016-2017",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 178146,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 178187,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 177499,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Pop. 2016",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2016
+    },
+    {
+      "label": "Pop. 2017",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2017
+    },
+    {
+      "label": "Pop. 2018",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2018
+    },
+    {
+      "label": "Pop. 2019",
+      "value": 7,
+      "unit": "COUNT",
+      "year": 2019
+    },
+    {
+      "label": "Growth 2016-2017",
+      "value": 61,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Growth 2017-2018",
+      "value": 65,
+      "unit": "COUNT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2019",
+      "year": 2019,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Certified to the Secretary of State by Division of the Budget on July 1, 2019",
+      "note": null
+    }
+  ]
+}

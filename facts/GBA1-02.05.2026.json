@@ -1,0 +1,70 @@
+{
+  "program_type": "BILL",
+  "title": "Governor's Budget Amendment No. 1",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Laura Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Rick Billinger",
+      "type": "PERSON"
+    },
+    {
+      "name": "Troy Waymaster",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total adjustments to expenditures",
+      "value": -5.5,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Cloud migration costs",
+      "value": 505000,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Original intent funding for JAG-K program",
+      "value": 6000000,
+      "unit": "USD"
+    }
+  ],
+  "events": [
+    {
+      "date": "February 5, 2026",
+      "year": 2026,
+      "description": "Governor Kelly submits budget amendment"
+    },
+    {
+      "date": "2025",
+      "year": 2025,
+      "description": "Legislature approved $800,000 for server replacement"
+    },
+    {
+      "date": "June 30, 2026",
+      "year": 2026,
+      "description": "Deadline to replace end-of-life servers and IT hardware"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The items reflect current issues that have arisen or changes that can be made based on current information.",
+      "note": "From Governor's Budget Amendment No. 1"
+    },
+    {
+      "quote": "The ongoing cloud server and storage costs associated with this migration are $505,000 per year.",
+      "note": "From Governor's Budget Amendment No. 1"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

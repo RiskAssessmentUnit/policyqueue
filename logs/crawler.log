@@ -1,0 +1,499 @@
+2026-02-28 20:14:41  URLError https://ksdirector.kansas.gov/: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-02-28 20:15:02  HTTPError 502 https://kslegislature.org/li/current/
+2026-02-28 20:15:03  HTTPError 502 https://kslegislature.org/li/b2025_26/chamber/house/
+2026-02-28 20:15:04  HTTPError 502 https://kslegislature.org/li/b2025_26/chamber/house/leadership/
+2026-02-28 20:15:05  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/standing/house/
+2026-02-28 20:15:55  ERROR fetch https://kslegislature.org/li/b2025_26/committees/conference/: timeout('The read operation timed out')
+2026-02-28 20:16:12  SAVED actions_and_subject_index_report.pdf (1203155 bytes) <- https://kslegislature.org/li/b2025_26/measures/documents/actions_and_subject_index_report
+2026-02-28 20:16:13  SAVED how_bill_law.pdf (28038 bytes) <- https://kslegislature.org/li/s/pdf/how_bill_law.pdf
+2026-02-28 20:16:42  SAVED legislative_deadlines.pdf (118047 bytes) <- https://kslegislature.org/li/b2025_26/measures/documents/legislative_deadlines.pdf
+2026-02-28 20:16:43  SAVED lcc_2025.pdf (178176 bytes) <- https://kslegislature.org/li/s/pdf/lcc_2025.pdf
+2026-02-28 20:16:45  SAVED session_work_info.pdf (91441 bytes) <- https://kslegislature.org/li/s/pdf/session_work_info.pdf
+2026-02-28 20:16:48  SAVED 2025_final_house_senate_actions_and_subject_index_report.pdf (1166777 bytes) <- https://kslegislature.org/li/documents/2025_final_house_senate_actions_and_subject_index_report.pdf
+2026-02-28 20:16:49  DUP content already saved as lcc_2025.pdf: https://kslegislature.org/li/documents/lcc_2025.pdf
+2026-02-28 20:16:50  SAVED 2026_Standing_Committees.pdf (113036 bytes) <- https://kslegislature.org/li/documents/2026_Standing_Committees.pdf
+2026-02-28 20:16:52  SAVED actions_and_subject_index_report_e9467c7d.pdf (1092081 bytes) <- https://kslegislature.org/li/documents/actions_and_subject_index_report.pdf
+2026-02-28 20:16:53  SAVED 2026_deadlines.pdf (118107 bytes) <- https://kslegislature.org/li/documents/2026_deadlines.pdf
+2026-02-28 20:16:55  SAVED kansas_legislative_procedure.pdf (1324067 bytes) <- https://kslegislature.org/li/s/pdf/kansas_legislative_procedure.pdf
+2026-02-28 20:16:57  HTTPError 502 https://budget.kansas.gov/xmlrpc.php
+2026-02-28 20:17:27  SAVED CRE_long_memo-11.21.2025.pdf (661769 bytes) <- https://budget.kansas.gov/wp-content/uploads/CRE_long_memo-11.21.2025.pdf
+2026-02-28 20:17:30  SAVED 2024_Kansas_-Certified_Population_07-01-2025.pdf (2347765 bytes) <- https://budget.kansas.gov/wp-content/uploads/2024_Kansas_-Certified_Population_07-01-2025.pdf
+2026-02-28 20:17:58  ERROR fetch https://kslegislature.org/li_2024/current/: timeout('The read operation timed out')
+2026-02-28 20:18:11  HTTPError 500 https://kslegislature.org/li_2024/b2023_24/chamber/house/seating/
+2026-02-28 20:19:00  SAVED actions_and_subject_index_report_34a72cdb.pdf (1486024 bytes) <- https://kslegislature.org/li_2024/b2023_24/measures/documents/actions_and_subject_index_report
+2026-02-28 20:19:01  DUP content already saved as how_bill_law.pdf: https://kslegislature.org/li_2024/s/pdf/how_bill_law.pdf
+2026-02-28 20:19:27  SAVED senate_deadlines.pdf (119537 bytes) <- https://kslegislature.org/li_2024/b2023_24/measures/documents/senate_deadlines.pdf
+2026-02-28 20:19:28  DUP content already saved as senate_deadlines.pdf: https://kslegislature.org/li_2024/b2023_24/measures/documents/house_deadlines.pdf
+2026-02-28 20:19:30  SAVED 2019_policies.pdf (166390 bytes) <- https://kslegislature.org/li_2024/s/pdf/2019_policies.pdf
+2026-02-28 20:19:34  SAVED session_work_info_8aafb430.pdf (35945 bytes) <- https://kslegislature.org/li_2024/s/pdf/session_work_info.pdf
+2026-02-28 20:19:35  SAVED preorg_journal_house_2025.pdf (93304 bytes) <- https://kslegislature.org/li_2024/documents/preorg_journal_house_2025.pdf
+2026-02-28 20:19:38  SAVED 2023_senate_house_actions_subject_index_20230712.pdf (994573 bytes) <- https://kslegislature.org/li_2024/documents/2023_senate_house_actions_subject_index_20230712.pdf
+2026-02-28 20:19:39  SAVED 2025_Prefiled_Bills.pdf (166920 bytes) <- https://kslegislature.org/li_2024/documents/2025_Prefiled_Bills.pdf
+2026-02-28 20:19:41  SAVED 2025_senate_prefiled_bills.pdf (96407 bytes) <- https://kslegislature.org/li_2024/documents/2025_senate_prefiled_bills.pdf
+2026-02-28 20:20:10  SAVED permanent_journal_senate_2024.pdf (21188708 bytes) <- https://kslegislature.org/li_2024/documents/permanent_journal_senate_2024.pdf
+2026-02-28 20:20:13  SAVED 2024_senate_house_actions_subject_index_07182024.pdf (1474776 bytes) <- https://kslegislature.org/li_2024/documents/2024_senate_house_actions_subject_index_07182024.pdf
+2026-02-28 20:20:14  SAVED interim_schedule.pdf (140120 bytes) <- https://kslegislature.org/li_2024/documents/interim_schedule.pdf
+2026-02-28 20:20:17  DUP content already saved as kansas_legislative_procedure.pdf: https://kslegislature.org/li_2024/s/pdf/kansas_legislative_procedure.pdf
+2026-02-28 20:20:20  DUP content already saved as legislative_deadlines.pdf: https://kslegislature.org/li/b2025_26/measures/documents/legislative_deadlines
+2026-02-28 20:20:22  SAVED house_rules.pdf (913104 bytes) <- https://kslegislature.org/li/s/pdf/house_rules.pdf
+2026-02-28 20:20:24  SAVED joint_rules.pdf (165598 bytes) <- https://kslegislature.org/li/s/pdf/joint_rules.pdf
+2026-02-28 20:22:11  ERROR fetch https://kslegislature.org/li/current/: timeout('The read operation timed out')
+2026-02-28 20:23:14  ERROR fetch https://kslegislature.org/li/b2025_26/committees/conference/: timeout('The read operation timed out')
+2026-02-28 20:23:31  DUP content already saved as actions_and_subject_index_report.pdf: https://kslegislature.org/li/b2025_26/measures/documents/actions_and_subject_index_report
+2026-02-28 20:24:10  HTTPError 502 https://budget.kansas.gov/xmlrpc.php
+2026-02-28 20:25:02  HTTPError 502 https://kslegislature.org/li_2024/current/
+2026-02-28 20:25:05  HTTPError 502 https://kslegislature.org/li_2024/b2023_24/chamber/house/
+2026-02-28 20:25:17  HTTPError 500 https://kslegislature.org/li_2024/b2023_24/chamber/house/seating/
+2026-02-28 20:26:08  DUP content already saved as actions_and_subject_index_report_34a72cdb.pdf: https://kslegislature.org/li_2024/b2023_24/measures/documents/actions_and_subject_index_report
+2026-02-28 20:26:44  DUP content already saved as legislative_deadlines.pdf: https://kslegislature.org/li/b2025_26/measures/documents/legislative_deadlines
+2026-02-28 20:30:03  HTTPError 502 https://kslegislature.org/li/b2025_26/members/rep_poetter_samantha_1/
+2026-02-28 20:30:04  HTTPError 502 https://kslegislature.org/li/b2025_26/members/rep_poskin_mari_lynn_1/
+2026-02-28 20:34:27  SAVED permanent_journal_house_2025.pdf (18599749 bytes) <- https://kslegislature.org/li/b2025_26/chamber/documents/permanent_journal_house_2025.pdf
+2026-02-28 20:34:28  SAVED final_calendar_house_2025.pdf (82086 bytes) <- https://kslegislature.org/li/b2025_26/chamber/documents/final_calendar_house_2025.pdf
+2026-02-28 20:34:33  SAVED district_map_h_057.pdf (115504 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_057.pdf
+2026-02-28 20:34:34  HTTPError 404 https://kslegislature.org/cdn-cgi/l/email-protection
+2026-02-28 20:34:35  SAVED district_map_h_045.pdf (87895 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_045.pdf
+2026-02-28 20:34:36  SAVED district_map_h_072.pdf (193720 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_072.pdf
+2026-02-28 20:34:37  SAVED district_map_h_061.pdf (239302 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_061.pdf
+2026-02-28 20:34:39  SAVED district_map_h_044.pdf (97019 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_044.pdf
+2026-02-28 20:34:40  SAVED district_map_h_076.pdf (245631 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_076.pdf
+2026-02-28 20:34:41  SAVED district_map_h_093.pdf (201920 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_093.pdf
+2026-02-28 20:34:42  SAVED district_map_h_091.pdf (102461 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_091.pdf
+2026-02-28 20:34:44  SAVED district_map_h_012.pdf (237501 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_012.pdf
+2026-02-28 20:34:45  SAVED district_map_h_064.pdf (243901 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_064.pdf
+2026-02-28 20:34:46  SAVED district_map_h_086.pdf (91930 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_086.pdf
+2026-02-28 20:34:48  SAVED district_map_h_015.pdf (130241 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_015.pdf
+2026-02-28 20:34:49  SAVED district_map_h_052.pdf (110354 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_052.pdf
+2026-02-28 20:34:50  SAVED district_map_h_112.pdf (197797 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_112.pdf
+2026-02-28 20:34:52  SAVED district_map_h_035.pdf (139891 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_035.pdf
+2026-02-28 20:34:53  SAVED district_map_h_085.pdf (81317 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_085.pdf
+2026-02-28 20:34:54  SAVED district_map_h_011.pdf (204053 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_011.pdf
+2026-02-28 20:34:55  SAVED district_map_h_040.pdf (99233 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_040.pdf
+2026-02-28 20:34:57  SAVED district_map_h_068.pdf (244278 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_068.pdf
+2026-02-28 20:34:58  SAVED district_map_h_033.pdf (176701 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_033.pdf
+2026-02-28 20:34:59  SAVED district_map_h_066.pdf (109497 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_066.pdf
+2026-02-28 20:35:00  SAVED district_map_h_092.pdf (95571 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_092.pdf
+2026-02-28 20:35:02  SAVED district_map_h_075.pdf (202329 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_075.pdf
+2026-02-28 20:35:03  SAVED district_map_h_081.pdf (84037 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_081.pdf
+2026-02-28 20:35:04  SAVED district_map_h_084.pdf (88654 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_084.pdf
+2026-02-28 20:35:05  SAVED district_map_h_065.pdf (189087 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_065.pdf
+2026-02-28 20:35:07  SAVED district_map_h_002.pdf (235528 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_002.pdf
+2026-02-28 20:35:08  SAVED district_map_h_054.pdf (217854 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_054.pdf
+2026-02-28 20:35:09  SAVED district_map_h_008.pdf (135969 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_008.pdf
+2026-02-28 20:35:10  SAVED district_map_h_032.pdf (114049 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_032.pdf
+2026-02-28 20:35:11  SAVED district_map_h_094.pdf (106485 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_094.pdf
+2026-02-28 20:35:13  SAVED district_map_h_013.pdf (252539 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_013.pdf
+2026-02-28 20:35:14  SAVED district_map_h_047.pdf (230505 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_047.pdf
+2026-02-28 20:35:15  SAVED district_map_h_014.pdf (143299 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_014.pdf
+2026-02-28 20:35:16  SAVED district_map_h_078.pdf (114006 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_078.pdf
+2026-02-28 20:35:18  SAVED district_map_h_087.pdf (125830 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_087.pdf
+2026-02-28 20:35:19  SAVED district_map_h_113.pdf (227633 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_113.pdf
+2026-02-28 20:35:20  SAVED district_map_h_016.pdf (130043 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_016.pdf
+2026-02-28 20:35:22  SAVED district_map_h_125.pdf (192763 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_125.pdf
+2026-02-28 20:35:23  SAVED district_map_h_009.pdf (224746 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_009.pdf
+2026-02-28 20:35:24  SAVED district_map_h_007.pdf (203801 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_007.pdf
+2026-02-28 20:35:26  SAVED district_map_h_119.pdf (106250 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_119.pdf
+2026-02-28 20:35:27  SAVED district_map_h_053.pdf (101532 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_053.pdf
+2026-02-28 20:35:28  SAVED district_map_h_100.pdf (95510 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_100.pdf
+2026-02-28 20:35:29  SAVED district_map_h_083.pdf (89841 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_083.pdf
+2026-02-28 20:35:31  SAVED district_map_h_001.pdf (219005 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_001.pdf
+2026-02-28 20:35:32  SAVED district_map_h_116.pdf (239881 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_116.pdf
+2026-02-28 20:35:33  SAVED district_map_h_097.pdf (114166 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_097.pdf
+2026-02-28 20:35:35  SAVED district_map_h_071.pdf (191865 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_071.pdf
+2026-02-28 20:35:36  SAVED district_map_h_082.pdf (87645 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_082.pdf
+2026-02-28 20:35:37  SAVED district_map_h_098.pdf (130741 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_098.pdf
+2026-02-28 20:35:39  SAVED district_map_h_017.pdf (128078 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_017.pdf
+2026-02-28 20:35:40  SAVED district_map_h_090.pdf (199934 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_090.pdf
+2026-02-28 20:35:42  SAVED district_map_h_099.pdf (142215 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_099.pdf
+2026-02-28 20:35:43  SAVED district_map_h_004.pdf (237343 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_004.pdf
+2026-02-28 20:35:44  SAVED district_map_h_038.pdf (137347 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_038.pdf
+2026-02-28 20:35:46  SAVED district_map_h_096.pdf (96124 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_096.pdf
+2026-02-28 20:35:47  SAVED district_map_h_074.pdf (203323 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_074.pdf
+2026-02-28 20:35:48  SAVED district_map_h_123.pdf (113362 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_123.pdf
+2026-02-28 20:35:50  SAVED district_map_h_124.pdf (225387 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_124.pdf
+2026-02-28 20:35:51  SAVED district_map_h_103.pdf (110089 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_103.pdf
+2026-02-28 20:35:52  SAVED district_map_h_049.pdf (115793 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_049.pdf
+2026-02-28 20:35:53  SAVED district_map_h_050.pdf (71485 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_050.pdf
+2026-02-28 20:35:54  SAVED district_map_h_036.pdf (164952 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_036.pdf
+2026-02-28 20:35:56  SAVED district_map_h_029.pdf (126899 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_029.pdf
+2026-02-28 20:35:57  SAVED district_map_h_118.pdf (273044 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_118.pdf
+2026-02-28 20:35:58  SAVED district_map_h_106.pdf (261876 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_106.pdf
+2026-02-28 20:36:00  SAVED district_map_h_046.pdf (85963 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_046.pdf
+2026-02-28 20:36:01  SAVED district_map_h_042.pdf (214314 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_042.pdf
+2026-02-28 20:36:02  SAVED district_map_h_018.pdf (119499 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_018.pdf
+2026-02-28 20:36:04  SAVED district_map_h_089.pdf (110538 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_089.pdf
+2026-02-28 20:36:05  SAVED district_map_h_037.pdf (171617 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_037.pdf
+2026-02-28 20:36:06  SAVED district_map_h_048.pdf (121243 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_048.pdf
+2026-02-28 20:36:07  SAVED district_map_h_024.pdf (133419 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_024.pdf
+2026-02-28 20:36:09  SAVED district_map_h_088.pdf (110568 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_088.pdf
+2026-02-28 20:36:10  SAVED district_map_h_122.pdf (234982 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_122.pdf
+2026-02-28 20:36:11  SAVED district_map_h_006.pdf (217253 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_006.pdf
+2026-02-28 20:36:12  SAVED district_map_h_020.pdf (140746 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_020.pdf
+2026-02-28 20:36:14  SAVED district_map_h_041.pdf (97710 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_041.pdf
+2026-02-28 20:36:15  SAVED district_map_h_110.pdf (244487 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_110.pdf
+2026-02-28 20:36:16  SAVED district_map_h_063.pdf (233081 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_063.pdf
+2026-02-28 20:36:18  SAVED district_map_h_121.pdf (103996 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_121.pdf
+2026-02-28 20:36:19  SAVED district_map_h_080.pdf (201448 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_080.pdf
+2026-02-28 20:36:20  SAVED district_map_h_067.pdf (142916 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_067.pdf
+2026-02-28 20:36:21  SAVED district_map_h_079.pdf (208166 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_079.pdf
+2026-02-28 20:36:23  SAVED district_map_h_031.pdf (130053 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_031.pdf
+2026-02-28 20:36:24  SAVED district_map_h_023.pdf (122076 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_023.pdf
+2026-02-28 20:36:25  SAVED district_map_h_069.pdf (195489 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_069.pdf
+2026-02-28 20:36:27  SAVED district_map_h_005.pdf (221660 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_005.pdf
+2026-02-28 20:36:28  SAVED district_map_h_095.pdf (95697 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_095.pdf
+2026-02-28 20:36:30  SAVED district_map_h_019.pdf (118110 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_019.pdf
+2026-02-28 20:36:31  SAVED district_map_h_055.pdf (80043 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_055.pdf
+2026-02-28 20:36:32  SAVED district_map_h_059.pdf (205502 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_059.pdf
+2026-02-28 20:36:33  SAVED district_map_h_060.pdf (183905 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_060.pdf
+2026-02-28 20:36:35  SAVED district_map_h_114.pdf (243344 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_114.pdf
+2026-02-28 20:36:36  SAVED district_map_h_101.pdf (202289 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_101.pdf
+2026-02-28 20:36:37  SAVED district_map_h_058.pdf (95170 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_058.pdf
+2026-02-28 20:36:39  SAVED district_map_h_003.pdf (189931 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_003.pdf
+2026-02-28 20:36:40  SAVED district_map_h_120.pdf (258366 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_120.pdf
+2026-02-28 20:36:41  SAVED district_map_h_051.pdf (235955 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_051.pdf
+2026-02-28 20:36:43  SAVED district_map_h_039.pdf (148636 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_039.pdf
+2026-02-28 20:36:44  SAVED district_map_h_021.pdf (116728 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_021.pdf
+2026-02-28 20:36:45  SAVED district_map_h_043.pdf (145323 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_043.pdf
+2026-02-28 20:36:46  SAVED district_map_h_102.pdf (94197 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_102.pdf
+2026-02-28 20:36:48  SAVED district_map_h_027.pdf (155480 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_027.pdf
+2026-02-28 20:36:49  SAVED district_map_h_117.pdf (188058 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_117.pdf
+2026-02-28 20:36:50  SAVED district_map_h_028.pdf (126488 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_028.pdf
+2026-02-28 20:36:51  SAVED district_map_h_026.pdf (146673 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_026.pdf
+2026-02-28 20:36:53  SAVED district_map_h_022.pdf (107986 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_022.pdf
+2026-02-28 20:36:54  SAVED district_map_h_104.pdf (183380 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_104.pdf
+2026-02-28 20:36:55  SAVED district_map_h_105.pdf (96694 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_105.pdf
+2026-02-28 20:36:56  SAVED district_map_h_111.pdf (125154 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_111.pdf
+2026-02-28 20:36:58  SAVED district_map_h_109.pdf (271214 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_109.pdf
+2026-02-28 20:36:59  SAVED district_map_h_056.pdf (102324 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_056.pdf
+2026-02-28 20:37:00  SAVED district_map_h_115.pdf (243080 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_115.pdf
+2026-02-28 20:37:02  SAVED district_map_h_010.pdf (134857 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_010.pdf
+2026-02-28 20:37:03  SAVED district_map_h_073.pdf (202442 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_073.pdf
+2026-02-28 20:37:05  SAVED district_map_h_062.pdf (227960 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_062.pdf
+2026-02-28 20:37:06  SAVED district_map_h_077.pdf (193331 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_077.pdf
+2026-02-28 20:37:07  SAVED district_map_h_030.pdf (159710 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_030.pdf
+2026-02-28 20:37:08  SAVED district_map_h_070.pdf (229593 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_070.pdf
+2026-02-28 20:37:10  SAVED district_map_h_034.pdf (108534 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_034.pdf
+2026-02-28 20:37:11  SAVED district_map_h_107.pdf (237738 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_107.pdf
+2026-02-28 20:37:12  SAVED district_map_h_108.pdf (136421 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_108.pdf
+2026-02-28 20:37:13  SAVED district_map_h_025.pdf (136960 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_h_025.pdf
+2026-02-28 20:37:16  SAVED district_profile_h_001.pdf (66562 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_001.pdf
+2026-02-28 20:37:17  SAVED district_profile_h_002.pdf (66536 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_002.pdf
+2026-02-28 20:37:18  SAVED district_profile_h_003.pdf (66470 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_003.pdf
+2026-02-28 20:37:20  SAVED district_profile_h_004.pdf (66580 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_004.pdf
+2026-02-28 20:37:21  SAVED district_profile_h_005.pdf (66522 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_005.pdf
+2026-02-28 20:37:22  SAVED district_profile_h_006.pdf (66541 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_006.pdf
+2026-02-28 20:37:23  SAVED district_profile_h_007.pdf (66573 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_007.pdf
+2026-02-28 20:37:24  SAVED district_profile_h_008.pdf (66546 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_008.pdf
+2026-02-28 20:37:26  SAVED district_profile_h_009.pdf (66568 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_009.pdf
+2026-02-28 20:37:27  SAVED district_profile_h_010.pdf (66533 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_010.pdf
+2026-02-28 20:37:28  SAVED district_profile_h_011.pdf (66538 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_011.pdf
+2026-02-28 20:37:29  SAVED district_profile_h_012.pdf (66640 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_012.pdf
+2026-02-28 20:37:30  SAVED district_profile_h_013.pdf (66580 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_013.pdf
+2026-02-28 20:37:31  SAVED district_profile_h_014.pdf (66577 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_014.pdf
+2026-02-28 20:37:33  SAVED district_profile_h_015.pdf (66551 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_015.pdf
+2026-02-28 20:37:34  SAVED district_profile_h_016.pdf (66551 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_016.pdf
+2026-02-28 20:37:35  SAVED district_profile_h_017.pdf (66550 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_017.pdf
+2026-02-28 20:37:36  SAVED district_profile_h_018.pdf (66523 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_018.pdf
+2026-02-28 20:37:38  SAVED district_profile_h_019.pdf (66550 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_019.pdf
+2026-02-28 20:37:39  SAVED district_profile_h_020.pdf (66563 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_020.pdf
+2026-02-28 20:37:40  SAVED district_profile_h_021.pdf (66556 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_021.pdf
+2026-02-28 20:37:41  SAVED district_profile_h_022.pdf (66582 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_022.pdf
+2026-02-28 20:37:42  SAVED district_profile_h_023.pdf (66547 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_023.pdf
+2026-02-28 20:37:43  SAVED district_profile_h_024.pdf (66549 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_024.pdf
+2026-02-28 20:37:45  SAVED district_profile_h_025.pdf (66553 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_025.pdf
+2026-02-28 20:37:46  SAVED district_profile_h_026.pdf (66562 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_026.pdf
+2026-02-28 20:37:47  SAVED district_profile_h_027.pdf (66575 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_027.pdf
+2026-02-28 20:37:48  SAVED district_profile_h_028.pdf (66562 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_028.pdf
+2026-02-28 20:37:49  SAVED district_profile_h_029.pdf (66534 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_029.pdf
+2026-02-28 20:37:50  SAVED district_profile_h_030.pdf (66529 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_030.pdf
+2026-02-28 20:37:51  SAVED district_profile_h_031.pdf (66533 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_031.pdf
+2026-02-28 20:37:53  SAVED district_profile_h_032.pdf (66545 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_032.pdf
+2026-02-28 20:37:54  SAVED district_profile_h_033.pdf (66547 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_033.pdf
+2026-02-28 20:37:55  SAVED district_profile_h_034.pdf (66520 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_034.pdf
+2026-02-28 20:37:56  SAVED district_profile_h_035.pdf (66512 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_035.pdf
+2026-02-28 20:37:57  SAVED district_profile_h_036.pdf (66534 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_036.pdf
+2026-02-28 20:37:58  SAVED district_profile_h_037.pdf (66507 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_037.pdf
+2026-02-28 20:38:00  SAVED district_profile_h_038.pdf (66532 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_038.pdf
+2026-02-28 20:38:01  SAVED district_profile_h_039.pdf (66561 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_039.pdf
+2026-02-28 20:38:02  SAVED district_profile_h_040.pdf (66523 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_040.pdf
+2026-02-28 20:38:03  SAVED district_profile_h_041.pdf (66511 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_041.pdf
+2026-02-28 20:38:04  SAVED district_profile_h_042.pdf (66526 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_042.pdf
+2026-02-28 20:38:06  SAVED district_profile_h_043.pdf (66538 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_043.pdf
+2026-02-28 20:38:07  SAVED district_profile_h_044.pdf (66558 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_044.pdf
+2026-02-28 20:38:08  SAVED district_profile_h_045.pdf (66555 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_045.pdf
+2026-02-28 20:38:09  SAVED district_profile_h_046.pdf (66528 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_046.pdf
+2026-02-28 20:38:10  SAVED district_profile_h_047.pdf (66578 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_047.pdf
+2026-02-28 20:38:11  SAVED district_profile_h_048.pdf (66544 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_048.pdf
+2026-02-28 20:38:13  SAVED district_profile_h_049.pdf (66537 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_049.pdf
+2026-02-28 20:38:14  SAVED district_profile_h_050.pdf (66525 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_050.pdf
+2026-02-28 20:38:15  SAVED district_profile_h_051.pdf (66538 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_051.pdf
+2026-02-28 20:38:16  SAVED district_profile_h_052.pdf (66562 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_052.pdf
+2026-02-28 20:38:17  SAVED district_profile_h_053.pdf (66542 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_053.pdf
+2026-02-28 20:38:18  SAVED district_profile_h_054.pdf (66544 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_054.pdf
+2026-02-28 20:38:20  SAVED district_profile_h_055.pdf (66565 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_055.pdf
+2026-02-28 20:38:21  SAVED district_profile_h_056.pdf (66526 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_056.pdf
+2026-02-28 20:38:22  SAVED district_profile_h_057.pdf (66580 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_057.pdf
+2026-02-28 20:38:23  SAVED district_profile_h_058.pdf (66543 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_058.pdf
+2026-02-28 20:38:24  SAVED district_profile_h_059.pdf (66542 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_059.pdf
+2026-02-28 20:38:26  SAVED district_profile_h_060.pdf (66538 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_060.pdf
+2026-02-28 20:38:27  SAVED district_profile_h_061.pdf (66550 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_061.pdf
+2026-02-28 20:38:28  SAVED district_profile_h_062.pdf (66562 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_062.pdf
+2026-02-28 20:38:29  SAVED district_profile_h_063.pdf (66547 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_063.pdf
+2026-02-28 20:38:30  SAVED district_profile_h_064.pdf (66568 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_064.pdf
+2026-02-28 20:38:32  SAVED district_profile_h_065.pdf (66532 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_065.pdf
+2026-02-28 20:38:33  SAVED district_profile_h_066.pdf (66522 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_066.pdf
+2026-02-28 20:38:34  SAVED district_profile_h_067.pdf (66489 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_067.pdf
+2026-02-28 20:38:35  SAVED district_profile_h_068.pdf (66542 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_068.pdf
+2026-02-28 20:38:36  SAVED district_profile_h_069.pdf (66510 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_069.pdf
+2026-02-28 20:38:38  SAVED district_profile_h_070.pdf (66574 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_070.pdf
+2026-02-28 20:38:39  SAVED district_profile_h_071.pdf (66580 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_071.pdf
+2026-02-28 20:38:40  SAVED district_profile_h_072.pdf (66558 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_072.pdf
+2026-02-28 20:38:41  SAVED district_profile_h_073.pdf (66566 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_073.pdf
+2026-02-28 20:38:42  SAVED district_profile_h_074.pdf (66569 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_074.pdf
+2026-02-28 20:38:44  SAVED district_profile_h_075.pdf (66520 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_075.pdf
+2026-02-28 20:38:45  SAVED district_profile_h_076.pdf (66609 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_076.pdf
+2026-02-28 20:38:46  SAVED district_profile_h_077.pdf (66578 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_077.pdf
+2026-02-28 20:38:47  SAVED district_profile_h_078.pdf (66553 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_078.pdf
+2026-02-28 20:38:49  SAVED district_profile_h_079.pdf (66579 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_079.pdf
+2026-02-28 20:38:50  SAVED district_profile_h_080.pdf (66538 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_080.pdf
+2026-02-28 20:38:51  SAVED district_profile_h_081.pdf (66564 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_081.pdf
+2026-02-28 20:38:52  SAVED district_profile_h_082.pdf (66494 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_082.pdf
+2026-02-28 20:38:53  SAVED district_profile_h_083.pdf (66547 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_083.pdf
+2026-02-28 20:38:55  SAVED district_profile_h_084.pdf (66556 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_084.pdf
+2026-02-28 20:38:56  SAVED district_profile_h_085.pdf (66563 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_085.pdf
+2026-02-28 20:38:57  SAVED district_profile_h_086.pdf (66583 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_086.pdf
+2026-02-28 20:38:58  SAVED district_profile_h_087.pdf (66591 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_087.pdf
+2026-02-28 20:38:59  SAVED district_profile_h_088.pdf (66546 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_088.pdf
+2026-02-28 20:39:00  SAVED district_profile_h_089.pdf (66523 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_089.pdf
+2026-02-28 20:39:02  SAVED district_profile_h_090.pdf (66563 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_090.pdf
+2026-02-28 20:39:03  SAVED district_profile_h_091.pdf (66557 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_091.pdf
+2026-02-28 20:39:04  SAVED district_profile_h_092.pdf (66556 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_092.pdf
+2026-02-28 20:39:05  SAVED district_profile_h_093.pdf (66569 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_093.pdf
+2026-02-28 20:39:07  SAVED district_profile_h_094.pdf (66507 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_094.pdf
+2026-02-28 20:39:08  SAVED district_profile_h_095.pdf (66522 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_095.pdf
+2026-02-28 20:39:09  SAVED district_profile_h_096.pdf (66525 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_096.pdf
+2026-02-28 20:39:10  SAVED district_profile_h_097.pdf (66546 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_097.pdf
+2026-02-28 20:39:12  SAVED district_profile_h_098.pdf (66530 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_098.pdf
+2026-02-28 20:39:13  SAVED district_profile_h_099.pdf (66487 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_099.pdf
+2026-02-28 20:39:14  SAVED district_profile_h_100.pdf (66504 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_100.pdf
+2026-02-28 20:39:15  SAVED district_profile_h_101.pdf (66588 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_101.pdf
+2026-02-28 20:39:17  SAVED district_profile_h_102.pdf (66546 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_102.pdf
+2026-02-28 20:39:18  SAVED district_profile_h_103.pdf (66519 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_103.pdf
+2026-02-28 20:39:19  SAVED district_profile_h_104.pdf (66539 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_104.pdf
+2026-02-28 20:39:20  SAVED district_profile_h_105.pdf (66549 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_105.pdf
+2026-02-28 20:39:21  SAVED district_profile_h_106.pdf (66587 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_106.pdf
+2026-02-28 20:39:22  SAVED district_profile_h_107.pdf (66605 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_107.pdf
+2026-02-28 20:39:24  SAVED district_profile_h_108.pdf (66532 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_108.pdf
+2026-02-28 20:39:25  SAVED district_profile_h_109.pdf (66619 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_109.pdf
+2026-02-28 20:39:26  SAVED district_profile_h_110.pdf (66581 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_110.pdf
+2026-02-28 20:39:27  SAVED district_profile_h_111.pdf (66542 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_111.pdf
+2026-02-28 20:39:28  SAVED district_profile_h_112.pdf (66528 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_112.pdf
+2026-02-28 20:39:30  SAVED district_profile_h_113.pdf (66586 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_113.pdf
+2026-02-28 20:39:31  SAVED district_profile_h_114.pdf (66545 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_114.pdf
+2026-02-28 20:39:32  SAVED district_profile_h_115.pdf (66598 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_115.pdf
+2026-02-28 20:39:33  SAVED district_profile_h_116.pdf (66592 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_116.pdf
+2026-02-28 20:39:34  SAVED district_profile_h_117.pdf (66551 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_117.pdf
+2026-02-28 20:39:36  SAVED district_profile_h_118.pdf (66623 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_118.pdf
+2026-02-28 20:39:37  SAVED district_profile_h_119.pdf (66544 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_119.pdf
+2026-02-28 20:39:38  SAVED district_profile_h_120.pdf (66603 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_120.pdf
+2026-02-28 20:39:39  SAVED district_profile_h_121.pdf (66533 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_121.pdf
+2026-02-28 20:39:41  SAVED district_profile_h_122.pdf (66625 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_122.pdf
+2026-02-28 20:39:42  SAVED district_profile_h_123.pdf (66611 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_123.pdf
+2026-02-28 20:39:43  SAVED district_profile_h_124.pdf (66579 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_124.pdf
+2026-02-28 20:39:44  SAVED district_profile_h_125.pdf (66568 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_h_125.pdf
+2026-02-28 20:40:02  HTTPError 502 https://kslegislature.org/li/b2025_26/members/sen_bowser_craig_1/
+2026-02-28 20:40:03  HTTPError 502 https://kslegislature.org/li/b2025_26/members/sen_claeys_joseph_1/
+2026-02-28 20:43:03  SAVED permanent_journal_senate_2025.pdf (15502971 bytes) <- https://kslegislature.org/li/b2025_26/chamber/documents/permanent_journal_senate_2025.pdf
+2026-02-28 20:43:04  SAVED final_calendar_senate_2025.pdf (102809 bytes) <- https://kslegislature.org/li/b2025_26/chamber/documents/final_calendar_senate_2025.pdf
+2026-02-28 20:44:22  SAVED senate_rules.pdf (289631 bytes) <- https://kslegislature.org/li/s/pdf/senate_rules.pdf
+2026-02-28 20:44:24  SAVED district_map_s_001.pdf (251712 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_001.pdf
+2026-02-28 20:44:25  SAVED district_profile_s_001.pdf (66694 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_001.pdf
+2026-02-28 20:44:27  SAVED district_map_s_002.pdf (185297 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_002.pdf
+2026-02-28 20:44:28  SAVED district_profile_s_002.pdf (66546 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_002.pdf
+2026-02-28 20:44:29  SAVED district_map_s_003.pdf (232347 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_003.pdf
+2026-02-28 20:44:31  SAVED district_profile_s_003.pdf (66632 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_003.pdf
+2026-02-28 20:44:32  SAVED district_map_s_004.pdf (180947 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_004.pdf
+2026-02-28 20:44:33  SAVED district_profile_s_004.pdf (66567 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_004.pdf
+2026-02-28 20:44:34  SAVED district_map_s_005.pdf (98285 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_005.pdf
+2026-02-28 20:44:35  SAVED district_profile_s_005.pdf (66575 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_005.pdf
+2026-02-28 20:44:37  SAVED district_map_s_006.pdf (210397 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_006.pdf
+2026-02-28 20:44:38  SAVED district_profile_s_006.pdf (66597 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_006.pdf
+2026-02-28 20:44:39  SAVED district_map_s_007.pdf (171601 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_007.pdf
+2026-02-28 20:44:41  SAVED district_profile_s_007.pdf (66582 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_007.pdf
+2026-02-28 20:44:42  SAVED district_map_s_008.pdf (175077 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_008.pdf
+2026-02-28 20:44:43  SAVED district_profile_s_008.pdf (66547 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_008.pdf
+2026-02-28 20:44:45  SAVED district_map_s_009.pdf (178809 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_009.pdf
+2026-02-28 20:44:46  SAVED district_profile_s_009.pdf (66603 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_009.pdf
+2026-02-28 20:44:47  SAVED district_map_s_010.pdf (207710 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_010.pdf
+2026-02-28 20:44:49  SAVED district_profile_s_010.pdf (66564 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_010.pdf
+2026-02-28 20:44:50  SAVED district_map_s_011.pdf (204380 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_011.pdf
+2026-02-28 20:44:51  SAVED district_profile_s_011.pdf (66587 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_011.pdf
+2026-02-28 20:44:53  SAVED district_map_s_012.pdf (234264 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_012.pdf
+2026-02-28 20:44:54  SAVED district_profile_s_012.pdf (66642 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_012.pdf
+2026-02-28 20:44:55  SAVED district_map_s_013.pdf (192896 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_013.pdf
+2026-02-28 20:44:56  SAVED district_profile_s_013.pdf (66611 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_013.pdf
+2026-02-28 20:44:58  SAVED district_map_s_014.pdf (234190 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_014.pdf
+2026-02-28 20:44:59  SAVED district_profile_s_014.pdf (66667 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_014.pdf
+2026-02-28 20:45:01  SAVED district_map_s_015.pdf (192362 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_015.pdf
+2026-02-28 20:45:02  SAVED district_profile_s_015.pdf (66615 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_015.pdf
+2026-02-28 20:45:03  SAVED district_map_s_016.pdf (120173 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_016.pdf
+2026-02-28 20:45:04  SAVED district_profile_s_016.pdf (66586 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_016.pdf
+2026-02-28 20:45:06  SAVED district_map_s_017.pdf (198792 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_017.pdf
+2026-02-28 20:45:07  SAVED district_profile_s_017.pdf (66601 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_017.pdf
+2026-02-28 20:45:08  SAVED district_map_s_018.pdf (205535 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_018.pdf
+2026-02-28 20:45:09  SAVED district_profile_s_018.pdf (66633 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_018.pdf
+2026-02-28 20:45:11  SAVED district_map_s_019.pdf (180998 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_019.pdf
+2026-02-28 20:45:12  SAVED district_profile_s_019.pdf (66604 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_019.pdf
+2026-02-28 20:45:13  SAVED district_map_s_020.pdf (172384 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_020.pdf
+2026-02-28 20:45:14  SAVED district_profile_s_020.pdf (66563 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_020.pdf
+2026-02-28 20:45:16  SAVED district_map_s_021.pdf (190141 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_021.pdf
+2026-02-28 20:45:17  SAVED district_profile_s_021.pdf (66581 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_021.pdf
+2026-02-28 20:45:18  SAVED district_map_s_022.pdf (172750 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_022.pdf
+2026-02-28 20:45:19  SAVED district_profile_s_022.pdf (66613 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_022.pdf
+2026-02-28 20:45:21  SAVED district_map_s_023.pdf (177219 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_023.pdf
+2026-02-28 20:45:22  SAVED district_profile_s_023.pdf (66638 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_023.pdf
+2026-02-28 20:45:23  SAVED district_map_s_024.pdf (178115 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_024.pdf
+2026-02-28 20:45:24  SAVED district_profile_s_024.pdf (66608 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_024.pdf
+2026-02-28 20:45:26  SAVED district_map_s_025.pdf (297988 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_025.pdf
+2026-02-28 20:45:27  SAVED district_profile_s_025.pdf (66594 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_025.pdf
+2026-02-28 20:45:29  SAVED district_map_s_026.pdf (116978 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_026.pdf
+2026-02-28 20:45:30  SAVED district_profile_s_026.pdf (66597 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_026.pdf
+2026-02-28 20:45:31  SAVED district_map_s_027.pdf (155810 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_027.pdf
+2026-02-28 20:45:33  SAVED district_profile_s_027.pdf (66522 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_027.pdf
+2026-02-28 20:45:34  SAVED district_map_s_028.pdf (168452 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_028.pdf
+2026-02-28 20:45:35  SAVED district_profile_s_028.pdf (66609 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_028.pdf
+2026-02-28 20:45:36  SAVED district_map_s_029.pdf (119959 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_029.pdf
+2026-02-28 20:45:37  SAVED district_profile_s_029.pdf (66562 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_029.pdf
+2026-02-28 20:45:38  SAVED district_map_s_030.pdf (103764 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_030.pdf
+2026-02-28 20:45:40  SAVED district_profile_s_030.pdf (66570 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_030.pdf
+2026-02-28 20:45:41  SAVED district_map_s_031.pdf (188870 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_031.pdf
+2026-02-28 20:45:42  SAVED district_profile_s_031.pdf (66638 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_031.pdf
+2026-02-28 20:45:44  SAVED district_map_s_032.pdf (407715 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_032.pdf
+2026-02-28 20:45:45  SAVED district_profile_s_032.pdf (66651 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_032.pdf
+2026-02-28 20:45:46  SAVED district_map_s_033.pdf (227374 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_033.pdf
+2026-02-28 20:45:47  SAVED district_profile_s_033.pdf (66748 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_033.pdf
+2026-02-28 20:45:49  SAVED district_map_s_034.pdf (176082 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_034.pdf
+2026-02-28 20:45:50  SAVED district_profile_s_034.pdf (66612 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_034.pdf
+2026-02-28 20:45:51  SAVED district_map_s_035.pdf (177777 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_035.pdf
+2026-02-28 20:45:52  SAVED district_profile_s_035.pdf (66596 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_035.pdf
+2026-02-28 20:45:54  SAVED district_map_s_036.pdf (307329 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_036.pdf
+2026-02-28 20:45:55  SAVED district_profile_s_036.pdf (66678 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_036.pdf
+2026-02-28 20:45:56  SAVED district_map_s_037.pdf (123716 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_037.pdf
+2026-02-28 20:45:57  SAVED district_profile_s_037.pdf (66646 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_037.pdf
+2026-02-28 20:45:59  SAVED district_map_s_038.pdf (191649 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_038.pdf
+2026-02-28 20:46:00  SAVED district_profile_s_038.pdf (66690 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_038.pdf
+2026-02-28 20:46:01  SAVED district_map_s_039.pdf (194222 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_039.pdf
+2026-02-28 20:46:03  SAVED district_profile_s_039.pdf (66631 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_039.pdf
+2026-02-28 20:46:04  SAVED district_map_s_040.pdf (258221 bytes) <- https://kslegislature.org/li/s/pdf/district_maps/district_map_s_040.pdf
+2026-02-28 20:46:05  SAVED district_profile_s_040.pdf (66735 bytes) <- https://kslegislature.org/li/s/pdf/klrd/district_profiles/district_profile_s_040.pdf
+2026-02-28 20:50:01  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb29/
+2026-02-28 20:50:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb30/
+2026-02-28 20:50:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb31/
+2026-02-28 20:55:01  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb113/
+2026-02-28 20:55:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb114/
+2026-02-28 20:55:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb115/
+2026-02-28 21:00:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb207/
+2026-02-28 21:00:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb208/
+2026-02-28 21:00:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb209/
+2026-02-28 21:05:01  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb301/
+2026-02-28 21:05:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb302/
+2026-02-28 21:05:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb303/
+2026-03-01 03:38:58  ERROR fetch https://kslegislature.org/li/current/: timeout('The read operation timed out')
+2026-03-01 03:39:50  ERROR fetch https://kslegislature.org/li/b2025_26/committees/conference/: timeout('The read operation timed out')
+2026-03-01 03:40:02  HTTPError 502 https://kslegislature.org/li/b2025_26/year2/measures/reports/
+2026-03-01 03:40:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/documents/actions_and_subject_index_report
+2026-03-01 03:40:04  HTTPError 502 https://kslegislature.org/li/b2025_26/chamber/journals/
+2026-03-01 03:40:36  HTTPError 502 https://budget.kansas.gov/xmlrpc.php
+2026-03-01 03:41:16  SAVED LCC_Meeting_Notice_January_8_2026.pdf (243810 bytes) <- https://ksrevisor.org/docs/LCC_Packet20260108/LCC_Meeting_Notice_January_8_2026.pdf
+2026-03-01 03:41:18  SAVED Agenda_LCC_January_8_2026.pdf (78380 bytes) <- https://ksrevisor.org/docs/LCC_Packet20260108/Agenda_LCC_January_8_2026.pdf
+2026-03-01 03:41:19  SAVED Item_1_Proposed_Minutes_December_22_2025.pdf (55980 bytes) <- https://ksrevisor.org/docs/LCC_Packet20260108/Item_1_Proposed_Minutes_December_22_2025.pdf
+2026-03-01 03:41:20  SAVED Item_2_LCC_Policy_38_Amend.pdf (37786 bytes) <- https://ksrevisor.org/docs/LCC_Packet20260108/Item_2_LCC_Policy_38_Amend.pdf
+2026-03-01 03:41:22  SAVED Item_4_LCC_Memo_KLISS_Update.pdf (51046 bytes) <- https://ksrevisor.org/docs/LCC_Packet20260108/Item_4_LCC_Memo_KLISS_Update.pdf
+2026-03-01 03:41:23  SAVED LCC_Notice_December_22_2025_revised.pdf (244491 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251222/LCC_Notice_December_22_2025_revised.pdf
+2026-03-01 03:41:24  SAVED LCC_Meeting_Agenda.pdf (76632 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251222/LCC_Meeting_Agenda.pdf
+2026-03-01 03:41:26  SAVED PROPOSED_MINUTES_November_5_2025.pdf (46188 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251222/PROPOSED_MINUTES_November_5_2025.pdf
+2026-03-01 03:41:27  SAVED LCC_Notice_November_5_2025.pdf (244481 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251105/LCC_Notice_November_5_2025.pdf
+2026-03-01 03:41:28  SAVED LCC_Agenda_November_5_2025.pdf (58296 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251105/LCC_Agenda_November_5_2025.pdf
+2026-03-01 03:41:30  SAVED Item_1_Proposed_Minutes_October_13_2025.pdf (49132 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251105/Item_1_Proposed_Minutes_October_13_2025.pdf
+2026-03-01 03:41:31  SAVED Item_3_Legislative_branch_holidays_for_2026.pdf (23005 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251105/Item_3_Legislative_branch_holidays_for_2026.pdf
+2026-03-01 03:41:32  SAVED Item_6_LCC_Steering_Committee_Report_final.pdf (67048 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251105/Item_6_LCC_Steering_Committee_Report_final.pdf
+2026-03-01 03:41:34  SAVED Item_7_LCC_Policy_33_and_38_matters.pdf (381147 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251105/Item_7_LCC_Policy_33_and_38_matters.pdf
+2026-03-01 03:41:36  SAVED LCC_Meeting_Notice_October_13_2025.pdf (244397 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251013/LCC_Meeting_Notice_October_13_2025.pdf
+2026-03-01 03:41:37  SAVED LCC_Meeting_Agenda_093331f3.pdf (96533 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251013/LCC_Meeting_Agenda.pdf
+2026-03-01 03:41:38  SAVED Item_1_PROPOSED_MINUTES_LCC_September_24_2025.pdf (47819 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251013/Item_1_PROPOSED_MINUTES_LCC_September_24_2025.pdf
+2026-03-01 03:41:43  SAVED Item_3_Consideration_and_approval_of_Legislative_agency_budgets.pdf (2579844 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251013/Item_3_Consideration_and_approval_of_Legislative_agency_budgets.pdf
+2026-03-01 03:41:45  SAVED Item_4_Document_Packet_Pricing.pdf (207128 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251013/Item_4_Document_Packet_Pricing.pdf
+2026-03-01 03:41:47  SAVED Item_5_2026_KSA_prices_annotated.pdf (319886 bytes) <- https://ksrevisor.org/docs/LCC_Packet20251013/Item_5_2026_KSA_prices_annotated.pdf
+2026-03-01 03:41:48  SAVED LCC_Meeting_Notice_September_24_2025.pdf (449319 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/LCC_Meeting_Notice_September_24_2025.pdf
+2026-03-01 03:41:50  SAVED LCC_Agenda_September_24_2025.pdf (76895 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/LCC_Agenda_September_24_2025.pdf
+2026-03-01 03:41:51  SAVED Item_1_Proposed_Minutes_August_14_2025.pdf (66322 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/Item_1_Proposed_Minutes_August_14_2025.pdf
+2026-03-01 03:41:53  SAVED Item_2_Additional_interim_committees_topics_and_meeting_days.pdf (254991 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/Item_2_Additional_interim_committees_topics_and_meeting_days.pdf
+2026-03-01 03:41:55  SAVED Item_3_Notices_and_intention_to_dispose_of_school_buildings.pdf (691053 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/Item_3_Notices_and_intention_to_dispose_of_school_buildings.pdf
+2026-03-01 03:41:56  SAVED Item_5_Pricing_for_Legislative_Highlights_and_Summary_of_Legislation_Documents.pdf (189024 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/Item_5_Pricing_for_Legislative_Highlights_and_Summary_of_Legislation_Documents.pdf
+2026-03-01 03:41:58  SAVED Item_6_Session_Pay_Plan.pdf (292679 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/Item_6_Session_Pay_Plan.pdf
+2026-03-01 03:41:59  SAVED Item_8_Subscription_for_upgrades_and_support_of_virtual_statehouse_system.pdf (171999 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250924/Item_8_Subscription_for_upgrades_and_support_of_virtual_statehouse_system.pdf
+2026-03-01 03:42:01  SAVED LCC_Notice_August_14_2025.pdf (179905 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/LCC_Notice_August_14_2025.pdf
+2026-03-01 03:42:02  SAVED LCC_Agenda_August_14_2025.pdf (97340 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/LCC_Agenda_August_14_2025.pdf
+2026-03-01 03:42:04  SAVED Item_1_Proposed_Minutes_July_7_2025.pdf (93407 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/Item_1_Proposed_Minutes_July_7_2025.pdf
+2026-03-01 03:42:06  SAVED Item_2_Delperdang_and_Shallenburger_interm_requests.pdf (545711 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/Item_2_Delperdang_and_Shallenburger_interm_requests.pdf
+2026-03-01 03:42:07  SAVED Item_4_USD_220_Ashland_Schools_Memo.pdf (133647 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/Item_4_USD_220_Ashland_Schools_Memo.pdf
+2026-03-01 03:42:08  SAVED Item_5_Permanent_Journal_Order_LCC_2025.pdf (241028 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/Item_5_Permanent_Journal_Order_LCC_2025.pdf
+2026-03-01 03:42:10  SAVED Item_6_KLOIS_LAS_Data_Center_Upgrade_08142025.pdf (170043 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/Item_6_KLOIS_LAS_Data_Center_Upgrade_08142025.pdf
+2026-03-01 03:42:11  SAVED Item_7_KLISS_Update_08142025.pdf (123415 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250814/Item_7_KLISS_Update_08142025.pdf
+2026-03-01 03:42:13  SAVED LCC_Notice_July_7_2025.pdf (263939 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250707/LCC_Notice_July_7_2025.pdf
+2026-03-01 03:42:14  SAVED LCC_Agenda_July_7_2025.pdf (100167 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250707/LCC_Agenda_July_7_2025.pdf
+2026-03-01 03:42:15  SAVED Item_3_Staff_Budget_Preparation.pdf (133610 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250707/Item_3_Staff_Budget_Preparation.pdf
+2026-03-01 03:42:17  SAVED Item_5_KLISS_Modernization.pdf (62778 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250707/Item_5_KLISS_Modernization.pdf
+2026-03-01 03:42:18  SAVED Item_7_House_Voting_Boards.pdf (172527 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250707/Item_7_House_Voting_Boards.pdf
+2026-03-01 03:42:19  SAVED Item_9_KHP_LCC_Capitol_Police_Transition_Briefing_7-7-25_vF.pdf (97195 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250707/Item_9_KHP_LCC_Capitol_Police_Transition_Briefing_7-7-25_vF.pdf
+2026-03-01 03:42:21  SAVED LCC_Meeting_Notice_Thursday_May_8_2025_Revised.pdf (264183 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250508/LCC_Meeting_Notice_Thursday_May_8_2025_Revised.pdf
+2026-03-01 03:42:22  SAVED LCC_Agenda_May_8_2025.pdf (78264 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250508/LCC_Agenda_May_8_2025.pdf
+2026-03-01 03:42:24  SAVED LCC_Meeting_Notice_March_18_2025.pdf (263752 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250318/LCC_Meeting_Notice_March_18_2025.pdf
+2026-03-01 03:42:25  SAVED LCC_Agenda_March_18_2025.pdf (72502 bytes) <- https://ksrevisor.org/docs/LCC_Packet20250318/LCC_Agenda_March_18_2025.pdf
+2026-03-01 03:42:26  SAVED LCC-2025.pdf (180376 bytes) <- https://ksrevisor.org/rpts/LCC-2025.pdf
+2026-03-01 03:42:28  SAVED 2026_Interim_Committee_Assignments.pdf (78998 bytes) <- https://ksrevisor.org/docs/2026_Interim_Committee_Assignments.pdf
+2026-03-01 03:42:29  SAVED Chapter72_Transfer_Memo_and_Table.pdf (106253 bytes) <- https://ksrevisor.org/rpts/Chapter72_Transfer_Memo_and_Table.pdf
+2026-03-01 03:42:31  SAVED KS_School_Equity_Act.pdf (289321 bytes) <- https://ksrevisor.org/rpts/KS_School_Equity_Act.pdf
+2026-03-01 03:42:33  SAVED Special_Session_Memorandum_Legislative_Procedures_for_Special_Sessions_Updated_June_2024.pdf (220751 bytes) <- https://ksrevisor.org/docs/Special_Session_Memorandum_Legislative_Procedures_for_Special_Sessions_Updated_June_2024.pdf
+2026-03-01 03:42:35  SAVED Bill_Brief_SB1.pdf (174071 bytes) <- https://ksrevisor.org/docs/Bill_Brief_SB1.pdf
+2026-03-01 03:42:36  SAVED Bill_Brief_SPECIAL_SESSION_Major_Professional_Sports_Franchise_STAR_BOND_PROJECT.pdf (228802 bytes) <- https://ksrevisor.org/docs/Bill_Brief_SPECIAL_SESSION_Major_Professional_Sports_Franchise_STAR_BOND_PROJECT.pdf
+2026-03-01 03:42:39  SAVED 2025NewAmendsAndRepealsBillOrder.pdf (907952 bytes) <- https://ksrevisor.org/rpts/2025NewAmendsAndRepealsBillOrder.pdf
+2026-03-01 03:42:41  SAVED 2025NewAmendsAndRepealsKSAOrder.pdf (698708 bytes) <- https://ksrevisor.org/rpts/2025NewAmendsAndRepealsKSAOrder.pdf
+2026-03-01 03:42:43  SAVED 2024NewAmendsAndRepealsBillOrder.pdf (730614 bytes) <- https://ksrevisor.org/rpts/2024NewAmendsAndRepealsBillOrder.pdf
+2026-03-01 03:42:46  SAVED 2024NewAmendsAndRepealsKSAOrder.pdf (907179 bytes) <- https://ksrevisor.org/rpts/2024NewAmendsAndRepealsKSAOrder.pdf
+2026-03-01 03:42:49  SAVED 2023NewAmendsAndRepealsBillOrder.pdf (1290592 bytes) <- https://ksrevisor.org/rpts/2023NewAmendsAndRepealsBillOrder.pdf
+2026-03-01 03:42:51  SAVED 2023NewAmendsAndRepealsKSAOrder.pdf (647002 bytes) <- https://ksrevisor.org/rpts/2023NewAmendsAndRepealsKSAOrder.pdf
+2026-03-01 03:43:19  ERROR fetch https://kslegislature.org/li_2024/current/: timeout('The read operation timed out')
+2026-03-01 03:43:33  HTTPError 500 https://kslegislature.org/li_2024/b2023_24/chamber/house/seating/
+2026-03-01 03:44:18  DUP content already saved as actions_and_subject_index_report_34a72cdb.pdf: https://kslegislature.org/li_2024/b2023_24/measures/documents/actions_and_subject_index_report
+2026-03-01 03:44:49  DUP content already saved as legislative_deadlines.pdf: https://kslegislature.org/li/b2025_26/measures/documents/legislative_deadlines
+2026-03-01 03:45:01  HTTPError 502 https://kslegislature.org/li/b2025_26/members/rep_barrett_bradley_1/
+2026-03-01 03:45:02  HTTPError 502 https://kslegislature.org/li/b2025_26/members/rep_bergkamp_brian_1/
+2026-03-01 03:45:03  HTTPError 502 https://kslegislature.org/li/b2025_26/members/rep_bergquist_emil_1/
+2026-03-01 03:45:04  HTTPError 502 https://kslegislature.org/li/b2025_26/members/rep_blex_doug_1/
+2026-03-01 03:50:03  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/ctte_h_gen_govt_bdgt_1/
+2026-03-01 03:50:03  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/ctte_h_hhs_1/
+2026-03-01 03:50:04  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/ctte_h_higher_education_budget_1/
+2026-03-01 03:51:05  HTTPError 404 https://kslegislature.org/cdn-cgi/l/email-protection
+2026-03-01 03:55:01  HTTPError 502 https://kslegislature.org/li/b2025_26/members/csv/
+2026-03-01 03:55:02  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/ctte_jt_cjjo_1/
+2026-03-01 03:55:03  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/ctte_jt_rules_regs_1/
+2026-03-01 03:55:04  HTTPError 502 https://kslegislature.org/li/b2025_26/committees/ctte_jt_child_welfare_ovst_1/
+2026-03-01 04:00:01  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb52/
+2026-03-01 04:00:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb53/
+2026-03-01 04:00:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb54/
+2026-03-01 04:00:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb55/
+2026-03-01 04:05:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb148/
+2026-03-01 04:05:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb149/
+2026-03-01 04:05:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb150/
+2026-03-01 04:10:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb247/
+2026-03-01 04:10:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb248/
+2026-03-01 04:10:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb249/
+2026-03-01 04:15:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb354/
+2026-03-01 04:15:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb355/
+2026-03-01 04:15:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb356/
+2026-03-01 04:15:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb357/
+2026-03-01 04:20:01  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb456/
+2026-03-01 04:20:02  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb457/
+2026-03-01 04:20:03  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb458/
+2026-03-01 04:20:04  HTTPError 502 https://kslegislature.org/li/b2025_26/measures/sb459/

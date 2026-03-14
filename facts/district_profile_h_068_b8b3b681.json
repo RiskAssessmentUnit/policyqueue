@@ -1,0 +1,15 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 284329,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

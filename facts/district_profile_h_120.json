@@ -1,0 +1,37 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "23,310",
+      "value": 23310,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Data Source: U.S. Census Bureau",
+      "note": "Census of Population and Housing"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

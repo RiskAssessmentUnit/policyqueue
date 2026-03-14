@@ -1,0 +1,28 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Data Source:",
+      "note": "U.S. Census Bureau, Census of Population and Housing"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

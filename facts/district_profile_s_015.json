@@ -1,0 +1,19 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

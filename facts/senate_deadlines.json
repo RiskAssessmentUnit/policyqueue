@@ -1,0 +1,109 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "January 8",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "January 29",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "February 5",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "February 7",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "February 9",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "February 23",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "March 28",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "April 5",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "April 29",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    }
+  ],
+  "events": [
+    {
+      "date": "January 8",
+      "year": 2024,
+      "description": "Legislative Session Begins"
+    },
+    {
+      "date": "January 29",
+      "year": 2024,
+      "description": "Last day for member or members to REQUEST bill drafts from Revisor's office"
+    },
+    {
+      "date": "February 5",
+      "year": 2024,
+      "description": "Last day for non-exempt Committees to REQUEST bill drafts from the Revisor's office"
+    },
+    {
+      "date": "February 7",
+      "year": 2024,
+      "description": "Last day for Individuals to INTRODUCE bills in originating chamber"
+    },
+    {
+      "date": "February 9",
+      "year": 2024,
+      "description": "Last day for non-exempt Committees to INTRODUCE bills in originating chamber"
+    },
+    {
+      "date": "February 23",
+      "year": 2024,
+      "description": "Last day to CONSIDER NON-EXEMPT BILLS IN HOUSE OF ORIGIN"
+    },
+    {
+      "date": "March 28",
+      "year": 2024,
+      "description": "Last day to CONSIDER non-EXEMPT BILLS NOT IN ORIGINATING CHAMBER"
+    },
+    {
+      "date": "April 5",
+      "year": 2024,
+      "description": "No bills considered after this date except BILLS VETOED BY GOVERNOR, OMNIBUS APPROPRIATIONS ACT AND OMNIBUS RECONCILIATIONS SPENDING LIMIT BILL"
+    },
+    {
+      "date": "April 29",
+      "year": 2024,
+      "description": "Veto session begins"
+    }
+  ],
+  "evidence": []
+}

@@ -1,0 +1,73 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2021 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 6018620152,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total Receipts",
+      "value": 5971648480,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total Taxes (previous year)",
+      "value": 5278025842,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts (previous year)",
+      "value": 5264353547,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Taxes",
+      "value": 590120675,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "% of Total Received",
+      "value": 112.7,
+      "unit": "PERCENT",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": "4/1/2021",
+      "year": 2021,
+      "description": "Final Report: March 2021"
+    },
+    {
+      "date": "4/1/2021",
+      "year": 2021,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Property Tax/Fee: $10,316,265",
+      "note": "Cumulative Actual"
+    },
+    {
+      "quote": "Total Taxes: $232,740,152",
+      "note": "4.0%"
+    },
+    {
+      "quote": "$537,850,000 $590,120,675 $52,270,675 9.7%",
+      "note": "Total Taxes"
+    },
+    {
+      "quote": "112.7%",
+      "note": "% of Total Received"
+    }
+  ]
+}

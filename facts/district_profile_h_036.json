@@ -1,0 +1,52 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 23483,
+      "unit": "PERSONS",
+      "year": 2020
+    },
+    {
+      "label": null,
+      "value": 100.0,
+      "unit": "PERCENT",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "2020",
+      "year": 2020,
+      "description": "Census"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Profile produced by: Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "U.S. Census Bureau",
+      "note": "Data Source:"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

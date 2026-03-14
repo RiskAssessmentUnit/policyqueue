@@ -1,0 +1,64 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka",
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 23581,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Population (percent of total population)",
+      "value": 98.9,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 3173,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18 (percent of persons in Households)",
+      "value": 13.3,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    null
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Rahjes",
+      "type": "PERSON"
+    },
+    {
+      "name": "Neelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Blex",
+      "type": "PERSON"
+    },
+    {
+      "name": "Droge",
+      "type": "PERSON"
+    },
+    {
+      "name": "Fairchild",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gardner",
+      "type": "PERSON"
+    },
+    {
+      "name": "Minnix",
+      "type": "PERSON"
+    },
+    {
+      "name": "Moser",
+      "type": "PERSON"
+    },
+    {
+      "name": "Roeser",
+      "type": "PERSON"
+    },
+    {
+      "name": "Roth",
+      "type": "PERSON"
+    },
+    {
+      "name": "Seiwert",
+      "type": "PERSON"
+    },
+    {
+      "name": "White",
+      "type": "PERSON"
+    },
+    {
+      "name": "Waymaster",
+      "type": "PERSON"
+    },
+    {
+      "name": "Williams, K.",
+      "type": "PERSON"
+    },
+    {
+      "name": "Buehler",
+      "type": "PERSON"
+    },
+    {
+      "name": "Estes",
+      "type": "PERSON"
+    },
+    {
+      "name": "Goetz",
+      "type": "PERSON"
+    },
+    {
+      "name": "Hoffman",
+      "type": "PERSON"
+    },
+    {
+      "name": "Steele",
+      "type": "PERSON"
+    },
+    {
+      "name": "Sutton",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tarwater",
+      "type": "PERSON"
+    },
+    {
+      "name": "Wasinger",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

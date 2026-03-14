@@ -1,0 +1,31 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 1367694566,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 1372941665,
+      "unit": "USD",
+      "year": 2016
+    }
+  ],
+  "events": [
+    {
+      "date": "10/1/2015",
+      "description": "Cumulative actual net transfers includes approximately $22.0 million in special revenue fund transfers authorized by HB 2135 that occurred in August 2015."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$1,434,295,000",
+      "note": "Subtotal -  KDOR Tax Collections"
+    }
+  ]
+}

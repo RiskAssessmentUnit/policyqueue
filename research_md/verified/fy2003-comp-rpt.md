@@ -1,0 +1,454 @@
+# Research Draft: fy2003-comp-rpt
+
+- Source JSON: `fy2003-comp-rpt.json`
+- Keyword hits: **income tax, consensus revenue, budget**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2003 Budget Receipts by Major Category",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund balance",
+      "value": 0,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "State General Fund balance",
+      "value": 0,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Projected beginning balance for FY 2004",
+      "value": 0,
+      "unit": "USD",
+      "year": 2004
+    },
+    {
+      "label": "Total Receipts",
+      "value": 2.7,
+      "unit": "BILLIONS USD",
+      "year": 2003
+    },
+    {
+      "label": "State General Fund",
+      "value": 1.244,
+      "unit": "BILLIONS USD",
+      "year": 2003
+    },
+    {
+      "label": "Federal Grants",
+      "value": 2.7,
+      "unit": "BILLIONS USD",
+      "year": 2003
+    },
+    {
+      "label": "Dedicated Tax Receipts",
+      "value": 0.183,
+      "unit": "BILLIONS USD",
+      "year": 2003
+    },
+    {
+      "label": "Agency Service Charges",
+      "value": 0.097,
+      "unit": "BILLIONS USD",
+      "year": 2003
+    },
+    {
+      "label": "Non-revenue Receipts",
+      "value": 0.027,
+      "unit": "BILLIONS USD",
+      "year": 2003
+    },
+    {
+      "label": "State General Fund receipts",
+      "value": 4464000,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Individual and corporation income tax receipts",
+      "value": -125000,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Corporation income tax receipts",
+      "value": -70000,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Motor Fuels Tax Increase",
+      "value": 18.0,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Registration Fees Increase",
+      "value": 4.0,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Motor Fuel Taxes",
+      "value": 0.23,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Motor Vehicle Registrations",
+      "value": 11.6,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Department of Administration",
+      "value": 2251375,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--General Government",
+      "value": 2948593,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Social & Rehabilitation Services",
+      "value": 470618207,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Subtotal--SRS",
+      "value": 470618207,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 632430371,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 653526829,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 105111890,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "General Government",
+      "value": 885.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Department of Administration",
+      "value": 885.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Kansas Corporation Commission",
+      "value": 214.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Citizens' Utility Ratepayer Board",
+      "value": 4.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Kansas Human Rights Commission",
+      "value": 37.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Board of Indigents' Defense Services",
+      "value": 166.5,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Health Care Stabilization Board of Governors",
+      "value": 16.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "KPERS",
+      "value": 84.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Department of Commerce & Housing",
+      "value": 153.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Kansas Technology Enterprise Corp.",
+      "value": 30.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Kansas, Inc.",
+      "value": 4.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Kansas Lottery",
+      "value": 87.8,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Kansas Racing & Gaming Commission",
+      "value": 64.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Department of Revenue",
+      "value": 1196.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Board of Tax Appeals",
+      "value": 31.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Abstracters' Board of Examiners",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Board of Accountancy",
+      "value": 3.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Banking Department",
+      "value": 86.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Board of Barbering",
+      "value": 1.5,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Behavioral Sciences Regulatory Board",
+      "value": 8.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Board of Cosmetology",
+      "value": 12.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Department of Credit Unions",
+      "value": 13.0,
+      "unit": "FTE Positions",
+      "year": 2002
+    },
+    {
+      "label": "Total--General Government",
+      "value": 5583,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Authorized Positions",
+      "value": 3113.0,
+      "unit": "NUMBER",
+      "year": 2002
+    },
+    {
+      "label": "Authorized Positions",
+      "value": 3115.0,
+      "unit": "NUMBER",
+      "year": 2003
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 50343,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 50828,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 2803,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 2808,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 53146,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 53636,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Total--Agriculture & Natural Resources",
+      "value": 13035,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Agriculture & Natural Resources",
+      "value": 13000,
+      "unit": "USD",
+      "year": 2003
+    },
+    {
+      "label": "Total--Transportation",
+      "value": 402978,
+      "unit": "USD",
+      "year": 2002
+    },
+    {
+      "label": "Total--Transportation",
+      "value": 403490,
+      "unit": "USD",
+      "year": 2003
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 2003,
+      "description": "Consensus Revenue Estimate was revised downward on March 8"
+    },
+    {
+      "date": null,
+      "year": 2003,
+      "description": "Governor released a third budget plan on March 22 containing additional reductions and a revised revenue package of $364.0 million"
+    },
+    {
+      "date": "April 2001",
+      "year": 2001,
+      "description": "Tornado damage in Hoisington, Kansas"
+    },
+    {
+      "date": "February 2002",
+      "year": 2002,
+      "description": "Kansas Supreme Court decision"
+    },
+    {
+      "date": "March 2002",
+      "year": null,
+      "description": "Governor's Proposal"
+    },
+    {
+      "date": "July 1, 2002",
+      "year": 2002,
+      "description": "Motor fuel taxes increased to $0.23 per gallon"
+    },
+    {
+      "date": "July 1, 2003",
+      "year": 2003,
+      "description": "Motor fuel taxes increased to $0.24 per gallon"
+    },
+    {
+      "date": "July 1, 2020",
+      "year": 2020,
+      "description": "Motor fuel taxes decreased to $0.18 per gallon"
+    },
+    {
+      "date": null,
+      "year": 2002,
+      "description": "FY 2002 budget"
+    },
+    {
+      "date": "FY 2002",
+      "year": 2002,
+      "description": "FY 2002 Budget"
+    },
+    {
+      "date": "FY 2003",
+      "year": 2003,
+      "description": "FY 2003 Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Revenue collections during FY 2002 were dramatically lower than FY 2001 collections. Corporate and individual income tax receipts especially suffered from a declining economy and capital gain losses.",
+      "note": null
+  
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
+
+
+---
+
+## Web Verification (links only)
+
+Search query:
+`Research Draft fy2003-comp-rpt site:ks.gov site:kansas.gov`
+
+Search link:
+https://duckduckgo.com/?q=Research+Draft+fy2003-comp-rpt+site%3Aks.gov+site%3Akansas.gov
+
+Checked:
+**2026-03-05**
+
+Status: **REVIEWED (LINKS ONLY)**
+
+Notes:
+- Open the link and confirm against authoritative sources.
+- Add 1–3 official URLs under this section.

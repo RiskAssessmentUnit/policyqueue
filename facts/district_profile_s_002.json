@@ -1,0 +1,66 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "73,585",
+      "value": 73585,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "6,152",
+      "value": 6152,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "3,660",
+      "value": 3660,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "45,139",
+      "value": 45139,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "9,027",
+      "value": 9027,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "3,154",
+      "value": 3154,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "4,426",
+      "value": 4426,
+      "unit": "PERSONS",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

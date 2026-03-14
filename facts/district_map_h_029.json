@@ -1,0 +1,24 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Overland Park"
+  ],
+  "entities": [
+    {
+      "name": "House District 29",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,190 @@
+{
+  "program_type": "STAR_BOND",
+  "title": "Bill by Local Government, Transparency and Ethics",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Revenue",
+      "value": 8.43,
+      "unit": "BILLIONS",
+      "year": 2025
+    },
+    {
+      "label": "Sales Tax Revenue",
+      "value": 2.37,
+      "unit": "BILLIONS",
+      "year": 2025
+    },
+    {
+      "label": "STAR Bonds Issued",
+      "value": 0.65,
+      "unit": "BILLIONS",
+      "year": 2025
+    },
+    {
+      "label": "Statutory limits on bonds",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "STAR Bond Financing Act",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Amount issued, increase of",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "January 13, 2025",
+      "year": 2025,
+      "description": "Senate—Prefiled for Introduction on Friday, January 3, 2025—SJ 6"
+    },
+    {
+      "date": "February 19, 2025",
+      "year": 2025,
+      "description": "House—Hearing: Tuesday, February 25, 2025, 3:30 PM Room 218-N"
+    },
+    {
+      "date": "01/22/2025",
+      "year": null,
+      "description": "Hearing: Tuesday, January 28, 2025, 9:30 AM Room 142-S"
+    },
+    {
+      "date": "02/11/2025",
+      "year": null,
+      "description": "Emergency Final Action - Passed; Yea: 39 Nay: 0—SJ 134"
+    },
+    {
+      "date": "03/07/2025",
+      "year": null,
+      "description": "Emergency Final Action - Passed; Yea: 116 Nay: 5—HJ 406"
+    },
+    {
+      "date": "03/14/2025",
+      "year": null,
+      "description": "Enrolled and presented to Governor on Friday, March 14, 2025—SJ 308"
+    },
+    {
+      "date": "03/24/2025",
+      "year": null,
+      "description": "Approved by Governor on Friday, March 21, 2025—SJ 426"
+    },
+    {
+      "date": "May 14, 2025",
+      "year": null,
+      "description": "SENATE ACTIONS REPORT"
+    },
+    {
+      "date": "04/10/2025",
+      "year": null,
+      "description": "Senate—Approved by Governor on Monday, April 7, 2025—SJ 1074"
+    },
+    {
+      "date": "01/21/2025",
+      "year": 2025,
+      "description": "Senate—Introduced—SJ 30"
+    },
+    {
+      "date": "02/05/2025",
+      "year": 2025,
+      "description": "Senate—Hearing: Tuesday, February 11, 2025, 1:30 PM Room 144-S"
+    },
+    {
+      "date": "02/18/2025",
+      "year": 2025,
+      "description": "Senate—Committee Report recommending bill be passed as amended by Committee on Education"
+    },
+    {
+      "date": "02/19/2025",
+      "year": 2025,
+      "description": "Senate—Committee of the Whole - Committee Report be adopted—SJ 184"
+    },
+    {
+      "date": "02/19/2025",
+      "year": 2025,
+      "description": "Senate—Committee of the Whole - Be passed as further amended—SJ 184"
+    },
+    {
+      "date": "02/25/2025",
+      "year": 2025,
+      "description": "House—Received and Introduced—HJ 342"
+    },
+    {
+      "date": "03/05/2025",
+      "year": 2025,
+      "description": "House—Hearing: Tuesday, March 11, 2025, 1:30 PM Room 218-N"
+    },
+    {
+      "date": "03/14/2025",
+      "year": 2025,
+      "description": "House—Committee Report recommending bill be passed as amended by Committee on Education—HJ 499"
+    },
+    {
+      "date": "03/21/2025",
+      "year": 2025,
+      "description": "House—Withdrawn from Calendar, Rereferred to Committee on Education—HJ 614"
+    },
+    {
+      "date": "04/10/2025",
+      "year": 2025,
+      "description": "Senate—Enrolled and presented to Governor on Friday, April 4, 2025—SJ 1194"
+    },
+    {
+      "date": "04/10/2025",
+      "year": 2025,
+      "description": "Senate—Approved by Governor on Tuesday, April 8, 2025—SJ 1074"
+    },
+    {
+      "date": "May 14, 2025",
+      "year": null,
+      "description": "Bonds, Amount issued, increase of"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": null,
+      "note": null
+    },
+    {
+      "quote": "Establishing the blind information access act to require the state library to provide on-demand information access services to persons who are blind, visually impaired, deafblind or print disabled.",
+      "note": null
+    },
+    {
+      "quote": "Requiring school districts to publicly list the names and email addresses of current school board members, authorizing local school board members to add new items to board meeting discussions, ask questions or engage in discussion with members of the public and access school property, authorizing members of the public to address school boards at board meetings and authorizing payment of annual dues to any not-for-profit organization that provides services to member school districts.",
+      "note": null
+    },
+    {
+      "quote": "Requiring that each attendance center needs assessment be conducted by the local board of education and include input from board members, teachers, school site councils and school administrators and that board members receive certain state assessment data and identify allocations of money in the school district budget and budget summary.",
+      "note": null
+    },
+    {
+      "quote": "Providing a sales tax exemption for the construction or remodeling of a qualified data center in Kansas and the purchase of data center equipment,",
+      "note": null
+    },
+    {
+      "quote": "01/30/2025 Senate—Introduced—SJ 86",
+      "note": null
+    },
+    {
+      "quote": "01/31/2025 Senate—Referred to Committee on Public Health and Welfare—SJ 91",
+      "note": null
+    },
+    {
+      "quote": "02/05/2025 Senate—Hearing: Monday, February 10, 2025, 8:30 AM Room 142-S",
+      "note": null
+    }
+  ]
+}

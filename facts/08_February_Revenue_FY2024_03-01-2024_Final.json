@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2024 State General Fund Receipts Final Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 6129105719,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Total Receipts",
+      "value": 6139267468,
+      "unit": "USD",
+      "year": 2024
+    }
+  ],
+  "events": [
+    {
+      "date": "3/1/2024",
+      "year": 2024,
+      "description": "Kansas Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$3,544,500,000 $3,434,471,174 ($110,028,826) (3.1)%",
+      "note": "Total Income Taxes revenue"
+    },
+    {
+      "quote": "$2,458,000,000 $2,409,109,722 ($48,890,278) (2.0)%",
+      "note": "Total Sales & Use Taxes revenue"
+    }
+  ]
+}

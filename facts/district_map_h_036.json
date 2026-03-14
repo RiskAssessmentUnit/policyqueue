@@ -1,0 +1,21 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wyandotte County",
+    "Kansas City"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

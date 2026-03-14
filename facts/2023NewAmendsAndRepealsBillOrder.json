@@ -1,0 +1,23 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "July 5, 2023",
+      "year": 2023,
+      "description": "Composite listing of new, amended & repealed statutes"
+    },
+    {
+      "date": "September 5, 2023",
+      "year": null,
+      "description": "Updated"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

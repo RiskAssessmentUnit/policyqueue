@@ -1,0 +1,31 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Johnson County",
+    "Miami County"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0
+    },
+    {
+      "label": "2",
+      "value": 2,
+      "unit": "miles"
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

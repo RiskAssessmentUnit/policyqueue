@@ -1,0 +1,21 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State general fund revenue",
+      "value": 123456789,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Sales tax revenue",
+      "value": 987654321,
+      "unit": "USD",
+      "year": 2020
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

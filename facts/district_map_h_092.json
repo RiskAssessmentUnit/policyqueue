@@ -1,0 +1,40 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Sedgwick County"
+  ],
+  "entities": [
+    {
+      "name": "House District 92",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislative District Profiles, Kansas Legislative Research Department"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "City Limits"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

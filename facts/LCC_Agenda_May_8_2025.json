@@ -1,0 +1,33 @@
+{
+  "program_type": "OTHER",
+  "title": "Legislative Coordinating Council Agenda",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Uniform Law Commission",
+      "type": "ORG"
+    },
+    {
+      "name": "KGS",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "May 8, 2025",
+      "year": 2025,
+      "description": "Legislative Coordinating Council Agenda"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

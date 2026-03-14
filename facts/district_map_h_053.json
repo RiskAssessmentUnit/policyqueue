@@ -1,0 +1,25 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "52, 53, 50, 51, 55, 56, 54, 47, 58, 57"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "House District 53",
+      "note": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

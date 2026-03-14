@@ -1,0 +1,129 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population 2013",
+      "value": 2893957,
+      "unit": "NUMBER",
+      "year": 2013
+    },
+    {
+      "label": "Population 2014",
+      "value": 2904021,
+      "unit": "NUMBER",
+      "year": 2014
+    },
+    {
+      "label": "Population 2015",
+      "value": 2911641,
+      "unit": "NUMBER",
+      "year": 2015
+    },
+    {
+      "label": "Population 2013",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population 2014",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population 2015",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Growth 2013-2014",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Growth 2014-2015",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "% Change 2014-2015",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "% Change 2013-2014",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 3510196,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "Growth (2013-2014)",
+      "value": 8,
+      "unit": "NUMBER",
+      "year": 2014
+    },
+    {
+      "label": "Growth (2014-2015)",
+      "value": 12,
+      "unit": "NUMBER",
+      "year": 2015
+    },
+    {
+      "label": "Certified Population",
+      "value": 431359,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "Growth 2013-2014",
+      "value": 62,
+      "unit": "NUMBER",
+      "year": 2014
+    },
+    {
+      "label": "% Chg 2014-2015",
+      "value": 1.4,
+      "unit": "PERCENT",
+      "year": 2015
+    },
+    {
+      "label": "Population 2013",
+      "value": 5801,
+      "unit": "NUMBER",
+      "year": 2013
+    },
+    {
+      "label": "Population 2014",
+      "value": 5806,
+      "unit": "NUMBER",
+      "year": 2014
+    },
+    {
+      "label": "Population 2015",
+      "value": 5797,
+      "unit": "NUMBER",
+      "year": 2015
+    },
+    {
+      "label": "Population 2016",
+      "value": 5796,
+      "unit": "NUMBER",
+      "year": 2016
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

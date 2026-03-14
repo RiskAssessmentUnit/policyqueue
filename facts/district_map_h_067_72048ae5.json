@@ -1,0 +1,26 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 113,
+      "unit": null,
+      "year": 0
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 2022,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Riley County:  City:  Manhattan(part)",
+      "note": null
+    }
+  ]
+}

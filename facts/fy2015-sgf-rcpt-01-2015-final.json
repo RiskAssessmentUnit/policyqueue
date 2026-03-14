@@ -1,0 +1,39 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2015 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Receipts",
+      "value": 3284985000,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "% of Total Received",
+      "value": 98.53,
+      "unit": "PERCENT",
+      "year": 2015
+    },
+    {
+      "label": "Total Taxes",
+      "value": 3370260000,
+      "unit": "USD",
+      "year": 2015
+    },
+    {
+      "label": "% of Total Received",
+      "value": 98.06,
+      "unit": "PERCENT",
+      "year": 2015
+    },
+    {
+      "label": "Other Revenues",
+      "value": -85275000,
+      "unit": "USD",
+      "year": 2015
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

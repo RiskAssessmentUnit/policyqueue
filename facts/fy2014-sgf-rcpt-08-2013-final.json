@@ -1,0 +1,44 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2014 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 822335000,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "Total Receipts",
+      "value": 767667438,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "Total Taxes",
+      "value": 818880000,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "Total Receipts",
+      "value": 761735000,
+      "unit": "USD",
+      "year": 2014
+    }
+  ],
+  "events": [
+    {
+      "date": "August 2013",
+      "year": 2013,
+      "description": "Final: August 2013"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$800,000 $2,852,725 $2,052,725 Property Tax/Fee: Motor Carrier",
+      "note": "FY 2014 Revenue Source Cumulative Est. Cumulative Actual Difference"
+    }
+  ]
+}

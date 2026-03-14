@@ -1,0 +1,57 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2020 State General Fund Receipts Final Report: October 2019",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Cumulative Estimate",
+      "value": 2214590000,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Cumulative Actual",
+      "value": 2299123441,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Dollar Change",
+      "value": 58433441,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Percent Change",
+      "value": 3.82,
+      "unit": "PERCENT",
+      "year": 2020
+    },
+    {
+      "label": "Total Taxes",
+      "value": 2280401420,
+      "unit": "USD",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "11/1/2019",
+      "description": "Corporate franchise is now listed separately from miscellaneous."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "103.85%",
+      "note": "Percentage of Total Received"
+    },
+    {
+      "quote": "104.08%",
+      "note": "Percentage of Total Received"
+    },
+    {
+      "quote": "52.90%",
+      "note": "Percentage of Total Received"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 244120,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Voting Age",
+      "value": 18108,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 3157,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

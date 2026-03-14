@@ -1,0 +1,32 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Arkansas City",
+    "Geuda Springs",
+    "Parkerfield",
+    "Wellington"
+  ],
+  "entities": [
+    {
+      "name": "House District 80",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

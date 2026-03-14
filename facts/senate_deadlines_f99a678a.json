@@ -1,0 +1,56 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "April 5th",
+      "year": 2024,
+      "description": "First Adjournment"
+    },
+    {
+      "date": "April 29th",
+      "year": 2024,
+      "description": "Veto Session Begins"
+    },
+    {
+      "date": "January 29th",
+      "year": 2024,
+      "description": "Last day for member or members to REQUEST bill drafts from Revisor's office"
+    },
+    {
+      "date": "February 5th",
+      "year": 2024,
+      "description": "Last day for non-exempt Committees to REQUEST bill drafts from the Revisor's office"
+    },
+    {
+      "date": "February 7th",
+      "year": 2024,
+      "description": "Last day for Individuals to INTRODUCE bills in originating chamber"
+    },
+    {
+      "date": "February 9th",
+      "year": 2024,
+      "description": "Last day for non-exempt Committees to INTRODUCE bills in originating chamber"
+    },
+    {
+      "date": "February 23rd",
+      "year": 2024,
+      "description": "Last day to CONSIDER NON-EXEMPT BILLS IN HOUSE OF ORIGIN"
+    },
+    {
+      "date": "March 28th",
+      "year": 2024,
+      "description": "Last day to CONSIDER non-EXEMPT BILLS NOT IN ORIGINATING CHAMBER"
+    }
+  ],
+  "evidence": []
+}

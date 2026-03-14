@@ -1,0 +1,73 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2016 State General Fund Receipts Final Report: April 2016",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 4713402533,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Other Revenues",
+      "value": 161081785,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 4874484318,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "State General Fund Receipts",
+      "value": 636948261,
+      "unit": "USD",
+      "year": 2016
+    }
+  ],
+  "events": [
+    {
+      "date": "5/2/2016",
+      "year": 2016,
+      "description": "Miscellaneous taxes now include corporate franchise taxes and fees."
+    },
+    {
+      "date": "5/2/2016",
+      "year": 2016,
+      "description": "Report date"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Subtotal -  KDOR Tax Collections $4,596,560,000 $4,599,229,584 $2,669,584 0.06 % $4,455,746,702 $143,482,882 3.22 %",
+      "note": ""
+    },
+    {
+      "quote": "Total Taxes $4,710,810,000 $4,713,402,533 $2,592,533 0.06 % $4,589,876,312 $123,526,221 2.69 %",
+      "note": ""
+    },
+    {
+      "quote": "Other Revenues: Interest $24,500,000 $24,760,313 $260,313 1.06 % $10,703,132 $14,057,182 131.34 %",
+      "note": ""
+    },
+    {
+      "quote": "Net Transfers $93,080,000 $93,037,061 -$42,939 0.05 % $116,551,989 -$23,514,928 -20.18 %",
+      "note": ""
+    },
+    {
+      "quote": "Agency Earnings $40,000,000 $43,284,411 $3,284,411 8.21 % $52,712,527 -$9,428,116 -17.89 %",
+      "note": ""
+    },
+    {
+      "quote": "100.96%",
+      "note": "Percentage of Total Received"
+    },
+    {
+      "quote": "121.27%",
+      "note": "Percentage of Total Received"
+    }
+  ]
+}

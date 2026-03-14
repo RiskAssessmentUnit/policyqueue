@@ -1,0 +1,53 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    null
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "KLISS Modernization Steering Committee",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Propylon",
+      "type": "ORG"
+    },
+    {
+      "name": "Revisor of Statutes",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "number of Stop Work Orders",
+      "value": 2,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "January 8, 2026",
+      "year": 2026,
+      "description": "Report to the Legislative Coordinating Council"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "the Legislative Coordinating Council (LCC) accepted the recommendation of the Legislative Coordinating Council’s Subcommittee on Administration to not use the",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    null
+  ]
+}

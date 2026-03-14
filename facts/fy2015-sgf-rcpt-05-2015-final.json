@@ -1,0 +1,41 @@
+{
+  "program_type": "APPROPRIATION",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Division of the Budget",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "$5,139,800,000",
+      "value": 5139800000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "99.86%",
+      "value": 98.86,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2015 State General Fund Receipts Final: May 2015"
+    },
+    {
+      "date": "May",
+      "year": null,
+      "description": "Estimate Actual Difference"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

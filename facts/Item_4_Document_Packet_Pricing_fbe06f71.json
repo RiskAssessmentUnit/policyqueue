@@ -1,0 +1,52 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "2025 Session Document Packet Service Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Revenue Collected",
+      "value": 3934.0,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Document Packet Price (with tax)",
+      "value": 544.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Document Packet Price (tax exempt)",
+      "value": 524.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Document Room Pick-Up Price (with tax)",
+      "value": 219.9,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Document Room Pick-Up Price (tax exempt)",
+      "value": 200.0,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Attached is the Document Service Report for this year’s legislative session.",
+      "note": null
+    },
+    {
+      "quote": "34 packets were distributed and/or purchased by state agencies and the public with revenue collected in the amount of $3,934.00.",
+      "note": null
+    },
+    {
+      "quote": "Recommend no change in document packet price or free distribution levels for the 2026 legislative session.",
+      "note": null
+    }
+  ]
+}

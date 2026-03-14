@@ -1,0 +1,35 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas",
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Gordon L. Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "Thursday, August 14, 2025",
+      "year": 2025,
+      "description": "Legislative Coordinating Council meeting"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "In accordance with K.S.A. 46-1201, you are hereby given notice that the Legislative Coordinating Council will meet at 2:00 p.m.,",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

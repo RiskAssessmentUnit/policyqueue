@@ -1,0 +1,224 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Pop. 2019",
+      "value": 4277,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2020",
+      "value": 4273,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 4263,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 4271,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "# Growth 2020-2021",
+      "value": -4,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "# Growth 2021-2022",
+      "value": 8,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "% Chg 2021-2022",
+      "value": 0.2,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "% Chg 2020-2021",
+      "value": -0.1,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "Certified Population",
+      "value": 2022,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 2021,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "% Chg 2021-2022",
+      "value": 0.7,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "% Chg 2020-2021",
+      "value": 20.7,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "Pop. 2019",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2019
+    },
+    {
+      "label": "Pop. 2020",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "# Growth 2020-2021",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "# Growth 2021-2022",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "% Chg 2021-2022",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "% Chg 2020-2021",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "Pop. 2020",
+      "value": 790,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 761,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 740,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Population",
+      "value": 3422900,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Growth",
+      "value": 138,
+      "unit": "COUNT",
+      "year": 2022
+    },
+    {
+      "label": "Population 2019",
+      "value": 104,
+      "unit": null,
+      "year": 2019
+    },
+    {
+      "label": "Population 2020",
+      "value": 105,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "Population 2021",
+      "value": 125,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Population 2022",
+      "value": 130,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Growth 2020-2021",
+      "value": 20,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Growth 2021-2022",
+      "value": 5,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Percent Change 2021-2022",
+      "value": 1.0,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "Percent Change 2020-2021",
+      "value": 19.0,
+      "unit": "PERCENT",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2022",
+      "year": 2022,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "38,818",
+      "note": "Crawford County population"
+    },
+    {
+      "quote": "1,420",
+      "note": "Arma city population"
+    },
+    {
+      "quote": "20,050",
+      "note": "Pittsburg city population"
+    },
+    {
+      "quote": "Kansas Certified Population Certified to the Secretary of State by Division of the Budget on July 1, 2022",
+      "note": "Population figures"
+    }
+  ]
+}

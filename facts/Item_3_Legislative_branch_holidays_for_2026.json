@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Kansas Economic Development Finance Authority (KEDFA)",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Housing Resources Corporation (KHRC)",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

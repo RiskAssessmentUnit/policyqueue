@@ -1,0 +1,47 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Leavenworth",
+    "Wyandotte",
+    "Basehor",
+    "Bonner Springs",
+    "De Soto",
+    "Linwood",
+    "Kansas City"
+  ],
+  "entities": [
+    {
+      "name": "House District 38",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 2022,
+      "unit": "YEAR",
+      "year": 2022
+    },
+    {
+      "label": null,
+      "value": 33,
+      "unit": "PERCENT"
+    },
+    {
+      "label": null,
+      "value": 37,
+      "unit": "JOBS"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022",
+      "year": 2022
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

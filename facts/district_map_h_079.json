@@ -1,0 +1,48 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Arkansas City",
+    "Belle Plaine",
+    "Mayfield",
+    "Milton",
+    "Mulvane",
+    "Oxford",
+    "Peck",
+    "Rock",
+    "Udall",
+    "Wellington",
+    "Winfield"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 104,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 5,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 4,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

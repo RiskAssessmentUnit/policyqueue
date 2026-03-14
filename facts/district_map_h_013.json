@@ -1,0 +1,75 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Woodson",
+    "Lyon",
+    "Greenwood",
+    "Wilson",
+    "Chase",
+    "Strong City",
+    "Emporia",
+    "Elmdale",
+    "Cottonwood Falls",
+    "Olpe",
+    "Hamilton",
+    "Virgil",
+    "Neosho Falls",
+    "Eureka",
+    "Neal",
+    "Toronto",
+    "Climax",
+    "Severy",
+    "Coyville",
+    "Fall River",
+    "Buffalo",
+    "Benedict",
+    "Yates Center",
+    "Piqua",
+    "Madison",
+    "Piedmont",
+    "Matfield Green",
+    "New Albany",
+    "Fredonia",
+    "Altoona",
+    "Lafontaine",
+    "Neodesha",
+    "Cedar Point"
+  ],
+  "entities": [
+    {
+      "name": null,
+      "type": null
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "House District",
+      "value": 13,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,37 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Olathe",
+    "Overland Park"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1",
+      "value": 1,
+      "unit": "miles",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    },
+    {
+      "quote": "House District 8",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

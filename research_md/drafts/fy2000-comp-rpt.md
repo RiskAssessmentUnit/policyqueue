@@ -1,0 +1,267 @@
+# Research Draft: fy2000-comp-rpt
+
+- Source JSON: `fy2000-comp-rpt.json`
+- Keyword hits: **star bond, budget**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "State Water Plan Fund Expenditures",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total--Conservation Commission",
+      "value": 7472947,
+      "unit": "USD",
+      "year": 1998
+    },
+    {
+      "label": "Total--Kansas Water Office",
+      "value": 2477806,
+      "unit": "USD",
+      "year": 1998
+    },
+    {
+      "label": "Total--Dept. of Agriculture",
+      "value": 1018764,
+      "unit": "USD",
+      "year": 1998
+    },
+    {
+      "label": "Total--Health & Environment",
+      "value": 3925694,
+      "unit": "USD",
+      "year": 1998
+    },
+    {
+      "label": "Total Water Plan Expenditures",
+      "value": 15368124,
+      "unit": "USD",
+      "year": 1998
+    },
+    {
+      "label": "State General Fund monies",
+      "value": 441107,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "State General Fund monies",
+      "value": 198000,
+      "unit": "USD",
+      "year": 1999
+    },
+    {
+      "label": "State General Fund",
+      "value": 250000,
+      "unit": "USD",
+      "year": 1999
+    },
+    {
+      "label": "State General Fund",
+      "value": 73224,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "State General Fund",
+      "value": 350000,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "State General Fund",
+      "value": 950000,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Tobacco settlement monies",
+      "value": 250000,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Federal Temporary Assistance for Needy Families",
+      "value": 200000,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Board of Regents",
+      "value": 14713543,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Emporia State University",
+      "value": 3549279,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Fort Hays State University",
+      "value": 3932395,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Pittsburg State University",
+      "value": 5839971,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--University of Kansas",
+      "value": 71590345,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--KU Medical Center",
+      "value": 6284996,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Subtotal--Regents",
+      "value": 171467094,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Arts Grants",
+      "value": 1295746,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Historical Society",
+      "value": 110000,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--KPERS--School",
+      "value": 246694525,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--State Library",
+      "value": 450191499,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 29519,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Agriculture & Natural Resources",
+      "value": 6884750,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Transportation",
+      "value": 200000,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total--Other Assist., Grants, & Benefits",
+      "value": 2585469197,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 604845270,
+      "unit": "USD",
+      "year": 1999
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 618307154,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "Transportation Expenditures",
+      "value": 530637626,
+      "unit": "USD",
+      "year": 2000
+    },
+    {
+      "label": "STAR Bonds",
+      "value": 375089799,
+      "unit": "USD",
+      "year": 2000
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 2000,
+      "description": "Legislature added monies in FY 2000 to finance the cost of legislation passed during the 1999 Legislative Session."
+    },
+    {
+      "date": null,
+      "year": 2000,
+      "description": "FY 2000 Budget"
+    },
+    {
+      "date": "FY 2000",
+      "description": "Governor's Approved Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The Legislature added a total of $441,107 to the Board in FY 2000.",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature approved a reduction of $27,129 in State General Fund expenditures.",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature added $72,324 from the State General Fund to finance temporary positions in the Bureau of Vital Statistics.",
+      "note": null
+    },
+    {
+      "quote": "The Legislature also added $300,000 from the State General Fund for pregnancy maintenance programs that do not perform or promote abortions.",
+      "note": null
+    },
+    {
+      "quote": "The Legislature added $750,000 to the Infant and Toddlers Program. Of that amount, $500,000 is from the State General Fund and $250,000 from tobacco settlement monies.",
+      "note": null
+    },
+    {
+      "quote": "$14,713,543",
+      "note": "Total--Board of Regents"
+    },
+    {
+      "quote": "$6,284,996",
+      "note": "Total--KU Medical Center"
+    },
+    {
+      "quote": "$171,467,094",
+      "note": "Subtotal--Regents"
+    }
+  ]
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_

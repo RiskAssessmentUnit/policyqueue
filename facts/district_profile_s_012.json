@@ -1,0 +1,48 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 72,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 72,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2020",
+      "year": 2020,
+      "description": "Census of Population and Housing"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Census of Population and Housing 2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [
+    "Unknown"
+  ],
+  "recommended_next_queries": [
+    "Kansas public policy",
+    "Kansas public finance"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "23,314",
+      "value": 23314,
+      "unit": null,
+      "year": 2020
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Data Source:",
+      "note": "The data source is the U.S. Census Bureau"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

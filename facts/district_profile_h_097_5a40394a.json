@@ -1,0 +1,63 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 23988,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "White",
+      "value": 17104,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Black",
+      "value": 15136,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "American Indian",
+      "value": 1160,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Asian",
+      "value": 202,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Hawaiian",
+      "value": 1,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Other Races",
+      "value": 1382,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Two or More Races",
+      "value": 1470,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 3774,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

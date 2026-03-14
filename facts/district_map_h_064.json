@@ -1,0 +1,52 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Clay County",
+    "Cloud County",
+    "Dickinson County",
+    "Riley County"
+  ],
+  "entities": [
+    {
+      "name": "House District 64",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    },
+    {
+      "quote": "Cities: Ames, Aurora, Clyde, Concordia(part) and Miltonvale",
+      "note": "Cloud County"
+    },
+    {
+      "quote": "City: Manchester",
+      "note": "Dickinson County"
+    },
+    {
+      "quote": "Cities: Bala, Fort Riley(part), Keats, Leonardville, Manhattan (part), Randolph and Riley",
+      "note": "Riley County"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas Legislative Districts",
+    "Cloud County Government"
+  ]
+}

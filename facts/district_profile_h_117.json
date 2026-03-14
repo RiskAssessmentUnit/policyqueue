@@ -1,0 +1,31 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 23087,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 597,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

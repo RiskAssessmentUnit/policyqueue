@@ -1,0 +1,27 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Number of cities in Leavenworth County",
+      "value": 3,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Number of townships in Leavenworth County",
+      "value": 4,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Number of cities in Wyandotte County",
+      "value": 1,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

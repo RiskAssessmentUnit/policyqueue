@@ -1,0 +1,5626 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": "FY 2023 Governor’s Budget Report",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas",
+    "Sedgwick County",
+    "central Kansas",
+    null,
+    "rural areas of the state",
+    "Kansas City",
+    "Wichita",
+    "southeast Kansas",
+    "northeast Kansas",
+    "Pittsburg State University",
+    "University of Kansas",
+    "University of Kansas Medical Center",
+    "Wichita State University",
+    "Historical Society",
+    "Kansas State University",
+    "Kansas Humanities Council",
+    "Emporia State University",
+    "Fort Hays State University",
+    "Kansas State University--ESARP",
+    "KSU--Veterinary Medical Center",
+    "State Library",
+    "Hutchinson Correctional Facility",
+    "Lansing Correctional Facility",
+    "Larned Correctional Mental Health Facility",
+    "Norton Correctional Facility",
+    "Topeka Correctional Facility",
+    "Winfield Correctional Facility",
+    "Kansas Juvenile Correctional Complex",
+    "Adjutant General",
+    "Emergency Medical Services Board",
+    "State Fire Marshal",
+    "Highway Patrol",
+    "Kansas Bureau of Investigation"
+  ],
+  "entities": [
+    {
+      "name": "Laura Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Adam Proffitt",
+      "type": "PERSON"
+    },
+    {
+      "name": "Division of the Budget",
+      "type": "ORG"
+    },
+    {
+      "name": "State of Kansas",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Governor Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Public Employees Retirement Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Budget Stabilization Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Commerce’s Job Creation Program Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Water Office",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Department of Health and Environment",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Highway Patrol",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas State School",
+      "type": "ORG"
+    },
+    {
+      "name": "State Finance Council",
+      "type": "ORG"
+    },
+    {
+      "name": "Joint Committee",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislature",
+      "type": "ORG"
+    },
+    {
+      "name": "Governor",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Department of Education",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Department of Agriculture",
+      "type": "ORG"
+    },
+    {
+      "name": "University of Kansas Geological Survey",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Legislature",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Board of Regents",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Medicaid",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislature",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "KDHE",
+      "type": "ORG"
+    },
+    {
+      "name": "KDADS",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Department of Health and Environment",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Department of Aging & Disability Services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Department of Transportation",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Consensus Revenue Estimating Group",
+      "type": "OTHER"
+    },
+    {
+      "name": "University of Kansas",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas State University",
+      "type": "ORG"
+    },
+    {
+      "name": "Wichita State University",
+      "type": "ORG"
+    },
+    {
+      "name": "Federal Reserve",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Public Employees Retirement Fund",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Budget Stabilization Fund",
+      "type": "PROJECT"
+    },
+    {
+      "name": "CRE Group",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Revenue",
+      "type": "ORG"
+    },
+    {
+      "name": "Insurance Department",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Department of Transportation",
+      "type": "ORG"
+    },
+    {
+      "name": "Eisenhower Legacy Transportation (IKE) Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas Corporation Commission",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Lottery",
+      "type": "ORG"
+    },
+    {
+      "name": "Racing & Gaming",
+      "type": "ORG"
+    },
+    {
+      "name": "Attorney General",
+      "type": "ORG"
+    },
+    {
+      "name": "Secretary of State",
+      "type": "ORG"
+    },
+    {
+      "name": "State Treasurer",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Education",
+      "type": "ORG"
+    },
+    {
+      "name": "Board of Regents",
+      "type": "ORG"
+    },
+    {
+      "name": "KU Medical Center",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Agriculture",
+      "type": "ORG"
+    },
+    {
+      "name": "State Fair",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Transportation",
+      "type": "ORG"
+    },
+    {
+      "name": "Health Benefits Administration Clearing Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Health Care Stabilization Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Federal Cash Management Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Digital Imaging Program Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Division of Vehicles Modernization Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Taxpayer Notification Costs Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Information Services Fee Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Learning Quest Matching Funds",
+      "type": "ORG"
+    },
+    {
+      "name": "Spirit Aerosystems Incentive",
+      "type": "ORG"
+    },
+    {
+      "name": "Regents Faculty of Distinction Program",
+      "type": "ORG"
+    },
+    {
+      "name": "Cancer Research and Pub. Info. Trust Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Water Structures Emergency Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "State Water Plan Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "ELARF",
+      "type": "ORG"
+    },
+    {
+      "name": "SGF",
+      "type": "ORG"
+    },
+    {
+      "name": "PMIB",
+      "type": "ORG"
+    },
+    {
+      "name": "John Redmond",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Department of Administration",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Commerce",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Endowment for Youth (KEY) Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Children's Initiatives Fund",
+      "type": "ORG"
+    },
+    {
+      "name": "Department for Children & Families",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Health & Environment",
+      "type": "ORG"
+    },
+    {
+      "name": "Gaming Facility Managers",
+      "type": "ORG"
+    },
+    {
+      "name": "Attorney General",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Lottery",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Racing and Gaming Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Attorney General",
+      "type": "PERSON"
+    },
+    {
+      "name": "Secretary of Commerce",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Commis- sion on Veterans Affairs",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Department for Aging and Disability Services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Department of Commerce",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Build Up Kansas Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Department of Commerce",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Office of the Governor",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Department of Agriculture",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Water Office",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "John Redmond Reservoir Project",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Governor",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Highway Patrol",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas State School for the Deaf",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas State School for the Blind",
+      "type": "ORG"
+    },
+    {
+      "name": "KPERS",
+      "type": "ORG"
+    },
+    {
+      "name": "State General Fund",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Racing & Gaming Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Department of Revenue",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Iowa Tribe of Kansas and Nebraska",
+      "type": "ORG"
+    },
+    {
+      "name": "Kickapoo Tribe of Indians of the Kickapoo Reservation in Kansas",
+      "type": "ORG"
+    },
+    {
+      "name": "Prairie Band Potawatomi Nation in Kansas",
+      "type": "ORG"
+    },
+    {
+      "name": "Sac and Fox Nation of Missouri in Kansas and Nebraska",
+      "type": "ORG"
+    },
+    {
+      "name": "Board of Tax Appeals",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Board of Barbering",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Governmental Ethics Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Board of Nursing",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Board of Pharmacy",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Real Estate Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Attorney General's Office",
+      "type": "ORG"
+    },
+    {
+      "name": "SPARK Executive Committee",
+      "type": "ORG"
+    },
+    {
+      "name": "Board of Veterinary Examiners",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Executive Branch Elected Officials",
+      "type": "ORG"
+    },
+    {
+      "name": "Office of the Governor",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislative-Approved APRA Projects",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Rural Housing Revolving Loan Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Barton CC--Ag. Tech. Complex",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Butler Co. CC--Culinary Arts",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Cloud Co. CC--CTE Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Coffeville CC--CTE Programs",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Colby CC--CTE Ag. Center",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Cowley Co. CC--CTE Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Flint Hills Tech. Coll.--Welding",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Fort Scott CC--Heavy Equip.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Garden City CC--Ag. Tech. Prog.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Highland CC--Welding Prog.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Hutchinson CC--Nursing Lab",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Independent & Private Colleges",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Johnson Co. CC--CDL Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas City Kans. CC--Health Ctr.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Manhattan Tech. Coll.--Biomanuf.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "NC Tech. Coll.--CDL & Carpentry",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Neosho CC--CTE Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "NW Tech. Coll.--Cyber Security",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Pratt Co. CC--Welding Prog.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Salina Tech. Coll.--Automation Prog.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Seward CC--Truck Driver Prog.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Wichita Tech. College--Training",
+      "type": "PROJECT"
+    },
+    {
+      "name": "ESU--Nursing Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "FHSU--Gross Coliseum Updates",
+      "type": "PROJECT"
+    },
+    {
+      "name": "KSU--Agriculture Development",
+      "type": "PROJECT"
+    },
+    {
+      "name": "KU--Economic Development",
+      "type": "PROJECT"
+    },
+    {
+      "name": "PSU--Tyler Research & Dev. Park",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Washburn University--Hlth. Studies",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Washburn University--Training Ctr.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "WSU/KU Health Sciences",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Agriculture Production Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Animal Nourishment Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Business Closure Rebates",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Economic Development Infrastr.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Economic Development--Housing",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Housing Grants",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Moderate Income Housing Prog.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Nutritional Programs",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Port Authority Transload Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Virtual Math Program--HB 2567",
+      "type": "PROJECT"
+    },
+    {
+      "name": "School Safety Grants--HB 2567",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Holocaust Commemoration",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Affordable Housing Redevelopment",
+      "type": "PROJECT"
+    },
+    {
+      "name": "CASA (Court Appointed Special Advocates)",
+      "type": "ORG"
+    },
+    {
+      "name": "State Treasurer",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Revisor of Statutes",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Judiciary",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Department for Children and Families",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Centers for Medicare and Medicaid Services",
+      "type": "ORG"
+    },
+    {
+      "name": "Federal Centers for Medicare and Medicaid Services",
+      "type": "ORG"
+    },
+    {
+      "name": "Federal Department of Health and Human Services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Centers for Medicare and Medicaid Services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "CMS",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Department of Health and Human Services",
+      "type": "ORG"
+    },
+    {
+      "name": "Children's Alliance of Kansas",
+      "type": "ORG"
+    },
+    {
+      "name": "Governor's office",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Commission for the Deaf and Hard of Hearing",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Cerebral Palsy Research Foundation of Kansas",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Labor",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Commission on Veterans Affairs Office",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Department of Education",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "State Historical Society",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "State Library",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "KPERS-School",
+      "type": "PROJECT"
+    },
+    {
+      "name": "State General Fund",
+      "type": "PROJECT"
+    },
+    {
+      "name": "State Board of Education",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Director of the Budget",
+      "type": "PERSON"
+    },
+    {
+      "name": "Director of Accounts and Reports",
+      "type": "PERSON"
+    },
+    {
+      "name": "Pittsburg State University",
+      "type": "PROJECT"
+    },
+    {
+      "name": "University of Kansas",
+      "type": "PROJECT"
+    },
+    {
+      "name": "University of Kansas Medical Center",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Wichita State University",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Historical Society",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Department of Corrections",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Adjutant General",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Emergency Medical Services Board",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Highway Patrol",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Humanities Council",
+      "type": "ORG"
+    },
+    {
+      "name": "Historical Society",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Sentencing Commission",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Department of Wildlife & Parks",
+      "type": "ORG"
+    },
+    {
+      "name": "Residential Tax Rebate",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Cedar Crest Assn. Transition Reimburse.",
+      "type": "PROJECT"
+    },
+    {
+      "name": "KBA Grant Commitments",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Job Creation Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Moderate Income Housing",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Rural Housing",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Economic Dev. Grants for Higher Ed",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Domestic Violence Prevention Grants",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Child Advocacy Center Grants",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Court Appointed Special Advocates",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Human Trafficking Victims Assistance",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Protection from Abuse",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Child Exchange & Visitation Centers",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Child Abuse Grant",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Voter Fraud Litigation Settlement",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Claims",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Department for Aging & Disability Services",
+      "type": "ORG"
+    },
+    {
+      "name": "Behavioral Health",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Community Service",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Nutrition Grants",
+      "type": "PROJECT"
+    },
+    {
+      "name": "State Hospitals",
+      "type": "ORG"
+    },
+    {
+      "name": "Resident Stipends & Property Loss Claims",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Economic & Employment Services",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Rehabilitation Services",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Prevention & Protection Services",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Client Service Delivery",
+      "type": "PROJECT"
+    },
+    {
+      "name": "COVID-19 Assistance",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Health & Environment--Health",
+      "type": "ORG"
+    },
+    {
+      "name": "Assistance to Local Health Departments",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Children's Health Insurance Program",
+      "type": "PROJECT"
+    },
+    {
+      "name": "General Public Health Programs",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Cedar Crest Assn.",
+      "type": "ORG"
+    },
+    {
+      "name": "KBA",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Administration",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Secretary of State",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Department for Aging & Disability Services",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Department for Children & Families",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Health & Environment--Health",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Governor's",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Historical Society",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislative",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Commission on Veterans Affairs",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "School for the Blind",
+      "type": "PROJECT"
+    },
+    {
+      "name": "School for the Deaf",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Emporia State University",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Fort Hays State University",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas State University",
+      "type": "PROJECT"
+    },
+    {
+      "name": "KSU--Veterinary Medical Center",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas Department of Administration",
+      "type": "ORG"
+    },
+    {
+      "name": "Department of Corrections",
+      "type": "ORG"
+    },
+    {
+      "name": "Adjutant General",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas Bureau of Investigation",
+      "type": "ORG"
+    },
+    {
+      "name": "Governor's Office",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas State Fair",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Gov.",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas State University--ESARP",
+      "type": "PROJECT"
+    },
+    {
+      "name": "State Library",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Hutchinson Correctional Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Lansing Correctional Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Larned Correctional Mental Health Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Norton Correctional Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Topeka Correctional Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Winfield Correctional Facility",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Kansas Juvenile Correctional Complex",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Emergency Medical Services Board",
+      "type": "ORG"
+    },
+    {
+      "name": "State Fire Marshal",
+      "type": "ORG"
+    },
+    {
+      "name": "Highway Patrol",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "State General Fund Revenues",
+      "value": 57945873,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "State General Fund Revenues",
+      "value": 89076945,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "All Funds",
+      "value": 2358525119,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "All Funds",
+      "value": 22907447381,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Individual Income Tax Estimate",
+      "value": -5,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Individual Income Tax Estimate",
+      "value": -16.5,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Targeted Employment Tax Credit",
+      "value": -5,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Insurance Premiums Tax Estimate",
+      "value": -1,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Food Sales Tax Credit",
+      "value": null,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Ending balance",
+      "value": 11.8,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Ending balance",
+      "value": 14.2,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "Debt payment",
+      "value": 332.2,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Debt payment",
+      "value": 41.5,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Debt payment",
+      "value": 80.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Capital project funding",
+      "value": 120.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Capital project funding",
+      "value": 60.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Laboratory facility funding",
+      "value": 32.5,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "KPERS payment",
+      "value": 253.9,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "KPERS payment",
+      "value": 871.1,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "State Employee Pay Plan increase",
+      "value": 5.0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Expenditures",
+      "value": 6085000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increased expenditures",
+      "value": 150000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Transfer from State General Fund",
+      "value": 6000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Transfer from Economic Development Initiatives Fund",
+      "value": 2000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Delay in state aid expenditures",
+      "value": 199600000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "KPERS-School employer contribution payments",
+      "value": 519652994,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "FY 2023 expenditures",
+      "value": 6621000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State General Fund",
+      "value": 4480000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Virtual State Aid",
+      "value": 5600,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Shortfall",
+      "value": 155000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "BASE inflation adjustment",
+      "value": 3.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Federal matching dollars",
+      "value": 370000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "New federal money",
+      "value": 450000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "State General Fund expenditures",
+      "value": 2049000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "State General Fund expenditures",
+      "value": 2482000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "SGF expenditures increase",
+      "value": 68500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.374 billion",
+      "value": 2374000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "843.7 million",
+      "value": 843700000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "2.712 billion",
+      "value": 2712000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "1.098 billion",
+      "value": 1098000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "38.0 million",
+      "value": 38000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "21.0 million",
+      "value": 21000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "500,000",
+      "value": 500000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2.9 million",
+      "value": 2900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "91.0 million",
+      "value": 91000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "16.0 million",
+      "value": 16000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "1.4 million",
+      "value": 1400000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "107.3 million",
+      "value": 107300000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "30.0 million",
+      "value": 30000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2.300 billion",
+      "value": 2300000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.050 billion",
+      "value": 2050000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "31,520",
+      "value": 31520,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "3.0 million",
+      "value": 3000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "311.6 million",
+      "value": 311600000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "22.374 billion",
+      "value": 22374000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "1.212 billion",
+      "value": 1212000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "531.8 million",
+      "value": 531800000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2.4 percent",
+      "value": 2.4,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "1.55 percent",
+      "value": 1.55,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "4.83 percent",
+      "value": 4.83,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Ending balance",
+      "value": 10.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Increase in tax receipts",
+      "value": 760.2,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Decrease in other revenues",
+      "value": 419.5,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Budget Stabilization Fund",
+      "value": 250.0,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Kansas Public Employees Retirement Fund",
+      "value": 853.9,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "unemployment rate",
+      "value": 3.2,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "unemployment rate",
+      "value": 3.5,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "unemployment rate",
+      "value": 3.4,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "labor force participation rate",
+      "value": 66.3,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "lost jobs",
+      "value": 157400,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "job recovery",
+      "value": 75.0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "interest earnings",
+      "value": 2800000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "interest earnings",
+      "value": 50000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "SGF interest earnings rate",
+      "value": 0.15,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "SGF interest earnings rate",
+      "value": 0.23,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "SGF interest earnings rate",
+      "value": 1.18,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "average weekly hours worked",
+      "value": 34.1,
+      "unit": "HOURS",
+      "year": 2021
+    },
+    {
+      "label": "average nominal hourly earnings",
+      "value": 28490,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "average nominal weekly earnings",
+      "value": 97151,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "oil severance tax receipts",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "oil price per barrel",
+      "value": 72,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "oil price per barrel",
+      "value": 77,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas oil production",
+      "value": 28500000,
+      "unit": "BARRELS",
+      "year": 2022
+    },
+    {
+      "label": "Kansas oil production",
+      "value": 27500000,
+      "unit": "BARRELS",
+      "year": 2023
+    },
+    {
+      "label": "Severance taxation exemption rate FY 2022",
+      "value": 22,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "Severance taxation exemption rate FY 2023",
+      "value": 26,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "Estimated price of natural gas FY 2022",
+      "value": 4.7,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Estimated price of natural gas FY 2023",
+      "value": 4.1,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Estimated natural gas production FY 2022",
+      "value": 156,
+      "unit": "Mcf",
+      "year": 2022
+    },
+    {
+      "label": "Estimated natural gas production FY 2023",
+      "value": 156,
+      "unit": "Mcf",
+      "year": 2023
+    },
+    {
+      "label": "Revised estimate of SGF receipts FY 2022",
+      "value": 7695000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Decrease in SGF receipts FY 2022 from November estimate",
+      "value": 1175000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Increase in individual income tax estimate FY 2022",
+      "value": 140000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increase in corporation income tax estimate FY 2022",
+      "value": 125000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increase in financial institutions privilege tax estimate FY 2022",
+      "value": 9500000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increase in retail sales tax estimate FY 2022",
+      "value": 75000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increase in compensating use tax estimate FY 2022",
+      "value": 30000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "SGF receipts",
+      "value": 890700000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Decrease from November estimate",
+      "value": 140900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Increase from FY 2022 estimate",
+      "value": 121200000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Transfer to KPERS Trust Fund",
+      "value": 271100000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "reductions",
+      "value": 449000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "15,032,110",
+      "value": 15332110,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "682,000",
+      "value": 682000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "1,260,426",
+      "value": 1260426,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "1,175,831",
+      "value": 1175831,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "81,937,093",
+      "value": 81937093,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "100,000",
+      "value": 100000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "2,400,000",
+      "value": 2400000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "19,590,000",
+      "value": 19590000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "450,000",
+      "value": 450000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "350,000",
+      "value": 350000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "235,000",
+      "value": 235000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "1,100,000",
+      "value": 1100000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "8,600,052",
+      "value": 8600052,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "414,324",
+      "value": 414324,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "2,000",
+      "value": 2000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "549",
+      "value": 549,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "210,000",
+      "value": 210000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "6,000,000",
+      "value": 6000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "160,000",
+      "value": 160000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "10,000,000",
+      "value": 10000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "3,650,000",
+      "value": 3650000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "271,133,978",
+      "value": 271133978,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "1,000,000",
+      "value": 1000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "1,190,710",
+      "value": 1190710,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "450,000",
+      "value": 450000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "4,065,000",
+      "value": 4065000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "981,899",
+      "value": 981899,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "3,000,000",
+      "value": 3000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "205,000,000",
+      "value": 205000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "300,000",
+      "value": 300000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "50,000",
+      "value": 50000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "200,000",
+      "value": 200000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "208,819,471",
+      "value": 208819471,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "980,529",
+      "value": 980529,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "21,717,693",
+      "value": 21717693,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "22,698,222",
+      "value": 22698222,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "33,978",
+      "value": 33978,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "22,664,244",
+      "value": 22664244,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "209,800,000",
+      "value": 209800000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "22,500,000",
+      "value": 22500000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "232,300,000",
+      "value": 232300000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "288,200,000",
+      "value": 288200000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "520,500,000",
+      "value": 520500000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "KEY Fund revenue",
+      "value": 47000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "KEY Fund revenue",
+      "value": 50000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Transfer from KEY Fund to CIF",
+      "value": 51712812,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Transfer from KEY Fund to CIF",
+      "value": 52254520,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Gaming facility revenue",
+      "value": 88440000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Gaming facility revenue",
+      "value": 89518000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "gaming facility revenue",
+      "value": 406900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "ELARF revenue estimate",
+      "value": 89158000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "sports wagering revenue",
+      "value": 18000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "full state share of sports wagering revenue",
+      "value": 1800000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "White Collar Crime Fund",
+      "value": 750000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Transfer target",
+      "value": 79000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Transfer to SGRF",
+      "value": 50700000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Transfer to State General Fund",
+      "value": 20740000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Mental health transfers",
+      "value": 7200000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "EDIF transfers",
+      "value": 42432000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Parimutuel tax rate",
+      "value": 3,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Approved expenditures",
+      "value": 26900000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Approved revenues",
+      "value": 34873249,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State Water Plan Fund",
+      "value": 5923073,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "State Water Plan Fund",
+      "value": 1324609,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Expenditures",
+      "value": 21802397,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Expenditures",
+      "value": 20680641,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Amount approved from State General Fund",
+      "value": 40904037,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Amount added for pay increase for office and committee assistants",
+      "value": 240880,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Amount added for pay increase for non-uniformed employees at correctional facilities",
+      "value": 850000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Amount added for pay increase for Community Corrections agencies",
+      "value": 841113,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Amount added for 10.00 FTE positions to implement 2022 HB 2607",
+      "value": 1100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Amount transferred from State General Fund to KPERS Trust Fund",
+      "value": 1125000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Amount financed through federal funding sources",
+      "value": 918300000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Amount financed through other special revenue funds",
+      "value": 918300000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total expenditures for General Government function",
+      "value": 1800000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total expenditures for General Government function",
+      "value": 1900000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Decrease in State General Fund expenditures",
+      "value": 263200000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Amount witheld for KPERS-School employer contributions",
+      "value": 258000000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total amount to be paid for KPERS layering payments",
+      "value": 258000000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Amount transferred to Budget Stabilization Fund",
+      "value": 750000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Amount reduced from State General Fund",
+      "value": 60000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State General Fund balance",
+      "value": 253866022,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Transfer from State General Fund to KPERS Trust Fund",
+      "value": 1125000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Employer contribution rates",
+      "value": null,
+      "unit": "PERCENT",
+      "year": 2025
+    },
+    {
+      "label": "Transfer target",
+      "value": 79200000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increase from Governor's recommendation",
+      "value": 2350000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Net gaming revenue",
+      "value": 402000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Increase from previous estimate",
+      "value": 3200000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Net gaming revenue",
+      "value": 406900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Increase from previous estimate",
+      "value": 6900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas Lottery budget increase",
+      "value": 2432000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Kansas Lottery budget increase",
+      "value": 5244000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "44,371",
+      "value": 44371,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "206,385",
+      "value": 206385,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "100,000",
+      "value": 100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "106,385",
+      "value": 106385,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "20,000",
+      "value": 20000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "8,000",
+      "value": 8000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "48,423",
+      "value": 48423,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "20,756",
+      "value": 20756,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "40,600",
+      "value": 40600,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "121,274",
+      "value": 121274,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Budget",
+      "value": 458114770,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State General Fund",
+      "value": 20112893,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Increase from all funding sources",
+      "value": 401673591,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Federal funding",
+      "value": 1600000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Projects approved by SPARK Executive Committee and State Finance Council",
+      "value": 380488222,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Legislative-approved projects in FY 2022",
+      "value": 15000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Legislative-approved projects in FY 2023",
+      "value": 380500000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Real Estate Fee Fund",
+      "value": 7100,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Increase in legal representation charges",
+      "value": 25.0,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Agency expenditures in FY 2022",
+      "value": 65210528,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Agency expenditures in FY 2023",
+      "value": 451149770,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Increase in agency expenditures in FY 2023",
+      "value": 158945542,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Holocaust Commemoration",
+      "value": 10000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Affordable Housing Redevelopment",
+      "value": 1000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for CASA (Court Appointed Special Advocates)",
+      "value": 225000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Attorney General",
+      "value": 7489653,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "funding for Attorney General (partial year)",
+      "value": 43219,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "funding for Attorney General (partial year)",
+      "value": 154638,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for State Treasurer",
+      "value": 13000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Legislative Branch Agencies",
+      "value": 24337699,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "funding for Legislative Branch Agencies",
+      "value": 28687494,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Kansas Legislative Research Department",
+      "value": 4825403,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "funding for Kansas Legislative Research Department",
+      "value": 4924204,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Revisor of Statutes",
+      "value": 4241111,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "funding for Revisor of Statutes",
+      "value": 4427360,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "funding for Judicial Branch Agencies",
+      "value": 165500000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "funding for Judicial Branch Agencies",
+      "value": 184600000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State General Fund",
+      "value": 2000000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total State Expenditures",
+      "value": 4600000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "FMAP",
+      "value": 66.24,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "All Funds Increase",
+      "value": 331900000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "State General Fund Increase",
+      "value": 48700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "FMAP",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "State General Fund reduction",
+      "value": 13.6,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Medical Assistance Fee Fund (HMO Privilege Fee) decrease",
+      "value": 1.8,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Nursing Facility Provider Assessment (Bed Tax) decrease",
+      "value": 1.8,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Additional funding for Medicaid expansion",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "KanCare Medical estimates for FY 2022",
+      "value": null,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "KanCare Medical estimates for FY 2023",
+      "value": 4410000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Temporary Assistance for Needy Families program estimate for FY 2023",
+      "value": 10700000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Foster Care program estimate for FY 2023",
+      "value": 272000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "KanCare Medical estimate for FY 2023",
+      "value": 4100000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "21.7 million",
+      "value": 21700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1.8 million",
+      "value": 1800000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "88.6 million",
+      "value": 88600000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "46.5 million",
+      "value": 46500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.4 billion",
+      "value": 2400000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "843.7 million",
+      "value": 843700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "5.1 million",
+      "value": 5100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "9.1 million",
+      "value": 9100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "3.4 million",
+      "value": 3400000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.3 million",
+      "value": 2300000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "500,000",
+      "value": 500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "250,000",
+      "value": 250000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.9 million",
+      "value": 2900000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "91.0",
+      "value": 9100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "107.3",
+      "value": 107300000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "235.2",
+      "value": 235200000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "122.2",
+      "value": 122200000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "65.2",
+      "value": 65200000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "12.5",
+      "value": 12500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "11.8",
+      "value": 11800000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "7.7",
+      "value": 7700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.0",
+      "value": 2000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2.5",
+      "value": 2500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "expenditures",
+      "value": 987100000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "approved amount",
+      "value": 272000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "decrease",
+      "value": 2000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State General Fund",
+      "value": 291800000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "State General Fund",
+      "value": 218500000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "$250.0 million",
+      "value": 250000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "10.5 million",
+      "value": 10500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "17.2 million",
+      "value": 17200000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "31.9 million",
+      "value": 31900000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$8.5 million",
+      "value": 8500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$1.1 million",
+      "value": 1100000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$133,701",
+      "value": 133701,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$297,280",
+      "value": 297280,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$1.4 million",
+      "value": 1400000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$4.8 million",
+      "value": 4800000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$250,000",
+      "value": 250000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$1.0 million",
+      "value": 1000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$800,000",
+      "value": 800000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$2.0 million",
+      "value": 2000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$757,000",
+      "value": 757000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$20.0 million",
+      "value": 20000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$13.4 million",
+      "value": 13400000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$110.6 million",
+      "value": 110600000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$34.2 million",
+      "value": 34200000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$596.0 million",
+      "value": 596000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$68.5 million",
+      "value": 68500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$9.6 million",
+      "value": 9600000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "$291.8 million",
+      "value": 291800000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "1.5 million",
+      "value": 1500000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "$235,000",
+      "value": 235000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "$450,000",
+      "value": 450000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "$218.5 million",
+      "value": 218500000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "3.9 million",
+      "value": 3900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "$2.6 million",
+      "value": 2600000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "10.7 million",
+      "value": 10700000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "29.0 million",
+      "value": 29000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "6.5 million",
+      "value": 6500000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "25.9 million",
+      "value": 25900000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "9.5 billion",
+      "value": 9500000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "5.1 billion",
+      "value": 5100000000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "10.1 billion",
+      "value": 10100000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "5.6 billion",
+      "value": 5600000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2.5 million",
+      "value": 2500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "45.1%",
+      "value": 0.451,
+      "unit": "%",
+      "year": null
+    },
+    {
+      "label": "54.9%",
+      "value": 0.549,
+      "unit": "%",
+      "year": null
+    },
+    {
+      "label": "56.1%",
+      "value": 0.561,
+      "unit": "%",
+      "year": null
+    },
+    {
+      "label": "15.5%",
+      "value": 0.155,
+      "unit": "%",
+      "year": null
+    },
+    {
+      "label": "21.1%",
+      "value": 0.211,
+      "unit": "%",
+      "year": null
+    },
+    {
+      "label": "7.4%",
+      "value": 0.074,
+      "unit": "%",
+      "year": null
+    },
+    {
+      "label": "Total FY 2023 expenditures",
+      "value": 6622600000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "State General Fund expenditures in FY 2023",
+      "value": 4480700000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Increase in State General Fund expenditures from Governor's recommendation",
+      "value": 241400000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Amount withheld in FY 2017 for KPERS-School payments",
+      "value": 64000000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Amount withheld in FY 2019 for KPERS-School payments",
+      "value": 194000000,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total amount paid off to KPERS in FY 2022",
+      "value": 253900000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Aggregate interest payments saved by paying off obligation",
+      "value": 171900000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "State General Fund",
+      "value": 25569,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Federal Impact Aid",
+      "value": 13.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "School Safety and Security Grants",
+      "value": 4.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Federal funds from the American Rescue Plan Act",
+      "value": 1.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Shortfall in Special Education State Aid",
+      "value": 155.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Additional funding proposed by Governor",
+      "value": 30.0,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Base Aid for Student Excellence (BASE)",
+      "value": 5006,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Total--SFA",
+      "value": 3064661,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--LOB",
+      "value": 532900,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Legislative Approved",
+      "value": 4916041,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "3.3",
+      "value": 3.3,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "6,000,657",
+      "value": 6000657,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "6,521,812",
+      "value": 6521812,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "4,463,224",
+      "value": 4463224,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "8.7",
+      "value": 8.7,
+      "unit": "PERCENT",
+      "year": 2024
+    },
+    {
+      "label": "8.6",
+      "value": 8.6,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "8,914,467",
+      "value": 8914467,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "8,442,340",
+      "value": 8442340,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "3,590,531",
+      "value": 3590531,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "20,947,338",
+      "value": 20947338,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "21,172,272",
+      "value": 21172272,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "18,363,254",
+      "value": 18363254,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "38,392,907",
+      "value": 38392907,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "77,928,433",
+      "value": 77928433,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "4,488,171",
+      "value": 4488171,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1,473,615",
+      "value": 1473615,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "140,000",
+      "value": 140000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "30,000",
+      "value": 30000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "771,566",
+      "value": 771566,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2,267,275",
+      "value": 2267275,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "844,282",
+      "value": 844282,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "10,014,909",
+      "value": 10014909,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "10,000",
+      "value": 10000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "28,508,274",
+      "value": 28508274,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "14,403,496",
+      "value": 14403496,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "29,021,365",
+      "value": 29021365,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "415,320,550",
+      "value": 415320550,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "760,000",
+      "value": 760000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "40,000",
+      "value": 40000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "45,451",
+      "value": 45451,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1,345,451",
+      "value": 1345451,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "481,964,238",
+      "value": 481964238,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "55,000",
+      "value": 55000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "155,000",
+      "value": 155000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1,000,000",
+      "value": 1000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "505,000",
+      "value": 505000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "906,795",
+      "value": 906795,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2,621,795",
+      "value": 2621795,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "6,400",
+      "value": 6400,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "9,881",
+      "value": 9881,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "150,000",
+      "value": 150000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2,693,531",
+      "value": 2693531,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "11,607,998",
+      "value": 11607998,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "59,565,179",
+      "value": 59565179,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "970,000",
+      "value": 970000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "780,000",
+      "value": 780000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "450,558",
+      "value": 450558,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "25,000",
+      "value": 25000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "25,881,941",
+      "value": 25881941,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "54,415,215",
+      "value": 54415215,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "332,864,760",
+      "value": 328646760,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "50,501",
+      "value": 50501,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "850,501",
+      "value": 850501,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "402,678,378",
+      "value": 402678378,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "399,475,401",
+      "value": 399475401,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "6,300",
+      "value": 6300,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "20,000",
+      "value": 20000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "6,858,729",
+      "value": 6858729,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 7319982127,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Transportation",
+      "value": 65001296,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Ag. & Natural Resources",
+      "value": 14933347,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Department of Agriculture",
+      "value": 7713578,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--KDHE-Environment",
+      "value": 5919769,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Kansas Water Office",
+      "value": 1210000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "8,434,307",
+      "value": 8434307,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "11,222,283",
+      "value": 11222283,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "11,242,283",
+      "value": 11242283,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "22,350",
+      "value": 22350,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "141,152",
+      "value": 141152,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2,555,123",
+      "value": 2555123,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "838,180",
+      "value": 838180,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "387,706",
+      "value": 387706,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "42,428",
+      "value": 42428,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "550,000",
+      "value": 550000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "103,780",
+      "value": 103780,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "62,550",
+      "value": 62550,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "75,000",
+      "value": 75000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "125,000",
+      "value": 125000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "250,000",
+      "value": 250000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "120,000",
+      "value": 120000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2,187,000",
+      "value": 2187000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "10,000",
+      "value": 10000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "730,884",
+      "value": 730884,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "1,130,000",
+      "value": 1130000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "90,000",
+      "value": 90000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "32,014,102",
+      "value": 32014102,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "2,345,000",
+      "value": 2345000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "100,000",
+      "value": 100000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "5,750,000",
+      "value": 5750000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "5,000,000",
+      "value": 5000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "1,075,000",
+      "value": 1075000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "46,284,102",
+      "value": 46284102,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "7,188,856,874",
+      "value": 7188856874,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "272,718,888",
+      "value": 272718888,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "201,306,646",
+      "value": 201306646,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "460,000,000",
+      "value": 460000000,
+      "unit": "USD"
+    },
+    {
+      "label": "920,000,000",
+      "value": 920000000,
+      "unit": "USD"
+    },
+    {
+      "label": "73,987",
+      "value": 73987,
+      "unit": "USD"
+    },
+    {
+      "label": "6,500,000",
+      "value": 6500000,
+      "unit": "USD"
+    },
+    {
+      "label": "20,000,000",
+      "value": 20000000,
+      "unit": "USD"
+    },
+    {
+      "label": "26,573,987",
+      "value": 26573987,
+      "unit": "USD"
+    },
+    {
+      "label": "4,540,932",
+      "value": 4540932,
+      "unit": "USD"
+    },
+    {
+      "label": "810,709",
+      "value": 810709,
+      "unit": "USD"
+    },
+    {
+      "label": "5,351,641",
+      "value": 5351641,
+      "unit": "USD"
+    },
+    {
+      "label": "236,200",
+      "value": 236200,
+      "unit": "USD"
+    },
+    {
+      "label": "519,000",
+      "value": 519000,
+      "unit": "USD"
+    },
+    {
+      "label": "115,200",
+      "value": 115200,
+      "unit": "USD"
+    },
+    {
+      "label": "67,500",
+      "value": 67500,
+      "unit": "USD"
+    },
+    {
+      "label": "937,900",
+      "value": 937900,
+      "unit": "USD"
+    },
+    {
+      "label": "1,900,000",
+      "value": 1900000,
+      "unit": "USD"
+    },
+    {
+      "label": "27,768",
+      "value": 27768,
+      "unit": "USD"
+    },
+    {
+      "label": "492,891,296",
+      "value": 528912296,
+      "unit": "USD"
+    },
+    {
+      "label": "918,100,000",
+      "value": 918100000,
+      "unit": "USD"
+    },
+    {
+      "label": "34,791,296",
+      "value": 34791396,
+      "unit": "USD"
+    },
+    {
+      "label": "754,798,204",
+      "value": 754798204,
+      "unit": "USD"
+    },
+    {
+      "label": "16,000,000",
+      "value": 16000000,
+      "unit": "USD"
+    },
+    {
+      "label": "770,798,204",
+      "value": 770798204,
+      "unit": "USD"
+    },
+    {
+      "label": "13,676",
+      "value": 13676,
+      "unit": "USD"
+    },
+    {
+      "label": "7,507,967",
+      "value": 7507967,
+      "unit": "USD"
+    },
+    {
+      "label": "2,511,358",
+      "value": 2511358,
+      "unit": "USD"
+    },
+    {
+      "label": "211,014,644",
+      "value": 211014644,
+      "unit": "USD"
+    },
+    {
+      "label": "6,600,000",
+      "value": 6600000,
+      "unit": "USD"
+    },
+    {
+      "label": "214,518,969",
+      "value": 214518969,
+      "unit": "USD"
+    },
+    {
+      "label": "13,420,375",
+      "value": 13420375,
+      "unit": "USD"
+    },
+    {
+      "label": "51,892,212",
+      "value": 51892112,
+      "unit": "USD"
+    },
+    {
+      "label": "596,712",
+      "value": 596712,
+      "unit": "USD"
+    },
+    {
+      "label": "15,000",
+      "value": 15000,
+      "unit": "JOBS"
+    },
+    {
+      "label": "240,880",
+      "value": 240880,
+      "unit": "USD"
+    },
+    {
+      "label": "50,000,000",
+      "value": 50000000,
+      "unit": "USD"
+    },
+    {
+      "label": "10,000,000",
+      "value": 10000000,
+      "unit": "USD"
+    },
+    {
+      "label": "4,423,997",
+      "value": 4423997,
+      "unit": "USD"
+    },
+    {
+      "label": "783,435",
+      "value": 783435,
+      "unit": "USD"
+    },
+    {
+      "label": "225,000",
+      "value": 225000,
+      "unit": "USD"
+    },
+    {
+      "label": "5,207,432",
+      "value": 5207432,
+      "unit": "USD"
+    },
+    {
+      "label": "50,225,000",
+      "value": 50225000,
+      "unit": "USD"
+    },
+    {
+      "label": "16,145,332",
+      "value": 16145332,
+      "unit": "USD"
+    },
+    {
+      "label": "6,144,452",
+      "value": 6144452,
+      "unit": "USD"
+    },
+    {
+      "label": "1,294,632",
+      "value": 1294632,
+      "unit": "USD"
+    },
+    {
+      "label": "869,002,728",
+      "value": 869002728,
+      "unit": "USD"
+    },
+    {
+      "label": "32,355,348",
+      "value": 32355348,
+      "unit": "USD"
+    },
+    {
+      "label": "91,338,083",
+      "value": 91338083,
+      "unit": "USD"
+    },
+    {
+      "label": "992,696,159",
+      "value": 992696159,
+      "unit": "USD"
+    },
+    {
+      "label": "240,738,484",
+      "value": 240738484,
+      "unit": "USD"
+    },
+    {
+      "label": "244,338,484",
+      "value": 244338484,
+      "unit": "USD"
+    },
+    {
+      "label": "13,310,815",
+      "value": 13310815,
+      "unit": "USD"
+    },
+    {
+      "label": "51,442,748",
+      "value": 51442748,
+      "unit": "USD"
+    },
+    {
+      "label": "51,836,512",
+      "value": 51836512,
+      "unit": "USD"
+    },
+    {
+      "label": "416,799",
+      "value": 416799,
+      "unit": "USD"
+    },
+    {
+      "label": "165",
+      "value": 165,
+      "unit": "YEAR"
+    },
+    {
+      "label": "706,001,918",
+      "value": 706001918,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "9,431",
+      "value": 9431,
+      "unit": "JOBS"
+    },
+    {
+      "label": "2,591,200",
+      "value": 2591200,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "4,591,200",
+      "value": 4591200,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "617,792,510",
+      "value": 617792510,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "291,596",
+      "value": 291596,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "303,537",
+      "value": 303537,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "750,000",
+      "value": 750000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "90,000",
+      "value": 90000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "148,000",
+      "value": 148000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "686,396,636",
+      "value": 686396636,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "34,999,128",
+      "value": 34999128,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "85,532,126",
+      "value": 85532126,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "806,927,890",
+      "value": 806927890,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "700,000",
+      "value": 700000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1,796,854,280",
+      "value": 1796854280,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "62,004,476",
+      "value": 62004476,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "185,820,209",
+      "value": 185820209,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "2,044,678,965",
+      "value": 2044678965,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "119,293",
+      "value": 119293,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1,547,023",
+      "value": 1547023,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "3,094,046",
+      "value": 3094046,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "10,000,000",
+      "value": 10000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "107,089",
+      "value": 107089,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "5,400,000",
+      "value": 5400000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "500,314",
+      "value": 500314,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "350,000",
+      "value": 350000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "546,813",
+      "value": 546813,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "114,075",
+      "value": 114075,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "296,498",
+      "value": 296498,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "417,255",
+      "value": 417255,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "188,126",
+      "value": 188126,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "575,144",
+      "value": 575144,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "1,010,919",
+      "value": 1010919,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "16,258,338",
+      "value": 16258338,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "35,258,338",
+      "value": 35258338,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "175,335",
+      "value": 175335,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "25,000,000",
+      "value": 25000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "21,000",
+      "value": 21000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "59,000",
+      "value": 59000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "69,493",
+      "value": 69493,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "171,021",
+      "value": 171021,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "240,514",
+      "value": 240514,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 2254218626,
+      "unit": "USD"
+    },
+    {
+      "label": "Subtotal--Regents",
+      "value": 68875845,
+      "unit": "USD"
+    },
+    {
+      "label": "Total--Education",
+      "value": 69040589,
+      "unit": "USD"
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 9617974,
+      "unit": "USD"
+    },
+    {
+      "label": "Total--General Government",
+      "value": 429282671,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Subtotal--KDADS",
+      "value": 16791860,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Human Services",
+      "value": 23200017,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Subtotal--Department of Education",
+      "value": 2125537,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Subtotal--Regents",
+      "value": 151778805,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Education",
+      "value": 154961842,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Subtotal--Corrections",
+      "value": 21003744,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 34474045,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Budget",
+      "value": 202352457,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Department of Administration",
+      "value": 202252457,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Department of Commerce",
+      "value": 100000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total--General Government",
+      "value": 202352457,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Department for Aging & Disability Services",
+      "value": 13790142,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Subtotal--KDADS",
+      "value": 13854960,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Department for Children & Families",
+      "value": 450000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Department of Labor",
+      "value": 1555000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Commission on Veterans Affairs",
+      "value": 1953215,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total--Human Services",
+      "value": 17813175,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "School for the Blind",
+      "value": 1269830,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "School for the Deaf",
+      "value": 1529908,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Subtotal--Department of Education",
+      "value": 2799738,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Board of Regents",
+      "value": 70000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Emporia State University",
+      "value": 3798393,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Fort Hays State University",
+      "value": 11642940,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas State University",
+      "value": 21201490,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas State University--ESARP",
+      "value": 85000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "KSU--Veterinary Medical Center",
+      "value": 365546,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Pittsburg State University",
+      "value": 5638381,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "University of Kansas",
+      "value": 14387222,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "University of Kansas Medical Center",
+      "value": 12964351,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Wichita State University",
+      "value": 13587641,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Subtotal--Regents",
+      "value": 173673964,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Historical Society",
+      "value": 537800,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total--Education",
+      "value": 17011502,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Department of Corrections",
+      "value": 5282640,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas Juvenile Correctional Complex",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 61858035,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Schedule 6.1--Expenditures from All Funding Sources for Capital Improvements by Agency",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Total Expenditures FY 2023",
+      "value": 319785736,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Expenditures FY 2022",
+      "value": 406132816,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Expenditures from All Funding Sources for Capital Improvements FY 2023",
+      "value": 65,
+      "unit": "BILLION",
+      "year": 2023
+    },
+    {
+      "label": "Expenditures from All Funding Sources for Capital Improvements FY 2022",
+      "value": 82.76,
+      "unit": "BILLION",
+      "year": 2022
+    },
+    {
+      "label": "12.00",
+      "value": 12,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "46.00",
+      "value": 46,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "61.00",
+      "value": 61,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "3.00",
+      "value": 3,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "27.00",
+      "value": 27,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1.00",
+      "value": 1,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "15.50",
+      "value": 15.5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "18.50",
+      "value": 18.5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "2.00",
+      "value": 2,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "5.00",
+      "value": 5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "3.80",
+      "value": 3.8,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "41.80",
+      "value": 41.8,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "68.80",
+      "value": 68.8,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "134.00",
+      "value": 134,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "136.00",
+      "value": 136,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "41.40",
+      "value": 41.4,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "175.40",
+      "value": 175.4,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "177.40",
+      "value": 177.4,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "135.50",
+      "value": 135.5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "40.00",
+      "value": 40,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1.47",
+      "value": 1.47,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "41.47",
+      "value": 41.47,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "8.00",
+      "value": 8,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "50.00",
+      "value": 50,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "6.00",
+      "value": 6,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "56.00",
+      "value": 56,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "41.00",
+      "value": 41,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "26.00",
+      "value": 26,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "31.50",
+      "value": 31.5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "33.50",
+      "value": 33.5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 19736.89,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 21.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Total--Education",
+      "value": 19757.89,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 517.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 19204.58,
+      "unit": "JOBS",
+      "year": 2023
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 1.0,
+      "unit": "JOBS",
+      "year": 2023
+    },
+    {
+      "label": "Total--Education",
+      "value": 19701.33,
+      "unit": "JOBS",
+      "year": 2023
+    },
+    {
+      "label": "FTE Positions",
+      "value": 3185.5,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Non-FTE Unclassified Permanent Positions",
+      "value": 135.5,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Total--Corrections",
+      "value": 3321.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "FTE Positions",
+      "value": 3185.5,
+      "unit": "JOBS",
+      "year": 2023
+    },
+    {
+      "label": "Non-FTE Unclassified Permanent Positions",
+      "value": 135.5,
+      "unit": "JOBS",
+      "year": 2023
+    },
+    {
+      "label": "Total--Corrections",
+      "value": 3420.1,
+      "unit": "JOBS",
+      "year": 2023
+    },
+    {
+      "label": "Adjutant General--FTE Positions",
+      "value": 289.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Adjutant General--Total",
+      "value": 294.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Emergency Medical Services Board--FTE Positions",
+      "value": 14.01,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Emergency Medical Services Board--Total",
+      "value": 14.01,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "State Fire Marshal--FTE Positions",
+      "value": 72.3,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Highway Patrol--FTE Positions",
+      "value": 880.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Highway Patrol--Total",
+      "value": 880.0,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Kansas Bureau of Investigation--FTE Positions",
+      "value": 353.5,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Kansas Bureau of Investigation--Total",
+      "value": 354.5,
+      "unit": "JOBS",
+      "year": 2022
+    },
+    {
+      "label": "Positions",
+      "value": 41367.62,
+      "unit": "USD",
+      "year": 2022
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Comparison Report"
+    },
+    {
+      "date": "January 2022",
+      "year": 2022,
+      "description": "Governor Kelly proposed a revised budget for FY 2022 and the first budget for FY 2023"
+    },
+    {
+      "date": "April 20, 2022",
+      "year": 2022,
+      "description": "The Consensus Revenue Estimating Group met to revise the FY 2022 and FY 2023 estimates"
+    },
+    {
+      "date": "July 1, 2022",
+      "year": 2022,
+      "description": "The Legislature chose to delay the implementation of the food tax reduction"
+    },
+    {
+      "date": "January 1, 2023",
+      "year": 2023,
+      "description": "The state retail sales tax and compensating use tax rate for food and food ingredients was reduced"
+    },
+    {
+      "date": "January 1, 2025",
+      "year": 2025,
+      "description": "The state level food sales tax was reduced to 0.0 percent"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Governor's recommended budget included using current State General Fund surpluses to eliminate existing state debt early."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature concurred with Governor's recommendation for $332.2 million from the State General Fund for the Department of Administration to pay off the Series 2015A and Series 2015G bonds in FY 2022."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature approved $41.5 million from the State General Fund to pay off the Kansas Bureau of Investigation forensic laboratory in FY 2022."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature added $80.0 million from the State General Fund to pay off water supply storage debt for Big Hill, Clinton, and Hillsdale reservoirs in FY 2022."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature passed and Governor signed 2022 SB 421, which transfers $1.125 billion from the State General Fund directly to the KPERS Trust Fund in designated installments in FY 2022 and FY 2023."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature approved $60.0 million for the rehabilitation and repair of the Docking State Office Building in FY 2023."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature approved $32.5 million from the State General Fund for a new laboratory facility for the Kansas Department of Health and Environment in FY 2023."
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislature approved expenditures totaling $6.085 billion from all funding sources"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Legislature concurred with Governor's plan to transfer full statutory amounts from State General Fund and Economic Development Initiatives Fund"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Legislature increased expenditures by $150,000"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Governor proposed to end delayed payment practice of $199.6 million in state aid expenditures"
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "State Foundation Aid"
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "Supplemental State Aid"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Education Consensus Meeting"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Medicaid expansion removed"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Medicaid expansion approved"
+    },
+    {
+      "date": "April 16, 2022",
+      "year": 2022,
+      "description": "The U.S. Department of Health and Human Services announced the renewal of the PHE effective"
+    },
+    {
+      "date": "September 2022",
+      "year": 2022,
+      "description": "the enhanced FMAP will be available through"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "The Legislature approved expenditures for the Department totaling $2.374 billion, including $843.7 million from the State General Fund"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "The Legislature approved expenditures for the Department totaling $2.712 billion, including $1.098 billion from the State General Fund"
+    },
+    {
+      "date": "November",
+      "year": null,
+      "description": "Forecast period"
+    },
+    {
+      "date": "April 20, 2022",
+      "year": null,
+      "description": "Consensus Revenue Estimating Group met"
+    },
+    {
+      "date": "CY 2021",
+      "year": 2021,
+      "description": "Kansas unemployment rate was 3.2 percent"
+    },
+    {
+      "date": "CY 2022",
+      "year": 2022,
+      "description": "Kansas unemployment rate is expected to be 3.5 percent"
+    },
+    {
+      "date": "CY 2023",
+      "year": 2023,
+      "description": "Kansas unemployment rate is expected to be 3.4 percent"
+    },
+    {
+      "date": "March 2022",
+      "year": null,
+      "description": "labor force participation rate was 66.3 percent"
+    },
+    {
+      "date": "November",
+      "year": null,
+      "description": "Kansas unemployed rate was estimated to be 3.5 percent in CY 2022 and 3.4 percent in CY 2023"
+    },
+    {
+      "date": "April 20, 2022",
+      "year": null,
+      "description": "oil futures price expectations leading up to the meeting"
+    },
+    {
+      "date": "November",
+      "year": null,
+      "description": "Estimates made"
+    },
+    {
+      "date": "April",
+      "year": null,
+      "description": "Revised estimates made"
+    },
+    {
+      "date": "March",
+      "year": null,
+      "description": "Fiscal year-to-date receipts"
+    },
+    {
+      "date": "FY 1996",
+      "year": 1996,
+      "description": "Modern era peak of natural gas production"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Kansas FY 2023 State General Fund Receipts"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Kansas FY 2022 State General Fund Receipts"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Recommended plan to eliminate state sales tax on food"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Governor's recommendation included KEY Fund revenue estimates of $47.0 million in FY 2022 and $50.0 million in FY 2023 and the Legislature concurred."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Actual FY 2022 tobacco settlement revenue exceeded estimates by $14.3 million."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The inflation adjustment has not been considered in the final payment since 2008."
+    },
+    {
+      "date": "2022",
+      "year": 2022,
+      "description": "The Legislature approved a transfer of $51.7 million from the KEY Fund to the CIF to cover expenditures for children’s programs."
+    },
+    {
+      "date": "2022",
+      "year": 2022,
+      "description": "The Governor's recommendation also included the transfer of $460,593 to the Attorney General for Master Settlement Agreement related expenditures in FY 2022 and the Legislature concurred."
+    },
+    {
+      "date": "2022",
+      "year": 2022,
+      "description": "The approved FY 2022 ending balance in the KEY fund is $36.1 million."
+    },
+    {
+      "date": "2023",
+      "year": 2023,
+      "description": "The Legislature approved a transfer of $52.3 million from the KEY Fund to the CIF to cover expenditures for children’s programs."
+    },
+    {
+      "date": "2023",
+      "year": 2023,
+      "description": "The Governor's recommendation also included the transfer of $460,593 to the Attorney General for Master Settlement Agreement related expenditures in FY 2023 and the Legislature concurred."
+    },
+    {
+      "date": "2023",
+      "year": 2023,
+      "description": "The approved FY 2023 ending balance in the KEY fund is projected to be $26.9 million."
+    },
+    {
+      "date": "2022",
+      "year": 2022,
+      "description": "The first state-owned destination casino opened in Ford County in December 2009."
+    },
+    {
+      "date": "2011",
+      "year": 2011,
+      "description": "The casino in Sumner County opened in December 2011, the casino in Wyandotte County opened in February 2012, and the final authorized casino opened in Crawford County in March 2017."
+    },
+    {
+      "date": "April",
+      "year": null,
+      "description": "consensus group meeting"
+    },
+    {
+      "date": "October 2021",
+      "year": 2021,
+      "description": "original gaming facility revenue estimate"
+    },
+    {
+      "date": "January",
+      "year": null,
+      "description": "Governor's budget estimate"
+    },
+    {
+      "date": "July 1, 2023",
+      "year": 2023,
+      "description": "start of sports wagering revenue distribution"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislature approved Governor's Budget Amendment"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislature approved Governor's EDIF recommendations"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Legislature approved Governor's Budget Amendment"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Governor recommended, and Legislature approved, a transfer of $15.0 million from the EDIF to the State General Fund."
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Legislature approved a similar pay plan which increased EDIF expenditures by $578,211."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Reappropriated expenditure authority"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Concurred with approved FY 2022 transfers"
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "Concurred with Governor’s recommendation"
+    },
+    {
+      "date": "2022-06-29",
+      "year": 2022,
+      "description": "State Finance approved $40,904,037 from the State General Fund"
+    },
+    {
+      "date": "2022-04-11",
+      "year": 2022,
+      "description": "Governor signed 2022 HB 2607"
+    },
+    {
+      "date": "2022-04-18",
+      "year": 2022,
+      "description": "Governor signed 2022 SB 408"
+    },
+    {
+      "date": "2022-08-01",
+      "year": 2022,
+      "description": "Transfer of $146.1 million from State General Fund to KPERS Trust Fund"
+    },
+    {
+      "date": "2022-12-01",
+      "year": 2022,
+      "description": "Transfer of $125.0 million from State General Fund to KPERS Trust Fund"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislature approved total expenditures of $1.8 billion from all funding sources for General Government function"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Legislature approved total expenditures of more than $1.9 billion from all funding sources for General Government function"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislature approved $332.2 million from the State General Fund to pay off the Series 2015A and Series 2015G bonds"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislature did not approve the Governor’s recommendation for a one-time tax rebate"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Legislature changed the Budget Stabilization Fund from a no limit fund to an appropriated fund with a $0 limitation"
+    },
+    {
+      "date": "2022-06-01",
+      "year": 2022,
+      "description": "First transfer of $553.9 million from State General Fund to KPERS Trust Fund"
+    },
+    {
+      "date": "2022-12-01",
+      "year": 2022,
+      "description": "Second transfer of $125.0 million from State General Fund to KPERS Trust Fund"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The Legislature enacted SB 84 which allows the Kansas Lottery to enter into a contract with gaming facility managers to offer sports wagering in the state on behalf of the State of Kansas through the Kansas Lottery."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The Legislature added 5.00 FTE positions to manage the new Sports Wagering program, but did not add any additional funding for the positions."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The Legislature added a 6.00 FTE positions to regulate the sports wagering industry that is authorized under 2022 SB 84."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The Legislature also approved 2.00 FTE positions for the Tribal Gaming Regulation Program if a federally recognized Indian tribe submits a request to negotiate a gaming compact regarding sports wagering that could allow sports wagering at tribal gaming facilities operated by the Iowa Tribe of Kansas and Nebraska, the Kickapoo Tribe of Indians of the Kickapoo Reservation in Kansas, the Prairie Band Potawatomi Nation in Kansas, or the Sac and Fox Nation of Missouri in Kansas and Nebraska."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The Governor added $287,531 from the State General Fund in FY 2022 and $525,864 in FY 2023 for administration cost to implement the new tax reduction program."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The 2022 Legislature enacted HB 2106 that reduces the state retail sales tax and compensating use tax rate for food and food ingredients over a three-year period beginning with a 2.5 percent reduction effective on January 1, 2023; however, no additional funding or FTE positions were provided to the Department of Revenue in the budget process."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The 2022 Legislature approved the Governor’s recommendation that transfers $1.0 million from the State General Fund to the Division of Vehicles Modernization Fund in FY 2023 to finance the modernization and maintenance of the Department’s vehicle IT systems."
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "The Legislature also reduced administration costs by $18 from the State General Fund in FY 2023 and included proviso language that prevents the Department of Revenue from collecting sales taxes from certain internet-based subscription service providers that provide subscriber access only to a content library."
+    },
+    {
+      "date": "July 7, 2018",
+      "year": 2018,
+      "description": "new prohibition extends retroactively"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislature approved Governor’s recommendation for supplemental funding"
+    },
+    {
+      "date": "June 2023",
+      "year": 2023,
+      "description": "project completion"
+    },
+    {
+      "date": "May 2022",
+      "year": 2022,
+      "description": "SPARK Executive Committee reviewing applications"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Holocaust Commemoration"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Affordable Housing Redevelopment"
+    },
+    {
+      "date": "January 1, 2023",
+      "year": 2023,
+      "description": "Food sales tax relief"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "CASA (Court Appointed Special Advocates) grant"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Attorney General funding"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "State Treasurer funding"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislative Branch Agencies funding"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Kansas Legislative Research Department funding"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Revisor of Statutes funding"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Judicial Branch Agencies funding"
+    },
+    {
+      "date": "July 1, 2022",
+      "year": 2022,
+      "description": "food and food ingredients sales tax reduction"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "The Division of the Budget, Department for Children and Families (DCF), Department of Health and Environment (KDHE), Department for Aging and Disability Services (KDADS), and the Legislative Research Department (Consensus Group) met on April 14, 2022, to revise the estimates on human services consensus caseload expenditures for FY 2022 and FY 2023."
+    },
+    {
+      "date": "January 1, 2020",
+      "year": 2020,
+      "description": "Temporary increase in FMAP began"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Current PHE is scheduled to continue through July 2022"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Current PHE is scheduled to end through July 2022"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The U.S. Department of Health and Human Services announced the renewal of the PHE effective April 16, 2022."
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Legislature approved expenditures for the Department for Human Services totaling $2.7 billion, including $1.1 billion from the State General Fund."
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "Legislature recommended increasing the KDADS KanCare expenditures by $107.3 million from all funding sources."
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "Legislature increased expenditures by $235.2 million from all funding sources."
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "expenditures increased by $7.5 million for workforce recruitment and retention incentives"
+    },
+    {
+      "event": "Delayed School Finance Payments",
+      "year": 2022
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Legislature approved FY 2023 expenditures totaling $6,622.6 million"
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "KPERS-School expenditures for FY 2023 will be revised during the Fall 2023 Education Consensus Meeting"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 HB 2567"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 HB 2466"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 HB 2067"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative Session"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "inflation adjustment of 3.3 percent"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Budget"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "FY 2022"
+    },
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Budget Schedule 5.1--Expenditures from All Funding Sources for Other Assistance, Grants, & Benefits by Agency"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2022"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Recommendation"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Approved"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Vetoes"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Budget"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "General Government"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Department of Administration"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Residential Tax Rebate"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Changes"
+    },
+    {
+      "date": null,
+      "year": 2023,
+      "description": "FY 2023"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2022 Budget"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "FY 2023 budget"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Budget"
+    },
+    {
+      "date": "FY 2023",
+      "year": 2023,
+      "description": "Governor's Budget Recommendation"
+    },
+    {
+      "date": "FY 2022",
+      "year": 2022,
+      "description": "Legislative Approved Budget"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2023 Budget Approved by Governor"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2022 Budget Approved by Governor"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Gov. Rec."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Leg. Adj."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2023"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The Governor recommended a plan to “Axe the Food Tax” by eliminating the state sales tax on food and food",
+      "note": "This was recommended by the Governor’s Council on Tax Reform"
+    },
+    {
+      "quote": "The Legislature enacted 2022 HB 2106 that reduces the state retail sales tax and compensating use tax rate for food",
+      "note": "This was done to implement the food tax reduction"
+    },
+    {
+      "quote": "The Legislature concurred with the Governor’s recommendation for $332.2 million from the State General Fund for the Department of Administration",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature approved $41.5 million from the State General Fund to pay off the Kansas Bureau of Investigation forensic laboratory",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature added $80.0 million from the State General Fund to pay off water supply storage debt for Big Hill,",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature passed and Governor signed 2022 SB 421, which transfers $1.125 billion from the State General Fund directly to",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature approved $60.0 million for the rehabilitation and repair of the Docking State Office Building in FY 2023.",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature approved $32.5 million from the State General Fund for a new laboratory facility for the Kansas Department of",
+      "note": ""
+    },
+    {
+      "quote": "The Legislature concurred with the Governor’s recommendation to transfer the full statutory amounts of $6.0 million from the State General",
+      "note": "2022 HB 2567"
+    },
+    {
+      "quote": "The Legislature approved expenditures totaling $6.085 billion from all funding sources, including $4.125 billion from the State General Fund.",
+      "note": "2022 HB 2567"
+    },
+    {
+      "quote": "For FY 2022, the Governor proposed to end the accounting practice of delaying an estimated $199.6 million in FY 2022",
+      "note": "2022 HB 2567"
+    },
+    {
+      "quote": "The Legislature approved FY 2023 expenditures totaling $6.621 billion, including $4.480 billion from the State General Fund.",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "The tax policy changes had a significant impact on the budget",
+    "KPERS-School expenditures for FY 2023 will be revised during the Fall 2023 Education Consensus Meeting.",
+    null,
+    "The temporary increase in the FMAP began on January 1, 2020",
+    "The growth in membership will remain higher than normal in FY 2023 even after the end of the PHE",
+    "it will take some time for membership to return to baseline levels after the PHE is ended",
+    "Uncertainty remains as a number of economic indicators are estimated to show smaller real growth over the next few years as compared to the November forecast.",
+    "Significant concerns exist for the economy as a whole relative to inflation, volatility in energy prices, U.S. trade and foreign policy, and consumer and business demand for products and services subject to sales taxation.",
+    "uncertainty remains in forecasting the price of this commodity",
+    "Transfers totaling $853.9 million to the Kansas Public Employees Retirement Fund",
+    "Transfers totaling $750.0 million from the SGF to the Budget Stabilization Fund",
+    "Stronger tax revenue growth of $411.1 million",
+    "The inflation adjustment has not been considered in the final payment since 2008.",
+    "estimate is dependent on contracts between the lottery gaming facility managers and the Kansas Lottery being signed to offer sports wagering in FY 2022",
+    "It is not known when a parimutuel horse racetrack with historical horse race machines would begin operations in Sedgwick County.",
+    "funds appropriated from the Economic Development Initiatives Fund can be lapsed",
+    "A bill posting error resulted in the addition of $200.",
+    "Employer contribution rates for KPERS State/School Group",
+    "Due to the elimination of COVID-19 stimulus funds and reduced unemployment benefits post pandemic.",
+    "CMS has not approved the changes to the HCAIP program",
+    "The full rebase amount is based on calendar year 2019, 2020, and 2021 cost data, however, the data for calendar year 2021 is an estimate.",
+    "KPERS-School expenditures for FY 2023 will be revised during the Fall 2023 Education Consensus Meeting",
+    "Amounts in FY 2024 appearing in italics were estimated through the education consensus process, but were not appropriated during the 2022 Legislative Session.",
+    "chunk_json_parse_failed",
+    "null",
+    "Schedule 6.1--Expenditures from All Funding Sources for Capital Improvements by Agency",
+    "parenthetical remark"
+  ],
+  "recommended_next_queries": [
+    "What are the specific tax policy changes that were made in the 2022 Legislature?",
+    "What is the impact of the delayed payment practice on the state's cash basis law?",
+    null,
+    "What is the current status of Medicaid expansion in Kansas?",
+    "What are the implications of the temporary increase in the FMAP?",
+    "Kansas public policy",
+    "Kansas public finance",
+    "Kansas Medicaid enrollment",
+    "Kansas human services consensus caseload estimates",
+    "Kansas State General Fund revenue projections",
+    "Kansas State General Fund expenditure projections",
+    "Kansas State General Fund budget",
+    "Kansas job market",
+    "Kansas economy",
+    "Kansas interest rates",
+    "What is the impact of the exemptions on state revenue?",
+    "How does the increase in individual income tax estimate affect state revenue?",
+    "What is the reason for the decrease in other revenue estimate?",
+    "What are the tax sources for Kansas FY 2022 and FY 2023?",
+    "Kansas Affordable Housing Tax Credit Act",
+    "Kansas Housing Investor Credit Act",
+    "Creative Industries Tax Credit",
+    "What are the specific programs approved for funding in FY 2023?",
+    "Kansas public policy on sports wagering regulation",
+    "Historical horse race machines",
+    "Parimutuel horse racetrack with historical horse race machines",
+    "funding for Affordable Housing Redevelopment project",
+    "Kansas Department of Agriculture budget submission",
+    "Kansas Water Authority recommendation",
+    "What is the breakdown of expenditures for General Government agencies in FY 2022 and FY 2023?",
+    "How does the one-time tax rebate plan affect the State General Fund budget?",
+    "What are the specific projects funded by the American Rescue Plan Act in FY 2023?",
+    "What are the employer contribution rates for the KPERS State/School Group?",
+    "How is the KanCare Medical estimate affected by the increase in capitation expenditures from continued member growth?",
+    "What are the estimated population growth rates for FY 2022 and FY 2023?",
+    "How does the extension of the Public Health Emergency (PHE) impact the FMAP and Medicaid caseloads?",
+    "What is the impact of the Families First Prevention Services Act on foster care caseloads?",
+    "What is the current status of the CMS approval for the HCAIP program changes?",
+    "What are the revisions to KPERS-School expenditures for FY 2023?",
+    "null",
+    "Kansas FY 2022 Budget details",
+    "Fiscal notes and audit reports for FY 2023",
+    "total positions by agency for FY 2022 and FY 2023"
+  ]
+}

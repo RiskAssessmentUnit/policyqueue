@@ -1,0 +1,359 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Budget Instructions to State Agencies",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total State Appropriations",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "General Fund Appropriations",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Revenue Estimates",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Expenditure Estimates",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Number of lane-miles of road repair",
+      "value": 1000,
+      "unit": "LANE-MILES",
+      "year": 2026
+    },
+    {
+      "label": "Cost per lane-mile of road repaired",
+      "value": 1000,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": null,
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Number of budgets for FY 2026",
+      "value": 11,
+      "unit": "NUMBER",
+      "year": 2026
+    },
+    {
+      "label": "Number of budgets for FY 2025",
+      "value": 8,
+      "unit": "NUMBER",
+      "year": 2025
+    },
+    {
+      "label": "Debt Service",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total",
+      "value": 500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "FY 2025 KPERS Regular State & School Member Retirement",
+      "value": 11.54,
+      "unit": "PERCENT",
+      "year": 2025
+    },
+    {
+      "label": "FY 2026 KPERS Regular State & School Member Retirement",
+      "value": 11.68,
+      "unit": "PERCENT",
+      "year": 2026
+    },
+    {
+      "label": "FY 2027 KPERS Regular State & School Member Retirement",
+      "value": 11.32,
+      "unit": "PERCENT",
+      "year": 2027
+    },
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": 2025
+    },
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": 2026
+    },
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": 2027
+    },
+    {
+      "label": "Video Surveillance",
+      "value": 30,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Video Surveillance",
+      "value": 40,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Video Surveillance",
+      "value": 40,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "On site video station or Ccure access",
+      "value": 50,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "On site video station or Ccure access",
+      "value": 50,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "On site video station or Ccure access",
+      "value": 50,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Video system maintenance and support",
+      "value": "Actual",
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Video system maintenance and support",
+      "value": "Actual",
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Video system maintenance and support",
+      "value": "Actual",
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Video system design, vendor integration and quotation",
+      "value": "Actual",
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Video system design, vendor integration and quotation",
+      "value": "Actual",
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Video system design, vendor integration and quotation",
+      "value": "Actual",
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Enterprise Applications—all (per transaction)",
+      "value": 1.59,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Enterprise Applications—all (per transaction)",
+      "value": 1.813,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Enterprise Applications—all (per transaction)",
+      "value": 2.012,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Enterprise Applications—all (per accounting line)",
+      "value": 0.095,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Enterprise Applications—all (per accounting line)",
+      "value": 0.124,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Enterprise Applications—all (per accounting line)",
+      "value": 0.143,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Annual Licensing Fee—all (per user)",
+      "value": 15.82,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Annual Licensing Fee—all (per user)",
+      "value": 15.82,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Annual Licensing Fee—all (per user)",
+      "value": 15.82,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "Letters (1st Class Postage)",
+      "value": 0.75,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Letters (1st Class Postage)",
+      "value": 0.8,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Letters (1st Class Postage)",
+      "value": 0.85,
+      "unit": "USD",
+      "year": 2027
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1",
+      "year": null,
+      "description": "Agencies submit five-year capital improvement plans"
+    },
+    {
+      "date": "September 15",
+      "year": null,
+      "description": "Agency strategic plans and budget requests are submitted to the Division of the Budget"
+    },
+    {
+      "date": "November 10",
+      "year": null,
+      "description": "Division of the Budget provides its budget recommendations to agencies"
+    },
+    {
+      "date": "November",
+      "year": null,
+      "description": "The Consensus Revenue Estimating Group meets to estimate State General Fund revenues"
+    },
+    {
+      "date": "January",
+      "year": null,
+      "description": "Governor presents recommendations regarding agency budgets to the Legislature"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Example of Service Delivery System and Outcomes"
+    },
+    {
+      "date": "June 30, 2024",
+      "year": 2024,
+      "description": "Lapse of unencumbered balances in special revenue funds"
+    },
+    {
+      "date": null,
+      "year": 2025,
+      "description": "Agencies should budget estimated debt service payments for FY 2025 and explain that these amounts are estimated."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "State Finance Council was created to act on budget matters that arise when the Legislature is not in session"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Supplemental Appropriation"
+    },
+    {
+      "date": null,
+      "year": 2025,
+      "description": "FY 2025"
+    },
+    {
+      "date": null,
+      "year": 2026,
+      "description": "FY 2026"
+    },
+    {
+      "date": null,
+      "year": 2027,
+      "description": "FY 2027"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Rates may differ depending upon the contractor involved."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The budget cycle can be divided into four categories: executive preparation, legislative consideration, execution, and audit/evaluation.",
+      "note": null
+    },
+    {
+      "quote": "One of the biggest environmental factors for state agencies is the state’s fiscal status.",
+      "note": "External/Internal Assessment, Page 12"
+    },
+    {
+      "quote": "No discussion of an organization’s operating environment would be complete without an understanding of the revenue and expenditure estimates of the state as a whole, as well as of individual agencies.",
+      "note": "External/Internal Assessment, Page 12"
+    },
+    {
+      "quote": "Another type of output indicator measures efficiency.",
+      "note": "An efficiency measure is generally stated as a ratio of output to input or as an average."
+    },
+    {
+      "quote": "As required by KSA 75-3717, the narrative description for each new or expanded program must include an estimate of anticipated expenditures that would be required to support the new or expanded program for the budget year and three ensuing fiscal years (see Enhancement Packages below).",
+      "note": null
+    },
+    {
+      "quote": "The approved budget may include any combination of the following, depending on the agency’s funding structure:",
+      "note": "Description of budget components"
+    },
+    {
+      "quote": "Savings.  (a)  Any unencumbered balance as of June 30, 2024, in any special revenue fund, or account thereof, of any state agency named in this act which is not otherwise specifically appropriated or limited by this or other appropriation act of the 2025 regular session of the legislature, is hereby appropriated for the fiscal year ending June 30, 2025, for the same use and purpose as the same was heretofore appropriated.",
+      "note": "Savings clause for limited special revenue funds"
+    },
+    {
+      "quote": "Agencies should use the following expenditure account codes for debt service payments on capital projects (1) to enter their debt service estimates into the budget system and (2) for coding vouchers that make debt service payments from the State General Fund or any special revenue fund.",
+      "note": "The principal portion of the debt service payment is a capital expenditure, because only that portion constitutes a capital asset when the debt is retired."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "program_type": "OTHER",
+  "title": "Minutes from Legislative Coordinating Council Meeting",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Meeting of the Legislative Coordinating Council (LCC) held on August 14, 2025"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Meeting of the Legislative Coordinating Council (LCC) held on September 24, 2025"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "During the 2024 Legislative session, a provision became law whereby the LCC could review and consider, on behalf of the Legislature, such a notice of intention to dispose of the school building by a unified school district and provide authority for the LCC to deny the legislative option for the state to acquire the building.",
+      "note": null
+    }
+  ]
+}

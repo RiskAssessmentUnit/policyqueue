@@ -1,0 +1,82 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 70819,
+      "unit": "COUNT"
+    },
+    {
+      "label": "White",
+      "value": 71595,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Black",
+      "value": 59685,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "American Indian",
+      "value": 51807,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Asian",
+      "value": 4759,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Hawaiian",
+      "value": 305,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Other Races",
+      "value": 3325,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Two or More Races",
+      "value": 224,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 413,
+      "unit": "COUNT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Profile produced by: Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

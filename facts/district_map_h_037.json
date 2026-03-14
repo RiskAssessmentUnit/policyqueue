@@ -1,0 +1,22 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wyandotte",
+    "Kansas City"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 49,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

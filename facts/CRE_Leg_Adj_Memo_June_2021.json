@@ -1,0 +1,26 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total",
+      "value": 109.508,
+      "unit": "USD",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislative Adjustments to Consensus Estimates for FY 2021 through FY 2022"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Kansas Legislative Research Department",
+      "note": "7 Legislative Adjustments to Consensus Estimates for FY 2021 through FY 2022 – June 9, 2021"
+    }
+  ]
+}

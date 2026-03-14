@@ -1,0 +1,23 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita"
+  ],
+  "entities": [
+    {
+      "name": "Wichita",
+      "type": "OTHER"
+    },
+    {
+      "name": "Sedgwick County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

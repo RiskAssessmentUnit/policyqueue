@@ -1,0 +1,49 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Sedgwick"
+  ],
+  "entities": [
+    {
+      "name": "House District 94",
+      "type": "OTHER"
+    },
+    {
+      "name": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 400,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "miles",
+      "value": 0,
+      "unit": "MILES",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 91,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

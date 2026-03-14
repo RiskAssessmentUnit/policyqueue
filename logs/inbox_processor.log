@@ -1,0 +1,7 @@
+﻿2026-02-28 17:56:27  Ollama API OK at http://100.124.222.121:11434
+2026-02-28 17:56:28  Processing test1.txt
+2026-02-28 17:56:47  Wrote C:\Users\meta4\policyqueue\facts\test1.json
+2026-02-28 17:56:47  Archived to C:\Users\meta4\policyqueue\archive\test1.20260228-175647.txt
+2026-02-28 18:26:12  Created C:\Users\meta4\policyqueue\pdf_to_text.py
+2026-02-28 18:26:13  Starting extract run. Host=100.124.222.121 Model=llama3.1:8b-instruct-q4_K_M
+2026-02-28 18:26:13  Processing: hb2777_00_0000.pdf

@@ -1,0 +1,40 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Johnson County",
+    "Leawood",
+    "Overland Park"
+  ],
+  "entities": [
+    {
+      "name": "House District 27",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "District City & District Boundary",
+      "note": "Legend"
+    },
+    {
+      "quote": "Johnson County: Cities: Leawood(part), Overland Park(part)",
+      "note": "Legend"
+    },
+    {
+      "quote": "Townships: Aubry(part), Oxford(part)",
+      "note": "Legend"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

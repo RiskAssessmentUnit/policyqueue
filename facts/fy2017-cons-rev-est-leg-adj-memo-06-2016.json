@@ -1,0 +1,27 @@
+{
+  "program_type": "BUDGET",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Transfers",
+      "value": 77.585,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Sales",
+      "value": 119.018,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Cumulative FY 2016 + FY 2017",
+      "value": 230.502,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

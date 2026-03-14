@@ -1,0 +1,132 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Haviland",
+    "Pratt",
+    "Cullison",
+    "Coats",
+    "Sawyer",
+    "Sun City Lake City",
+    "Wilmore",
+    "Medicine Lodge",
+    "Sharon",
+    "Hazelton",
+    "Isabel",
+    "Attica",
+    "Kiowa",
+    "Hardtner",
+    "Harper",
+    "Anthony",
+    "Danville",
+    "Argonia",
+    "Conway Springs",
+    "Milan",
+    "Bluff City",
+    "Caldwell",
+    "Waldron",
+    "Coldwater",
+    "Mullinville",
+    "Protection",
+    "Greensburg",
+    "Iuka",
+    "Byers"
+  ],
+  "entities": [
+    {
+      "name": "House District 116",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 42,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 14,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 179,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 8,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 2,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 44,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 49,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 1,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 400,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 160,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 281,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 183,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 54,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

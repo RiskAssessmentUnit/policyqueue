@@ -1,0 +1,74 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2019 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 499041030,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Subtotal - KDOR Tax Collections",
+      "value": 505332990,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total Receipts",
+      "value": 395887158,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total Taxes",
+      "value": 453537702,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Subtotal - KDOR Tax Collections",
+      "value": 461644515,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Receipts",
+      "value": 572780748,
+      "unit": "USD",
+      "year": 2018
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "$487,690,000",
+      "note": "Total Taxes, FY 2019"
+    },
+    {
+      "quote": "$453,537,702",
+      "note": "Total Taxes, FY 2018"
+    },
+    {
+      "quote": "$499,041,030",
+      "note": "Total Taxes, FY 2019"
+    },
+    {
+      "quote": "$505,332,990",
+      "note": "Subtotal - KDOR Tax Collections, FY 2019"
+    },
+    {
+      "quote": "$461,644,515",
+      "note": "Subtotal - KDOR Tax Collections, FY 2018"
+    },
+    {
+      "quote": "$395,887,158",
+      "note": "Total Receipts, FY 2019"
+    },
+    {
+      "quote": "$572,780,748",
+      "note": "Total Receipts, FY 2018"
+    }
+  ]
+}

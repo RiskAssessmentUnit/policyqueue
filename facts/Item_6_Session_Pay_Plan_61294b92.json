@@ -1,0 +1,26 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Salary Range 1",
+      "value": 660,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Salary Range 28",
+      "value": 2280,
+      "unit": "USD",
+      "year": 2026
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "The 2026 pay matrix indicates needed increases in salaries to effectively recruit and retain temporary staff for the legislative session.",
+      "note": "Proposed 2026 Positions, Pay Policy, and Pay Scale for Temporary Legislative Employees"
+    }
+  ]
+}

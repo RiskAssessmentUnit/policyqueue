@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 23883,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": []
+}

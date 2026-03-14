@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2025 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 6132020000,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Total Receipts",
+      "value": 6133548370,
+      "unit": "USD",
+      "year": 2025
+    }
+  ],
+  "events": [
+    {
+      "date": "3/3/2025",
+      "year": 2025,
+      "description": "Kansas Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$6,133,020,000",
+      "note": "Total Taxes"
+    },
+    {
+      "quote": "$6,329,438,370",
+      "note": "Total Receipts"
+    }
+  ]
+}

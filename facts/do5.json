@@ -1,0 +1,24 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Mail to: KDOR - Taxpayer Assistance Center, PO Box 3506, Topeka KS 66625-3506 or fax to 785-296-2073.",
+      "note": null
+    },
+    {
+      "quote": "If you have questions about the completion of this form, call 785-368-8222.",
+      "note": null
+    }
+  ]
+}

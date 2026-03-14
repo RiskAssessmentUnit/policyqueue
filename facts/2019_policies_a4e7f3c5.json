@@ -1,0 +1,46 @@
+{
+  "program_type": "OTHER",
+  "title": "Kansas Legislative Intern Program",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Intern mileage expense allotment",
+      "value": 600,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Intern mileage expense allotment for leadership offices",
+      "value": 1200,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Maximum postage allotment per calendar year for each senator",
+      "value": 3136,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Maximum postage allotment per calendar year for each representative",
+      "value": 1044,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Each legislator shall have an Intern mileage expense allotment under the program of up to $600 each regular session for mileage expense reimbursement for Interns",
+      "note": "Policy 37, Kansas Legislative Intern Program"
+    },
+    {
+      "quote": "The maximum amount of mileage expense reimbursement for any Kansas Legislative Intern shall not exceed $600 per session of the legislature",
+      "note": "Policy 37, Kansas Legislative Intern Program"
+    },
+    {
+      "quote": "It shall be unlawful for any person to use for such person's personal use, or to allow any unauthorized person to use, any form of postage paid for with state funds.",
+      "note": "K.S.A. 21-3911"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Bonner Springs",
+    "Lake Quivira",
+    "Shawnee"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "House District",
+      "value": 39,
+      "unit": null
+    },
+    {
+      "label": null,
+      "value": 0,
+      "unit": "miles"
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

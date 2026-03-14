@@ -1,0 +1,37 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Ellsworth",
+    "Lincoln",
+    "Osborne",
+    "Russell",
+    "Smith"
+  ],
+  "entities": [
+    {
+      "name": "House District 109",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "House District 109"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas legislative districts",
+    "2022 Kansas legislation"
+  ]
+}

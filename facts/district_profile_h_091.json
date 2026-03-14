@@ -1,0 +1,77 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 24648,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 197,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Hawaiian",
+      "value": 802,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Asian",
+      "value": 653,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "American Indian",
+      "value": 802,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Black",
+      "value": 197,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "White",
+      "value": 18108,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Voting Age",
+      "value": 24648,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

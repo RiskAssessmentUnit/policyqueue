@@ -1,0 +1,48 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2017 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 369893333,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Receipts",
+      "value": 3803255365,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Taxes",
+      "value": 331522535,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Receipts",
+      "value": 326669514,
+      "unit": "USD",
+      "year": 2017
+    }
+  ],
+  "events": [
+    {
+      "date": "3/1/2017",
+      "year": 2017,
+      "description": "Report date"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "*  Miscellaneous taxes include corporate franchise taxes and fees.",
+      "note": "Explanation of miscellaneous taxes"
+    },
+    {
+      "quote": "*  Miscellaneous taxes include corporate franchise taxes and fees.",
+      "note": ""
+    }
+  ]
+}

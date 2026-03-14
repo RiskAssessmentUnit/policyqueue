@@ -1,0 +1,81 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 73801,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "White",
+      "value": 56631,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Black",
+      "value": 477,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "American Indian",
+      "value": 1014,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Asian",
+      "value": 1014,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Hawaiian",
+      "value": 38,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Other Races",
+      "value": 128,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Two or More Races",
+      "value": 32,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 191,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Census",
+      "value": 2020,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Voting Age",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": []
+}

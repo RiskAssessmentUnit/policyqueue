@@ -1,0 +1,348 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "SUBJECT INDEX REPORT",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Kansas standard deduction",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Kansas personal exemption",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "STAR Bond",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Earnings tax, City imposition, authorization of",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Earnings tax, County imposition, authorization of",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Angel investor tax credit, sunset",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Kansas employee emergency savings account program",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Kansas film and digital media production development act",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Excise tax, Cannabis cultivation",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Road repair tax",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Ad astra opportunity tax credit",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Adoption expenses",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Child care contributions",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Child tax credit",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Contributions to eligible charitable organizations",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Contributions to the personal hygiene fund",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Disability employment act, purchases from qualified vendors",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Education opportunity tax credit",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Employer payments to employee student loans",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Ethanol blended motor vehicle fuel",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Family caregivers of disabled veterans",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "High performance incentive program",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Household and dependent care expenses",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Kansas adult learner grant act",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Kansas army and air national guard, employer and member",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Kansas housing investor tax credit",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Low income students scholarship program",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Owners promoting employment across Kansas",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Payment of money transmission excise taxes",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Preceptor tax incentive act",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Purchases from qualified vendors",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Qualified business facility, Transferability",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Residential solar and wind energy expenditures",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Rural grocery development",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Salt parity act",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Scholarship programs",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "School and classroom supplies",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Selective assistance for effective senior relief (SAFESR)",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Single city port authority",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Tuition for postsecondary educational institutions",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Unused credits, repeal of",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Veterans' valor property tax relief act",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Water conservation systems in newly constructed houses",
+      "value": null,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Sales Tax Holiday",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "01/17/2023",
+      "year": 2023,
+      "description": "Introduced—SJ 23"
+    },
+    {
+      "date": "01/18/2023",
+      "year": 2023,
+      "description": "Referred to Committee on Ways and Means—SJ 27"
+    },
+    {
+      "date": "02/28/2024",
+      "year": 2024,
+      "description": "House—Hearing: Thursday, March 7, 2024, 1:30 PM Room 582-N"
+    },
+    {
+      "date": "04/30/2024",
+      "year": 2024,
+      "description": "Senate—Died in Conference"
+    },
+    {
+      "date": "July 18, 2024",
+      "year": 2024,
+      "description": "Bold Nos. - Enacted"
+    },
+    {
+      "date": "July 18, 2024",
+      "year": 2024,
+      "description": "SUBJECT INDEX REPORT"
+    },
+    {
+      "date": "June 18, 2024",
+      "year": 2024,
+      "description": "2024 Special Session"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": null,
+      "note": null
+    },
+    {
+      "quote": "Bill by Commerce, Labor and Economic Development",
+      "note": "Updating elevator safety act provisions concerning the definition of elevator, mechanic and contractor employee licensing requirements, inspection, testing and accident reporting requirements and exceptions, permitting inspections by insurance companies and licensed elevator mechanics and establishing educational and testing options for elevator inspector licensing."
+    },
+    {
+      "quote": "Earnings tax, City imposition, authorization of ............................................ HB2684",
+      "note": "HB2684"
+    },
+    {
+      "quote": "Earnings tax, County imposition, authorization of ............................................ SB79",
+      "note": "SB79"
+    },
+    {
+      "quote": "Angel investor tax credit, sunset ............................................... SB329",
+      "note": "SB329"
+    },
+    {
+      "quote": "Kansas employee emergency savings account program .............. HB2064",
+      "note": "HB2064"
+    },
+    {
+      "quote": "Kansas film and digital media production development act ....... HB2182,  SB91",
+      "note": "HB2182, SB91"
+    },
+    {
+      "quote": "Excise tax, Cannabis cultivation ............................................................... HB2367",
+      "note": "HB2367"
+    }
+  ]
+}

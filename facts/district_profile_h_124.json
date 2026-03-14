@@ -1,0 +1,101 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "23,685",
+      "value": 23685,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "16,874",
+      "value": 16874,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "10,168",
+      "value": 10168,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "9,585",
+      "value": 9585,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "6,054",
+      "value": 6054,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "2,764",
+      "value": 2764,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1,700",
+      "value": 1700,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1,723",
+      "value": 1723,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "2,698",
+      "value": 2698,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "2,180",
+      "value": 2180,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "2,506",
+      "value": 2506,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

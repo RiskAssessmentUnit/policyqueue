@@ -1,0 +1,25 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Lawrence"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 43,
+      "unit": null
+    },
+    {
+      "label": "City Limits",
+      "value": 5,
+      "unit": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,736 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population 2020",
+      "value": 2913805,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2021",
+      "value": 2934582,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2022",
+      "value": 2937150,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "# Growth 2021-2022",
+      "value": 20777,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "# Growth 2022-2023",
+      "value": 2568,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "% Chg 2022-2023",
+      "value": 0.7,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population 2020",
+      "value": 7,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2021",
+      "value": 7,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2022",
+      "value": 7,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "% Chg 2022-2023",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "% Chg 2021-2022",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "Growth 2021-2022",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "Growth 2022-2023",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 2023,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "% Growth 2022-2023",
+      "value": 0.8,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "% Growth 2021-2022",
+      "value": 1.2,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "% Chg 2022-2023",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "% Chg 2021-2022",
+      "value": 0,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Kansas Certified Population",
+      "value": null,
+      "unit": "POPULATION",
+      "year": 2020
+    },
+    {
+      "label": "Kansas Certified Population",
+      "value": null,
+      "unit": "POPULATION",
+      "year": 2021
+    },
+    {
+      "label": "Kansas Certified Population",
+      "value": null,
+      "unit": "POPULATION",
+      "year": 2022
+    },
+    {
+      "label": "Kansas Certified Population",
+      "value": null,
+      "unit": "POPULATION",
+      "year": 2023
+    },
+    {
+      "label": "Certified Population",
+      "value": 2023,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Certified Population 2020",
+      "value": null,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "Certified Population 2021",
+      "value": null,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Certified Population 2022",
+      "value": null,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Certified Population 2023",
+      "value": null,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "Pop. 2020",
+      "value": null,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Pop. 2021",
+      "value": null,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Pop. 2022",
+      "value": null,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "% Chg 2022-2023",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population 2020",
+      "value": null,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "Population 2021",
+      "value": null,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Population 2022",
+      "value": null,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": null,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 525525,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population Growth",
+      "value": 3921,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population Change",
+      "value": 0.8,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Saline County Population",
+      "value": 223,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Saline County Population Growth",
+      "value": 5,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Saline County Population Change",
+      "value": 2.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Scott County Population",
+      "value": 5014,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Scott County Population Growth",
+      "value": 341,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Scott County Population Change",
+      "value": 7.1,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Scott City City Population",
+      "value": 4008,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Scott City City Population Growth",
+      "value": 368,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Scott City City Population Change",
+      "value": 9.9,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Sedgwick County Population",
+      "value": 525525,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Sedgwick County Population Growth",
+      "value": 3921,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Sedgwick County Population Change",
+      "value": 0.8,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Andale City Population",
+      "value": 928,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Andale City Population Growth",
+      "value": 46,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Andale City Population Change",
+      "value": 4.7,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Bel Aire City Population",
+      "value": 8822,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Bel Aire City Population Growth",
+      "value": 374,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Bel Aire City Population Change",
+      "value": 0.2,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Bentley City Population",
+      "value": 565,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Bentley City Population Growth",
+      "value": 54,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Bentley City Population Change",
+      "value": 10.5,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Cheney City Population",
+      "value": 2161,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Cheney City Population Growth",
+      "value": 12,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Cheney City Population Change",
+      "value": 0.6,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Clearwater City Population",
+      "value": 2642,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Clearwater City Population Growth",
+      "value": 46,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Clearwater City Population Change",
+      "value": 1.8,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Colwich City Population",
+      "value": 1457,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Colwich City Population Growth",
+      "value": 29,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Colwich City Population Change",
+      "value": 2,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Derby City Population",
+      "value": 25939,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Derby City Population Growth",
+      "value": 702,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Derby City Population Change",
+      "value": 2.8,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Eastborough City Population",
+      "value": 746,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Eastborough City Population Growth",
+      "value": 24,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Eastborough City Population Change",
+      "value": 3.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Garden Plain City Population",
+      "value": 943,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Garden Plain City Population Growth",
+      "value": 29,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Garden Plain City Population Change",
+      "value": 3.2,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Goddard City Population",
+      "value": 5559,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Goddard City Population Growth",
+      "value": 410,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Goddard City Population Change",
+      "value": 8.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Haysville City Population",
+      "value": 11287,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Haysville City Population Growth",
+      "value": 74,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Haysville City Population Change",
+      "value": 0.6,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Kechi City Population",
+      "value": 2322,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Kechi City Population Growth",
+      "value": 152,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Kechi City Population Change",
+      "value": 7.2,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Maize City Population",
+      "value": 6405,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Maize City Population Growth",
+      "value": 793,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Maize City Population Change",
+      "value": 15.1,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Mount Vernon City Population",
+      "value": 1422,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Mount Vernon City Population Growth",
+      "value": 33,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Mount Vernon City Population Change",
+      "value": 2.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Mulvane City Population",
+      "value": 646,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Mulvane City Population Growth",
+      "value": 7,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Mulvane City Population Change",
+      "value": 1.1,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Towanda City Population",
+      "value": 1311,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Towanda City Population Growth",
+      "value": 18,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Towanda City Population Change",
+      "value": 1.4,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Valley Center City Population",
+      "value": 6769,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Valley Center City Population Growth",
+      "value": 104,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Valley Center City Population Change",
+      "value": 1.5,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Wellington City Population",
+      "value": 845,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Wellington City Population Growth",
+      "value": 11,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Wellington City Population Change",
+      "value": 1.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Wichita City Population",
+      "value": 389095,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Wichita City Population Growth",
+      "value": 1337,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Wichita City Population Change",
+      "value": 0.3,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 203,
+      "unit": "THOUSANDS",
+      "year": 2020
+    },
+    {
+      "label": "# Growth 2021-2022",
+      "value": 709,
+      "unit": "TOTAL",
+      "year": null
+    },
+    {
+      "label": "% Chg 2022-2023",
+      "value": 3.4,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 165265,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": null,
+      "value": 167046,
+      "unit": "USD",
+      "year": 2023
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2023",
+      "year": null,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": "July 1, 2023",
+      "year": 2023,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Source: U.S. Census Bureau"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Pop. 2020",
+      "note": null
+    },
+    {
+      "quote": "7/1/2021*",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2021",
+      "note": null
+    },
+    {
+      "quote": "7/1/2022*",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2022",
+      "note": null
+    },
+    {
+      "quote": "7/1/2023*",
+      "note": null
+    },
+    {
+      "quote": "Kansas Certified Population Certified to the Secretary of State by Division of the Budget on July 1, 2023",
+      "note": null
+    },
+    {
+      "quote": "19,032",
+      "note": "Jefferson County population in 2021"
+    }
+  ]
+}

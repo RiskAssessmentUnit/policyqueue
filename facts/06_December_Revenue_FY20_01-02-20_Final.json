@@ -1,0 +1,65 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2020 State General Fund Receipts Final Report: December 2019",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 3580885324,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 3549901227,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Taxes",
+      "value": 756637993,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 755354456,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Percent of Total Received",
+      "value": 110.37,
+      "unit": "PERCENT",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "1/2/2020",
+      "description": "1/2/2020"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Subtotal -  KDOR Tax Collections $3,460,860,000 $3,508,237,281 $47,377,281 1.37 % $3,331,473,489 $176,763,791 5.31 %",
+      "note": ""
+    },
+    {
+      "quote": "Total Taxes $3,530,010,000 $3,580,885,324 $50,875,324 1.44 % $3,387,621,074 $193,264,250 5.71 %",
+      "note": ""
+    },
+    {
+      "quote": "Total Receipts $3,495,980,000 $3,549,901,227 $53,921,227 1.54 % $3,344,953,930 $204,947,297 6.13 %",
+      "note": ""
+    },
+    {
+      "quote": "*    Liquor gallonage taxes include cereal malt beverages.",
+      "note": ""
+    },
+    {
+      "quote": "**  Corporate franchise is now listed separately from miscellaneous.",
+      "note": ""
+    }
+  ]
+}

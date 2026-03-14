@@ -1,0 +1,530 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2017 Comparison Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund",
+      "value": 63060307.5,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "All Funds",
+      "value": 15705144279,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Nominal Kansas Gross State Product",
+      "value": 3.4,
+      "unit": "PERCENT",
+      "year": 2016
+    },
+    {
+      "label": "Nominal Kansas Gross State Product",
+      "value": 4.2,
+      "unit": "PERCENT",
+      "year": 2017
+    },
+    {
+      "label": "Transfers In: Cons. Rev. Est. to Consensus Adjustments",
+      "value": 27365245,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "ELARF Sweep to SGF",
+      "value": 4204000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Children's Initiative Fund Sweep to SGF",
+      "value": 12562625,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Various Agencies HB 2135 Special Revenue Fund Transfers",
+      "value": 3800000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Various Agencies IT Savings Certification",
+      "value": 5687847,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Regents Institutions 27th Paycheck Transfer",
+      "value": 1175831,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department of Administration Pub. Broad. Digital Conversion Debt Service",
+      "value": 133081,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Purchasing Fee Fund",
+      "value": 300000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Statehouse Debt Service-State Highway Fund",
+      "value": 982980,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Kansas Corporation Commission Conservation Fee Fund",
+      "value": 3000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Public Service Regulation Fund",
+      "value": 100000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "KETA Administrative Fund",
+      "value": 45000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "KPERS KS Endowment for Youth Fund",
+      "value": 9578000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Delayed Employer Contributions",
+      "value": 6584289,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department of Commerce Kansas Partnership Fund",
+      "value": 3714820,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Kansas Existing Industry Fund",
+      "value": 1939458,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Kansas Lottery Gaming Revenues Fund",
+      "value": 26500000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Special Veterans Benefit Game",
+      "value": 1700000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Racing & Gaming Tribal Gaming Program Loan Repayment",
+      "value": 450000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department of Revenue Car Company Tax Fund",
+      "value": 350000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Oil/Gas Valuation Depletion Trust Fund",
+      "value": 303973,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Division of Vehicles Operating Fund",
+      "value": 1341280,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Hazmat Fee Fund",
+      "value": 52497,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Ag. Ethyl Alcohol Producer Incentive Fund",
+      "value": 3500000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Board of Tax Appeals Filing Fee Fund",
+      "value": 100000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "State Bank Commissioner Bank Commissioner Fee Fund-CML",
+      "value": 1500000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Securities Commissioner Statutory End of the Year Balance Transfer",
+      "value": 12948531,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Attorney General Medicaid Fraud Prosecution Revolving Fund",
+      "value": 1000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Insurance Department Service Regulation Fund",
+      "value": 8000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "State Treasurer State Treasurer Operating Fund",
+      "value": 200000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "PMIB PMIB Investment Portfolio Fee Fund",
+      "value": 2800000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "KDADS Problem Gambling & Addiction Grant Fund",
+      "value": 1044246,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Social Welfare Fund",
+      "value": 1000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Children & Families Other State Fee Fund",
+      "value": 500000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "KDHE-Heath Sponsored Project Overhead Fund",
+      "value": 500000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department of Education State Safety Fund",
+      "value": 1100000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department of Corrections DOC General Fees Fund",
+      "value": 46950,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Adjutant General State Disaster Fund",
+      "value": 0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "State Fire Marshal Fire Marshall Fee Fund",
+      "value": 2000000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Highway Patrol KHP Operations Fund",
+      "value": 2262312,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "KDHE-Environment Environmental Response Fund",
+      "value": 50000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "State Fair Special Cash Fund",
+      "value": 200000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Kansas Water Office Water Supply Storage Acquisition Fund",
+      "value": 0,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Water Marketing Fund",
+      "value": 195959,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "John Redmond Reservoir Bond Account-SWPF",
+      "value": 1488452,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Wildlife, Parks & Tourism Central Aircraft Fund",
+      "value": 100000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Prairie Spirit Rails-to-Trails Fee Fund",
+      "value": 25000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department Access Road Fund",
+      "value": 631140,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Bridge Maintenance Fund",
+      "value": 268860,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Department of Transportation State Highway Fund",
+      "value": 277323611,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Overhead Payment/Purchasing",
+      "value": 210000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Transfer from KEY Fund to CIF",
+      "value": 42000000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Transfer from KEY Fund to State General Fund",
+      "value": 57300000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Beginning Balance",
+      "value": 376978,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "State General Fund",
+      "value": 5800000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "all funding sources",
+      "value": 21700000,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "expenditures of State Treasurer",
+      "value": -647019,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "expenditures of State Treasurer",
+      "value": -672287,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 869359979,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "FTE Positions",
+      "value": 6.0,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "FTE Positions",
+      "value": 8.0,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "FTE Positions",
+      "value": 12.0,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "FTE Positions",
+      "value": 46.0,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "Total--FTE Positions FY 2016",
+      "value": 4837.6,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "Total--FTE Positions FY 2017",
+      "value": 4868.11,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos. FY 2016",
+      "value": 595.86,
+      "unit": "USD"
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos. FY 2017",
+      "value": 594.11,
+      "unit": "USD"
+    },
+    {
+      "label": "Total--General Government FY 2016",
+      "value": 5433.46,
+      "unit": "USD"
+    },
+    {
+      "label": "Total--General Government FY 2017",
+      "value": 5462.22,
+      "unit": "USD"
+    },
+    {
+      "label": "FTE Positions",
+      "value": 36565.27,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 3537.15,
+      "unit": "USD",
+      "year": 2016
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 2016,
+      "description": "Governor Brownback proposed a revised biennial budget"
+    },
+    {
+      "date": null,
+      "year": 2016,
+      "description": "2016 Legislature approved the revised FY 2016 and FY 2017 budgets"
+    },
+    {
+      "date": "April 20, 2016",
+      "year": 2016,
+      "description": "The Consensus Group met to revise the FY 2016 and FY 2017 estimates."
+    },
+    {
+      "date": null,
+      "year": 2016,
+      "description": "Adjustments for November FY 2016"
+    },
+    {
+      "date": "May 18, 2016",
+      "year": 2016,
+      "description": "Governor announced an allotment plan for FY 2017"
+    },
+    {
+      "date": "June 30, 2016",
+      "year": 2016,
+      "description": "Allotment reduced expenditures from the CIF for the Kansas Reading Success Program by $680,500"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The 2016 Legislature passed SB 387"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The bill recognizes the Pooled Money Investment Board (PMIB) as a separate state agency for the purposes of budget preparation and reporting."
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "SB 387 requires the budgets of the Office of the State Treasurer and the PMIB to remain separated throughout the budgeting and review process"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The 2015 Legislature enacted HB 2005 which, among other provisions, appropriates funding and authorizes expenditures for Judicial Branch operations"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "The Legislature enacted and the Governor signed HB 2449 which repealed the nonseverability clause allowing the Judicial Branch budget to remain intact"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The table on this page lists summary numbers for the State General Fund and all funding sources for the two fiscal years affected by this year’s budget process.",
+      "note": null
+    },
+    {
+      "quote": "The Governor’s recommendation replaced all funding from the CIF with State General Fund dollars.",
+      "note": "Source: Budget Issues"
+    },
+    {
+      "quote": "The Legislature did not concur and approved a transfer of $42.0 million from the KEY Fund and to the CIF and appropriated the full amount to the CIF Grants account under the control of the Children’s Cabinet.",
+      "note": "Source: Children’s Initiatives Fund Summary"
+    },
+    {
+      "quote": "SB 387 requires the budgets of the Office of the State Treasurer and the PMIB to remain separated throughout the budgeting and review process",
+      "note": "SB 387 was passed in 2016"
+    },
+    {
+      "quote": "HB 2449 which repealed the nonseverability clause allowing the Judicial Branch budget to remain intact",
+      "note": "HB 2449 was passed in 2017"
+    }
+  ]
+}

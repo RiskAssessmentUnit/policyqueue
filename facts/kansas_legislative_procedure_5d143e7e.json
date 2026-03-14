@@ -1,0 +1,139 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Legislative Procedure in Kansas",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Edition",
+      "value": 12,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Revenues",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Number of members in House of Representatives",
+      "value": 125,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Number of members in Senate",
+      "value": 40,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Term of House members",
+      "value": 2,
+      "unit": "YEARS",
+      "year": null
+    },
+    {
+      "label": "Term of Senate members",
+      "value": 4,
+      "unit": "YEARS",
+      "year": null
+    },
+    {
+      "label": "Page",
+      "value": 40,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Date",
+      "value": "November 2006",
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Number of bills a member or committee may introduce",
+      "value": null,
+      "unit": "OTHER"
+    },
+    {
+      "label": "Bills prefiled",
+      "value": null,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "STAR bonds",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Kansas tax revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Preparation for the next regular session begins."
+    },
+    {
+      "date": "June",
+      "year": null,
+      "description": "Special committees are appointed by the Legislative Coordinating Council."
+    },
+    {
+      "date": "December 1",
+      "year": null,
+      "description": "Special committees must report to the Legislative Coordinating Council."
+    },
+    {
+      "date": "November 2006",
+      "year": 2006,
+      "description": "Legislative Procedure in Kansas report published"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The constitutional requirement is that the organization of the House and Senate is for the duration of the term of the members.",
+      "note": "Kansas Legislative Procedure in 2006, p. 26"
+    },
+    {
+      "quote": "Beginning in 1980, adjournment dates began occurring later in the year, generally from mid-May to early June.",
+      "note": "Kansas Legislative Procedure in 2006"
+    },
+    {
+      "quote": "For all practical purposes, the session ends during the last few days in April or early in May.",
+      "note": "Kansas Legislative Procedure in 2006"
+    },
+    {
+      "quote": "Since 1930, for example, there have been eleven special sessions: 1930, 1933, 1934, 1936, 1938, 1958, 1964, 1966, 1987, 1989 and 2005.",
+      "note": "Kansas Legislative Procedure in 2006"
+    },
+    {
+      "quote": "The special committees created by the Legislative Coordinating Council, which normally are composed of both House and Senate members, conduct studies of various proposals for legislative action.",
+      "note": null
+    },
+    {
+      "quote": "The special committees, usually appointed in June, typically meet monthly from June through November while studying proposals assigned to them.",
+      "note": null
+    },
+    {
+      "quote": "The Legislative Research Department and the Revisor of Statutes' Office provide staff for the special interim committees.",
+      "note": null
+    },
+    {
+      "quote": "The statutory committees, the number of which has increased in recent years, also meet during the interim period.",
+      "note": null
+    }
+  ]
+}

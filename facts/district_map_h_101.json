@@ -1,0 +1,20 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Arkansas",
+    "Wichita"
+  ],
+  "entities": [
+    {
+      "name": "House District 101",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

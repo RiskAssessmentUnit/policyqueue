@@ -1,0 +1,36 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "September 24, 2025",
+      "year": 2025,
+      "description": "LCC Agenda"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "school finance simulator",
+    "2026 session employee pay schedule",
+    "pricing for Legislative Highlights and Summary of Legislation Documents"
+  ]
+}

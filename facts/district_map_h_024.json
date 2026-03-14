@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Merriam",
+    "Overland Park",
+    "Mission"
+  ],
+  "entities": [
+    {
+      "name": "House District 24",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

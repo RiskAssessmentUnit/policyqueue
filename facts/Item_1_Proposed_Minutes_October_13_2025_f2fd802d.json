@@ -1,0 +1,32 @@
+{
+  "program_type": "BUDGET",
+  "title": "2026 Legislative Staff Agency Budget Requests",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Legislative Staff Agency Budget Request",
+      "value": null,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Legislative Staff Agency Budget Request",
+      "value": null,
+      "unit": "USD",
+      "year": 2027
+    }
+  ],
+  "events": [
+    {
+      "date": "October 13, 2025",
+      "year": 2025,
+      "description": "Legislative Coordinating Council Meeting"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The recommended price for the KSA volumes is $28 per volume and the recommended price for the Supplemental volumes is $10 per volume",
+      "note": "Recommended prices for Kansas Statutes Annotated (K.S.A.) volumes and Supplemental volumes"
+    }
+  ]
+}

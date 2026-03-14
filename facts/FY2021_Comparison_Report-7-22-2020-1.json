@@ -1,0 +1,320 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "2020 Legislature Budget Comparison Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund Revenues",
+      "value": 6825000000,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "State General Fund Receipts",
+      "value": 7231000000,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "All Funds Revenues",
+      "value": 18650000000,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "All Funds Receipts",
+      "value": 19912374300,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Interest earnings",
+      "value": 5430000,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Interest earnings",
+      "value": 500000,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Oil severance tax receipts",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Average price per taxable barrel of Kansas crude oil",
+      "value": 45,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Estimated average price of $25 per barrel",
+      "value": 25,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Kansas is estimated to produce 31.0 million barrels of oil",
+      "value": 31.0,
+      "unit": "MILLION_BARRELS",
+      "year": 2020
+    },
+    {
+      "label": "The current forecast of 26.0 million barrels for FY 2021",
+      "value": 26.0,
+      "unit": "MILLION_BARRELS",
+      "year": 2021
+    },
+    {
+      "label": "Kansas natural gas production is estimated to reach 165.0 million Mcf",
+      "value": 165.0,
+      "unit": "MILLION_MCF",
+      "year": 2020
+    },
+    {
+      "label": "Production is estimated to continue to decrease in the future and is expected to be 135.0 million Mcf",
+      "value": 135.0,
+      "unit": "MILLION_MCF",
+      "year": 2021
+    },
+    {
+      "label": "SGF receipts for FY 2020",
+      "value": 6825,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Decrease in SGF receipts for FY 2020",
+      "value": 826.9,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Individual income tax estimate decrease in FY 2020",
+      "value": 620,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Corporation income tax estimate decrease in FY 2020",
+      "value": 105,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Authorized Positions",
+      "value": 304749458,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "Authorized Total",
+      "value": 2468356592,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Salaries & Wages",
+      "value": 3258495258,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total budget",
+      "value": 282400000,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "State General Fund",
+      "value": 136900000,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Reportable budget",
+      "value": 192300000,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Non-reportable budget",
+      "value": 90010000,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 5898850467,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 5898494517,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total--General Government",
+      "value": 67202694,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total--General Government",
+      "value": 6160909,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total--Department of Commerce",
+      "value": 60344876,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 1868721359,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total--Other Asst., Grants & Benefits",
+      "value": 1914113645,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "FTE Positions",
+      "value": 5085.53,
+      "unit": "USD",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "COVID-19 outbreak"
+    },
+    {
+      "date": "2020-01",
+      "year": 2020,
+      "description": "Governor Kelly proposed revised budget for FY 2020 and first budget for FY 2021"
+    },
+    {
+      "date": "2020-05-21",
+      "year": 2020,
+      "description": "Sine Die Session"
+    },
+    {
+      "date": "2020-06-03",
+      "year": 2020,
+      "description": "June 3rd Special Session"
+    },
+    {
+      "date": null,
+      "year": 2020,
+      "description": "Federal Reserve cut its benchmark interest rate to near zero on March 15, 2020"
+    },
+    {
+      "date": "March 23, 2020",
+      "year": null,
+      "description": "Governor Kelly issued Executive Order 20-13, moving state tax deadlines from April 15, 2020, to July 15, 2020"
+    },
+    {
+      "date": "April 2, 2020",
+      "year": null,
+      "description": "Kansas matched additional federal action by waiving penalty and interest on estimated payments originally due on April 15, 2020"
+    },
+    {
+      "date": "April 2020",
+      "year": null,
+      "description": "Federal CARES Act impact on Kansas tax receipts"
+    },
+    {
+      "date": "November",
+      "year": null,
+      "description": "CRE Group meeting to review income tax deadline extension"
+    },
+    {
+      "date": "March 6, 2020",
+      "year": 2020,
+      "description": "Coronavirus Preparedness & Response Supplemental Appropriations Act"
+    },
+    {
+      "date": "March 18, 2020",
+      "year": 2020,
+      "description": "Families First Coronavirus Response Act"
+    },
+    {
+      "date": "2020",
+      "year": 2020,
+      "description": "The 2020 Legislature upheld Executive Reorganization Order (ERO) No. 45"
+    },
+    {
+      "date": "2021",
+      "year": 2021,
+      "description": "The Legislature approved a total FY 2021 budget of $1.3 million"
+    },
+    {
+      "date": "FY 2021",
+      "year": 2021,
+      "description": "Governor's Approved Budget"
+    },
+    {
+      "date": "FY 2020",
+      "year": 2020,
+      "description": "Governor's Approved Budget"
+    },
+    {
+      "date": "FY 2020",
+      "year": 2020,
+      "description": "Budget"
+    },
+    {
+      "date": "FY 2021",
+      "year": 2021,
+      "description": "Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The revised estimate of State General Fund receipts for FY 2020 is $6.825 billion, a decrease of $826.9 million from the November 2019 estimate.",
+      "note": null
+    },
+    {
+      "quote": "State General Fund receipts are estimated to be $7.231 billion in FY 2021, a decrease of $445.0 million relative to the November estimate.",
+      "note": null
+    },
+    {
+      "quote": "The average rate of return forecasted for FY 2020 is now estimated to be 1.50 percent",
+      "note": null
+    },
+    {
+      "quote": "The average rate of return is now estimated to be 0.10 percent",
+      "note": null
+    },
+    {
+      "quote": "SGF interest earnings are estimated to be $54.3 million in FY 2020",
+      "note": null
+    },
+    {
+      "quote": "SGF interest earnings are estimated to be $500,000 in FY 2021",
+      "note": null
+    },
+    {
+      "quote": "The estimated average price of $25 per barrel in FY 2021 (down from the $44 estimate used in November) is based largely on oil futures price expectations leading up to the April 20, 2020 meeting.",
+      "note": null
+    },
+    {
+      "quote": "The estimates for FY 2020 and FY 2021 include the state fiscal effect of the federal tax law changes from the federal CARES Act.",
+      "note": null
+    }
+  ]
+}

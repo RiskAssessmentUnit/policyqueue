@@ -1,0 +1,149 @@
+# Research Draft: Bill_Brief_SPECIAL_SESSION_Major_Professional_Sports_Franchise_STAR_BOND_PROJECT
+
+- Source JSON: `Bill_Brief_SPECIAL_SESSION_Major_Professional_Sports_Franchise_STAR_BOND_PROJECT.json`
+- Keyword hits: **star bond, tax revenue, budget**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "STAR_BOND",
+  "title": "Major Professional Sports Franchise STAR Bond Bill",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Office of Revisor of Statutes",
+      "type": "ORG"
+    },
+    {
+      "name": "Chuck Reimer",
+      "type": "PERSON"
+    },
+    {
+      "name": "Senator Erickson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Representative Tarwater",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kansas Development Finance Authority",
+      "type": "ORG"
+    },
+    {
+      "name": "Kansas",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "LCC",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Department of Commerce",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Minimum capital investment",
+      "value": 1000000000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Number of projects",
+      "value": 2,
+      "unit": "PROJECTS",
+      "year": null
+    },
+    {
+      "label": "Number of seats in stadium",
+      "value": 30000,
+      "unit": "SEATS",
+      "year": null
+    },
+    {
+      "label": "Amount transferred to state gaming revenues fund",
+      "value": 71090000,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Funds already allocated for other purposes",
+      "value": 50000000,
+      "unit": "USD"
+    },
+    {
+      "label": "Percentage of STAR bond funding of total project costs",
+      "value": 70,
+      "unit": "PERCENT"
+    }
+  ],
+  "events": [
+    {
+      "date": "June 17, 2024",
+      "year": 2024,
+      "description": "Memorandum sent to Senator Erickson and Representative Tarwater"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Effective date: July 1, 2024"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "This bill establishes a STAR bond-based economic development initiative for the purpose of attracting up to two major professional sports",
+      "note": "From Memorandum"
+    },
+    {
+      "quote": "The program is structured to provide two pathways for establishment of a project.",
+      "note": "From Memorandum"
+    },
+    {
+      "quote": "If enacted the bill would become effective July 1, 2024.",
+      "note": "Effective date of the bill"
+    }
+  ],
+  "uncertainties": [
+    "The determination of base year tax revenues for purposes of setting the tax increment for funding of STAR bonds is discretionary."
+  ],
+  "recommended_next_queries": [
+    "What are the current sports teams in Kansas?",
+    "What is the budget for this project?"
+  ]
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
+
+
+---
+
+## Web Verification (links only)
+
+Search query:
+`Research Draft Bill_Brief_SPECIAL_SESSION_Major_Professional_Sports_Franchise_STAR_BOND_PROJECT site:ks.gov site:kansas.gov`
+
+Search link:
+https://duckduckgo.com/?q=Research+Draft+Bill_Brief_SPECIAL_SESSION_Major_Professional_Sports_Franchise_STAR_BOND_PROJECT+site%3Aks.gov+site%3Akansas.gov
+
+Checked:
+**2026-03-05**
+
+Status: **REVIEWED (LINKS ONLY)**
+
+Notes:
+- Open the link and confirm against authoritative sources.
+- Add 1–3 official URLs under this section.

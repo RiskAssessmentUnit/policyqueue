@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Miles",
+      "value": 0,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Miles",
+      "value": 10,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

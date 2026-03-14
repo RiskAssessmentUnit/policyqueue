@@ -1,0 +1,97 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Jenna Moyer",
+      "type": "PERSON"
+    },
+    {
+      "name": "Jessie Pringle",
+      "type": "PERSON"
+    },
+    {
+      "name": "David Wiese",
+      "type": "PERSON"
+    },
+    {
+      "name": "Eileen Ma",
+      "type": "PERSON"
+    },
+    {
+      "name": "Carly Choi",
+      "type": "PERSON"
+    },
+    {
+      "name": "Natalie Scott",
+      "type": "PERSON"
+    },
+    {
+      "name": "Jason Thompson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chris Waggoner",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dahnika Short",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kyle Hamilton",
+      "type": "PERSON"
+    },
+    {
+      "name": "Charles Reimer",
+      "type": "PERSON"
+    },
+    {
+      "name": "Jill Wolters",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gordon Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tamera Lawrence",
+      "type": "PERSON"
+    },
+    {
+      "name": "Jason Long",
+      "type": "PERSON"
+    },
+    {
+      "name": "Mike Heim",
+      "type": "PERSON"
+    },
+    {
+      "name": "Amelia Kovar-Donohue",
+      "type": "PERSON"
+    },
+    {
+      "name": "Adam Siebers",
+      "type": "PERSON"
+    },
+    {
+      "name": "Robert G. (Bob) Bethell",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "January 2026",
+      "year": 2026,
+      "description": null
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

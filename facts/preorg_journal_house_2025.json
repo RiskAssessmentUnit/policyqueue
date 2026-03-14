@@ -1,0 +1,26 @@
+{
+  "program_type": "BUDGET",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "STAR bond revenue",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "The majority and minority parties will caucus and nominate their candidates for Speaker and Speaker pro tem for the next term and select their majority leader, minority leader, and other caucus or party officers."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Upon adjournment, the majority and minority parties will caucus and nominate their candidates for Speaker and Speaker pro tem for the next term and select their majority leader, minority leader, and other caucus or party officers.",
+      "note": "K.S.A. 42-142"
+    }
+  ]
+}

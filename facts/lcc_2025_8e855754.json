@@ -1,0 +1,90 @@
+{
+  "program_type": "OTHER",
+  "title": "Legislative Research Department Policies",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Policy Adoption Date",
+      "value": 1998,
+      "unit": "YEAR",
+      "year": 1998
+    },
+    {
+      "label": "Policy Adoption Date",
+      "value": 1999,
+      "unit": "YEAR",
+      "year": 1999
+    },
+    {
+      "label": "Policy Adoption Date",
+      "value": 2003,
+      "unit": "YEAR",
+      "year": 2003
+    },
+    {
+      "label": "Policy Adoption Date",
+      "value": 2004,
+      "unit": "YEAR",
+      "year": 2004
+    }
+  ],
+  "events": [
+    {
+      "date": "February 16, 1998",
+      "year": 1998,
+      "description": "Policy 55. Capitol Restoration Commission adopted"
+    },
+    {
+      "date": "September 16, 1998",
+      "year": 1998,
+      "description": "Policy 56. Use of rooms or other facilities of the Hiram Price Dillon House adopted"
+    },
+    {
+      "date": "October 14, 1998",
+      "year": 1998,
+      "description": "Policy 57. Disposition of Donations, Gifts and Bequests adopted"
+    },
+    {
+      "date": "December 16, 1998",
+      "year": 1998,
+      "description": "Policy 58. Dillon House Advisory Commission adopted"
+    },
+    {
+      "date": "December 19, 2019",
+      "year": 2019,
+      "description": "Policy 56 and 58 revoked"
+    },
+    {
+      "date": "May 29, 2019",
+      "year": 2019,
+      "description": "Policy 60. Paid parental leave for legislative employees adopted"
+    },
+    {
+      "date": "August 5, 2021",
+      "year": 2021,
+      "description": "Policy 60. Paid parental leave for legislative employees amended"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The use of state postage in the mailing of personal correspondence is a misdemeanor. K.S.A. 21-6006 states in part: It shall be unlawful for any person to use for such person's personal use, or to allow any unauthorized person to use, any form of postage knowing such postage to have been paid for with state funds.",
+      "note": "K.S.A. 21-6006"
+    },
+    {
+      "quote": "K.S.A. 75-3765a",
+      "note": " Kansas Statute"
+    },
+    {
+      "quote": "The CRC shall be staffed by the Capitol architect, the director of the division of facilities management, or a designee of the director, the division of legislative administrative services, the legislative research department and such other persons as the Legislative Coordinating Council may specify.",
+      "note": "Policy 55. Capitol Restoration Commission, subsection (b)"
+    },
+    {
+      "quote": "If the accepted donation, gift or bequest is for a specified purpose, it shall be expended for the purpose specified.",
+      "note": "Policy 57. Disposition of Donations, Gifts and Bequests, subsection (c)"
+    },
+    {
+      "quote": "All employees of the Legislative branch in a benefits-eligible, full time position shall be eligible to receive paid parental leave following the birth or adoption of a child that occurs on or after August 5, 2021.",
+      "note": "Policy 60. Paid parental leave for legislative employees, subsection (a)"
+    }
+  ]
+}

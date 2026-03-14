@@ -1,0 +1,49 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Eastborough"
+  ],
+  "entities": [
+    {
+      "name": "House District 83",
+      "type": "OTHER"
+    },
+    {
+      "name": "Sedgwick County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 400,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 91,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 100,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

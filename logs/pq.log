@@ -1,0 +1,84 @@
+2026-02-28 19:02:39  Processing hb2777_00_0000.pdf
+2026-02-28 19:03:41  JSON parse failed; wrote hb2777_00_0000.raw.txt
+2026-02-28 19:03:41  Processing fisc_note_sb421_00_0000.pdf
+2026-02-28 19:04:12  Wrote fisc_note_sb421_00_0000.json
+2026-02-28 19:04:12  ERROR fisc_note_sb421_00_0000.pdf: TypeError('expected string or bytes-like object')
+2026-02-28 19:07:02  Processing hb2777_00_0000.pdf
+2026-02-28 19:07:52  JSON parse failed; wrote hb2777_00_0000.raw.txt
+2026-02-28 19:07:52  Processing fisc_note_sb421_00_0000.pdf
+2026-02-28 19:22:24  Processing hb2777_00_0000.pdf
+2026-02-28 19:31:21  Processing hb2777_00_0000.pdf
+2026-02-28 19:31:21  Ollama extract start: hb2777_00_0000.pdf chars=141198 (max 12000)
+2026-02-28 19:32:05  Ollama extract done: hb2777_00_0000.pdf bytes=496
+2026-02-28 19:32:05  Wrote hb2777_00_0000.json
+2026-02-28 19:32:05  Wrote hb2777_00_0000.post.txt
+2026-02-28 19:32:05  Archived to hb2777_00_0000.20260228-193205.pdf
+2026-02-28 19:32:05  Processing fisc_note_sb421_00_0000.pdf
+2026-02-28 19:32:05  Ollama extract start: fisc_note_sb421_00_0000.pdf chars=3857 (max 12000)
+2026-02-28 19:32:44  Ollama extract done: fisc_note_sb421_00_0000.pdf bytes=1151
+2026-02-28 19:32:44  Wrote fisc_note_sb421_00_0000.json
+2026-02-28 19:32:44  Wrote fisc_note_sb421_00_0000.post.txt
+2026-02-28 19:32:44  Archived to fisc_note_sb421_00_0000.20260228-193244.pdf
+2026-02-28 19:32:58  No files in inbox.
+2026-02-28 19:43:57  Processing fisc_note_sb421_00_0000.20260228-193244.pdf
+2026-02-28 19:43:57  Ollama extract start: fisc_note_sb421_00_0000.20260228-193244.pdf chars=3857 (max 12000)
+2026-02-28 19:50:02  Ollama extract done: fisc_note_sb421_00_0000.20260228-193244.pdf bytes=1235
+2026-02-28 19:50:02  Wrote fisc_note_sb421_00_0000.20260228-193244.json
+2026-02-28 19:50:02  Wrote fisc_note_sb421_00_0000.20260228-193244.post.txt
+2026-02-28 19:50:02  Archived to fisc_note_sb421_00_0000.20260228-193244.20260228-195002.pdf
+2026-02-28 19:55:12  Processing fisc_note_sb421_00_0000.20260228-193244.pdf
+2026-02-28 19:55:12  Chunking fisc_note_sb421_00_0000.20260228-193244.pdf: total_chars=3857 chunks=1
+2026-02-28 19:55:12  Ollama chunk 1/1 start chars=3857
+2026-02-28 19:55:55  Ollama chunk 1/1 done bytes=1103
+2026-02-28 19:55:55  Wrote fisc_note_sb421_00_0000.20260228-193244.json
+2026-02-28 19:55:55  Wrote fisc_note_sb421_00_0000.20260228-193244.post.txt
+2026-02-28 19:55:55  Archived to fisc_note_sb421_00_0000.20260228-193244.20260228-195555.pdf
+2026-02-28 19:56:19  No files in inbox.
+2026-03-01 04:05:35  Run start: will process up to 25 file(s). Found 25.
+2026-03-01 04:05:35  Processing actions_and_subject_index_report.pdf
+2026-03-01 04:05:38  Chunking actions_and_subject_index_report.pdf: total_chars=1036460 chunks=127
+2026-03-01 04:05:38  Ollama chunk 1/127 start chars=9000
+2026-03-01 04:06:48  Ollama chunk 1/127 done bytes=1160
+2026-03-01 04:06:48  Ollama chunk 2/127 start chars=9000
+2026-03-01 04:07:38  Ollama chunk 2/127 done bytes=1063
+2026-03-01 04:07:38  Ollama chunk 3/127 start chars=9000
+2026-03-01 04:08:55  Ollama chunk 3/127 done bytes=1466
+2026-03-01 04:08:55  Ollama chunk 4/127 start chars=9000
+2026-03-01 04:12:08  Ollama chunk 4/127 done bytes=4926
+2026-03-01 04:12:08  Ollama chunk 5/127 start chars=9000
+2026-03-01 04:13:04  Ollama chunk 5/127 done bytes=1074
+2026-03-01 04:13:04  Ollama chunk 6/127 start chars=9000
+2026-03-01 04:14:03  Ollama chunk 6/127 done bytes=1243
+2026-03-01 04:14:03  Ollama chunk 7/127 start chars=9000
+2026-03-01 04:15:23  Ollama chunk 7/127 done bytes=1613
+2026-03-01 04:15:23  Ollama chunk 8/127 start chars=9000
+2026-03-01 04:16:52  Ollama chunk 8/127 done bytes=1649
+2026-03-01 04:16:52  Ollama chunk 9/127 start chars=9000
+2026-03-01 04:17:23  Ollama chunk 9/127 done bytes=580
+2026-03-01 04:17:23  Ollama chunk 10/127 start chars=9000
+2026-03-01 04:18:30  Ollama chunk 10/127 done bytes=1389
+2026-03-01 04:18:30  Ollama chunk 11/127 start chars=9000
+2026-03-01 04:19:23  Ollama chunk 11/127 done bytes=911
+2026-03-01 04:19:23  Ollama chunk 12/127 start chars=9000
+2026-03-01 04:19:54  Ollama chunk 12/127 done bytes=629
+2026-03-01 04:19:54  Ollama chunk 13/127 start chars=9000
+2026-03-01 04:24:43  Run start: will process up to 10 file(s). Found 10.
+2026-03-01 04:24:43  Processing how_bill_law.pdf
+2026-03-01 04:24:44  Chunking how_bill_law.pdf: total_chars=1239 chunks=1
+2026-03-01 04:24:44  Ollama chunk 1/1 start chars=1239
+2026-03-01 04:28:48  Ollama chunk 1/1 done bytes=466
+2026-03-01 04:28:48  Wrote how_bill_law.json
+2026-03-01 04:28:48  Wrote how_bill_law.post.txt
+2026-03-01 04:28:48  Archived to how_bill_law.20260301-042848.pdf
+2026-03-01 04:28:48  Processing legislative_deadlines.pdf
+2026-03-01 04:28:49  Chunking legislative_deadlines.pdf: total_chars=2991 chunks=1
+2026-03-01 04:28:49  Ollama chunk 1/1 start chars=2991
+2026-03-01 04:32:50  Ollama chunk 1/1 done bytes=1442
+2026-03-01 04:32:50  Wrote legislative_deadlines.json
+2026-03-01 04:32:50  Wrote legislative_deadlines.post.txt
+2026-03-01 04:32:50  Archived to legislative_deadlines.20260301-043250.pdf
+2026-03-01 04:32:50  Processing lcc_2025.pdf
+2026-03-01 04:32:51  Chunking lcc_2025.pdf: total_chars=75103 chunks=10
+2026-03-01 04:32:51  Ollama chunk 1/10 start chars=9000
+2026-03-01 04:37:47  Ollama chunk 1/10 done bytes=1077
+2026-03-01 04:37:47  Ollama chunk 2/10 start chars=9000

@@ -1,0 +1,15 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 23885,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

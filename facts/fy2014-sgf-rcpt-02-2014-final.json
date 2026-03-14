@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2014 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 3707552928,
+      "unit": "USD",
+      "year": 2014
+    },
+    {
+      "label": "Total Receipts",
+      "value": 3645901821,
+      "unit": "USD",
+      "year": 2014
+    }
+  ],
+  "events": [
+    {
+      "date": "February 2014",
+      "year": 2014,
+      "description": "Final: February 2014"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$3,579,835,000 Total Taxes",
+      "note": ""
+    },
+    {
+      "quote": "$3,645,901,821 Total Receipts",
+      "note": ""
+    }
+  ]
+}

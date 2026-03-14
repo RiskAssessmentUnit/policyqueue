@@ -1,0 +1,52 @@
+{
+  "program_type": "STAR_BOND",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Deadline to extend authority",
+      "value": null,
+      "unit": "DATE",
+      "year": 2025
+    },
+    {
+      "label": "Deadline for Secretary to present proposals",
+      "value": 2025,
+      "unit": "DATE",
+      "year": 2025
+    },
+    {
+      "label": "Extended authority deadline",
+      "value": 2026,
+      "unit": "DATE",
+      "year": 2026
+    }
+  ],
+  "events": [
+    {
+      "date": "December 31, 2025",
+      "year": 2025,
+      "description": "Deadline for Secretary to present proposals to LCC"
+    },
+    {
+      "date": "January 1, 2026",
+      "year": 2026,
+      "description": "Deadline for Secretary to present proposals to LCC"
+    },
+    {
+      "date": "June 30, 2026",
+      "year": 2026,
+      "description": "Extended authority deadline"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Vice Chairperson Hawkins moved pursuant to K.S.A. 12-17,181(b), to extend the authority of the Secretary of Commerce to negotiate an agreement with one or more major professional sports franchises or to pursue a major professional sports franchise star bond district and project with a city or county for the purpose of establishing a major professional sports franchise STAR bond district and project or projects for a major professional sports complex and that the extension of authority be contingent on the Secretary of Commerce bringing any such proposed agreement to this committee for approval prior to January 1, 2026.",
+      "note": "Motion to extend authority"
+    },
+    {
+      "quote": "Vice Chairperson Hawkins moved pursuant to K.S.A. 12-17,181(b) to extend the statutory deadline to June 30, 2026.",
+      "note": "Motion to extend deadline"
+    }
+  ]
+}

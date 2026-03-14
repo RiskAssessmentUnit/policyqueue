@@ -1,0 +1,27 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Shawnee",
+    "Merriam"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "JOBS"
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 2022,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

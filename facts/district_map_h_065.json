@@ -1,0 +1,46 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "W 18TH ST",
+    "N JEFFERSON ST",
+    "G ST",
+    "W PINE ST",
+    "TROOPER DR",
+    "S CLAY ST",
+    "MEADOW LN",
+    "S EISENHOWER DR",
+    "ST MARYS RD",
+    "CAROLINE AVE",
+    "UNION RD",
+    "COUNTY LINE",
+    "RANGE RD",
+    "2800 RD N"
+  ],
+  "entities": [
+    {
+      "name": "Geary County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Junction City",
+      "type": "OTHER"
+    },
+    {
+      "name": "Milford",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

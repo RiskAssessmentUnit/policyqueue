@@ -1,0 +1,149 @@
+﻿param(
+  [Parameter(Position=0)][string]$cmd = "status",
+  [Parameter(Position=1)][string]$arg = ""
+)
+
+$ROOT = Split-Path -Parent $MyInvocation.MyCommand.Path
+$PIDS = Join-Path $ROOT "pids"
+$LOGS = Join-Path $ROOT "logs"
+New-Item -ItemType Directory -Force -Path $PIDS,$LOGS | Out-Null
+
+$RUNNER   = Join-Path $ROOT "runner.py"
+$APPROVER = Join-Path $ROOT "telegram_approver.py"
+
+function PidPath($name){ Join-Path $PIDS ($name + ".pid") }
+function OutLog($name){ Join-Path $LOGS ($name + ".out.log") }
+function ErrLog($name){ Join-Path $LOGS ($name + ".err.log") }
+
+function Get-ProcByIdAndScript([int]$procId, [string]$scriptPath){
+  try {
+    $p = Get-CimInstance Win32_Process -Filter "ProcessId=$procId" -ErrorAction Stop
+    if (-not $p) { return $null }
+    $cl = ($p.CommandLine | Out-String)
+    if ($cl -match [regex]::Escape($scriptPath)) { return $p }
+    return $null
+  } catch { return $null }
+}
+
+function Is-Running($name, $scriptPath){
+  $pp = PidPath $name
+  if (-not (Test-Path $pp)) { return $false }
+
+  $procId = 0
+  try { $procId = [int](Get-Content $pp -Raw).Trim() } catch { $procId = 0 }
+
+  if ($procId -le 0) {
+    Remove-Item $pp -Force -ErrorAction SilentlyContinue
+    return $false
+  }
+
+  $ok = Get-ProcByIdAndScript -procId $procId -scriptPath $scriptPath
+  if ($ok) { return $true }
+
+  # stale pid file
+  Remove-Item $pp -Force -ErrorAction SilentlyContinue
+  return $false
+}
+
+function Start-Proc($name, $scriptPath){
+  if (-not (Test-Path $scriptPath)) { Write-Host "ERR: missing $scriptPath"; return }
+
+  if (Is-Running $name $scriptPath) {
+    $procId = (Get-Content (PidPath $name) -Raw).Trim()
+    Write-Host "OK: $name already running (pid=$procId)"
+    return
+  }
+
+  $outPath = OutLog $name
+  $errPath = ErrLog $name
+
+  try {
+    $p = Start-Process -FilePath "python" `
+      -ArgumentList @("`"$scriptPath`"") `
+      -WorkingDirectory $ROOT `
+      -RedirectStandardOutput $outPath `
+      -RedirectStandardError  $errPath `
+      -WindowStyle Hidden `
+      -PassThru -ErrorAction Stop
+
+    Set-Content -Path (PidPath $name) -Value $p.Id -Encoding ascii
+    Write-Host "STARTED: $name pid=$($p.Id) -> logs\$name.out.log + logs\$name.err.log"
+  } catch {
+    Write-Host "ERR: failed to start $name : $($_.Exception.Message)"
+  }
+}
+
+function Stop-Proc($name, $scriptPath){
+  $pp = PidPath $name
+  if (-not (Test-Path $pp)) { Write-Host "OK: $name not running (no pid file)"; return }
+
+  $procId = 0
+  try { $procId = [int](Get-Content $pp -Raw).Trim() } catch { $procId = 0 }
+
+  if ($procId -gt 0) {
+    $ok = Get-ProcByIdAndScript -procId $procId -scriptPath $scriptPath
+    if ($ok) {
+      try { Stop-Process -Id $procId -Force -ErrorAction SilentlyContinue } catch {}
+      Write-Host "STOPPED: $name pid=$procId"
+    } else {
+      Write-Host "OK: $name pid file stale (pid=$procId) — removing"
+    }
+  } else {
+    Write-Host "OK: $name pid file invalid — removing"
+  }
+
+  Remove-Item $pp -Force -ErrorAction SilentlyContinue
+}
+
+function Status(){
+  Write-Host "=== PolicyQueue Processes ==="
+  foreach ($item in @(
+    @{name="runner";   script=$RUNNER},
+    @{name="approver"; script=$APPROVER}
+  )){
+    $n=$item.name; $s=$item.script
+    if (Is-Running $n $s) {
+      $procId = (Get-Content (PidPath $n) -Raw).Trim()
+      Write-Host ("OK    {0,-8} pid={1}" -f $n,$procId)
+    } else {
+      Write-Host ("DOWN  {0,-8}" -f $n)
+    }
+  }
+}
+
+switch ($cmd.ToLower()) {
+  "start" {
+    if ($arg -eq "all") {
+      Start-Proc "runner"   $RUNNER
+      Start-Proc "approver" $APPROVER
+      Status
+    } elseif ($arg -eq "runner")   { Start-Proc "runner"   $RUNNER; Status }
+      elseif ($arg -eq "approver") { Start-Proc "approver" $APPROVER; Status }
+      else { Write-Host "Usage: pqctl.ps1 start all|runner|approver" }
+  }
+  "stop" {
+    if ($arg -eq "all") {
+      Stop-Proc "runner"   $RUNNER
+      Stop-Proc "approver" $APPROVER
+      Status
+    } elseif ($arg -eq "runner")   { Stop-Proc "runner"   $RUNNER; Status }
+      elseif ($arg -eq "approver") { Stop-Proc "approver" $APPROVER; Status }
+      else { Write-Host "Usage: pqctl.ps1 stop all|runner|approver" }
+  }
+  "restart" {
+    if ($arg -eq "all") {
+      Stop-Proc "runner"   $RUNNER
+      Stop-Proc "approver" $APPROVER
+      Start-Sleep 1
+      Start-Proc "runner"   $RUNNER
+      Start-Proc "approver" $APPROVER
+      Status
+    } elseif ($arg -eq "runner") {
+      Stop-Proc "runner" $RUNNER; Start-Sleep 1; Start-Proc "runner" $RUNNER; Status
+    } elseif ($arg -eq "approver") {
+      Stop-Proc "approver" $APPROVER; Start-Sleep 1; Start-Proc "approver" $APPROVER; Status
+    } else { Write-Host "Usage: pqctl.ps1 restart all|runner|approver" }
+  }
+  "status" { Status }
+  default  { Write-Host "Usage: pqctl.ps1 start|stop|restart|status all|runner|approver"; Status }
+}

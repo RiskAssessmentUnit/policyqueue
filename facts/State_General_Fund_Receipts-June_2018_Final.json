@@ -1,0 +1,52 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2018 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund Receipts",
+      "value": 7030082674,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Cumulative Actual",
+      "value": 731811227,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Percent Change",
+      "value": 3.8,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Total Taxes",
+      "value": 7030811227,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "7/2/2018",
+      "year": null,
+      "description": "Revised estimates"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$317,900,000",
+      "note": "Interest Revenue"
+    },
+    {
+      "quote": "$6,532,600,000",
+      "note": "KDOR Tax Collections"
+    },
+    {
+      "quote": "*  Miscellaneous taxes include corporate franchise taxes and fees.",
+      "note": "Note on Miscellaneous taxes"
+    }
+  ]
+}

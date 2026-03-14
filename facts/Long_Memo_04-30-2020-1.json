@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 7471302,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Total Receipts",
+      "value": 7368432,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "April 20, 2020",
+      "year": null,
+      "description": "Consensus Estimate"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Taxes: $7,471,302",
+      "note": "Source: Table 1, State General Fund Receipts"
+    },
+    {
+      "quote": "Total Receipts: $7,368,432",
+      "note": "Source: Table 1, State General Fund Receipts"
+    }
+  ]
+}

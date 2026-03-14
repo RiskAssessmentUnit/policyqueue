@@ -1,0 +1,48 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2019 State General Fund Receipts Final Report: December 2018",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Dollar Change",
+      "value": 141863,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Percent Change",
+      "value": 2.84,
+      "unit": "PERCENT",
+      "year": 2018
+    },
+    {
+      "label": "Total Taxes",
+      "value": 136106074,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "% of Total Received",
+      "value": 100.39,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "1/2/2019",
+      "year": 2019,
+      "description": "Report date"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$5,000,000",
+      "note": "Property Tax/Fee: Motor Carrier"
+    },
+    {
+      "quote": "$1,770,500,000",
+      "note": "Total"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Dodge City",
+    "Fort Dodge"
+  ],
+  "entities": [
+    {
+      "name": "House District 119",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "122",
+      "value": 122,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "116",
+      "value": 116,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "125",
+      "value": 125,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "124",
+      "value": 124,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "119",
+      "value": 119,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "115",
+      "value": 115,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "113",
+      "value": 113,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "123",
+      "value": 123,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Ford County:  Cities:  Dodge City(part) and Fort Dodge",
+      "note": null
+    },
+    {
+      "quote": "Townships:  Dodge(part), Enterprise(part) and Grandview(part)",
+      "note": null
+    },
+    {
+      "quote": "122",
+      "note": null
+    },
+    {
+      "quote": "116",
+      "note": null
+    },
+    {
+      "quote": "125",
+      "note": null
+    },
+    {
+      "quote": "124",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

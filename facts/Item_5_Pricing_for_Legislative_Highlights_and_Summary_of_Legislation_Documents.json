@@ -1,0 +1,52 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "Thomas A. Day",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Publication Pricing",
+      "value": 0.75,
+      "unit": "USD"
+    }
+  ],
+  "events": [
+    {
+      "date": "September 24, 2025",
+      "year": 2025,
+      "description": "Publication Pricing Legislative Highlights and Summary of Legislation"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The LCC has historically set the price in the year preceding the publication.",
+      "note": ""
+    },
+    {
+      "quote": "Due to the high cost of production and lack of requests for bound copies.",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

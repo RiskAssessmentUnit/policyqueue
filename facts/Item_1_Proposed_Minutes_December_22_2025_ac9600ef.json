@@ -1,0 +1,26 @@
+{
+  "program_type": "STAR_BOND",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "STAR bond district agreement for the sports stadium to support the Kansas City Chiefs be approved."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Vice Chairperson Hawkins moved that the STAR bond district agreement for the sports stadium to support the Kansas City Chiefs be approved.",
+      "note": null
+    }
+  ]
+}

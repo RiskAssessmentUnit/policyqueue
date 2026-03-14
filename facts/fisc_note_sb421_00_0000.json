@@ -1,0 +1,50 @@
+{
+  "program_type": "BILL",
+  "title": "SB 421",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka, Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Laura Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Renee Erickson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Adam C. Proffitt",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 5000,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "February 3, 2026",
+      "year": 2026,
+      "description": "Fiscal Note for SB 421"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The bill would allow one or more students to organize religious, political, or ideological clubs or organizations.",
+      "note": null
+    },
+    {
+      "quote": "Any student or student club or organization that would be harmed by a violation of the bill's provisions would have a private cause of action against the school for relief, monetary damages, reasonable attorney fees, and any other appropriate relief.",
+      "note": null
+    }
+  ],
+  "uncertainties": [
+    "Fiscal effect estimate was not provided."
+  ]
+}

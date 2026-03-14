@@ -1,0 +1,137 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas",
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 23956,
+      "unit": "Persons",
+      "year": null
+    },
+    {
+      "label": "White",
+      "value": 18559,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Black",
+      "value": 14153,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "American Indian",
+      "value": 1612,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Asian",
+      "value": 357,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Hawaiian",
+      "value": 420,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Other Races",
+      "value": 22,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Two or More Races",
+      "value": 127,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 1558,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "Under 5 years of age",
+      "value": 774,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "5 to 17 years of age",
+      "value": 1992,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "18 to 21 years of age",
+      "value": 753,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "22 to 29 years of age",
+      "value": 1777,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "30 to 44 years of age",
+      "value": 2518,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "45 to 64 years of age",
+      "value": 2888,
+      "unit": "Percent",
+      "year": null
+    },
+    {
+      "label": "65 years of age and older",
+      "value": 1433,
+      "unit": "Percent",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Data Source: 2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Census of Population and Housing"
+    }
+  ],
+  "uncertainties": [
+    "Data Source:"
+  ],
+  "recommended_next_queries": [
+    "Kansas public policy",
+    "Kansas public finance"
+  ]
+}

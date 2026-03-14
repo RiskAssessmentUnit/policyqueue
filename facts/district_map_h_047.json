@@ -1,0 +1,36 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Douglas County",
+    "Lawrence",
+    "Jackson County",
+    "Hoyt",
+    "Mayetta",
+    "Jefferson County",
+    "Grantville",
+    "Valley Falls",
+    "Winchester",
+    "Ozawkie",
+    "Oskaloosa",
+    "Perry",
+    "Williamstown"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

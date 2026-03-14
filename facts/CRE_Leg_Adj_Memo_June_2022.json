@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Legislative Research Department",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 9320000,
+      "unit": "USD",
+      "year": 2022
+    },
+    {
+      "label": "Total Taxes",
+      "value": 9546400,
+      "unit": "USD",
+      "year": 2023
+    }
+  ],
+  "events": [
+    {
+      "date": "June 14, 2022",
+      "year": 2022,
+      "description": "Revised Estimate"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$9,320,000 Total Taxes (2022)",
+      "note": null
+    },
+    {
+      "quote": "$9,546,400 Total Taxes (2023)",
+      "note": null
+    }
+  ]
+}

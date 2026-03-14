@@ -1,0 +1,84 @@
+{
+  "program_type": "AUDIT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka",
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Amazon Web Services",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Upfront cost",
+      "value": 245000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Annual cost",
+      "value": 245000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Extended vendor support cost",
+      "value": 400000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Cost of upgrading hardware",
+      "value": 1500000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Cost of installation and operational setup",
+      "value": 176000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Annual savings",
+      "value": 100000,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "August 14, 2025",
+      "year": 2025,
+      "description": "Legislature Data Center Interim 2025"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "We recommend moving our data center to Amazon Web Services (AWS).",
+      "note": ""
+    },
+    {
+      "quote": "AWS meets high security standards, including FedRAMP compliance, multiple ISO standards, and SOC 2 certification, which exceed State of Kansas",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "The cost of upgrading our on-site hardware ranges from $650,000 to $1.5 million,"
+  ],
+  "recommended_next_queries": [
+    "Cost of replacing current cooling system"
+  ]
+}

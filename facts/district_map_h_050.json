@@ -1,0 +1,23 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka",
+    "Silver Lake",
+    "Rossville"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 24,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

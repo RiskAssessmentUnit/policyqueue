@@ -1,0 +1,67 @@
+﻿import os, sys, time, json
+from pathlib import Path
+from urllib import request as urlrequest
+from urllib.error import URLError, HTTPError
+
+# Set these in-file (we will inject them via PowerShell prompts below)
+BOT_TOKEN = ""
+CHAT_ID = ""
+
+def _nonempty_env(name: str) -> str:
+    v = os.getenv(name)
+    if v is None:
+        return ""
+    v = v.strip()
+    return v if v else ""
+
+# Optional env override only if NON-EMPTY
+BOT_TOKEN = (_nonempty_env("PQ_TG_BOT_TOKEN") or _nonempty_env("TG_BOT_TOKEN") or BOT_TOKEN).strip()
+CHAT_ID   = (_nonempty_env("PQ_TG_CHAT_ID")   or _nonempty_env("TG_CHAT_ID")   or CHAT_ID).strip()
+
+ROOT = Path.home() / "policyqueue"
+POSTS = ROOT / "posts"
+APPROVED = ROOT / "approved"
+ARCHIVE = ROOT / "archive"
+LOGS = ROOT / "logs"
+LOGS.mkdir(parents=True, exist_ok=True)
+APPROVED.mkdir(parents=True, exist_ok=True)
+
+def log(msg: str):
+    ts = time.strftime("%Y-%m-%d %H:%M:%S")
+    (LOGS / "approver.log").open("a", encoding="utf-8").write(f"{ts}  {msg}\n")
+
+def tg_api(method: str, payload: dict):
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/{method}"
+    data = json.dumps(payload).encode("utf-8")
+    req = urlrequest.Request(url, data=data, headers={"Content-Type": "application/json"})
+    with urlrequest.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8", "ignore"))
+
+def send(msg: str):
+    return tg_api("sendMessage", {"chat_id": CHAT_ID, "text": msg})
+
+def main():
+    if "--check" in sys.argv:
+        print("BOT_TOKEN len:", len(BOT_TOKEN), "empty:", len(BOT_TOKEN)==0)
+        print("CHAT_ID   len:", len(CHAT_ID),   "empty:", len(CHAT_ID)==0)
+        sys.exit(0)
+
+    if not BOT_TOKEN or not CHAT_ID:
+        print("ERROR: BOT_TOKEN/CHAT_ID missing. Set them in file or env (PQ_TG_BOT_TOKEN/PQ_TG_CHAT_ID).")
+        sys.exit(2)
+
+    # Minimal smoke test so you KNOW Telegram works
+    try:
+        send("✅ PolicyQueue approver online.")
+        log("Telegram smoke test OK: sent startup message")
+    except Exception as e:
+        log(f"Telegram smoke test FAILED: {e}")
+        raise
+
+    # Keep process alive (replace with real loop later)
+    while True:
+        time.sleep(10)
+
+if __name__ == "__main__":
+    main()
+

@@ -1,0 +1,35 @@
+{
+  "program_type": "BILL",
+  "title": "AN ACT concerning sales taxation; relating to exemptions;",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "McPherson"
+  ],
+  "entities": [
+    {
+      "name": "Representative Woodard",
+      "type": "PERSON"
+    },
+    {
+      "name": "Sevendays Inc.",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

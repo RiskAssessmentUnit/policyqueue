@@ -1,0 +1,15 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "County",
+      "value": 2,
+      "unit": "COUNTIES",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

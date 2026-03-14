@@ -1,0 +1,70 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2017 State General Fund Receipts Final Report: August 2016",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 852445531,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Receipts",
+      "value": 819452894,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Taxes",
+      "value": 427316403,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Subtotal - KDOR Tax Collections",
+      "value": 427009142,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Other Taxes",
+      "value": 307261,
+      "unit": "USD",
+      "year": 2017
+    }
+  ],
+  "events": [
+    {
+      "date": "9/1/2016, 2:04 PM",
+      "year": null,
+      "description": "* Miscellaneous taxes include corporate franchise taxes and fees."
+    },
+    {
+      "date": "9/1/2016",
+      "description": "Miscellaneous taxes include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Subtotal -  KDOR Tax Collections $880,685,000 $855,827,222 ($24,857,779) (2.82) % $839,866,158 $15,961,064 1.90 %",
+      "note": null
+    },
+    {
+      "quote": "Total Taxes $875,475,000 $852,445,531 ($23,029,470) (2.63) % $833,762,170 $18,683,361 2.24 %",
+      "note": null
+    },
+    {
+      "quote": "Other Revenues: Interest $6,300,000 $7,770,120 $1,470,120 23.34 % $13,848,230 ($6,078,110) (43.89) %",
+      "note": null
+    },
+    {
+      "quote": "97.66%",
+      "note": "Percentage of Total Received"
+    },
+    {
+      "quote": "102.31%",
+      "note": "Percentage of Total Received"
+    }
+  ]
+}

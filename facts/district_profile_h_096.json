@@ -1,0 +1,54 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 22761,
+      "unit": "PERSONS",
+      "year": 2020
+    },
+    {
+      "label": "Voting Age Population",
+      "value": 22100,
+      "unit": "PERSONS",
+      "year": 2020
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 13651,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Owner Occupied Housing Units",
+      "value": 9366,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Renter Occupied Housing Units",
+      "value": 5002,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2020",
+      "year": 2020,
+      "description": "Census"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Census of Population and Housing",
+      "note": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

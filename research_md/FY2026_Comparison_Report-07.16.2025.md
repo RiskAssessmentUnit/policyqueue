@@ -1,0 +1,268 @@
+# FY 2026 Governor’s Budget Report
+
+- Generated: 2026-03-11 19:19:58
+- Facts file: `facts/FY2026_Comparison_Report-07.16.2025.json`
+
+## Entities
+
+- {'name': 'Laura Kelly', 'type': 'PERSON'}
+- {'name': 'Adam C. Proffitt', 'type': 'PERSON'}
+- {'name': 'Julie Thomas', 'type': 'PERSON'}
+- {'name': 'Jeff Arpin', 'type': 'PERSON'}
+- {'name': 'Sean Tomb', 'type': 'PERSON'}
+- {'name': 'John Kirk', 'type': 'PERSON'}
+- {'name': 'Bill Schafer', 'type': 'PERSON'}
+- {'name': 'Leyton Gunn', 'type': 'PERSON'}
+- {'name': 'Cheri Froetschner', 'type': 'PERSON'}
+- {'name': 'Jennifer Ordiway', 'type': 'PERSON'}
+- {'name': 'Alex Feyerherm', 'type': 'PERSON'}
+- {'name': 'Stephanie Buchanan', 'type': 'PERSON'}
+- {'name': 'Nancy Allen', 'type': 'PERSON'}
+- {'name': 'Governor Kelly', 'type': 'PERSON'}
+- {'name': 'Legislature', 'type': 'GOV_BODY'}
+- {'name': 'Consensus Revenue Estimating Group', 'type': 'ORG'}
+- {'name': 'Kansas Endowment for Youth Fund', 'type': 'PROJECT'}
+- {'name': 'Office of Veterans Services', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Sentencing Commission', 'type': 'GOV_BODY'}
+- {'name': 'Department of Corrections', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Bureau of Investigation', 'type': 'GOV_BODY'}
+- {'name': 'Attorney General', 'type': 'GOV_BODY'}
+- {'name': 'State Board of Regents', 'type': 'GOV_BODY'}
+- {'name': 'Universities', 'type': 'PROJECT'}
+- {'name': 'Judicial Branch', 'type': 'GOV_BODY'}
+- {'name': 'Office of Personnel Services', 'type': 'GOV_BODY'}
+- {'name': 'Department of Administration', 'type': 'GOV_BODY'}
+- {'name': 'Budget Stabilization Fund', 'type': 'PROJECT'}
+- {'name': 'KPERS Fund', 'type': 'PROJECT'}
+- {'name': 'PMIB Bridge Funding', 'type': 'PROJECT'}
+- {'name': 'Highway Fund', 'type': 'PROJECT'}
+- {'name': 'School Capital Improvement Aid', 'type': 'PROJECT'}
+- {'name': 'Director of the Budget', 'type': 'GOV_BODY'}
+- {'name': 'Director of Accounts and Reports', 'type': 'GOV_BODY'}
+- {'name': 'Director of Legislative Research', 'type': 'GOV_BODY'}
+- {'name': 'Governor', 'type': 'PERSON'}
+- {'name': 'Adjutant General', 'type': 'GOV_BODY'}
+- {'name': 'Department for Aging & Disability Services', 'type': 'GOV_BODY'}
+- {'name': 'Department of Agriculture', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Human Rights Commission', 'type': 'GOV_BODY'}
+- {'name': 'Office of the Child Advocate', 'type': 'GOV_BODY'}
+- {'name': 'Public Disclosure Commission', 'type': 'GOV_BODY'}
+- {'name': 'Office of the Governor', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Guardianship Program', 'type': 'GOV_BODY'}
+- {'name': 'Health & Environment--Health', 'type': 'GOV_BODY'}
+- {'name': 'Historical Society', 'type': 'GOV_BODY'}
+- {'name': 'Department of Labor', 'type': 'GOV_BODY'}
+- {'name': 'Department of Commerce', 'type': 'GOV_BODY'}
+- {'name': 'Board of Indigents Defense Services', 'type': 'GOV_BODY'}
+- {'name': 'Office of Information Technology Services', 'type': 'GOV_BODY'}
+- {'name': 'State Library', 'type': 'GOV_BODY'}
+- {'name': 'Board of Tax Appeals', 'type': 'GOV_BODY'}
+- {'name': 'Department of Revenue', 'type': 'GOV_BODY'}
+- {'name': 'School for the Blind', 'type': 'GOV_BODY'}
+- {'name': 'School for the Deaf', 'type': 'GOV_BODY'}
+- {'name': 'Department for Children & Families', 'type': 'GOV_BODY'}
+- {'name': 'Department of Education', 'type': 'GOV_BODY'}
+- {'name': 'KS Office of Veterans Services', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Water Office', 'type': 'GOV_BODY'}
+- {'name': 'Regents postsecondary education system', 'type': 'PROJECT'}
+- {'name': 'KDHE', 'type': 'ORG'}
+- {'name': 'KDADS', 'type': 'ORG'}
+- {'name': 'Aetna Better Health', 'type': 'ORG'}
+- {'name': 'Department for Children and Families', 'type': 'ORG'}
+- {'name': 'Social Security Administration', 'type': 'ORG'}
+- {'name': 'Kansas Bureau of Investigation', 'type': 'ORG'}
+- {'name': 'Lansing Correctional Facility', 'type': 'PROJECT'}
+- {'name': 'Leavenworth County', 'type': 'LOCATION'}
+- {'name': 'Kansas Department of Labor', 'type': 'ORG'}
+- {'name': 'Pooled Money Investment Board (PMIB)', 'type': 'ORG'}
+- {'name': 'Panasonic', 'type': 'ORG'}
+- {'name': 'State of Kansas', 'type': 'GOV_BODY'}
+- {'name': 'CRE Group', 'type': 'ORG'}
+- {'name': 'Insurance Department', 'type': 'GOV_BODY'}
+- {'name': 'Health Care Stabilization Fund', 'type': 'PROJECT'}
+- {'name': 'Division of Vehicles Modernization Fund', 'type': 'PROJECT'}
+- {'name': 'Taxpayer Notification Costs Fund', 'type': 'PROJECT'}
+- {'name': 'APEX Payroll Incentive Fund', 'type': 'PROJECT'}
+- {'name': 'APEX New Employee Training & Education', 'type': 'PROJECT'}
+- {'name': 'APEX Residency Incentive Fund', 'type': 'PROJECT'}
+- {'name': 'Kansas Nonprofit Apprenticeship Grant Fund', 'type': 'PROJECT'}
+- {'name': 'Kansas Educator Registered Apprenticeship', 'type': 'PROJECT'}
+- {'name': 'Engineering Graduate Incentive Fund', 'type': 'PROJECT'}
+- {'name': 'Racing & Gaming', 'type': 'GOV_BODY'}
+- {'name': 'Tribal Gaming Program Loan', 'type': 'PROJECT'}
+- {'name': 'Pre. & Postnatally Diagnosed Conditions', 'type': 'PROJECT'}
+- {'name': 'Medicaid Fraud Prosecution Revolving Fund', 'type': 'PROJECT'}
+- {'name': 'Sexually Violent Predator Expense Fund', 'type': 'PROJECT'}
+- {'name': 'Tort Claims', 'type': 'PROJECT'}
+- {'name': 'State Treasurer', 'type': 'GOV_BODY'}
+- {'name': 'Build Kansas Matching Grant Fund', 'type': 'PROJECT'}
+- {'name': 'STAR Bonds Food Sales Tax Replacement', 'type': 'PROJECT'}
+- {'name': 'Learning Quest Matching Funds', 'type': 'PROJECT'}
+- {'name': 'Spirit Aerosystems Incentive', 'type': 'PROJECT'}
+- {'name': 'Judiciary', 'type': 'GOV_BODY'}
+- {'name': 'Specialty Court Resources Fund', 'type': 'PROJECT'}
+- {'name': 'KDADS', 'type': 'GOV_BODY'}
+- {'name': '988 Suicide Preven. & Mental Health Crisis', 'type': 'PROJECT'}
+- {'name': 'County Competency Expense Fund', 'type': 'PROJECT'}
+- {'name': 'Statewide School District Finance Fund', 'type': 'PROJECT'}
+- {'name': 'Board of Regents', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Adult Learner Grant Program', 'type': 'PROJECT'}
+- {'name': 'Kansas Campus Restoration Fund', 'type': 'PROJECT'}
+- {'name': 'Regents Faculty of Distinction Program', 'type': 'PROJECT'}
+- {'name': 'KU Medical Center', 'type': 'GOV_BODY'}
+- {'name': 'Cancer Research & Pub. Info. Trust Fund', 'type': 'PROJECT'}
+- {'name': 'State Fire Marshal', 'type': 'GOV_BODY'}
+- {'name': 'Fire Marshal Fee Fund', 'type': 'PROJECT'}
+- {'name': 'Kansas Endowment for Youth (KEY) Fund', 'type': 'PROJECT'}
+- {'name': 'Children’s Initiatives Fund (CIF)', 'type': 'PROJECT'}
+- {'name': 'Legislature', 'type': 'ORG'}
+- {'name': 'Kansas Office of Early Childhood', 'type': 'PROJECT'}
+- {'name': 'Kansas Lottery', 'type': 'ORG'}
+- {'name': 'Kansas Legislature', 'type': 'GOV_BODY'}
+- {'name': 'Attorney General', 'type': 'PERSON'}
+- {'name': 'Kansas Racing and Gaming Commission', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Commerce', 'type': 'PERSON'}
+- {'name': 'Department of Commerce', 'type': 'ORG'}
+- {'name': 'Kansas State University', 'type': 'PROJECT'}
+- {'name': 'Kansas State Treasurer', 'type': 'GOV_BODY'}
+- {'name': 'Department of Health & Environment', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Health and Environment', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Agriculture', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Wildlife & Parks', 'type': 'GOV_BODY'}
+- {'name': 'University of Kansas—Geological Survey', 'type': 'ORG'}
+- {'name': 'Kansas Department of Health & Environment', 'type': 'GOV_BODY'}
+- {'name': 'University of Kansas', 'type': 'ORG'}
+- {'name': 'Kansas Department of Corrections', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department for Aging & Disability Services', 'type': 'GOV_BODY'}
+- {'name': 'Board of Cosmetology', 'type': 'GOV_BODY'}
+- {'name': 'Governmental Ethics Commission', 'type': 'GOV_BODY'}
+- {'name': 'Parsons State Hospital', 'type': 'PROJECT'}
+- {'name': 'Postsecondary Education', 'type': 'OTHER'}
+- {'name': 'State Finance Council', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Development Finance Authority (KDFA)', 'type': 'ORG'}
+- {'name': 'Kansas Racing & Gaming Commission', 'type': 'ORG'}
+- {'name': 'Kansas Horse Breeding Development Fund', 'type': 'PROJECT'}
+- {'name': 'Horse Fair Racing Benefit Fund', 'type': 'PROJECT'}
+- {'name': 'Board of Accountancy', 'type': 'GOV_BODY'}
+- {'name': 'Board of Barbering', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Public Disclosure Commission', 'type': 'GOV_BODY'}
+- {'name': 'Executive Branch Elected Officials', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of State', 'type': 'GOV_BODY'}
+- {'name': 'Pooled Money Investment Board', 'type': 'GOV_BODY'}
+- {'name': 'Aviation Jobs Loan Program', 'type': 'PROJECT'}
+- {'name': 'Community Talent Recruitment Grant Program', 'type': 'PROJECT'}
+- {'name': 'DOC', 'type': 'ORG'}
+- {'name': '2025 Legislature', 'type': 'GOV_BODY'}
+- {'name': 'Public Consulting Group (PCG)', 'type': 'ORG'}
+- {'name': 'Targeted Case Management (TCM) Community Development Disabilities Organizations (CDDOs)', 'type': 'ORG'}
+- {'name': 'Osawatomie State Hospital (OSH)', 'type': 'PROJECT'}
+- {'name': 'Adair A Building', 'type': 'PROJECT'}
+- {'name': 'Biddle Building', 'type': 'PROJECT'}
+- {'name': 'State General Fund', 'type': 'GOV_BODY'}
+- {'name': 'Department for Children and Families', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of DCF', 'type': 'PERSON'}
+- {'name': 'Governor', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department of Children and Families', 'type': 'GOV_BODY'}
+- {'name': 'Department of Labor', 'type': 'ORG'}
+- {'name': 'Department of Education', 'type': 'ORG'}
+- {'name': 'Board of Regents', 'type': 'ORG'}
+- {'name': 'Kansas Work Study', 'type': 'PROJECT'}
+- {'name': 'Emporia State University', 'type': 'ORG'}
+- {'name': 'Fort Hays State University', 'type': 'ORG'}
+- {'name': 'Kansas State University', 'type': 'ORG'}
+- {'name': 'Legislative', 'type': 'GOV_BODY'}
+- {'name': 'Pittsburg State University', 'type': 'PROJECT'}
+- {'name': 'Federal Student Financial Assistance', 'type': 'PROGRAM'}
+- {'name': 'State Student Aid, Grants & Scholarships', 'type': 'PROGRAM'}
+- {'name': 'University of Kansas', 'type': 'PROJECT'}
+- {'name': 'University of Kansas Medical Center', 'type': 'PROJECT'}
+- {'name': 'Wichita State University', 'type': 'PROJECT'}
+- {'name': 'Kansas Humanities Council', 'type': 'PROGRAM'}
+- {'name': 'Federal Historic Preservation Aid', 'type': 'PROGRAM'}
+- {'name': 'Heritage Trust Fund Program', 'type': 'PROGRAM'}
+- {'name': "Governor's", 'type': 'GOV_BODY'}
+- {'name': 'Department of Wildlife & Parks', 'type': 'GOV_BODY'}
+- {'name': 'Department of Transportation', 'type': 'GOV_BODY'}
+- {'name': 'Swope Health Project', 'type': 'PROJECT'}
+- {'name': 'Micro-Internship Expansion', 'type': 'PROJECT'}
+- {'name': 'Housing & Workforce Development', 'type': 'PROJECT'}
+- {'name': 'Maint., Repair, & Overhaul of Airplanes', 'type': 'PROJECT'}
+- {'name': 'Home-Based Child Care Providers Pilot', 'type': 'PROJECT'}
+- {'name': 'Industrial Park Project', 'type': 'PROJECT'}
+- {'name': 'Statewide Marketing Campaign', 'type': 'PROJECT'}
+- {'name': 'Advantage Kansas', 'type': 'PROJECT'}
+- {'name': 'Cybersecurity Center of Excellence', 'type': 'PROJECT'}
+- {'name': 'Bombardier SSA Project', 'type': 'PROJECT'}
+- {'name': 'Total--Department of Commerce', 'type': 'OTHER'}
+- {'name': 'Domestic Violence Prevention Grants', 'type': 'PROJECT'}
+- {'name': 'Child Advocacy Center Grants', 'type': 'PROJECT'}
+- {'name': 'Court Appointed Special Advocates', 'type': 'PROJECT'}
+- {'name': 'Total--Office of the Governor', 'type': 'OTHER'}
+- {'name': 'Human Trafficking', 'type': 'PROJECT'}
+- {'name': 'Protection from Abuse', 'type': 'PROJECT'}
+- {'name': 'Child Exchange & Visitation Centers', 'type': 'PROJECT'}
+- {'name': 'Child Abuse Grant', 'type': 'PROJECT'}
+- {'name': 'Total--Attorney General', 'type': 'OTHER'}
+- {'name': 'Pregnancy Compassion Awareness', 'type': 'PROJECT'}
+- {'name': 'Total--State Treasurer', 'type': 'OTHER'}
+- {'name': 'Access to Justice Program', 'type': 'PROJECT'}
+- {'name': 'Innovative Criminal Resolution Grants', 'type': 'PROJECT'}
+- {'name': 'Total--Judiciary', 'type': 'OTHER'}
+- {'name': 'Total--General Government', 'type': 'OTHER'}
+- {'name': 'Behavioral Health', 'type': 'PROJECT'}
+- {'name': 'Long-Term Services & Supports', 'type': 'PROJECT'}
+- {'name': 'Aging Commission', 'type': 'PROJECT'}
+- {'name': 'Medicaid Assistance', 'type': 'PROJECT'}
+- {'name': 'Total--Aging & Disability Services', 'type': 'OTHER'}
+- {'name': 'Emporia State University', 'type': 'PROJECT'}
+- {'name': 'Fort Hays State University', 'type': 'PROJECT'}
+- {'name': 'Kansas Academy of Math & Science', 'type': 'PROJECT'}
+- {'name': 'School for the Blind', 'type': 'PROJECT'}
+- {'name': 'School for the Deaf', 'type': 'PROJECT'}
+- {'name': 'Kansas State University--ESARP', 'type': 'PROJECT'}
+- {'name': 'KSU--Veterinary Medical Center', 'type': 'PROJECT'}
+- {'name': 'Historical Society', 'type': 'PROJECT'}
+- {'name': 'Highway Patrol', 'type': 'GOV_BODY'}
+- {'name': 'Kansas State Fair', 'type': 'PROJECT'}
+- {'name': 'Kansas Department of Transportation', 'type': 'GOV_BODY'}
+- {'name': 'Department of Wildlife & Parks', 'type': 'ORG'}
+- {'name': 'Office of Veterans Services', 'type': 'ORG'}
+- {'name': 'Department of Administration', 'type': 'ORG'}
+- {'name': 'State Treasurer', 'type': 'ORG'}
+- {'name': 'Historical Society', 'type': 'ORG'}
+- {'name': 'Department of Corrections', 'type': 'ORG'}
+- {'name': 'Adjutant General', 'type': 'ORG'}
+- {'name': 'Highway Patrol', 'type': 'ORG'}
+- {'name': "Governor's", 'type': 'ORG'}
+- {'name': 'Legislative', 'type': 'ORG'}
+- {'name': 'Kansas Department of Insurance', 'type': 'ORG'}
+- {'name': 'Secretary of State', 'type': 'PERSON'}
+- {'name': 'State Treasurer', 'type': 'PERSON'}
+- {'name': 'Legislative Coordinating Council', 'type': 'GOV_BODY'}
+- {'name': 'Legislative Research Department', 'type': 'ORG'}
+- {'name': 'Legislative Division of Post Audit', 'type': 'ORG'}
+- {'name': 'Revisor of Statutes', 'type': 'ORG'}
+- {'name': 'Judicial Council', 'type': 'GOV_BODY'}
+- {'name': 'Gov. Rec.', 'type': 'OTHER'}
+- {'name': 'Leg. Adj.', 'type': 'OTHER'}
+- {'name': 'Approved', 'type': 'OTHER'}
+
+## Evidence (quotes)
+
+> Readers of The FY 2026 Comparison Report can access this information on the Kansas Division of the Budget’s website at
+
+> The Governor believes that the state needs to focus on regaining structural balance and ensuring the full effects of that
+
+> The final approved budget left projected ending balances of 20.8 percent for FY 2025 and 15.9 percent for FY 2026.
+
+> The Governor has consistently prioritized long-term fiscal stability when considering budgets.
+
+> The expenditure increases that were included in this year's budget were focused on long-term priorities to advance the state's economic
+
+> The Governor's strategic goal for water is for every generation of Kansan to leave enough water for the next two
+
+> The Legislature excluded the following groups of employees from receiving any increases: members of the Legislature; judges and justices of
+
+> The Legislature allowed the budget for K-12 to remain in the Mega budget, as was recommended by the Governor.
+
+<!-- content-hash:b7a2c17974325fce -->

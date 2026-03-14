@@ -1,0 +1,1740 @@
+# SB 381, SB 420, SB 430, SB 431
+
+- Generated: 2026-03-11 19:19:59
+- Facts file: `facts/permanent_journal_senate_2024.json`
+
+## Entities
+
+- {'name': 'Laura Kelly', 'type': 'PERSON'}
+- {'name': 'David Toland', 'type': 'PERSON'}
+- {'name': 'Governor', 'type': 'GOV_BODY'}
+- {'name': 'Senate', 'type': 'GOV_BODY'}
+- {'name': 'House of Representatives', 'type': 'GOV_BODY'}
+- {'name': 'Legislature', 'type': 'GOV_BODY'}
+- {'name': 'President', 'type': 'PERSON'}
+- {'name': 'Governor', 'type': 'PERSON'}
+- {'name': 'President of the Senate', 'type': 'GOV_BODY'}
+- {'name': 'Majority Leader of the Senate', 'type': 'GOV_BODY'}
+- {'name': 'Vice President of the Senate', 'type': 'GOV_BODY'}
+- {'name': 'Minority Leader of the Senate', 'type': 'GOV_BODY'}
+- {'name': 'Senator', 'type': 'PERSON'}
+- {'name': 'President', 'type': 'GOV_BODY'}
+- {'name': 'The Senate', 'type': 'GOV_BODY'}
+- {'name': 'Senator', 'type': 'GOV_BODY'}
+- {'name': 'Director of Legislative Administrative Services', 'type': 'PERSON'}
+- {'name': 'president of the senate', 'type': 'PERSON'}
+- {'name': 'speaker of the house of representatives', 'type': 'PERSON'}
+- {'name': 'Committee on Ways and Means of the Senate', 'type': 'ORG'}
+- {'name': 'Senator Ty Masterson', 'type': 'PERSON'}
+- {'name': 'Reverend Cecil T. Washington', 'type': 'PERSON'}
+- {'name': 'Senator Holland', 'type': 'PERSON'}
+- {'name': 'Senator Kerschen', 'type': 'PERSON'}
+- {'name': 'Senator Olson', 'type': 'PERSON'}
+- {'name': 'the Legislature of the State of Kansas', 'type': 'GOV_BODY'}
+- {'name': 'Ty Masterson', 'type': 'PERSON'}
+- {'name': 'Rick Wilborn', 'type': 'PERSON'}
+- {'name': 'Larry Alley', 'type': 'PERSON'}
+- {'name': 'Dinah Sykes', 'type': 'PERSON'}
+- {'name': 'Corey Carnahan', 'type': 'PERSON'}
+- {'name': 'Don Cackler', 'type': 'PERSON'}
+- {'name': 'Israel', 'type': 'GOV_BODY'}
+- {'name': 'Patty Becker', 'type': 'ORG'}
+- {'name': 'Alan Deines', 'type': 'ORG'}
+- {'name': 'Romano Delcore, M.D.', 'type': 'PERSON'}
+- {'name': 'Mark Engholm', 'type': 'PERSON'}
+- {'name': 'Michelle Ewert', 'type': 'PERSON'}
+- {'name': 'Mike Fleming', 'type': 'ORG'}
+- {'name': 'Joni Franklin', 'type': 'PERSON'}
+- {'name': 'Craig Heideman', 'type': 'ORG'}
+- {'name': 'Emily Hill', 'type': 'PERSON'}
+- {'name': 'Colonel Nicholas Jaskoiski, Brigadier General', 'type': 'PERSON'}
+- {'name': 'Alysia Johnston', 'type': 'PERSON'}
+- {'name': 'Ann (Annie) Keuther', 'type': 'ORG'}
+- {'name': 'Dr. Elizabeth King', 'type': 'PERSON'}
+- {'name': 'Kevin Lockett', 'type': 'PERSON'}
+- {'name': 'Dawn McClure', 'type': 'PERSON'}
+- {'name': 'Robba Moran', 'type': 'ORG'}
+- {'name': 'Catherine Moyer', 'type': 'ORG'}
+- {'name': 'Justin Nichols', 'type': 'ORG'}
+- {'name': 'Neelima Parasker', 'type': 'PERSON'}
+- {'name': 'Pamela (Pam) Pierce', 'type': 'PERSON'}
+- {'name': 'Calvin Reed', 'type': 'PERSON'}
+- {'name': 'Vicki Ryan', 'type': 'ORG'}
+- {'name': 'Keely Schneider', 'type': 'PERSON'}
+- {'name': 'Jon Small', 'type': 'ORG'}
+- {'name': 'Erik Smith', 'type': 'PERSON'}
+- {'name': 'Brad Stratton', 'type': 'PERSON'}
+- {'name': 'Ed Trimmer', 'type': 'ORG'}
+- {'name': 'Larry Turnquist', 'type': 'ORG'}
+- {'name': 'Mark Hutton', 'type': 'GOV_BODY'}
+- {'name': 'Dan Hawkins', 'type': 'GOV_BODY'}
+- {'name': 'Blake Carpenter', 'type': 'GOV_BODY'}
+- {'name': 'Chris Croft', 'type': 'GOV_BODY'}
+- {'name': 'Vic Miller', 'type': 'GOV_BODY'}
+- {'name': 'Susan Kannarr', 'type': 'GOV_BODY'}
+- {'name': 'Foster Chisholm', 'type': 'GOV_BODY'}
+- {'name': 'Will Carpenter', 'type': 'GOV_BODY'}
+- {'name': 'Essex', 'type': 'GOV_BODY'}
+- {'name': 'Meyer', 'type': 'GOV_BODY'}
+- {'name': 'Ellis', 'type': 'GOV_BODY'}
+- {'name': 'Pickert', 'type': 'GOV_BODY'}
+- {'name': 'Featherston', 'type': 'GOV_BODY'}
+- {'name': 'Humphries', 'type': 'GOV_BODY'}
+- {'name': 'Maughan', 'type': 'GOV_BODY'}
+- {'name': 'Osman', 'type': 'GOV_BODY'}
+- {'name': 'Owens', 'type': 'GOV_BODY'}
+- {'name': 'Clifford', 'type': 'GOV_BODY'}
+- {'name': 'Hoye', 'type': 'GOV_BODY'}
+- {'name': 'Titus', 'type': 'GOV_BODY'}
+- {'name': 'Lewis', 'type': 'GOV_BODY'}
+- {'name': 'Vaughn', 'type': 'GOV_BODY'}
+- {'name': 'Blew', 'type': 'GOV_BODY'}
+- {'name': 'Thomas', 'type': 'GOV_BODY'}
+- {'name': 'Schlingensiepen', 'type': 'GOV_BODY'}
+- {'name': 'Andrew French', 'type': 'ORG'}
+- {'name': 'Jonathan Rolph', 'type': 'ORG'}
+- {'name': 'David Haley', 'type': 'PERSON'}
+- {'name': 'George Haley', 'type': 'PERSON'}
+- {'name': 'Jonathan Rolph', 'type': 'PERSON'}
+- {'name': 'Andrew French', 'type': 'PERSON'}
+- {'name': 'Ty Masterson', 'type': 'GOV_BODY'}
+- {'name': 'Cecil T. Washington', 'type': 'ORG'}
+- {'name': 'Mark Daly', 'type': 'PERSON'}
+- {'name': 'Erickson', 'type': 'PERSON'}
+- {'name': 'MR. SPEAKER', 'type': 'PERSON'}
+- {'name': 'MR. PRESIDENT', 'type': 'PERSON'}
+- {'name': 'K.S.A.', 'type': 'OTHER'}
+- {'name': 'Internal Revenue Service', 'type': 'ORG'}
+- {'name': 'United States', 'type': 'GOV_BODY'}
+- {'name': 'Washburn university', 'type': 'ORG'}
+- {'name': 'city of Overland Park', 'type': 'GOV_BODY'}
+- {'name': 'United States department of veterans affairs', 'type': 'ORG'}
+- {'name': 'Kansas', 'type': 'GOV_BODY'}
+- {'name': 'K.S.A. 79-3673', 'type': 'LEGISLATION'}
+- {'name': 'Kansas electric transmission authority', 'type': 'ORG'}
+- {'name': 'director of taxation', 'type': 'GOV_BODY'}
+- {'name': 'director of accounts and reports', 'type': 'GOV_BODY'}
+- {'name': 'secretary of commerce', 'type': 'GOV_BODY'}
+- {'name': 'secretary of revenue', 'type': 'GOV_BODY'}
+- {'name': 'Doug Burleigh', 'type': 'PERSON'}
+- {'name': 'Caryn Tyson', 'type': 'GOV_BODY'}
+- {'name': 'Virgil Peck', 'type': 'GOV_BODY'}
+- {'name': 'Adam Smith', 'type': 'PERSON'}
+- {'name': 'Brian Bergkamp', 'type': 'PERSON'}
+- {'name': 'Ryckman', 'type': 'GOV_BODY'}
+- {'name': 'Cici Rojas', 'type': 'ORG'}
+- {'name': 'Darren McLaughlin', 'type': 'PERSON'}
+- {'name': 'Fred Logan', 'type': 'PERSON'}
+- {'name': 'Claeys', 'type': 'PERSON'}
+- {'name': 'Corson', 'type': 'PERSON'}
+- {'name': 'Dietrich', 'type': 'PERSON'}
+- {'name': 'Fagg', 'type': 'PERSON'}
+- {'name': 'Faust-Goudeau', 'type': 'PERSON'}
+- {'name': 'Gossage', 'type': 'PERSON'}
+- {'name': 'Kloos', 'type': 'PERSON'}
+- {'name': 'Longbine', 'type': 'PERSON'}
+- {'name': 'Masterson', 'type': 'PERSON'}
+- {'name': 'Peck', 'type': 'PERSON'}
+- {'name': 'Petersen', 'type': 'PERSON'}
+- {'name': 'Pittman', 'type': 'PERSON'}
+- {'name': 'Ryckman', 'type': 'PERSON'}
+- {'name': 'Shallenburger', 'type': 'PERSON'}
+- {'name': 'Thompson', 'type': 'PERSON'}
+- {'name': 'Wilborn', 'type': 'PERSON'}
+- {'name': 'Bowers', 'type': 'PERSON'}
+- {'name': 'City of Washington EMS', 'type': 'ORG'}
+- {'name': 'Down-Home Dental', 'type': 'ORG'}
+- {'name': 'North 40 Architecture', 'type': 'ORG'}
+- {'name': 'Geneva Jeardoe', 'type': 'PERSON'}
+- {'name': 'Betty Berney', 'type': 'PERSON'}
+- {'name': 'Abbi Porter', 'type': 'PERSON'}
+- {'name': 'Eliza Resch', 'type': 'PERSON'}
+- {'name': 'Senator Pittman', 'type': 'PERSON'}
+- {'name': 'Senator Kloos', 'type': 'PERSON'}
+- {'name': 'President Ty Masterson', 'type': 'GOV_BODY'}
+- {'name': 'Senator Baumgardner', 'type': 'PERSON'}
+- {'name': 'Senator Haley', 'type': 'PERSON'}
+- {'name': 'Senator Holscher', 'type': 'PERSON'}
+- {'name': 'Senator Pyle', 'type': 'PERSON'}
+- {'name': 'Senator Warren', 'type': 'PERSON'}
+- {'name': 'Committee on Federal and State Affairs', 'type': 'GOV_BODY'}
+- {'name': 'Unified School District No. 413', 'type': 'ORG'}
+- {'name': 'Cecil T. Washington', 'type': 'PERSON'}
+- {'name': 'Taylor Bussinger', 'type': 'PERSON'}
+- {'name': 'Cherryl Delacruz', 'type': 'PERSON'}
+- {'name': 'Patty Becker', 'type': 'PERSON'}
+- {'name': 'Kent (Alan) Deines', 'type': 'PERSON'}
+- {'name': 'Romano Delcore', 'type': 'PERSON'}
+- {'name': 'Mike Fleming', 'type': 'PERSON'}
+- {'name': 'Craig Heideman', 'type': 'PERSON'}
+- {'name': 'Nicholas Jaskolski', 'type': 'PERSON'}
+- {'name': 'Ann (Annie) Keuther', 'type': 'PERSON'}
+- {'name': 'Elizabeth King', 'type': 'PERSON'}
+- {'name': 'Robba Moran', 'type': 'PERSON'}
+- {'name': 'Catherine Moyer', 'type': 'PERSON'}
+- {'name': 'Justin Nichols', 'type': 'PERSON'}
+- {'name': 'Pamela Pierce', 'type': 'PERSON'}
+- {'name': 'Vicki Ryan', 'type': 'PERSON'}
+- {'name': 'Jonathan Small', 'type': 'PERSON'}
+- {'name': 'Owen (Brad) Stratton', 'type': 'PERSON'}
+- {'name': 'Kenneth (Ed) Trimmer', 'type': 'PERSON'}
+- {'name': 'Larry Turnquist', 'type': 'PERSON'}
+- {'name': 'Brenda Dietrich', 'type': 'PERSON'}
+- {'name': 'Kansas state school for the blind', 'type': 'ORG'}
+- {'name': 'Johnson county Christmas bureau association', 'type': 'ORG'}
+- {'name': 'Doorstep inc.', 'type': 'ORG'}
+- {'name': 'Olson', 'type': 'PERSON'}
+- {'name': 'Alley', 'type': 'PERSON'}
+- {'name': 'Kerschen', 'type': 'PERSON'}
+- {'name': 'Ware', 'type': 'PERSON'}
+- {'name': 'Tyson', 'type': 'PERSON'}
+- {'name': 'Baumgardner', 'type': 'PERSON'}
+- {'name': 'Doll', 'type': 'PERSON'}
+- {'name': 'Steffen', 'type': 'PERSON'}
+- {'name': 'Straub', 'type': 'PERSON'}
+- {'name': 'Warren', 'type': 'PERSON'}
+- {'name': 'Blasi', 'type': 'PERSON'}
+- {'name': 'Sykes', 'type': 'PERSON'}
+- {'name': 'Francisco', 'type': 'PERSON'}
+- {'name': 'Haley', 'type': 'PERSON'}
+- {'name': 'Holscher', 'type': 'PERSON'}
+- {'name': 'Pettey', 'type': 'PERSON'}
+- {'name': 'Reddi', 'type': 'PERSON'}
+- {'name': 'Doug Henkle', 'type': 'PERSON'}
+- {'name': 'Supreme Court Nominating Commission', 'type': 'ORG'}
+- {'name': 'Chief Justice', 'type': 'PERSON'}
+- {'name': 'Emil Joseph Kapaun', 'type': 'PERSON'}
+- {'name': 'Committee on Commerce', 'type': 'ORG'}
+- {'name': 'Senator Alley', 'type': 'PERSON'}
+- {'name': 'Department of Administration', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Commerce', 'type': 'PERSON'}
+- {'name': 'United States Secretary of Labor', 'type': 'PERSON'}
+- {'name': 'Senator Tyson', 'type': 'GOV_BODY'}
+- {'name': 'Sean Tarwater', 'type': 'GOV_BODY'}
+- {'name': 'Les Mason', 'type': 'GOV_BODY'}
+- {'name': 'Jason Probst', 'type': 'GOV_BODY'}
+- {'name': 'Ethan Corson', 'type': 'GOV_BODY'}
+- {'name': 'Committee on Public Health and Welfare', 'type': 'ORG'}
+- {'name': 'Committee on Federal and State Affairs', 'type': 'ORG'}
+- {'name': 'Senator McGinn', 'type': 'PERSON'}
+- {'name': 'The American Heart Association', 'type': 'ORG'}
+- {'name': 'Landen Cleveland', 'type': 'PERSON'}
+- {'name': 'Clarence Felder', 'type': 'PERSON'}
+- {'name': 'Claeys', 'type': 'OTHER'}
+- {'name': 'Committee on Utilities', 'type': 'ORG'}
+- {'name': 'Committee on Judiciary', 'type': 'ORG'}
+- {'name': 'Director of Vehicles', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Health and Environment', 'type': 'GOV_BODY'}
+- {'name': 'Senator Faust-Goudeau', 'type': 'PERSON'}
+- {'name': 'Committee on Education', 'type': 'ORG'}
+- {'name': 'Committee on Assessment and Taxation', 'type': 'ORG'}
+- {'name': 'Senator Alley', 'type': 'GOV_BODY'}
+- {'name': 'Rick Billinger', 'type': 'PERSON'}
+- {'name': 'Faust Goudeau', 'type': 'PERSON'}
+- {'name': 'Virginia Powell', 'type': 'ORG'}
+- {'name': 'Devin Sprecker', 'type': 'ORG'}
+- {'name': 'Jordan Massey', 'type': 'ORG'}
+- {'name': 'OnGoal, LLC', 'type': 'ORG'}
+- {'name': 'Kansas administrative procedure act', 'type': 'OTHER'}
+- {'name': 'Reverend Cecil T. Washington', 'type': 'OTHER'}
+- {'name': 'Delta Sigma Theta Sorority, Inc.', 'type': 'ORG'}
+- {'name': 'Senate of the State of Kansas', 'type': 'GOV_BODY'}
+- {'name': 'board', 'type': 'GOV_BODY'}
+- {'name': 'investment manager', 'type': 'ORG'}
+- {'name': None, 'type': 'GOV_BODY'}
+- {'name': 'State Treasurer', 'type': 'GOV_BODY'}
+- {'name': 'Director of Accounts and Reports', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Highway Patrol', 'type': 'GOV_BODY'}
+- {'name': 'National Highway Traffic Safety Administration', 'type': 'ORG'}
+- {'name': 'Greg Abbott', 'type': 'PERSON'}
+- {'name': 'Alicia Straub', 'type': 'PERSON'}
+- {'name': 'Mary Pilcher Cook', 'type': 'PERSON'}
+- {'name': 'Mike Thompson', 'type': 'PERSON'}
+- {'name': 'Todd Tichenor', 'type': 'PERSON'}
+- {'name': 'Kelly Tichenor', 'type': 'OTHER'}
+- {'name': 'Tom Holland', 'type': 'PERSON'}
+- {'name': 'Dennis Pyle', 'type': 'PERSON'}
+- {'name': 'Senator Francisco', 'type': 'GOV_BODY'}
+- {'name': 'Senator Sykes', 'type': 'PERSON'}
+- {'name': 'Billinger', 'type': 'PERSON'}
+- {'name': 'Holland', 'type': 'PERSON'}
+- {'name': 'McGinn', 'type': 'PERSON'}
+- {'name': "O'Shea", 'type': 'PERSON'}
+- {'name': 'Pyle', 'type': 'PERSON'}
+- {'name': 'Secretary for the department of wildlife and parks', 'type': 'PERSON'}
+- {'name': 'Attorney General', 'type': 'GOV_BODY'}
+- {'name': 'commissioner', 'type': 'GOV_BODY'}
+- {'name': 'Office of the State Bank Commissioner', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Bureau of Investigation', 'type': 'GOV_BODY'}
+- {'name': 'Senator Tyson', 'type': 'PERSON'}
+- {'name': 'Senator Holland', 'type': 'GOV_BODY'}
+- {'name': 'Senator Erickson', 'type': 'GOV_BODY'}
+- {'name': 'USHA REDDI', 'type': 'PERSON'}
+- {'name': 'Emil Joseph Kapaun', 'type': 'OTHER'}
+- {'name': 'K.S.A', 'type': 'ORG'}
+- {'name': 'Kansas department of revenue', 'type': 'ORG'}
+- {'name': 'John D. Springer', 'type': 'PERSON'}
+- {'name': 'Peggy Springer', 'type': 'PERSON'}
+- {'name': 'Dr. Fauci', 'type': 'OTHER'}
+- {'name': 'Pat Pettey', 'type': 'PERSON'}
+- {'name': 'Senator Sykes', 'type': 'GOV_BODY'}
+- {'name': 'Brenda Dietrich', 'type': 'GOV_BODY'}
+- {'name': 'Rick Wilborn', 'type': 'GOV_BODY'}
+- {'name': 'Justin Panzer', 'type': 'PERSON'}
+- {'name': 'secretary of state', 'type': 'GOV_BODY'}
+- {'name': 'county election officer', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of State', 'type': 'GOV_BODY'}
+- {'name': 'Board of County Commissioners', 'type': 'GOV_BODY'}
+- {'name': 'The secretary of state', 'type': 'GOV_BODY'}
+- {'name': 'The board of county commissioners', 'type': 'GOV_BODY'}
+- {'name': 'County election officer', 'type': 'GOV_BODY'}
+- {'name': 'Senate BILL NO. 254', 'type': 'GOV_BODY'}
+- {'name': 'Charles McKinzie', 'type': 'PERSON'}
+- {'name': 'Jon Rolph', 'type': 'PERSON'}
+- {'name': 'Goodwill of Western Missouri and Eastern Kansas', 'type': 'ORG'}
+- {'name': 'Virginia Powell', 'type': 'PERSON'}
+- {'name': 'Devin Sprecker', 'type': 'PERSON'}
+- {'name': 'Dylan Riedel', 'type': 'PERSON'}
+- {'name': 'Victoria (Hollerich) Smith', 'type': 'PERSON'}
+- {'name': 'Amanda Horner', 'type': 'PERSON'}
+- {'name': 'Secretary', 'type': 'GOV_BODY'}
+- {'name': 'Municipality', 'type': 'ORG'}
+- {'name': 'County Treasurer', 'type': 'GOV_BODY'}
+- {'name': 'State Librarian', 'type': 'GOV_BODY'}
+- {'name': 'Director of Property Valuation', 'type': 'GOV_BODY'}
+- {'name': 'Senator Longbine', 'type': 'PERSON'}
+- {'name': 'Senator Steffen', 'type': 'PERSON'}
+- {'name': 'Senator Doll', 'type': 'PERSON'}
+- {'name': 'Senator Blasi', 'type': 'PERSON'}
+- {'name': 'Senator Francisco', 'type': 'PERSON'}
+- {'name': 'Mark Steffen', 'type': 'PERSON'}
+- {'name': 'Kellie Warren', 'type': 'PERSON'}
+- {'name': 'Senator Straub', 'type': 'PERSON'}
+- {'name': 'Senator Pettey', 'type': 'PERSON'}
+- {'name': 'Jacob Heine', 'type': 'PERSON'}
+- {'name': 'Bank of America', 'type': 'ORG'}
+- {'name': 'Black family', 'type': 'OTHER'}
+- {'name': 'Senator Reddi', 'type': 'PERSON'}
+- {'name': 'Senator Peck', 'type': 'PERSON'}
+- {'name': 'Secretary of Revenue', 'type': 'GOV_BODY'}
+- {'name': 'Director of Taxation', 'type': 'GOV_BODY'}
+- {'name': 'Staub', 'type': 'PERSON'}
+- {'name': 'governing body of the county', 'type': 'GOV_BODY'}
+- {'name': 'DAVID HALEY', 'type': 'PERSON'}
+- {'name': 'nonresident individuals', 'type': 'OTHER'}
+- {'name': 'corporations', 'type': 'ORG'}
+- {'name': 'K.S.A.', 'type': 'GOV_BODY'}
+- {'name': 'U.S.C.', 'type': 'OTHER'}
+- {'name': 'U.S.', 'type': 'GOV_BODY'}
+- {'name': 'Overland Park, Kansas police department', 'type': 'GOV_BODY'}
+- {'name': 'Overland Park, Kansas fire department', 'type': 'GOV_BODY'}
+- {'name': 'K.S.A.', 'type': 'ORG'}
+- {'name': 'K.S.A. 68-416', 'type': 'ORG'}
+- {'name': None, 'type': None}
+- {'name': 'Secretary of Transportation', 'type': 'GOV_BODY'}
+- {'name': 'Ethan Corson', 'type': 'PERSON'}
+- {'name': 'Jeff Pittman', 'type': 'PERSON'}
+- {'name': 'Usha Reddi', 'type': 'PERSON'}
+- {'name': 'Senate Committee on Education', 'type': 'GOV_BODY'}
+- {'name': 'House of Representatives Committee on Education', 'type': 'GOV_BODY'}
+- {'name': 'The Kansas state association of fire chiefs', 'type': 'ORG'}
+- {'name': 'The attorney general', 'type': 'PERSON'}
+- {'name': 'LCPA', 'type': 'ORG'}
+- {'name': 'State 911 board', 'type': 'GOV_BODY'}
+- {'name': 'director of accounts and reports', 'type': 'PERSON'}
+- {'name': 'state 911 coordinating council board', 'type': 'GOV_BODY'}
+- {'name': 'state 911 board', 'type': 'GOV_BODY'}
+- {'name': 'Irving Berlin', 'type': 'PERSON'}
+- {'name': 'Jordan Massey', 'type': 'PERSON'}
+- {'name': 'Prisca Barnes', 'type': 'PERSON'}
+- {'name': 'Storytime Village, Inc.', 'type': 'ORG'}
+- {'name': 'Kansas City Kansas Community College (KCKCC)', 'type': 'ORG'}
+- {'name': 'Brenda Landwehr', 'type': 'PERSON'}
+- {'name': 'John Eplee', 'type': 'PERSON'}
+- {'name': 'Susan Ruiz', 'type': 'PERSON'}
+- {'name': 'Beverly Gossage', 'type': 'PERSON'}
+- {'name': 'Renee Erickson', 'type': 'PERSON'}
+- {'name': 'Kansas Universal Service Fund (KUSF) administrator', 'type': 'OTHER'}
+- {'name': 'MARY WARE', 'type': 'PERSON'}
+- {'name': 'Senator Brenda Dietrich', 'type': 'PERSON'}
+- {'name': 'Connie Palacioz', 'type': 'PERSON'}
+- {'name': 'L. D. Holmes', 'type': 'PERSON'}
+- {'name': 'Senate Committee on Agriculture and Natural Resources', 'type': 'GOV_BODY'}
+- {'name': 'Committee on Assessment and Taxation', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Army and Air National Guard', 'type': 'GOV_BODY'}
+- {'name': 'Federal Civil Service Retirement System', 'type': 'ORG'}
+- {'name': 'Washburn University', 'type': 'PROJECT'}
+- {'name': 'City of Overland Park', 'type': 'ORG'}
+- {'name': 'Senate Substitute for HOUSE BILL NO. 2436 Committee', 'type': 'ORG'}
+- {'name': 'Office of Judicial Administration', 'type': 'GOV_BODY'}
+- {'name': 'Department of Corrections', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department for Aging and Disability Services', 'type': 'GOV_BODY'}
+- {'name': 'State Finance Council', 'type': 'GOV_BODY'}
+- {'name': 'Kansas department for aging and disability services', 'type': 'GOV_BODY'}
+- {'name': 'house of representatives committee on social services budget and appropriations', 'type': 'ORG'}
+- {'name': 'senate committee on ways and means', 'type': 'ORG'}
+- {'name': 'MARCI FRANCISCO', 'type': 'PERSON'}
+- {'name': 'JEFF PITTMAN', 'type': 'PERSON'}
+- {'name': 'PAT PETTEY', 'type': 'PERSON'}
+- {'name': 'Senate Committee on Assessment and Taxation', 'type': 'ORG'}
+- {'name': 'K.S.A. 79-1107', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-1108', 'type': 'OTHER'}
+- {'name': 'K.S.A. 75-643', 'type': 'OTHER'}
+- {'name': 'K.S.A. 12-5005', 'type': 'OTHER'}
+- {'name': 'K.S.A. 20-2603', 'type': 'OTHER'}
+- {'name': 'K.S.A. 74-4919', 'type': 'OTHER'}
+- {'name': 'K.S.A. 74-4965', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,177', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,196', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,203', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,204', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,217', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,218', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,219', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,220', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,221', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,222', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,223', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,224', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,225', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,226', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,227', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,228', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,229', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,230', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,231', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,232', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,233', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,234', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,235', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,236', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,237', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,238', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,239', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,240', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,241', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,245', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,246', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,247', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,248', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,251', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,252', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,253', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,254', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,255', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-32,256', 'type': 'OTHER'}
+- {'name': 'DINAH SYKES', 'type': 'PERSON'}
+- {'name': 'Iowa Tribe of Kansas and Nebraska', 'type': 'ORG'}
+- {'name': 'Senator Longbine', 'type': 'GOV_BODY'}
+- {'name': 'Senator Fagg', 'type': 'GOV_BODY'}
+- {'name': 'Senator Holscher', 'type': 'GOV_BODY'}
+- {'name': 'Senator Thompson', 'type': 'PERSON'}
+- {'name': 'Senator Petersen', 'type': 'PERSON'}
+- {'name': 'Senator Erickson', 'type': 'PERSON'}
+- {'name': 'Lisa Jackson', 'type': 'PERSON'}
+- {'name': 'Success Learning Inclusion (SLI)', 'type': 'ORG'}
+- {'name': 'SevenDays', 'type': 'ORG'}
+- {'name': 'Reat Underwood', 'type': 'PERSON'}
+- {'name': 'Dr. William Corporon', 'type': 'PERSON'}
+- {'name': 'Terri LaManno', 'type': 'PERSON'}
+- {'name': 'Michael Thompson', 'type': 'PERSON'}
+- {'name': 'Rick Kloos', 'type': 'PERSON'}
+- {'name': 'Oletha Faust Goudeau', 'type': 'PERSON'}
+- {'name': 'Will Carpenter', 'type': 'PERSON'}
+- {'name': 'Tom Kessler', 'type': 'PERSON'}
+- {'name': 'Joella Hoye', 'type': 'PERSON'}
+- {'name': 'Caryn Tyson', 'type': 'PERSON'}
+- {'name': 'Virgil Peck', 'type': 'PERSON'}
+- {'name': 'Mike Peterson', 'type': 'PERSON'}
+- {'name': 'Shannon Francis', 'type': 'PERSON'}
+- {'name': 'Lance Neelly', 'type': 'PERSON'}
+- {'name': 'Barbara Ballard', 'type': 'PERSON'}
+- {'name': 'Senator Petersen', 'type': 'GOV_BODY'}
+- {'name': 'state corporation commission', 'type': 'GOV_BODY'}
+- {'name': 'Michael Fagg', 'type': 'PERSON'}
+- {'name': 'Mike Petersen', 'type': 'PERSON'}
+- {'name': 'Marci Francisco', 'type': 'PERSON'}
+- {'name': 'Leo Delperdang', 'type': 'PERSON'}
+- {'name': 'Carl Turner', 'type': 'PERSON'}
+- {'name': 'KC Ohaebosim', 'type': 'PERSON'}
+- {'name': 'Kansas legislature', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Transportation', 'type': 'PERSON'}
+- {'name': 'Greg Fletcher', 'type': 'OTHER'}
+- {'name': 'Chuck Torrence', 'type': 'PERSON'}
+- {'name': 'Carol', 'type': 'OTHER'}
+- {'name': 'county election officer', 'type': 'OTHER'}
+- {'name': 'secretary', 'type': 'GOV_BODY'}
+- {'name': 'attorney general', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of state', 'type': 'GOV_BODY'}
+- {'name': 'PAT PROCTOR', 'type': 'PERSON'}
+- {'name': 'PAUL WAGGONER', 'type': 'PERSON'}
+- {'name': 'MICHAEL THOMPSON', 'type': 'PERSON'}
+- {'name': 'RICK KLOOS', 'type': 'PERSON'}
+- {'name': 'Board of regents', 'type': 'ORG'}
+- {'name': 'Director of accounts and reports', 'type': 'PERSON'}
+- {'name': 'Troy Waymaster', 'type': 'PERSON'}
+- {'name': 'Kyle Hoffman', 'type': 'PERSON'}
+- {'name': 'Henry Helgersson', 'type': 'PERSON'}
+- {'name': 'RICK BILLINGER', 'type': 'PERSON'}
+- {'name': 'J. R. CLAEYS', 'type': 'PERSON'}
+- {'name': 'board of education', 'type': 'GOV_BODY'}
+- {'name': 'state board', 'type': 'GOV_BODY'}
+- {'name': 'school district', 'type': 'ORG'}
+- {'name': 'State Board of Education', 'type': 'GOV_BODY'}
+- {'name': 'ADAM THOMAS', 'type': 'PERSON'}
+- {'name': 'SUSAN ESTES', 'type': 'PERSON'}
+- {'name': 'JERRY STOGSDILL', 'type': 'PERSON'}
+- {'name': 'MOLLY BAUMGARDNER', 'type': 'PERSON'}
+- {'name': 'RENEE ERICKSON', 'type': 'PERSON'}
+- {'name': 'The office of the child advocate', 'type': 'GOV_BODY'}
+- {'name': 'The Kansas department for children and families', 'type': 'GOV_BODY'}
+- {'name': 'child advocate', 'type': 'GOV_BODY'}
+- {'name': 'office of the clerk of the court', 'type': 'ORG'}
+- {'name': 'office', 'type': 'ORG'}
+- {'name': 'Kansas State Historical Society', 'type': 'ORG'}
+- {'name': 'Secretary of Corrections', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Department for Children and Families', 'type': 'GOV_BODY'}
+- {'name': 'secretary for children and families', 'type': 'GOV_BODY'}
+- {'name': 'law enforcement agency', 'type': 'ORG'}
+- {'name': 'Commissioner of juvenile justice secretary of corrections', 'type': 'GOV_BODY'}
+- {'name': 'Judge', 'type': 'PERSON'}
+- {'name': 'Office of the Child Advocate', 'type': 'ORG'}
+- {'name': 'Susan Concannon', 'type': 'PERSON'}
+- {'name': 'Timothy Johnson', 'type': 'PERSON'}
+- {'name': 'Jarrod Ousley', 'type': 'PERSON'}
+- {'name': 'Federal Reserve Banks', 'type': 'ORG'}
+- {'name': 'Clearing House Payment Company', 'type': 'ORG'}
+- {'name': 'insurer', 'type': 'ORG'}
+- {'name': 'party', 'type': 'PERSON'}
+- {'name': 'Commissioner', 'type': 'GOV_BODY'}
+- {'name': 'William Sutton', 'type': 'PERSON'}
+- {'name': 'Patrick Penn', 'type': 'PERSON'}
+- {'name': 'Cindy Neighbor', 'type': 'PERSON'}
+- {'name': 'Jeff Longbine', 'type': 'PERSON'}
+- {'name': 'Cindy Holscher', 'type': 'PERSON'}
+- {'name': 'board of county commissioners', 'type': 'GOV_BODY'}
+- {'name': 'EMIL BERGQUIST', 'type': 'PERSON'}
+- {'name': 'DOUG BLEX', 'type': 'PERSON'}
+- {'name': 'LINDA FEATHERSTON', 'type': 'PERSON'}
+- {'name': 'CAROLYN MCGINN', 'type': 'PERSON'}
+- {'name': 'ELAINE BOWERS', 'type': 'PERSON'}
+- {'name': 'state board of education', 'type': 'GOV_BODY'}
+- {'name': 'legislature', 'type': 'GOV_BODY'}
+- {'name': 'KRISTEY WILLIAMS', 'type': 'PERSON'}
+- {'name': 'JASON GOETZ', 'type': 'PERSON'}
+- {'name': 'MARK STEFFEN', 'type': 'PERSON'}
+- {'name': 'LEO DELPERDANG', 'type': 'PERSON'}
+- {'name': 'CARL TURNER', 'type': 'PERSON'}
+- {'name': 'K C OHOEBOSIM', 'type': 'PERSON'}
+- {'name': 'MICHAEL FAGG', 'type': 'PERSON'}
+- {'name': 'MIKE PETERSEN', 'type': 'PERSON'}
+- {'name': 'Kan-grow engineering fund – KU', 'type': 'PROJECT'}
+- {'name': 'Kan-grow engineering fund – KSU', 'type': 'PROJECT'}
+- {'name': 'Kan-grow engineering fund – WSU', 'type': 'PROJECT'}
+- {'name': 'State Board of Tax Appeals', 'type': 'GOV_BODY'}
+- {'name': 'County Appraiser', 'type': 'PROJECT'}
+- {'name': 'state board of tax appeals', 'type': 'GOV_BODY'}
+- {'name': 'director of property valuation', 'type': 'PERSON'}
+- {'name': 'Federal Internal Revenue Code', 'type': 'OTHER'}
+- {'name': 'Internal Revenue Code', 'type': 'OTHER'}
+- {'name': 'Overland Park, Kansas police department retirement plan', 'type': 'PROJECT'}
+- {'name': 'Overland Park, Kansas fire department retirement plan', 'type': 'PROJECT'}
+- {'name': 'Tom Sawyer', 'type': 'PERSON'}
+- {'name': 'Conference of State Bank Supervisors', 'type': 'ORG'}
+- {'name': 'American Association of Residential Mortgage Regulators', 'type': 'ORG'}
+- {'name': "State Bank Commissioner's Office", 'type': 'GOV_BODY'}
+- {'name': 'Commissioner', 'type': 'PERSON'}
+- {'name': 'The commissioner', 'type': 'GOV_BODY'}
+- {'name': 'A person or group of persons acting in concert', 'type': 'OTHER'}
+- {'name': 'applicant', 'type': 'OTHER'}
+- {'name': 'Standard & Poor', 'type': 'ORG'}
+- {'name': 'provider', 'type': 'ORG'}
+- {'name': 'K.S.A. 45-215', 'type': 'OTHER'}
+- {'name': 'Nick Hoheisel', 'type': 'PERSON'}
+- {'name': 'William Clifford', 'type': 'PERSON'}
+- {'name': 'Rui Xu', 'type': 'PERSON'}
+- {'name': 'Kansas human rights commission', 'type': 'ORG'}
+- {'name': 'Kansas real estate commission', 'type': 'ORG'}
+- {'name': 'Pat Proctor', 'type': 'PERSON'}
+- {'name': 'Paul Waggoner', 'type': 'PERSON'}
+- {'name': 'Brandon Woodard', 'type': 'PERSON'}
+- {'name': 'PAT PROCTOR', 'type': 'GOV_BODY'}
+- {'name': 'PAUL WAGGONER', 'type': 'GOV_BODY'}
+- {'name': 'state-managed fund', 'type': 'OTHER'}
+- {'name': 'Kansas public employees retirement system', 'type': 'GOV_BODY'}
+- {'name': 'Commissioner of Insurance', 'type': 'GOV_BODY'}
+- {'name': "Moody's Investors Service, Inc.", 'type': 'ORG'}
+- {'name': 'Kansas life and health insurance guaranty association', 'type': 'ORG'}
+- {'name': 'commissioner', 'type': 'PERSON'}
+- {'name': 'the association', 'type': 'ORG'}
+- {'name': 'the commissioner', 'type': 'PERSON'}
+- {'name': 'member insurer', 'type': 'ORG'}
+- {'name': 'association', 'type': 'ORG'}
+- {'name': 'NOLHGA', 'type': 'ORG'}
+- {'name': 'The association', 'type': 'ORG'}
+- {'name': 'The reinsurer', 'type': 'ORG'}
+- {'name': 'board of directors', 'type': 'ORG'}
+- {'name': 'board of directors', 'type': 'GOV_BODY'}
+- {'name': 'JEFF LONGBINE', 'type': 'PERSON'}
+- {'name': 'CINDY HOLSCHER', 'type': 'PERSON'}
+- {'name': 'WILLIAM SUTTON', 'type': 'PERSON'}
+- {'name': 'PATRICK PENN', 'type': 'PERSON'}
+- {'name': 'CINDY NEIGHBOR', 'type': 'PERSON'}
+- {'name': 'Adam Thomas', 'type': 'PERSON'}
+- {'name': 'Susan Estes', 'type': 'PERSON'}
+- {'name': 'Jerry Stogsdill', 'type': 'PERSON'}
+- {'name': 'Legislative coordinating council', 'type': 'GOV_BODY'}
+- {'name': 'Director of legislative services', 'type': 'PERSON'}
+- {'name': 'Unified school district no. 232, De Soto', 'type': 'ORG'}
+- {'name': "Governor's department", 'type': 'GOV_BODY'}
+- {'name': 'governor', 'type': 'PERSON'}
+- {'name': 'lieutenant governor', 'type': 'PERSON'}
+- {'name': 'Office of inspector general', 'type': 'ORG'}
+- {'name': "Attorney general's antitrust special revenue fund", 'type': 'ORG'}
+- {'name': "Attorney General's Committee on Crime Prevention", 'type': 'ORG'}
+- {'name': 'United States department of health and human services', 'type': 'GOV_BODY'}
+- {'name': 'centers for disease control and prevention', 'type': 'GOV_BODY'}
+- {'name': 'state treasurer', 'type': 'ORG'}
+- {'name': 'state treasurer', 'type': 'GOV_BODY'}
+- {'name': 'director of the budget', 'type': 'GOV_BODY'}
+- {'name': 'director of legislative research', 'type': 'GOV_BODY'}
+- {'name': 'Director of Accounts and Reports', 'type': 'PERSON'}
+- {'name': 'State Treasurer', 'type': 'ORG'}
+- {'name': 'build Kansas advisory committee', 'type': 'ORG'}
+- {'name': 'Insurance Department', 'type': 'ORG'}
+- {'name': 'Insurance Department', 'type': 'GOV_BODY'}
+- {'name': 'Health Care Stabilization Fund Board of Governors', 'type': 'GOV_BODY'}
+- {'name': 'Pooled Money Investment Board', 'type': 'GOV_BODY'}
+- {'name': 'Judicial Council', 'type': 'GOV_BODY'}
+- {'name': "State Board of Indigents' Defense Services", 'type': 'GOV_BODY'}
+- {'name': "STATE BOARD OF INDIGENTS' DEFENSE SERVICES", 'type': 'GOV_BODY'}
+- {'name': 'JUDICIAL BRANCH', 'type': 'GOV_BODY'}
+- {'name': 'KANSAS PUBLIC EMPLOYEES RETIREMENT SYSTEM', 'type': 'GOV_BODY'}
+- {'name': 'KANSAS HUMAN RIGHTS COMMISSION', 'type': 'GOV_BODY'}
+- {'name': 'STATE CORPORATION COMMISSION', 'type': 'GOV_BODY'}
+- {'name': 'state corporation commission', 'type': 'ORG'}
+- {'name': 'State Corporation Commission', 'type': 'GOV_BODY'}
+- {'name': 'Director of Personnel Services', 'type': 'PERSON'}
+- {'name': 'Director of the Budget', 'type': 'PERSON'}
+- {'name': 'Director of Purchases', 'type': 'PERSON'}
+- {'name': 'Director of Facilities Management', 'type': 'PERSON'}
+- {'name': 'Secretary of Administration', 'type': 'GOV_BODY'}
+- {'name': 'Kansas state employees health care commission', 'type': 'GOV_BODY'}
+- {'name': 'secretary of administration', 'type': 'GOV_BODY'}
+- {'name': 'state board of regents', 'type': 'GOV_BODY'}
+- {'name': 'director of the budget', 'type': 'PERSON'}
+- {'name': "children's cabinet", 'type': 'GOV_BODY'}
+- {'name': "Governor's residence advisory commission", 'type': 'GOV_BODY'}
+- {'name': 'Friends of Cedar Crest Association', 'type': 'ORG'}
+- {'name': 'department of revenue', 'type': 'GOV_BODY'}
+- {'name': 'Department of Revenue', 'type': 'GOV_BODY'}
+- {'name': 'Division of Administration', 'type': 'GOV_BODY'}
+- {'name': 'executive director of the Kansas lottery', 'type': 'PERSON'}
+- {'name': 'Kansas lottery', 'type': 'ORG'}
+- {'name': 'Executive director of the Kansas lottery', 'type': 'PERSON'}
+- {'name': 'Office of inspector general', 'type': 'GOV_BODY'}
+- {'name': 'Kansas racing and gaming commission', 'type': 'GOV_BODY'}
+- {'name': 'Kansas bureau of investigation', 'type': 'GOV_BODY'}
+- {'name': 'Department of Commerce', 'type': 'ORG'}
+- {'name': 'Swope health project', 'type': 'PROJECT'}
+- {'name': 'Level Up Kansas', 'type': 'ORG'}
+- {'name': "Governor's council of economic advisors", 'type': 'GOV_BODY'}
+- {'name': 'United States fish and wildlife service', 'type': 'ORG'}
+- {'name': 'FIFA world cup 26 Kansas City committee', 'type': 'ORG'}
+- {'name': 'Dane G. Hansen foundation', 'type': 'ORG'}
+- {'name': 'city or county', 'type': 'GOV_BODY'}
+- {'name': 'director of accounts and reports', 'type': 'OTHER'}
+- {'name': 'Kansas development finance authority', 'type': 'GOV_BODY'}
+- {'name': 'Kansas housing resources corporation', 'type': 'GOV_BODY'}
+- {'name': 'Department of Labor', 'type': 'GOV_BODY'}
+- {'name': 'Kansas commission on veterans affairs office', 'type': 'GOV_BODY'}
+- {'name': 'Director of the budget', 'type': 'PERSON'}
+- {'name': 'director of legislative research', 'type': 'PERSON'}
+- {'name': 'AdventHealth Shawnee Mission', 'type': 'ORG'}
+- {'name': 'ascension Via Christi St. Joseph campus', 'type': 'ORG'}
+- {'name': 'Hutchinson regional medical center', 'type': 'ORG'}
+- {'name': 'Salina regional health center', 'type': 'ORG'}
+- {'name': 'Stormont Vail regional medical center', 'type': 'ORG'}
+- {'name': 'The university of Kansas health system', 'type': 'ORG'}
+- {'name': 'Department of Health and Environment', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Health and Environment', 'type': 'PERSON'}
+- {'name': 'State Fire Marshal', 'type': 'PERSON'}
+- {'name': 'Adjutant General', 'type': 'PERSON'}
+- {'name': 'Kansas Department of Health and Environment', 'type': 'GOV_BODY'}
+- {'name': 'department of health and environment', 'type': 'ORG'}
+- {'name': 'Kansas department of health and environment', 'type': 'GOV_BODY'}
+- {'name': 'Kansas development finance authority', 'type': 'ORG'}
+- {'name': 'EPA', 'type': 'ORG'}
+- {'name': 'secretary of health and environment', 'type': 'PERSON'}
+- {'name': 'KanCare caseloads', 'type': 'OTHER'}
+- {'name': 'non-KanCare caseloads', 'type': 'OTHER'}
+- {'name': 'LTSS Services', 'type': 'PROJECT'}
+- {'name': 'the secretary for children and families', 'type': 'GOV_BODY'}
+- {'name': 'the secretary for aging and disability services', 'type': 'GOV_BODY'}
+- {'name': 'the department of education', 'type': 'GOV_BODY'}
+- {'name': 'above agency', 'type': 'GOV_BODY'}
+- {'name': 'association of mental health intervention team providers of Kansas', 'type': 'ORG'}
+- {'name': 'Kansas neurological institute', 'type': 'ORG'}
+- {'name': 'Larned state hospital', 'type': 'GOV_BODY'}
+- {'name': 'Osawatomie state hospital', 'type': 'GOV_BODY'}
+- {'name': 'Parsons state hospital and training center', 'type': 'GOV_BODY'}
+- {'name': 'secretary for aging and disability services', 'type': 'GOV_BODY'}
+- {'name': 'state fire marshal', 'type': 'GOV_BODY'}
+- {'name': 'Secretary for Aging and Disability Services', 'type': 'GOV_BODY'}
+- {'name': 'Superintendent of Osawatomie State Hospital', 'type': 'GOV_BODY'}
+- {'name': 'Kansas department for children and families', 'type': 'ORG'}
+- {'name': 'department of health and environment – division of public health', 'type': 'ORG'}
+- {'name': 'Robert G. (Bob) Bethell joint committee on home and community based services', 'type': 'GOV_BODY'}
+- {'name': 'Kansas department for aging and disability services', 'type': 'ORG'}
+- {'name': 'Department of Environment – Division of Health Care Finance', 'type': 'ORG'}
+- {'name': 'Association of Community Mental Health Centers of Kansas', 'type': 'ORG'}
+- {'name': 'Kansas Health Institute', 'type': 'ORG'}
+- {'name': 'National Council on Mental Wellbeing', 'type': 'ORG'}
+- {'name': 'KANSAS DEPARTMENT FOR AGING AND DISABILITY SERVICES', 'type': 'ORG'}
+- {'name': 'KANSAS DEPARTMENT FOR CHILDREN AND FAMILIES', 'type': 'ORG'}
+- {'name': 'Department above agency', 'type': 'ORG'}
+- {'name': 'Kansas department for children and families', 'type': 'GOV_BODY'}
+- {'name': 'secretary for children and families', 'type': 'PERSON'}
+- {'name': 'Kansas state school for the deaf', 'type': 'ORG'}
+- {'name': 'State Historical Society', 'type': 'GOV_BODY'}
+- {'name': 'Humanities Kansas', 'type': 'ORG'}
+- {'name': 'State Historical Society', 'type': 'ORG'}
+- {'name': 'Lecompton Historical Society', 'type': 'ORG'}
+- {'name': 'Fort Hays state university', 'type': 'ORG'}
+- {'name': 'Kansas state university', 'type': 'ORG'}
+- {'name': 'State board of regents', 'type': 'GOV_BODY'}
+- {'name': 'President of Kansas State University', 'type': 'PERSON'}
+- {'name': 'KANSAS STATE UNIVERSITY', 'type': 'ORG'}
+- {'name': 'president of Kansas state university', 'type': 'PERSON'}
+- {'name': 'State Board of Regents', 'type': 'GOV_BODY'}
+- {'name': 'President of Pittsburg state university', 'type': 'PERSON'}
+- {'name': "Governor's emergency education relief fund", 'type': 'GOV_BODY'}
+- {'name': 'American rescue plan state relief fund', 'type': 'GOV_BODY'}
+- {'name': 'University of Kansas Medical Center', 'type': 'ORG'}
+- {'name': 'Ascension Via Christi', 'type': 'ORG'}
+- {'name': 'Wesley family medicine residency program', 'type': 'PROJECT'}
+- {'name': 'University of Kansas', 'type': 'GOV_BODY'}
+- {'name': 'Robert Wood Johnson', 'type': 'ORG'}
+- {'name': 'WSU', 'type': 'ORG'}
+- {'name': 'STATE BOARD OF REGENTS', 'type': 'GOV_BODY'}
+- {'name': 'Kansas ethnic minority fellowship program fund', 'type': 'PROJECT'}
+- {'name': 'Private postsecondary educational institution degree authorization expense reimbursement fee fund', 'type': 'PROJECT'}
+- {'name': 'state board of regents', 'type': 'ORG'}
+- {'name': 'committee on appropriations', 'type': 'GOV_BODY'}
+- {'name': 'committee on ways and means', 'type': 'GOV_BODY'}
+- {'name': 'Lansing historical society', 'type': 'ORG'}
+- {'name': 'Department of corrections', 'type': 'GOV_BODY'}
+- {'name': 'Department of Corrections', 'type': 'ORG'}
+- {'name': 'Secretary of corrections', 'type': 'PERSON'}
+- {'name': 'Director of accounts and reports', 'type': 'GOV_BODY'}
+- {'name': 'Director of Kansas correctional industries', 'type': 'ORG'}
+- {'name': 'Secretary of corrections', 'type': 'GOV_BODY'}
+- {'name': 'Adjutant General', 'type': 'GOV_BODY'}
+- {'name': 'adjutant general', 'type': 'OTHER'}
+- {'name': 'adjutant general', 'type': 'GOV_BODY'}
+- {'name': 'State Fire Marshal', 'type': 'GOV_BODY'}
+- {'name': 'Director of Legislative Research', 'type': 'GOV_BODY'}
+- {'name': 'Director of the Budget', 'type': 'GOV_BODY'}
+- {'name': 'Kansas highway patrol', 'type': 'ORG'}
+- {'name': 'Department of transportation', 'type': 'ORG'}
+- {'name': 'Kansas bureau of investigation', 'type': 'ORG'}
+- {'name': 'Kansas criminal justice information system committee', 'type': 'ORG'}
+- {'name': 'Emergency medical services board', 'type': 'GOV_BODY'}
+- {'name': 'Emergency Medical Services Board', 'type': 'ORG'}
+- {'name': 'House of Representatives Committee on Appropriations', 'type': 'GOV_BODY'}
+- {'name': 'Senate Committee on Ways and Means', 'type': 'GOV_BODY'}
+- {'name': 'KANSAS SENTENCING COMMISSION', 'type': 'ORG'}
+- {'name': "KANSAS COMMISSION ON PEACE OFFICERS' STANDARDS AND TRAINING", 'type': 'ORG'}
+- {'name': 'KANSAS DEPARTMENT OF AGRICULTURE', 'type': 'ORG'}
+- {'name': 'Kansas department of agriculture', 'type': 'GOV_BODY'}
+- {'name': 'secretary of agriculture', 'type': 'PERSON'}
+- {'name': 'United States geological survey', 'type': 'ORG'}
+- {'name': 'secretary of agriculture', 'type': 'GOV_BODY'}
+- {'name': 'Kansas department of agriculture', 'type': 'ORG'}
+- {'name': 'STATE FAIR BOARD', 'type': 'GOV_BODY'}
+- {'name': 'KANSAS WATER OFFICE', 'type': 'GOV_BODY'}
+- {'name': 'Milford RCPP federal fund', 'type': 'PROJECT'}
+- {'name': 'Multipurpose grant fund', 'type': 'PROJECT'}
+- {'name': 'Emergency management performance grant fund', 'type': 'PROJECT'}
+- {'name': 'HHPD rehabilitation grant fund', 'type': 'PROJECT'}
+- {'name': 'Water reclamation and reuse grant fund', 'type': 'PROJECT'}
+- {'name': 'EPA wetland development grant fund', 'type': 'PROJECT'}
+- {'name': 'Motor pool vehicle replacement fund', 'type': 'PROJECT'}
+- {'name': 'Water projects grant fund', 'type': 'PROJECT'}
+- {'name': 'Water technical assistance fund', 'type': 'PROJECT'}
+- {'name': 'director of the Kansas water office', 'type': 'GOV_BODY'}
+- {'name': 'pooled money investment board', 'type': 'ORG'}
+- {'name': 'Director of the Kansas Water Office', 'type': 'GOV_BODY'}
+- {'name': 'KANSAS DEPARTMENT OF WILDLIFE AND PARKS', 'type': 'GOV_BODY'}
+- {'name': 'United States Fish and Wildlife Service', 'type': 'ORG'}
+- {'name': 'Kansas Department of Wildlife and Parks', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Commission on Veterans Affairs Office', 'type': 'ORG'}
+- {'name': 'Department of Transportation', 'type': 'ORG'}
+- {'name': 'House Committee on Appropriations', 'type': 'GOV_BODY'}
+- {'name': 'Amtrak', 'type': 'ORG'}
+- {'name': 'Federal Railroad Administration', 'type': 'GOV_BODY'}
+- {'name': 'Director of Personnel Services', 'type': 'GOV_BODY'}
+- {'name': 'regents institution', 'type': 'OTHER'}
+- {'name': 'Fort Hays state university', 'type': 'PROJECT'}
+- {'name': 'Kansas state university', 'type': 'PROJECT'}
+- {'name': 'Emporia state university', 'type': 'PROJECT'}
+- {'name': 'Pittsburg state university', 'type': 'PROJECT'}
+- {'name': 'the university of Kansas', 'type': 'PROJECT'}
+- {'name': 'Wichita state university', 'type': 'PROJECT'}
+- {'name': 'Kansas Development Finance Authority', 'type': 'ORG'}
+- {'name': 'State of Kansas', 'type': 'GOV_BODY'}
+- {'name': 'Eisenhower building purchase and renovation – debt service (173-00-6148-4610)', 'type': 'PROJECT'}
+- {'name': 'Department of Labor', 'type': 'ORG'}
+- {'name': 'Walt hall', 'type': 'PROJECT'}
+- {'name': 'State Board of Regents', 'type': 'ORG'}
+- {'name': 'Kansas Educational Building Fund', 'type': 'PROJECT'}
+- {'name': 'legislative coordinating council', 'type': 'GOV_BODY'}
+- {'name': 'State General Fund', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Educational Building Fund', 'type': 'GOV_BODY'}
+- {'name': 'State Fair Board', 'type': 'GOV_BODY'}
+- {'name': 'state fair board', 'type': 'GOV_BODY'}
+- {'name': 'State Treasurer', 'type': 'PERSON'}
+- {'name': 'President of the Kansas Housing Resources Corporation', 'type': 'PERSON'}
+- {'name': 'Executive Director', 'type': 'OTHER'}
+- {'name': 'Kansas State University', 'type': 'ORG'}
+- {'name': 'Kansas water authority', 'type': 'ORG'}
+- {'name': 'Kansas water office', 'type': 'GOV_BODY'}
+- {'name': 'Henry Helgerson', 'type': 'PERSON'}
+- {'name': 'Jr Claeys', 'type': 'PERSON'}
+- {'name': 'Pat Petterey', 'type': 'PERSON'}
+- {'name': "KRISTEN O'SHEA", 'type': 'PERSON'}
+- {'name': 'DENNIS PYLE', 'type': 'PERSON'}
+- {'name': 'Sean Tarwater', 'type': 'PERSON'}
+- {'name': 'Jesse Borjon', 'type': 'PERSON'}
+- {'name': 'Jason Probst', 'type': 'PERSON'}
+- {'name': 'Senator Fransisco', 'type': 'PERSON'}
+- {'name': 'state of Kansas', 'type': 'GOV_BODY'}
+- {'name': 'president of the United States', 'type': 'PERSON'}
+- {'name': 'governor', 'type': 'GOV_BODY'}
+- {'name': 'staff judge advocate', 'type': 'PERSON'}
+- {'name': 'K.S.A.', 'type': 'PROJECT'}
+- {'name': 'president', 'type': 'PERSON'}
+- {'name': 'vice-president vice president', 'type': 'PERSON'}
+- {'name': 'congress', 'type': 'GOV_BODY'}
+- {'name': 'secretary of defense', 'type': 'PERSON'}
+- {'name': 'secretary of a military department', 'type': 'PERSON'}
+- {'name': 'secretary of homeland security', 'type': 'PERSON'}
+- {'name': 'state judge advocate general', 'type': 'PERSON'}
+- {'name': 'judge advocates', 'type': 'ORG'}
+- {'name': 'summary courts-martial', 'type': 'PROJECT'}
+- {'name': 'adjutants', 'type': 'OTHER'}
+- {'name': 'counsel for the court of any court of inquiry', 'type': 'ORG'}
+- {'name': 'Ronald Ellis', 'type': 'PERSON'}
+- {'name': 'Blake Carpenter', 'type': 'PERSON'}
+- {'name': 'Virgil Weigel', 'type': 'PERSON'}
+- {'name': 'director of taxation', 'type': 'PERSON'}
+- {'name': 'electors', 'type': 'OTHER'}
+- {'name': 'board of county commissioners of Neosho county', 'type': 'GOV_BODY'}
+- {'name': 'boards of county commissioners of any two or more contiguous counties', 'type': 'GOV_BODY'}
+- {'name': 'Director of Taxation', 'type': 'PERSON'}
+- {'name': 'Attorney General', 'type': 'PERSON'}
+- {'name': 'County Appraiser', 'type': 'GOV_BODY'}
+- {'name': 'County Clerk', 'type': 'ORG'}
+- {'name': 'County clerk', 'type': 'ORG'}
+- {'name': 'Governing body', 'type': 'ORG'}
+- {'name': 'K.S.A. 79-32,102(b)', 'type': 'OTHER'}
+- {'name': 'K.S.A. 79-3298', 'type': 'OTHER'}
+- {'name': 'federal government', 'type': 'ORG'}
+- {'name': 'City of Overland Park', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Revenue', 'type': 'PERSON'}
+- {'name': 'ADAM SMITH', 'type': 'PERSON'}
+- {'name': 'BRIAN BERGKAMP', 'type': 'PERSON'}
+- {'name': 'TOM SAWYER', 'type': 'PERSON'}
+- {'name': 'CARYN TYSON', 'type': 'PERSON'}
+- {'name': 'VIRGIL PECK', 'type': 'PERSON'}
+- {'name': 'TOM HOLLAND', 'type': 'PERSON'}
+- {'name': 'director of literacy education', 'type': 'PERSON'}
+- {'name': 'president of the senate', 'type': 'GOV_BODY'}
+- {'name': 'Kansas national education association', 'type': 'ORG'}
+- {'name': 'Emporia state university school of education', 'type': 'PROJECT'}
+- {'name': 'Fort Hays state university school of education', 'type': 'PROJECT'}
+- {'name': 'Pittsburg state university school of education', 'type': 'PROJECT'}
+- {'name': 'University of Kansas school of education', 'type': 'PROJECT'}
+- {'name': 'Kansas state university school of education', 'type': 'PROJECT'}
+- {'name': 'Wichita state university school of education', 'type': 'PROJECT'}
+- {'name': 'Washburn university school of education', 'type': 'PROJECT'}
+- {'name': 'State board of education', 'type': 'GOV_BODY'}
+- {'name': 'United school administrators of Kansas', 'type': 'ORG'}
+- {'name': 'Executive Officer of the state board of regents', 'type': 'PERSON'}
+- {'name': 'Director of literacy education', 'type': 'PERSON'}
+- {'name': 'State Board', 'type': 'GOV_BODY'}
+- {'name': 'governor and legislature', 'type': 'GOV_BODY'}
+- {'name': 'state board of nursing', 'type': 'GOV_BODY'}
+- {'name': 'Kansas ethnic minority education opportunity scholarship review committee', 'type': 'ORG'}
+- {'name': 'Executive Officer', 'type': 'GOV_BODY'}
+- {'name': 'State Board of Nursing', 'type': 'GOV_BODY'}
+- {'name': 'Executive Officer', 'type': 'PERSON'}
+- {'name': 'committee', 'type': 'OTHER'}
+- {'name': 'executive officer', 'type': 'PERSON'}
+- {'name': 'KANSAS BUREAU OF INVESTIGATION', 'type': 'ORG'}
+- {'name': 'SUSAN HUMPHRIES', 'type': 'PERSON'}
+- {'name': 'BOB LEWIS', 'type': 'PERSON'}
+- {'name': 'DAN OSMAN', 'type': 'PERSON'}
+- {'name': 'KELLIE WARREN', 'type': 'PERSON'}
+- {'name': 'RICK WILBORN', 'type': 'PERSON'}
+- {'name': 'ETHAN CORSON', 'type': 'PERSON'}
+- {'name': 'County Clerk', 'type': 'GOV_BODY'}
+- {'name': 'department of administration', 'type': 'GOV_BODY'}
+- {'name': '74-50,321', 'type': 'GOV_BODY'}
+- {'name': 'K.S.A. Supp.', 'type': 'ORG'}
+- {'name': 'U.S. department of veterans affairs', 'type': 'ORG'}
+- {'name': 'County appraiser', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of transportation', 'type': 'GOV_BODY'}
+- {'name': 'Kansas turnpike authority', 'type': 'ORG'}
+- {'name': 'County Appraiser', 'type': 'ORG'}
+- {'name': 'governing body', 'type': 'OTHER'}
+- {'name': 'county treasurer', 'type': 'PERSON'}
+- {'name': 'Bowers', 'type': 'GOV_BODY'}
+- {'name': 'Corson', 'type': 'GOV_BODY'}
+- {'name': 'Dietrich', 'type': 'GOV_BODY'}
+- {'name': 'Doll', 'type': 'GOV_BODY'}
+- {'name': 'Faust-Goudeau', 'type': 'GOV_BODY'}
+- {'name': 'Francisco', 'type': 'GOV_BODY'}
+- {'name': 'Haley', 'type': 'GOV_BODY'}
+- {'name': 'Holscher', 'type': 'GOV_BODY'}
+- {'name': 'Longbine', 'type': 'GOV_BODY'}
+- {'name': 'McGinn', 'type': 'GOV_BODY'}
+- {'name': "O'Shea", 'type': 'GOV_BODY'}
+- {'name': 'Pettey', 'type': 'GOV_BODY'}
+- {'name': 'Reddi', 'type': 'GOV_BODY'}
+- {'name': 'Shallenburger', 'type': 'GOV_BODY'}
+- {'name': 'Sykes', 'type': 'GOV_BODY'}
+- {'name': 'Ware', 'type': 'GOV_BODY'}
+- {'name': 'Department of Revenue', 'type': 'ORG'}
+- {'name': 'United States Department of Veterans Affairs', 'type': 'GOV_BODY'}
+- {'name': 'Cerebral palsy research foundation of Kansas', 'type': 'ORG'}
+- {'name': 'Multi community diversified services, incorporated', 'type': 'ORG'}
+- {'name': 'state board of pharmacy', 'type': 'ORG'}
+- {'name': 'state board of healing arts', 'type': 'ORG'}
+- {'name': 'United States department of agriculture', 'type': 'GOV_BODY'}
+- {'name': 'The American Heart Association, Kansas Affiliate, Inc.', 'type': 'ORG'}
+- {'name': 'The Kansas Alliance for the Mentally Ill, Inc.', 'type': 'ORG'}
+- {'name': 'The Kansas Mental Illness Awareness Council', 'type': 'ORG'}
+- {'name': 'The American Diabetes Association Kansas Affiliate, Inc.', 'type': 'ORG'}
+- {'name': 'The American Lung Association of Kansas, Inc.', 'type': 'ORG'}
+- {'name': "The Alzheimer's Disease and Related Disorders Association, Inc.", 'type': 'ORG'}
+- {'name': "The Parkinson's Disease Association", 'type': 'ORG'}
+- {'name': 'The National Kidney Foundation of Kansas and Western Missouri', 'type': 'ORG'}
+- {'name': 'The Heartstrings Community Foundation', 'type': 'ORG'}
+- {'name': 'cystic fibrosis foundation, heart of America chapter', 'type': 'ORG'}
+- {'name': 'spina bifida association of Kansas', 'type': 'ORG'}
+- {'name': 'CHWC, Inc.', 'type': 'ORG'}
+- {'name': 'cross-lines cooperative council', 'type': 'ORG'}
+- {'name': 'dreams work, inc.', 'type': 'ORG'}
+- {'name': 'KSDS, Inc.', 'type': 'ORG'}
+- {'name': 'lyme association of greater Kansas City, Inc.', 'type': 'ORG'}
+- {'name': 'dream factory, inc.', 'type': 'ORG'}
+- {'name': 'Ottawa Suzuki strings, inc.', 'type': 'ORG'}
+- {'name': 'international association of lions clubs', 'type': 'ORG'}
+- {'name': 'Johnson county young matrons, inc.', 'type': 'ORG'}
+- {'name': 'American cancer society, inc.', 'type': 'ORG'}
+- {'name': 'community services of Shawnee, inc.', 'type': 'ORG'}
+- {'name': 'angel babies association', 'type': 'ORG'}
+- {'name': 'Kansas fairgrounds foundation', 'type': 'ORG'}
+- {'name': 'habitat for humanity', 'type': 'ORG'}
+- {'name': 'federal communications commission', 'type': 'ORG'}
+- {'name': 'Kansas academy of science', 'type': 'ORG'}
+- {'name': 'Kansas coalition against sexual and domestic violence', 'type': 'ORG'}
+- {'name': 'Special Olympics Kansas', 'type': 'ORG'}
+- {'name': 'Marillac Center, Inc.', 'type': 'ORG'}
+- {'name': 'West Sedgwick County-Sunrise Rotary Club and Sunrise Charitable Fund', 'type': 'ORG'}
+- {'name': 'TLC for Children and Families, Inc.', 'type': 'ORG'}
+- {'name': 'Catholic Charities or Youthville', 'type': 'ORG'}
+- {'name': "KCSL (Kansas Children's Service League)", 'type': 'ORG'}
+- {'name': 'jazz in the woods, inc.', 'type': 'ORG'}
+- {'name': 'Frontenac education foundation', 'type': 'ORG'}
+- {'name': 'booth theatre foundation, inc.', 'type': 'ORG'}
+- {'name': 'TLC charities foundation, inc.', 'type': 'ORG'}
+- {'name': 'TLC charities', 'type': 'ORG'}
+- {'name': 'rotary club of shawnee foundation', 'type': 'ORG'}
+- {'name': 'victory in the valley, inc.', 'type': 'ORG'}
+- {'name': 'Guadalupe health foundation', 'type': 'ORG'}
+- {'name': 'wayside waifs, inc.', 'type': 'ORG'}
+- {'name': 'goodwill industries or Easter seals of Kansas, inc.', 'type': 'ORG'}
+- {'name': 'all American beef battalion, inc.', 'type': 'ORG'}
+- {'name': 'sheltered living, inc.', 'type': 'ORG'}
+- {'name': 'Beacon, Inc.', 'type': 'ORG'}
+- {'name': 'Reaching Out from Within, Inc.', 'type': 'ORG'}
+- {'name': 'Gove County Healthcare Endowment Foundation, Inc.', 'type': 'ORG'}
+- {'name': 'friends of hospice of Jefferson county', 'type': 'ORG'}
+- {'name': 'Jefferson county hospice agency', 'type': 'ORG'}
+- {'name': 'qualified firm', 'type': 'OTHER'}
+- {'name': 'secretary for aging and disabilities services', 'type': 'GOV_BODY'}
+- {'name': 'Kansas suicide prevention HQ, inc.', 'type': 'ORG'}
+- {'name': 'Exploration Place, Inc.', 'type': 'ORG'}
+- {'name': "Kansas Children's Discovery Center Inc.", 'type': 'ORG'}
+- {'name': 'Dwayne Peaslee technical training center district', 'type': 'PROJECT'}
+- {'name': 'House', 'type': 'GOV_BODY'}
+- {'name': 'Department of the Kansas State', 'type': 'GOV_BODY'}
+- {'name': None, 'type': 'ORG'}
+- {'name': 'cerebral palsy research foundation of Kansas', 'type': 'ORG'}
+- {'name': 'multi community diversified services, incorporated', 'type': 'ORG'}
+- {'name': 'government of the United States', 'type': 'GOV_BODY'}
+- {'name': 'State Board of Pharmacy', 'type': 'GOV_BODY'}
+- {'name': 'State Board of Healing Arts', 'type': 'GOV_BODY'}
+- {'name': 'manufacturing or processing business', 'type': 'OTHER'}
+- {'name': 'nonprofit organization', 'type': 'ORG'}
+- {'name': 'public broadcasting station', 'type': 'ORG'}
+- {'name': 'noncommercial educational television or radio station', 'type': 'PROJECT'}
+- {'name': 'rural volunteer fire-fighting organization', 'type': 'ORG'}
+- {'name': 'The American heart association, Kansas affiliate, inc.', 'type': 'ORG'}
+- {'name': 'Kansas alliance for the mentally ill, inc.', 'type': 'ORG'}
+- {'name': 'Kansas mental illness awareness council', 'type': 'ORG'}
+- {'name': 'American diabetes association Kansas affiliate, inc.', 'type': 'ORG'}
+- {'name': 'American lung association of Kansas, inc.', 'type': 'ORG'}
+- {'name': "Alzheimer's disease and related disorders association, inc.", 'type': 'ORG'}
+- {'name': "Parkinson's disease association", 'type': 'ORG'}
+- {'name': 'national kidney foundation of Kansas and western Missouri', 'type': 'ORG'}
+- {'name': 'heartstrings community foundation', 'type': 'ORG'}
+- {'name': "director's designee", 'type': 'GOV_BODY'}
+- {'name': 'federal internal revenue code of 1986', 'type': 'OTHER'}
+- {'name': 'TLC for children and families, inc.', 'type': 'ORG'}
+- {'name': 'Special olympics Kansas, inc.', 'type': 'ORG'}
+- {'name': 'The Marillac center, inc.', 'type': 'ORG'}
+- {'name': 'West Sedgwick county-sunrise rotary club and sunrise charitable fund', 'type': 'ORG'}
+- {'name': 'A public library serving the general public and supported in whole or in part with tax money', 'type': 'GOV_BODY'}
+- {'name': 'A homeless shelter that is exempt from federal income taxation pursuant to section 501(c)(3) of the federal internal revenue code of 1986', 'type': 'ORG'}
+- {'name': 'TLC', 'type': 'ORG'}
+- {'name': "Kansas children's service league", 'type': 'ORG'}
+- {'name': 'Jazz in the woods, inc.', 'type': 'ORG'}
+- {'name': 'Booth theatre foundation, inc.', 'type': 'ORG'}
+- {'name': 'TLC charities foundation', 'type': 'ORG'}
+- {'name': 'Sheltered Living, Inc.', 'type': 'ORG'}
+- {'name': "Wichita children's home", 'type': 'ORG'}
+- {'name': 'Gove county healthcare endowment foundation, inc.', 'type': 'ORG'}
+- {'name': 'reaching out from within, inc.', 'type': 'ORG'}
+- {'name': '', 'type': 'OTHER'}
+- {'name': 'Lophophora williamsii Lemaire', 'type': 'PROJECT'}
+- {'name': 'Etizolam', 'type': 'OTHER'}
+- {'name': 'Mecloqualone', 'type': 'OTHER'}
+- {'name': 'Methaqualone', 'type': 'OTHER'}
+- {'name': 'Gamma hydroxybutyric acid', 'type': 'OTHER'}
+- {'name': 'Flualprazolam', 'type': 'OTHER'}
+- {'name': 'Clonazolam', 'type': 'OTHER'}
+- {'name': 'Flubromazolam', 'type': 'OTHER'}
+- {'name': 'Diclazepam', 'type': 'OTHER'}
+- {'name': 'K.S.A. 2023 Supp.', 'type': 'OTHER'}
+- {'name': 'DEA', 'type': 'ORG'}
+- {'name': 'United States food and drug administration', 'type': 'ORG'}
+- {'name': 'Fenfluramine', 'type': 'OTHER'}
+- {'name': 'Lorcaserin', 'type': 'OTHER'}
+- {'name': "veteran's family members", 'type': 'OTHER'}
+- {'name': 'secretary of veterans affairs', 'type': 'ORG'}
+- {'name': 'department of defense', 'type': 'ORG'}
+- {'name': 'director of vehicles', 'type': 'GOV_BODY'}
+- {'name': 'Director of vehicles', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of revenue', 'type': 'GOV_BODY'}
+- {'name': 'Employer', 'type': 'ORG'}
+- {'name': 'Secretary of Labor', 'type': 'GOV_BODY'}
+- {'name': 'Secretary of Labor', 'type': 'PERSON'}
+- {'name': 'Secretary for Children and Families', 'type': 'PERSON'}
+- {'name': 'Licensing Body', 'type': 'ORG'}
+- {'name': 'Topeka', 'type': 'OTHER'}
+- {'name': 'emergency medical services board', 'type': 'GOV_BODY'}
+- {'name': 'veteran', 'type': 'OTHER'}
+- {'name': 'hiring authority', 'type': 'OTHER'}
+- {'name': 'Laura Kelly', 'type': 'GOV_BODY'}
+- {'name': 'JR Claeys', 'type': 'PERSON'}
+- {'name': 'Mike Dodson', 'type': 'PERSON'}
+- {'name': 'Susan Humphries', 'type': 'PERSON'}
+- {'name': 'Bob Lewis', 'type': 'PERSON'}
+- {'name': 'VALDENIA WINN', 'type': 'PERSON'}
+- {'name': 'Senator Baumgardner', 'type': 'GOV_BODY'}
+- {'name': 'Kansas film and digital media production development act', 'type': 'PROJECT'}
+- {'name': 'The House', 'type': 'ORG'}
+- {'name': 'Kansas creative arts industries commission', 'type': 'ORG'}
+- {'name': 'Secretary of Commerce', 'type': 'GOV_BODY'}
+- {'name': 'The Kansas army and air national guard', 'type': 'ORG'}
+- {'name': 'secretary of revenue', 'type': 'PERSON'}
+- {'name': 'K.S.A. 65-6701', 'type': 'OTHER'}
+- {'name': 'Marillac center, inc.', 'type': 'ORG'}
+- {'name': 'catholic charities', 'type': 'ORG'}
+- {'name': 'youthville', 'type': 'ORG'}
+- {'name': 'nonprofit museum', 'type': 'ORG'}
+- {'name': "Kansas children's service league (KCSL)", 'type': 'ORG'}
+- {'name': 'the booth theatre foundation,  inc.', 'type': 'ORG'}
+- {'name': 'Wayside Waifs, Inc.', 'type': 'ORG'}
+- {'name': 'Goodwill Industries or Easter Seals of Kansas, inc.', 'type': 'ORG'}
+- {'name': 'All American Beef Battalion, Inc.', 'type': 'ORG'}
+- {'name': 'beacon, inc.', 'type': 'ORG'}
+- {'name': 'Area Agency on Aging', 'type': 'ORG'}
+- {'name': 'Secretary for Aging and Disabilities Services', 'type': 'GOV_BODY'}
+- {'name': 'JR CLAEYS', 'type': 'PERSON'}
+- {'name': 'Karen "KC" Clowers', 'type': 'PERSON'}
+- {'name': 'John Vratil', 'type': 'PERSON'}
+- {'name': 'Tim Owens', 'type': 'PERSON'}
+- {'name': 'Jim Clowers', 'type': 'PERSON'}
+- {'name': "Governor's Department and Adjutant General’s Department", 'type': 'GOV_BODY'}
+- {'name': 'Office of the Attorney General and Kansas Department for Aging and Disability Services', 'type': 'GOV_BODY'}
+- {'name': 'Office of the State Treasurer', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Corporation Commission', 'type': 'ORG'}
+- {'name': 'Kansas Department of Commerce', 'type': 'ORG'}
+- {'name': 'Department of Commerce', 'type': 'GOV_BODY'}
+- {'name': 'Bank of KDOT', 'type': 'ORG'}
+- {'name': 'Secretary for Children and Families', 'type': 'GOV_BODY'}
+- {'name': 'Board of Education', 'type': 'GOV_BODY'}
+- {'name': 'Department of Education', 'type': 'GOV_BODY'}
+- {'name': 'Behavioral Sciences Regulatory Board', 'type': 'ORG'}
+- {'name': 'Kansas Department for Aging and Disability Services', 'type': 'ORG'}
+- {'name': 'Department for Children and Families', 'type': 'ORG'}
+- {'name': 'Emporia State University', 'type': 'ORG'}
+- {'name': 'Kansas Board of Regents', 'type': 'GOV_BODY'}
+- {'name': 'Adjutant General’s Department', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Highway Patrol', 'type': 'ORG'}
+- {'name': 'Carolyn McGinn', 'type': 'PERSON'}
+- {'name': 'Kansans', 'type': 'OTHER'}
+- {'name': 'Senator Haley', 'type': 'GOV_BODY'}
+- {'name': 'Pat Pettery', 'type': 'PERSON'}
+- {'name': 'Senator Gossage', 'type': 'PERSON'}
+- {'name': 'United States cybersecurity and infrastructure security agency', 'type': 'ORG'}
+- {'name': 'Executive Chief Information Technology Officer', 'type': 'GOV_BODY'}
+- {'name': 'Legislative Chief Information Technology Officer', 'type': 'GOV_BODY'}
+- {'name': 'Judicial Chief Information Technology Officer', 'type': 'GOV_BODY'}
+- {'name': 'The Governor', 'type': 'GOV_BODY'}
+- {'name': 'The Kansas Civil Service Act', 'type': 'OTHER'}
+- {'name': 'State Judicial Administrator', 'type': 'GOV_BODY'}
+- {'name': 'Judicial Chief Information Technology Officer', 'type': 'PERSON'}
+- {'name': 'Legislative Chief Information Technology Officer', 'type': 'PERSON'}
+- {'name': 'Kansas Legislative Office of Information Services', 'type': 'ORG'}
+- {'name': 'Kansas cybersecurity act', 'type': 'OTHER'}
+- {'name': 'executive branch chief information security officer (CISO)', 'type': 'PERSON'}
+- {'name': 'CISO', 'type': 'GOV_BODY'}
+- {'name': 'director of accounts and reports', 'type': 'ORG'}
+- {'name': 'executive branch agency heads', 'type': 'GOV_BODY'}
+- {'name': 'Senator Thompson', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Sentencing Commission', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Bureau of Investigation', 'type': 'ORG'}
+- {'name': 'Division', 'type': 'ORG'}
+- {'name': "state board of indigents' defense services", 'type': 'ORG'}
+- {'name': 'office of judicial administration', 'type': 'ORG'}
+- {'name': 'department of corrections', 'type': 'ORG'}
+- {'name': 'district attorney', 'type': 'PERSON'}
+- {'name': 'chief justice', 'type': 'PERSON'}
+- {'name': '21-6620', 'type': 'PROJECT'}
+- {'name': '21-6623', 'type': 'PROJECT'}
+- {'name': '21-6624', 'type': 'PROJECT'}
+- {'name': '21-6625', 'type': 'PROJECT'}
+- {'name': 'secretary of corrections', 'type': 'GOV_BODY'}
+- {'name': 'prisoner review board', 'type': 'GOV_BODY'}
+- {'name': 'secretary of corrections', 'type': 'PERSON'}
+- {'name': 'inmate', 'type': 'OTHER'}
+- {'name': 'STEPHEN OWENS', 'type': 'PERSON'}
+- {'name': 'ERIC SMITH', 'type': 'PERSON'}
+- {'name': 'JOHN CARMICHAEL', 'type': 'PERSON'}
+- {'name': 'Commissioner of Juvenile Justice Secretary of Corrections', 'type': 'GOV_BODY'}
+- {'name': 'Secretary for aging and disability services', 'type': 'PERSON'}
+- {'name': 'John Wayne', 'type': 'PERSON'}
+- {'name': 'George H. W. Bush', 'type': 'PERSON'}
+- {'name': 'Jim Croce', 'type': 'PERSON'}
+- {'name': 'Jeremy Coombs', 'type': 'PERSON'}
+- {'name': 'Trevor Rolfs', 'type': 'ORG'}
+- {'name': 'Fransisco', 'type': 'PERSON'}
+- {'name': 'attorney general', 'type': 'PERSON'}
+- {'name': 'administrator', 'type': 'GOV_BODY'}
+- {'name': 'The administrator', 'type': 'GOV_BODY'}
+- {'name': '17-12a411(d)', 'type': 'OTHER'}
+- {'name': 'Representative Gail Finney', 'type': 'PERSON'}
+- {'name': 'Secretary for children and families', 'type': 'GOV_BODY'}
+- {'name': 'Law enforcement agency', 'type': 'ORG'}
+- {'name': 'K.S.A', 'type': 'GOV_BODY'}
+- {'name': 'secretary', 'type': 'PERSON'}
+- {'name': 'armed forces of the United States', 'type': 'ORG'}
+- {'name': 'department of labor', 'type': 'GOV_BODY'}
+- {'name': 'employee assistance program', 'type': 'ORG'}
+- {'name': 'secretary of labor', 'type': 'GOV_BODY'}
+- {'name': 'department for children and families', 'type': 'GOV_BODY'}
+- {'name': 'J. Russell (Russ) Jennings', 'type': 'PERSON'}
+- {'name': 'Department of Health and Environment', 'type': 'ORG'}
+- {'name': 'Director of the Kansas office of veterans services', 'type': 'PERSON'}
+- {'name': 'Federal Government', 'type': 'ORG'}
+- {'name': 'United States department of agriculture', 'type': 'ORG'}
+- {'name': 'American Heart Association, Kansas Affiliate', 'type': 'ORG'}
+- {'name': 'Kansas Alliance for the Mentally Ill', 'type': 'ORG'}
+- {'name': 'Kansas Mental Illness Awareness Council', 'type': 'ORG'}
+- {'name': 'American Diabetes Association, Kansas Affiliate', 'type': 'ORG'}
+- {'name': 'American Lung Association of Kansas', 'type': 'ORG'}
+- {'name': "Alzheimer's Disease and Related Disorders Association", 'type': 'ORG'}
+- {'name': "Parkinson's Disease Association", 'type': 'ORG'}
+- {'name': 'National Kidney Foundation of Kansas and Western Missouri', 'type': 'ORG'}
+- {'name': 'Heartstrings Community Foundation', 'type': 'ORG'}
+- {'name': 'Cystic Fibrosis Foundation, Heart of America Chapter', 'type': 'ORG'}
+- {'name': 'Spina Bifida Association of Kansas', 'type': 'ORG'}
+- {'name': 'Cross-Lines Cooperative Council', 'type': 'ORG'}
+- {'name': 'Dreams Work, Inc.', 'type': 'ORG'}
+- {'name': 'Lyme Association of Greater Kansas City, Inc.', 'type': 'ORG'}
+- {'name': 'Dream Factory, Inc.', 'type': 'ORG'}
+- {'name': 'Ottawa Suzuki Strings, Inc.', 'type': 'ORG'}
+- {'name': 'International Association of Lions Clubs', 'type': 'ORG'}
+- {'name': 'Johnson County Young Matrons, Inc.', 'type': 'ORG'}
+- {'name': 'American Cancer Society, Inc.', 'type': 'ORG'}
+- {'name': 'Community Services of Shawnee, Inc.', 'type': 'ORG'}
+- {'name': 'Angel Babies Association', 'type': 'ORG'}
+- {'name': 'Kansas Fairgrounds Foundation', 'type': 'ORG'}
+- {'name': 'federal internal revenue code', 'type': 'OTHER'}
+- {'name': 'Catholic Charities', 'type': 'ORG'}
+- {'name': 'Youthville', 'type': 'ORG'}
+- {'name': "Kansas Children's Service League (KCSL)", 'type': 'ORG'}
+- {'name': 'Jazz in the Woods, Inc.', 'type': 'ORG'}
+- {'name': 'Frontenac Education Foundation', 'type': 'ORG'}
+- {'name': 'Booth Theatre Foundation, Inc.', 'type': 'ORG'}
+- {'name': 'K.S.A. 79-3615(h)', 'type': 'OTHER'}
+- {'name': 'Goodwill Industries', 'type': 'ORG'}
+- {'name': 'Easter Seals of Kansas, inc.', 'type': 'ORG'}
+- {'name': 'All American Beef Battalion, inc.', 'type': 'ORG'}
+- {'name': 'Sheltered Living, inc.', 'type': 'ORG'}
+- {'name': 'Friends of Hospice of Jefferson County', 'type': 'ORG'}
+- {'name': 'exploration place, inc.', 'type': 'ORG'}
+- {'name': "Kansas children's discovery center inc.", 'type': 'ORG'}
+- {'name': 'doorstep inc.', 'type': 'ORG'}
+- {'name': 'treasurer', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Public Employees Retirement System Fund', 'type': 'PROJECT'}
+- {'name': 'Director of property valuation', 'type': 'GOV_BODY'}
+- {'name': 'State board of tax appeals', 'type': 'GOV_BODY'}
+- {'name': 'Department of Administration', 'type': 'ORG'}
+- {'name': 'K.S.A. 72-4357', 'type': 'LEGISLATION'}
+- {'name': 'K.S.A. 2023 Supp. 58-4904', 'type': 'LEGISLATION'}
+- {'name': 'U.S.C. § 228b(a)', 'type': 'LEGISLATION'}
+- {'name': 'US Department of Veterans Affairs', 'type': 'ORG'}
+- {'name': 'United States Food and Drug Administration', 'type': 'ORG'}
+- {'name': 'Pat Petey', 'type': 'PERSON'}
+- {'name': 'Senator Gossage', 'type': 'GOV_BODY'}
+- {'name': 'Kristey Williams', 'type': 'PERSON'}
+- {'name': 'Jason Goetz', 'type': 'PERSON'}
+- {'name': 'Molly Baumgardner', 'type': 'PERSON'}
+- {'name': 'Mary Ware', 'type': 'PERSON'}
+- {'name': 'Ken Rahjes', 'type': 'PERSON'}
+- {'name': 'Lisa Moser', 'type': 'PERSON'}
+- {'name': 'Sydney Carlin', 'type': 'PERSON'}
+- {'name': 'Kansas State Board of Tax Appeals', 'type': 'GOV_BODY'}
+- {'name': 'State Department of Commerce', 'type': 'ORG'}
+- {'name': 'county treasurer', 'type': 'GOV_BODY'}
+- {'name': 'director of property valuation', 'type': 'GOV_BODY'}
+- {'name': 'taxpayer', 'type': 'PERSON'}
+- {'name': 'governing body', 'type': 'ORG'}
+- {'name': 'director of property valuation', 'type': 'OTHER'}
+- {'name': 'state board of tax appeals', 'type': 'ORG'}
+- {'name': 'Elaine Bowers', 'type': 'PERSON'}
+- {'name': 'Marcy Francisco', 'type': 'PERSON'}
+- {'name': 'director of the Kansas office of veterans services', 'type': 'GOV_BODY'}
+- {'name': 'deputy director of veteran services', 'type': 'PERSON'}
+- {'name': 'Michael Dodson', 'type': 'PERSON'}
+- {'name': 'WILL CARPENTER', 'type': 'PERSON'}
+- {'name': 'TOM KESSLER', 'type': 'PERSON'}
+- {'name': 'JOELLA HOYE', 'type': 'PERSON'}
+- {'name': 'CHASE BLASI', 'type': 'PERSON'}
+- {'name': 'BRENDA LANDWEHR', 'type': 'GOV_BODY'}
+- {'name': 'LEGISLATIVE COORDINATING COUNCIL', 'type': 'GOV_BODY'}
+- {'name': 'LEGISLATURE', 'type': 'GOV_BODY'}
+- {'name': "GOVERNOR'S DEPARTMENT", 'type': 'GOV_BODY'}
+- {'name': 'ATTORNEY GENERAL', 'type': 'GOV_BODY'}
+- {'name': 'SECRETARY OF STATE', 'type': 'GOV_BODY'}
+- {'name': 'Build Kansas advisory committee', 'type': 'GOV_BODY'}
+- {'name': 'Kansas infrastructure hub', 'type': 'ORG'}
+- {'name': 'Emil Joseph Kapaun memorial fund', 'type': 'ORG'}
+- {'name': 'speaker of the house of representatives', 'type': 'GOV_BODY'}
+- {'name': 'Department of Health and Environment – Division of Health Care Finance', 'type': 'GOV_BODY'}
+- {'name': 'Kansas City full circle program, inc.', 'type': 'ORG'}
+- {'name': 'EmberHope Youthville program', 'type': 'ORG'}
+- {'name': 'board of education of a school district', 'type': 'ORG'}
+- {'name': 'department of education', 'type': 'GOV_BODY'}
+- {'name': 'school district', 'type': 'OTHER'}
+- {'name': 'behavioral sciences regulatory board', 'type': 'ORG'}
+- {'name': 'Department of Administration Division of Personnel Services', 'type': 'ORG'}
+- {'name': 'Valley Hope', 'type': 'ORG'}
+- {'name': 'KANSAS DEPARTMENT FOR CHILDREN AND FAMILIES', 'type': 'GOV_BODY'}
+- {'name': 'DEPARTMENT OF EDUCATION ', 'type': 'GOV_BODY'}
+- {'name': 'STATE LIBRARY', 'type': 'GOV_BODY'}
+- {'name': 'STATE HISTORICAL SOCIETY', 'type': 'GOV_BODY'}
+- {'name': 'Kansas state university', 'type': 'GOV_BODY'}
+- {'name': 'Emporia State University', 'type': 'GOV_BODY'}
+- {'name': 'Pittsburg State University', 'type': 'GOV_BODY'}
+- {'name': 'Wichita State University', 'type': 'GOV_BODY'}
+- {'name': 'Mirror Incorporated', 'type': 'ORG'}
+- {'name': 'Kansas highway patrol', 'type': 'GOV_BODY'}
+- {'name': 'Attorney General – Kansas', 'type': 'PERSON'}
+- {'name': 'EMERGENCY MEDICAL SERVICES BOARD', 'type': 'ORG'}
+- {'name': 'DEPARTMENT OF TRANSPORTATION', 'type': 'GOV_BODY'}
+- {'name': 'Kansas department of transportation', 'type': 'GOV_BODY'}
+- {'name': 'Kansas water authority', 'type': 'GOV_BODY'}
+- {'name': 'PAT PETTY', 'type': 'PERSON'}
+- {'name': 'TROY WAYMASTER', 'type': 'PERSON'}
+- {'name': 'KYLE HOFFMAN', 'type': 'PERSON'}
+- {'name': 'HENRY HELGERSON', 'type': 'PERSON'}
+- {'name': 'ALLEY', 'type': 'PERSON'}
+- {'name': 'BILLINGER', 'type': 'PERSON'}
+- {'name': 'BOWERS', 'type': 'PERSON'}
+- {'name': 'CLAESY', 'type': 'PERSON'}
+- {'name': 'CORSON', 'type': 'PERSON'}
+- {'name': 'DIETRICH', 'type': 'PERSON'}
+- {'name': 'FAGG', 'type': 'PERSON'}
+- {'name': 'FAUST-GOUDEAU', 'type': 'PERSON'}
+- {'name': 'GOSSAGE', 'type': 'PERSON'}
+- {'name': 'HALEY', 'type': 'PERSON'}
+- {'name': 'KERSCHEN', 'type': 'PERSON'}
+- {'name': 'KLOOS', 'type': 'PERSON'}
+- {'name': 'MASTERTON', 'type': 'PERSON'}
+- {'name': 'MCGINN', 'type': 'PERSON'}
+- {'name': 'PETERSEN', 'type': 'PERSON'}
+- {'name': 'PETTY', 'type': 'PERSON'}
+- {'name': 'PITTMAN', 'type': 'PERSON'}
+- {'name': 'PLE', 'type': 'PERSON'}
+- {'name': 'RIDDLE', 'type': 'PERSON'}
+- {'name': 'RYCKMAN', 'type': 'PERSON'}
+- {'name': 'SHALLENBURGER', 'type': 'PERSON'}
+- {'name': 'STEFFEN', 'type': 'PERSON'}
+- {'name': 'STRAUB', 'type': 'PERSON'}
+- {'name': 'SYKES', 'type': 'PERSON'}
+- {'name': 'THOMPSON', 'type': 'PERSON'}
+- {'name': 'TYSON', 'type': 'PERSON'}
+- {'name': 'WARE', 'type': 'PERSON'}
+- {'name': 'WARREN', 'type': 'PERSON'}
+- {'name': 'WILBORN', 'type': 'PERSON'}
+- {'name': 'LAURA KELLY', 'type': 'PERSON'}
+- {'name': 'Kansas State Department of Education', 'type': 'ORG'}
+- {'name': 'Senator Fagg', 'type': 'PERSON'}
+- {'name': 'Financial Institutions and Insurance', 'type': 'ORG'}
+- {'name': 'Senator Billinger', 'type': 'PERSON'}
+- {'name': 'Senator Claeys', 'type': 'PERSON'}
+- {'name': 'Representative Sutton', 'type': 'PERSON'}
+- {'name': 'Representative Penn', 'type': 'PERSON'}
+- {'name': 'Representative Neighbor', 'type': 'PERSON'}
+- {'name': 'Representative Waymaster', 'type': 'PERSON'}
+- {'name': 'Representative Hoffman', 'type': 'PERSON'}
+- {'name': 'Representative Helgerson', 'type': 'PERSON'}
+- {'name': 'Washburn university board of regents', 'type': 'PROJECT'}
+- {'name': 'Federal and State Affairs', 'type': 'ORG'}
+- {'name': 'Assessment and Taxation', 'type': 'GOV_BODY'}
+- {'name': 'Senator Corson', 'type': 'PERSON'}
+- {'name': 'Education', 'type': 'GOV_BODY'}
+- {'name': 'Federal and State Affairs', 'type': 'GOV_BODY'}
+- {'name': 'Public Health and Welfare', 'type': 'GOV_BODY'}
+- {'name': 'Agriculture and Natural Resources', 'type': 'GOV_BODY'}
+- {'name': 'Senator Wilborn', 'type': 'PERSON'}
+- {'name': 'Commerce', 'type': 'ORG'}
+- {'name': 'Strother field airport', 'type': 'PROJECT'}
+- {'name': 'Senator Kloos', 'type': 'GOV_BODY'}
+- {'name': 'Senator Corson', 'type': 'GOV_BODY'}
+- {'name': 'Senate Committee on Commerce', 'type': 'GOV_BODY'}
+- {'name': 'Xu', 'type': 'PERSON'}
+- {'name': 'Tarwater', 'type': 'PERSON'}
+- {'name': 'Borjon', 'type': 'PERSON'}
+- {'name': 'Probst', 'type': 'PERSON'}
+- {'name': 'Judiciary', 'type': 'ORG'}
+- {'name': 'Ways and Means', 'type': 'ORG'}
+- {'name': 'Committee on Corrections and Juvenile Justice', 'type': 'ORG'}
+- {'name': 'Representative Humphries', 'type': 'PERSON'}
+- {'name': 'Representative Lewis', 'type': 'PERSON'}
+- {'name': 'Representative Osman', 'type': 'PERSON'}
+- {'name': 'Representative Landwehr', 'type': 'PERSON'}
+- {'name': 'Representative Eplee', 'type': 'PERSON'}
+- {'name': 'Representative Ruiz, S.', 'type': 'PERSON'}
+- {'name': 'Bryce', 'type': 'PERSON'}
+- {'name': 'Financial Institutions and Insurance', 'type': 'GOV_BODY'}
+- {'name': 'Judiciary', 'type': 'GOV_BODY'}
+- {'name': 'Ways and Means', 'type': 'GOV_BODY'}
+- {'name': 'Commerce, Labor and Economic Development', 'type': 'ORG'}
+- {'name': 'Health and Human Services', 'type': 'ORG'}
+- {'name': 'Blind Information Access Act', 'type': 'PROJECT'}
+- {'name': 'Legislative Modernization', 'type': 'ORG'}
+- {'name': 'Representative Ellis', 'type': 'PERSON'}
+- {'name': 'Representative Carpenter, B.', 'type': 'PERSON'}
+- {'name': 'Representative Weigel', 'type': 'PERSON'}
+- {'name': 'Assessment and Taxation', 'type': 'ORG'}
+- {'name': 'Corrections and Juvenile Justice', 'type': 'ORG'}
+- {'name': 'Senator Olson', 'type': 'GOV_BODY'}
+- {'name': 'Representative Tarwater', 'type': 'GOV_BODY'}
+- {'name': 'Representative Borjon', 'type': 'GOV_BODY'}
+- {'name': 'Merle Miller', 'type': 'OTHER'}
+- {'name': 'Transportation Committee', 'type': 'GOV_BODY'}
+- {'name': 'Local Government', 'type': 'ORG'}
+- {'name': 'Education', 'type': 'ORG'}
+- {'name': 'Representative Williams', 'type': 'PERSON'}
+- {'name': 'Representative Goetz', 'type': 'PERSON'}
+- {'name': 'Representative Winn', 'type': 'PERSON'}
+- {'name': 'Representative Hoheisel', 'type': 'PERSON'}
+- {'name': 'Representative Clifford', 'type': 'PERSON'}
+- {'name': 'Representative Xu', 'type': 'PERSON'}
+- {'name': 'Transportation', 'type': 'ORG'}
+- {'name': 'Representative Owens', 'type': 'PERSON'}
+- {'name': 'Representative Smith, E.', 'type': 'PERSON'}
+- {'name': 'Representative Carmichael', 'type': 'PERSON'}
+- {'name': 'Meyer', 'type': 'PERSON'}
+- {'name': 'Dwayne Peaslee', 'type': 'PERSON'}
+- {'name': 'Public Health and Welfare', 'type': 'ORG'}
+- {'name': 'Senator Dietrich', 'type': 'PERSON'}
+- {'name': 'Pike reservoir project district', 'type': 'PROJECT'}
+- {'name': 'Committee on Local Government', 'type': 'GOV_BODY'}
+- {'name': 'Committee on Ways and Means', 'type': 'GOV_BODY'}
+- {'name': 'Committee on Financial Institutions and Insurance', 'type': 'GOV_BODY'}
+- {'name': 'Committee on Public Health and Welfare', 'type': 'GOV_BODY'}
+- {'name': 'Senator Bowers', 'type': 'PERSON'}
+- {'name': 'Senator Shallenburger', 'type': 'PERSON'}
+- {'name': "Senator O'Shea", 'type': 'PERSON'}
+- {'name': "Senator O'Shea", 'type': 'GOV_BODY'}
+- {'name': 'Senate', 'type': 'ORG'}
+- {'name': 'Chase Blasi', 'type': 'PERSON'}
+- {'name': 'J.R. Claeys', 'type': 'PERSON'}
+- {'name': 'John Doll', 'type': 'PERSON'}
+- {'name': 'Oletha Faust-Goudeau', 'type': 'PERSON'}
+- {'name': 'Juneteenth National Independence Day', 'type': 'OTHER'}
+- {'name': 'SB 177', 'type': 'BILL'}
+- {'name': 'Holland, Tom', 'type': 'PERSON'}
+- {'name': 'SB 211', 'type': 'BILL'}
+- {'name': 'Peck, Virgil', 'type': 'PERSON'}
+- {'name': 'Petersen, Mike', 'type': 'PERSON'}
+- {'name': "O'Shea, Kristen", 'type': 'PERSON'}
+- {'name': 'Pyle, Dennis', 'type': 'PERSON'}
+- {'name': 'Reddi, Usha', 'type': 'PERSON'}
+- {'name': 'Ryckman, Ronald', 'type': 'PERSON'}
+- {'name': 'Shallenburger, Tim', 'type': 'PERSON'}
+- {'name': 'Steffen, Mark', 'type': 'PERSON'}
+- {'name': 'Sykes, Dinah', 'type': 'PERSON'}
+- {'name': 'Thompson, Mike', 'type': 'PERSON'}
+- {'name': 'Ware, Mary', 'type': 'PERSON'}
+- {'name': 'Warren, Kellie', 'type': 'PERSON'}
+- {'name': 'Wilborn, Rick', 'type': 'PERSON'}
+- {'name': 'Director of Property Valuation Appraiser', 'type': 'GOV_BODY'}
+- {'name': 'Ken W Brock', 'type': 'PERSON'}
+- {'name': 'Kansas State High School Activities Association', 'type': 'ORG'}
+- {'name': 'Washburn University Board of Regents', 'type': 'ORG'}
+- {'name': 'KPERS', 'type': 'ORG'}
+- {'name': 'Pike reservoir project district act', 'type': 'PROJECT'}
+- {'name': 'Author', 'type': 'PERSON'}
+- {'name': 'State Bank Commissioner', 'type': 'GOV_BODY'}
+- {'name': 'chief judge', 'type': 'PERSON'}
+- {'name': 'United States Congress', 'type': 'GOV_BODY'}
+- {'name': 'University of Kansas', 'type': 'ORG'}
+- {'name': 'Wichita State University', 'type': 'ORG'}
+- {'name': 'Legislative Coordinating Council', 'type': 'GOV_BODY'}
+- {'name': 'House', 'type': 'ORG'}
+- {'name': 'Homeland Security Office', 'type': 'PROJECT'}
+- {'name': 'Kansas commission on veterans affairs', 'type': 'GOV_BODY'}
+- {'name': 'Regents, state board of', 'type': 'GOV_BODY'}
+- {'name': 'University of Kansas medical center', 'type': 'ORG'}
+- {'name': 'Kansas campus restoration fund', 'type': 'PROJECT'}
+- {'name': 'Kansas strategic research fund', 'type': 'PROJECT'}
+- {'name': '911 coordinating council', 'type': 'OTHER'}
+- {'name': 'Advisory commission on Asian-American Pacific Islander affairs', 'type': 'GOV_BODY'}
+- {'name': 'Behavioral sciences regulatory board', 'type': 'GOV_BODY'}
+- {'name': 'Board of cosmetology', 'type': 'GOV_BODY'}
+- {'name': 'Board of emergency medical services', 'type': 'GOV_BODY'}
+- {'name': 'Board of examiners in optometry', 'type': 'GOV_BODY'}
+- {'name': 'Board of healing arts', 'type': 'GOV_BODY'}
+- {'name': "Board of indigents' defense services", 'type': 'GOV_BODY'}
+- {'name': 'Board of tax appeals', 'type': 'GOV_BODY'}
+- {'name': 'C-PACE board', 'type': 'OTHER'}
+- {'name': 'Cannabis regulatory commission', 'type': 'GOV_BODY'}
+- {'name': "Citizens' election oversight board", 'type': 'GOV_BODY'}
+- {'name': 'City and county child death review boards', 'type': 'OTHER'}
+- {'name': 'Commission on peace officers standards and training', 'type': 'GOV_BODY'}
+- {'name': 'Compensation, rate of', 'type': 'PROJECT'}
+- {'name': 'Consolidation commission of Topeka, Kansas, and Shawnee county', 'type': 'OTHER'}
+- {'name': 'Contact lens advisory council', 'type': 'OTHER'}
+- {'name': 'Council on travel and tourism', 'type': 'GOV_BODY'}
+- {'name': 'Crime victims compensation board', 'type': 'GOV_BODY'}
+- {'name': 'Department of health and environment advisory committees', 'type': 'OTHER'}
+- {'name': 'General regulatory sandbox program advisory committee', 'type': 'OTHER'}
+- {'name': 'Governmental ethics commission', 'type': 'GOV_BODY'}
+- {'name': 'Hunting outfitter task force', 'type': 'OTHER'}
+- {'name': 'Information technology executive council', 'type': 'GOV_BODY'}
+- {'name': 'Joint commission on federalism', 'type': 'GOV_BODY'}
+- {'name': 'Judicial council', 'type': 'GOV_BODY'}
+- {'name': 'Kansas agricultural remediation board', 'type': 'GOV_BODY'}
+- {'name': "Kansas Alzheimer's disease advisory council", 'type': 'OTHER'}
+- {'name': 'Kansas bioscience authority', 'type': 'PROJECT'}
+- {'name': 'Kansas council on workforce pathways', 'type': 'GOV_BODY'}
+- {'name': 'Kansas dental board', 'type': 'GOV_BODY'}
+- {'name': 'Kansas fights addiction grant review board', 'type': 'GOV_BODY'}
+- {'name': 'Kansas film services commission', 'type': 'PROJECT'}
+- {'name': 'Kansas health policy authority', 'type': 'GOV_BODY'}
+- {'name': 'Kansas pet animal advisory board', 'type': 'OTHER'}
+- {'name': 'Kansas telehealth advisory committee', 'type': 'OTHER'}
+- {'name': 'Kansas-Ireland trade commission', 'type': 'PROJECT'}
+- {'name': 'Legislative compensation commission', 'type': 'GOV_BODY'}
+- {'name': 'Literacy advisory committee', 'type': 'OTHER'}
+- {'name': 'Mental health medication advisory committee', 'type': 'OTHER'}
+- {'name': 'Music therapy advisory committee', 'type': 'OTHER'}
+- {'name': 'Natural and scientific areas advisory board', 'type': 'OTHER'}
+- {'name': 'Naturopathic advisory council', 'type': 'OTHER'}
+- {'name': 'Pet animal board of veterinarians', 'type': 'GOV_BODY'}
+- {'name': 'Pike reservoir project district governing board', 'type': 'OTHER'}
+- {'name': 'Podiatry review committee', 'type': 'OTHER'}
+- {'name': 'Prisoner review board', 'type': 'GOV_BODY'}
+- {'name': 'Public finance transparency board', 'type': 'GOV_BODY'}
+- {'name': 'Racing and gaming commission', 'type': 'GOV_BODY'}
+- {'name': 'Scholarship task force', 'type': 'OTHER'}
+- {'name': 'School library rating system task force', 'type': 'OTHER'}
+- {'name': 'Special education and related services funding task force', 'type': 'GOV_BODY'}
+- {'name': 'Sunflower education equity board', 'type': 'GOV_BODY'}
+- {'name': 'HB2423', 'type': 'BILL'}
+- {'name': 'SB258', 'type': 'BILL'}
+- {'name': 'HB2592', 'type': 'BILL'}
+- {'name': 'SB394', 'type': 'BILL'}
+- {'name': 'HB2158', 'type': 'BILL'}
+- {'name': 'SB233', 'type': 'BILL'}
+- {'name': 'SB353', 'type': 'BILL'}
+- {'name': 'HB2515', 'type': 'BILL'}
+- {'name': 'SB187', 'type': 'BILL'}
+- {'name': 'SB186', 'type': 'BILL'}
+- {'name': 'HB2105', 'type': 'BILL'}
+- {'name': 'HB2460', 'type': 'BILL'}
+- {'name': 'SB372', 'type': 'BILL'}
+- {'name': 'HB2791', 'type': 'BILL'}
+- {'name': 'SB528', 'type': 'BILL'}
+- {'name': 'HB2169', 'type': 'BILL'}
+- {'name': 'HB2550', 'type': 'BILL'}
+- {'name': 'HB2721', 'type': 'BILL'}
+- {'name': 'SB317', 'type': 'BILL'}
+- {'name': 'SB364', 'type': 'BILL'}
+- {'name': 'SB95', 'type': 'BILL'}
+- {'name': 'SB213', 'type': 'BILL'}
+- {'name': 'HB2075', 'type': 'BILL'}
+- {'name': 'HB2576', 'type': 'BILL'}
+- {'name': 'SB525', 'type': 'BILL'}
+- {'name': 'HB2593', 'type': 'BILL'}
+- {'name': 'HB2606', 'type': 'BILL'}
+- {'name': 'SB458', 'type': 'BILL'}
+- {'name': 'HB2380', 'type': 'BILL'}
+- {'name': 'HB2396', 'type': 'BILL'}
+- {'name': 'HB2352', 'type': 'BILL'}
+- {'name': 'SB237', 'type': 'BILL'}
+- {'name': 'HB2607', 'type': 'BILL'}
+- {'name': 'SB190', 'type': 'BILL'}
+- {'name': 'HB2780', 'type': 'BILL'}
+- {'name': 'HB2708', 'type': 'BILL'}
+- {'name': 'SB438', 'type': 'BILL'}
+- {'name': 'HB2462', 'type': 'BILL'}
+- {'name': 'SB84', 'type': 'BILL'}
+- {'name': 'HB2418', 'type': 'BILL'}
+- {'name': 'SB481', 'type': 'BILL'}
+- {'name': 'HB2664', 'type': 'BILL'}
+- {'name': 'SB31', 'type': 'BILL'}
+- {'name': 'HB2839', 'type': 'BILL'}
+- {'name': 'SB532', 'type': 'BILL'}
+- {'name': 'HB2245', 'type': 'BILL'}
+- {'name': 'SB265', 'type': 'BILL'}
+- {'name': 'HB2379', 'type': 'BILL'}
+- {'name': 'HB2185', 'type': 'BILL'}
+- {'name': 'SB74', 'type': 'BILL'}
+- {'name': 'HB2250', 'type': 'BILL'}
+- {'name': 'HB2345', 'type': 'BILL'}
+- {'name': 'HB2017', 'type': 'BILL'}
+- {'name': 'HB2693', 'type': 'BILL'}
+- {'name': 'HB2152', 'type': 'BILL'}
+- {'name': 'HB2652', 'type': 'BILL'}
+- {'name': 'KP&F', 'type': 'ORG'}
+- {'name': 'Alexa', 'type': 'PERSON'}
+- {'name': 'HB2070', 'type': 'BILL'}
+- {'name': 'SB135', 'type': 'BILL'}
+- {'name': 'SB171', 'type': 'BILL'}
+- {'name': 'HB2417', 'type': 'BILL'}
+- {'name': 'SB310', 'type': 'BILL'}
+- {'name': 'SB555', 'type': 'BILL'}
+- {'name': 'SB558', 'type': 'BILL'}
+- {'name': 'HB2367', 'type': 'BILL'}
+- {'name': 'HB2385', 'type': 'BILL'}
+- {'name': 'SB318', 'type': 'BILL'}
+- {'name': 'HB2328', 'type': 'BILL'}
+- {'name': 'HB2487', 'type': 'BILL'}
+- {'name': 'SB419', 'type': 'BILL'}
+- {'name': 'HB2363', 'type': 'BILL'}
+- {'name': 'SB73', 'type': 'BILL'}
+- {'name': 'SB270', 'type': 'BILL'}
+- {'name': 'HB2699', 'type': 'BILL'}
+- {'name': 'HB2067', 'type': 'BILL'}
+- {'name': 'HB2144', 'type': 'BILL'}
+- {'name': 'SB415', 'type': 'BILL'}
+- {'name': 'HB2710', 'type': 'BILL'}
+- {'name': 'SB414', 'type': 'BILL'}
+- {'name': 'SB420', 'type': 'BILL'}
+- {'name': 'HB2294', 'type': 'BILL'}
+- {'name': 'HB2519', 'type': 'BILL'}
+- {'name': 'HB2164', 'type': 'BILL'}
+- {'name': 'HB2618', 'type': 'BILL'}
+- {'name': 'SB170', 'type': 'BILL'}
+- {'name': 'SB173', 'type': 'BILL'}
+- {'name': 'HB2128', 'type': 'BILL'}
+- {'name': 'SB267', 'type': 'BILL'}
+- {'name': 'HB2755', 'type': 'BILL'}
+- {'name': 'HB2354', 'type': 'BILL'}
+- {'name': 'SB448', 'type': 'BILL'}
+- {'name': 'HB2782', 'type': 'BILL'}
+- {'name': 'SB534', 'type': 'BILL'}
+- {'name': 'SB442', 'type': 'BILL'}
+- {'name': 'HB2129', 'type': 'BILL'}
+- {'name': 'HB2605', 'type': 'BILL'}
+- {'name': 'HB2692', 'type': 'BILL'}
+- {'name': 'HB2293', 'type': 'BILL'}
+- {'name': 'SB266', 'type': 'BILL'}
+- {'name': 'SB473', 'type': 'BILL'}
+- {'name': 'HB2213', 'type': 'BILL'}
+- {'name': 'HB2212', 'type': 'BILL'}
+- {'name': 'HB2186', 'type': 'BILL'}
+- {'name': 'SB412', 'type': 'BILL'}
+- {'name': 'HB2069', 'type': 'BILL'}
+- {'name': 'SB182', 'type': 'BILL'}
+- {'name': 'HB2497', 'type': 'BILL'}
+- {'name': 'SB289', 'type': 'BILL'}
+- {'name': 'SB239', 'type': 'BILL'}
+- {'name': 'HB2280', 'type': 'BILL'}
+- {'name': 'HB2601', 'type': 'BILL'}
+- {'name': 'HB2666', 'type': 'BILL'}
+- {'name': 'HB2665', 'type': 'BILL'}
+- {'name': 'SB361', 'type': 'BILL'}
+- {'name': 'SB476', 'type': 'BILL'}
+- {'name': 'HB2656', 'type': 'BILL'}
+- {'name': 'HB2426', 'type': 'BILL'}
+- {'name': 'SB261', 'type': 'BILL'}
+- {'name': 'SB141', 'type': 'BILL'}
+- {'name': 'SB146', 'type': 'BILL'}
+- {'name': 'HB2602', 'type': 'BILL'}
+- {'name': 'HB2568', 'type': 'BILL'}
+- {'name': 'SB416', 'type': 'BILL'}
+- {'name': 'HB2639', 'type': 'BILL'}
+- {'name': 'SB439', 'type': 'BILL'}
+- {'name': 'HB2622', 'type': 'BILL'}
+- {'name': 'SB280', 'type': 'BILL'}
+- {'name': 'HB2349', 'type': 'BILL'}
+- {'name': 'Rural development projects', 'type': 'PROJECT'}
+- {'name': 'Kansas adult learner grant act', 'type': 'PROJECT'}
+- {'name': 'Kansas State Auditor', 'type': 'GOV_BODY'}
+- {'name': 'Kansas Secretary of State', 'type': 'GOV_BODY'}
+- {'name': 'Agriculture, department of', 'type': 'ORG'}
+- {'name': 'Conservation', 'type': 'ORG'}
+- {'name': 'Ethics, Governmental', 'type': 'ORG'}
+- {'name': 'Lobbyists and lobbying', 'type': 'OTHER'}
+- {'name': 'Family Law', 'type': 'PROJECT'}
+- {'name': 'Financial Institutions', 'type': 'PROJECT'}
+- {'name': 'HB2827', 'type': 'BILL'}
+- {'name': 'SB143', 'type': 'BILL'}
+- {'name': 'HB2168', 'type': 'BILL'}
+- {'name': 'HB2284', 'type': 'BILL'}
+- {'name': 'HB2724', 'type': 'BILL'}
+- {'name': 'HB2441', 'type': 'BILL'}
+- {'name': 'SB549', 'type': 'BILL'}
+- {'name': 'HB2244', 'type': 'BILL'}
+- {'name': 'SB548', 'type': 'BILL'}
+- {'name': 'HB2056', 'type': 'BILL'}
+- {'name': 'SB523', 'type': 'BILL'}
+- {'name': 'HB2412', 'type': 'BILL'}
+- {'name': 'SB250', 'type': 'BILL'}
+- {'name': 'HB2406', 'type': 'BILL'}
+- {'name': 'SB296', 'type': 'BILL'}
+- {'name': 'SB183', 'type': 'BILL'}
+- {'name': 'SB380', 'type': 'BILL'}
+- {'name': 'HB2442', 'type': 'BILL'}
+- {'name': 'HB2803', 'type': 'BILL'}
+- {'name': 'HB2339', 'type': 'BILL'}
+- {'name': 'SB156', 'type': 'BILL'}
+- {'name': 'SB550', 'type': 'BILL'}
+- {'name': 'HB2074', 'type': 'BILL'}
+- {'name': 'HB2722', 'type': 'BILL'}
+- {'name': 'HB2403', 'type': 'BILL'}
+- {'name': 'SB137', 'type': 'BILL'}
+- {'name': 'HB2413', 'type': 'BILL'}
+- {'name': 'SB551', 'type': 'BILL'}
+- {'name': 'HB2026', 'type': 'BILL'}
+- {'name': 'HB2036', 'type': 'BILL'}
+- {'name': 'HB2815', 'type': 'BILL'}
+- {'name': 'HB2844', 'type': 'BILL'}
+- {'name': 'SB300', 'type': 'BILL'}
+- {'name': 'SB37', 'type': 'BILL'}
+- {'name': 'SB28', 'type': 'BILL'}
+- {'name': 'HB2491', 'type': 'BILL'}
+- {'name': 'HB2477', 'type': 'BILL'}
+- {'name': 'HB2047', 'type': 'BILL'}
+- {'name': 'SB332', 'type': 'BILL'}
+- {'name': 'SB536', 'type': 'BILL'}
+- {'name': 'HB2538', 'type': 'BILL'}
+- {'name': 'SB410', 'type': 'BILL'}
+- {'name': 'SB8', 'type': 'BILL'}
+- {'name': 'SB284', 'type': 'BILL'}
+- {'name': 'HB2034', 'type': 'BILL'}
+- {'name': 'SB93', 'type': 'BILL'}
+- {'name': 'SB501', 'type': 'BILL'}
+- {'name': 'HB2468', 'type': 'BILL'}
+- {'name': 'HB2613', 'type': 'BILL'}
+- {'name': 'HB2414', 'type': 'BILL'}
+- {'name': 'HB2809', 'type': 'BILL'}
+- {'name': 'HB2600', 'type': 'BILL'}
+- {'name': 'HB2770', 'type': 'BILL'}
+- {'name': 'HB2142', 'type': 'BILL'}
+- {'name': 'HB2771', 'type': 'BILL'}
+- {'name': 'HB2723', 'type': 'BILL'}
+- {'name': 'SB542', 'type': 'BILL'}
+- {'name': 'SB493', 'type': 'BILL'}
+- {'name': 'HB2541', 'type': 'BILL'}
+- {'name': 'SB18', 'type': 'BILL'}
+- {'name': 'SB203', 'type': 'BILL'}
+- {'name': 'SB552', 'type': 'BILL'}
+- {'name': 'SB271', 'type': 'BILL'}
+- {'name': 'SB437', 'type': 'BILL'}
+- {'name': 'HB2640', 'type': 'BILL'}
+- {'name': 'SB15', 'type': 'BILL'}
+- {'name': 'HB2275', 'type': 'BILL'}
+- {'name': 'SB378', 'type': 'BILL'}
+- {'name': 'HB2786', 'type': 'BILL'}
+- {'name': 'SB324', 'type': 'BILL'}
+- {'name': 'HB2494', 'type': 'BILL'}
+- {'name': 'University of Kansas hospital authority', 'type': 'PROJECT'}
+- {'name': 'Secretary', 'type': 'PERSON'}
+- {'name': 'Bob Bethell', 'type': 'PERSON'}
+- {'name': 'Homeland Security Office', 'type': 'ORG'}
+- {'name': 'Veterans Commission on Veterans Affairs', 'type': 'GOV_BODY'}
+- {'name': 'Sporting Kansas City', 'type': 'PROJECT'}
+- {'name': 'Gail Finney', 'type': 'PERSON'}
+- {'name': 'State corporation commission', 'type': 'ORG'}
+- {'name': 'Board of pharmacy', 'type': 'ORG'}
+- {'name': 'Rhett Ryman', 'type': 'PERSON'}
+- {'name': 'JAG-K', 'type': 'ORG'}
+- {'name': 'Delta Sigma Theta sorority, inc.', 'type': 'ORG'}
+- {'name': 'Health and environment, department of', 'type': 'ORG'}
+- {'name': 'Department of property valuation appraiser', 'type': 'ORG'}
+- {'name': 'School districts', 'type': 'ORG'}
+- {'name': 'Statewide assessment student statistics', 'type': 'PROJECT'}
+- {'name': 'HB2717', 'type': 'OTHER'}
+- {'name': 'SB387', 'type': 'OTHER'}
+- {'name': 'Kapaun', 'type': 'PERSON'}
+- {'name': 'Kansas army and air national guard', 'type': 'GOV_BODY'}
+- {'name': 'Kansas employee emergency savings account program', 'type': 'PROJECT'}
+- {'name': 'Kansas film and digital media production development act', 'type': 'BILL'}
+- {'name': 'Larry Alley', 'type': 'GOV_BODY'}
+- {'name': 'Dinah Sykes', 'type': 'GOV_BODY'}
+- {'name': 'Corey Carnahan', 'type': 'GOV_BODY'}
+- {'name': 'Don Cackler', 'type': 'GOV_BODY'}
+- {'name': 'Ed Dwight', 'type': 'PERSON'}
+- {'name': 'Baumgardner', 'type': 'GOV_BODY'}
+- {'name': 'Alley', 'type': 'GOV_BODY'}
+- {'name': 'Billinger', 'type': 'GOV_BODY'}
+- {'name': 'PECK', 'type': 'GOV_BODY'}
+- {'name': 'THOMPSON', 'type': 'GOV_BODY'}
+- {'name': 'Masterson', 'type': 'GOV_BODY'}
+- {'name': 'Erickson', 'type': 'GOV_BODY'}
+- {'name': 'Kloos', 'type': 'GOV_BODY'}
+- {'name': 'Wilborn', 'type': 'GOV_BODY'}
+- {'name': 'Ruby Bridges', 'type': 'PERSON'}
+
+## Evidence (quotes)
+
+> No bill shall contain more than one subject
+
+> A majority of the Senators then elected (or appointed) and qualified shall constitute a quorum
+
+> Any Senator, who is directly interested in a question, may be excused from voting...
+
+> No Senator shall be allowed to vote unless the Senator is seated in the Senator's assigned seat within the Senate chamber when the vote is taken.
+
+> Rules 12
+
+> Rule 28. Reconsideration of Pending Matters.
+
+> No question shall be reconsidered more than once.
+
+> A roll call vote shall be taken upon all questions upon the demand of five Senators.
+
+<!-- content-hash:7ac4d8adf317fd28 -->

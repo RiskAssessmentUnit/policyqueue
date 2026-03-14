@@ -1,0 +1,107 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "SGF Receipts Estimates FY 2018 & FY 2019",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Revised Estimate of SGF Receipts",
+      "value": 681400000,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Increase over Previous Estimate",
+      "value": 108300000,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Increase in Estimate for Total Taxes",
+      "value": 102400000,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Increase in Estimate for Non-Tax Sources",
+      "value": 5900000,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Percentage Increase over Actual FY 2017 Receipts",
+      "value": 7.5,
+      "unit": "PERCENT",
+      "year": 2018
+    },
+    {
+      "label": "Decrease in SGF Receipts",
+      "value": 0.4,
+      "unit": "PERCENT",
+      "year": 2019
+    },
+    {
+      "label": "Increase in Total Taxes",
+      "value": 2.2,
+      "unit": "PERCENT",
+      "year": 2019
+    },
+    {
+      "label": "Total Taxes FY 2018",
+      "value": 6385017,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Taxes FY 2019",
+      "value": 6613200,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total Receipts FY 2018",
+      "value": 6705497,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Receipts FY 2019",
+      "value": 6783400,
+      "unit": "USD",
+      "year": 2019
+    }
+  ],
+  "events": [
+    {
+      "date": "November 17, 2017",
+      "year": 2017,
+      "description": "SGF Receipts Estimates FY 2018 & FY 2019"
+    },
+    {
+      "date": "November 17, 2017",
+      "year": 2017,
+      "description": "Estimates revised"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The growth rates of the four highest-generating revenue sources indicate slow receipt growth over the forecast period:",
+      "note": ""
+    },
+    {
+      "quote": "FY 2018. The revised estimate of SGF receipts for FY 2018 is $6.814 billion, an increase of $108.3 million above the previous estimate.",
+      "note": ""
+    },
+    {
+      "quote": "For FY 2019, SGF receipts are expected to decrease by 0.4 percent (heavily influenced by a change in net transfers), while total taxes are expected to increase by 2.2 percent.",
+      "note": ""
+    },
+    {
+      "quote": "$ 6,385,017 $ 6,487,400 $ 102,383 $ 1.6%",
+      "note": "Table 2 FY 2018 CRE Est."
+    },
+    {
+      "quote": "$ 6,510,900 $ 6,633,200 $ 122,300 $ 1.9%",
+      "note": "Table 3 FY 2019 CRE Est."
+    }
+  ]
+}

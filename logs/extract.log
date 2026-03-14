@@ -1,0 +1,17 @@
+﻿2026-02-28 17:31:21  Processing: test1.txt
+2026-02-28 17:35:53  Processing: test1.txt
+2026-02-28 17:38:40  Processing: test1.txt
+2026-02-28 18:14:23  Processing: hb2777_00_0000.pdf
+2026-02-28 18:17:19  Processing: hb2777_00_0000.pdf
+2026-02-28 18:22:08  Processing: hb2777_00_0000.pdf
+2026-02-28 18:38:58  Starting extract run. Host=100.124.222.121 Model=llama3.1:8b-instruct-q4_K_M
+2026-02-28 18:38:58  Processing: hb2777_00_0000.pdf
+2026-02-28 18:38:58  PDF->text FAILED: hb2777_00_0000.pdf
+2026-02-28 18:38:58  No extracted text for: hb2777_00_0000.pdf (skipping)
+2026-02-28 18:38:58  Processing: fisc_note_sb421_00_0000.pdf
+2026-02-28 18:38:58  PDF->text FAILED: fisc_note_sb421_00_0000.pdf
+2026-02-28 18:38:58  No extracted text for: fisc_note_sb421_00_0000.pdf (skipping)
+2026-02-28 18:43:52  Starting extract run. Host=100.124.222.121 Model=llama3.1:8b-instruct-q4_K_M
+2026-02-28 18:43:52  Processing: hb2777_00_0000.pdf
+2026-02-28 18:46:25  Starting extract run. Host=100.124.222.121 Model=llama3.1:8b-instruct-q4_K_M
+2026-02-28 18:46:25  Processing: hb2777_00_0000.pdf

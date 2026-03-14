@@ -1,0 +1,100 @@
+# Research Draft: CRE_Long_Memo_Nov2018
+
+- Source JSON: `CRE_Long_Memo_Nov2018.json`
+- Keyword hits: **star bond, sales tax, income tax, consensus revenue**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "SGF Receipts Estimates for FY 2019 through FY 2021",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund Receipts Estimates",
+      "value": 7310000000,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Growth Rate of Individual Income Tax",
+      "value": 1.9,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "Growth Rate of Corporation Income Tax",
+      "value": 1.2,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "Growth Rate of Retail Sales Tax",
+      "value": 1.3,
+      "unit": "PERCENT",
+      "year": 2021
+    },
+    {
+      "label": "Growth Rate of Compensating Use Tax",
+      "value": 3.4,
+      "unit": "PERCENT",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": "November 9, 2018",
+      "year": 2018,
+      "description": "Consensus revenue estimating process"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The growth rates of the four highest generating revenue sources reflect the latest assumptions about the impact of recent changes in state and federal law:",
+      "note": ""
+    },
+    {
+      "quote": "The estimate for total taxes was increased by $291.2 million, while the estimate for non-tax sources was increased $15.1 million.",
+      "note": ""
+    },
+    {
+      "quote": "Receipts from this source exceeded the final FY 2018 estimate by $62.4 million; and had been running $36.2 million above the prior FY 2019 estimate through October.",
+      "note": ""
+    },
+    {
+      "quote": "About $25.6 million of state retail sales and compensating use taxes ($21.5 million from the State General Fund and $4.1 million from the State Highway Fund) was returned to pay the STAR bonds from ten separate districts.",
+      "note": ""
+    }
+  ]
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
+
+
+---
+
+## Web Verification (links only)
+
+Search query:
+`Research Draft CRE_Long_Memo_Nov2018 site:ks.gov site:kansas.gov`
+
+Search link:
+https://duckduckgo.com/?q=Research+Draft+CRE_Long_Memo_Nov2018+site%3Aks.gov+site%3Akansas.gov
+
+Checked:
+**2026-03-05**
+
+Status: **REVIEWED (LINKS ONLY)**
+
+Notes:
+- Open the link and confirm against authoritative sources.
+- Add 1–3 official URLs under this section.

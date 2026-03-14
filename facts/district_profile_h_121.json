@@ -1,0 +1,95 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 23271,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Voting Age Population",
+      "value": 23104,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Percent of Total Population Under 5 years of age",
+      "value": 3.4,
+      "unit": "PERCENT",
+      "year": 2020
+    },
+    {
+      "label": "Percent of Total Population 5 to 17 years of age",
+      "value": 11.9,
+      "unit": "PERCENT",
+      "year": 2020
+    },
+    {
+      "label": "Number of Households",
+      "value": 22971,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Number of Family Households with Persons Under 18",
+      "value": 21889,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Number of Housing Units",
+      "value": 3789,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Number of Persons in Group Quarters",
+      "value": 33,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Number of Occupied Housing Units",
+      "value": 7829,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Number of Owner Occupied Housing Units",
+      "value": 7582,
+      "unit": "NUMBER",
+      "year": 2020
+    },
+    {
+      "label": "Number of Renter Occupied Housing Units",
+      "value": 6185,
+      "unit": "NUMBER",
+      "year": 2020
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

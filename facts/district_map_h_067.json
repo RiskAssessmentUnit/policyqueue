@@ -1,0 +1,49 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Manhattan",
+    "Riley County"
+  ],
+  "entities": [
+    {
+      "name": "House District 67",
+      "type": "OTHER"
+    },
+    {
+      "name": "Riley County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "population",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "miles",
+      "value": 18,
+      "unit": "MILES",
+      "year": null
+    },
+    {
+      "label": "113",
+      "value": 113,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

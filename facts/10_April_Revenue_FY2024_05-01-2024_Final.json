@@ -1,0 +1,30 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2024 State General Fund Receipts Final Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 8317857258,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Total Receipts",
+      "value": 8365703599,
+      "unit": "USD",
+      "year": 2024
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "101.2%",
+      "note": "% of Total Received"
+    },
+    {
+      "quote": "105.2%",
+      "note": "% of Total Received"
+    }
+  ]
+}

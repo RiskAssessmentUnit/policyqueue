@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2020 State General Fund Receipts Final Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 448655015,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 441648744,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "% of Total Received",
+      "value": 104.16,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Total Taxes: $420,830,000",
+      "note": ""
+    },
+    {
+      "quote": "Total Receipts: $424,030,000",
+      "note": ""
+    }
+  ]
+}

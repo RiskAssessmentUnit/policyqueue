@@ -1,0 +1,73 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Bound Volumes price",
+      "value": 30,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Bound Volumes price",
+      "value": 28,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Supplements price",
+      "value": 80,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Supplements price",
+      "value": 90,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Supplements per volume price",
+      "value": 8,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Supplements per volume price",
+      "value": 10,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Index price",
+      "value": 16,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Index price",
+      "value": 20,
+      "unit": "USD",
+      "year": 2025
+    }
+  ],
+  "events": [
+    {
+      "date": "October 13, 2025",
+      "year": 2025,
+      "description": "Recommended Prices for Kansas Statutes Annotated"
+    },
+    {
+      "date": "December 2, 2024",
+      "year": 2024,
+      "description": "Current prices were established by LCC"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Prices are established to recover the actual costs of printing and binding such volumes.",
+      "note": null
+    }
+  ]
+}

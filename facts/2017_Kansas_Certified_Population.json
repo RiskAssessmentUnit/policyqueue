@@ -1,0 +1,218 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Kansas Population",
+      "value": 2911641,
+      "unit": "COUNT",
+      "year": 2018
+    },
+    {
+      "label": "Population Growth 2015-2016",
+      "value": 4372,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Population Growth 2016-2017",
+      "value": 834,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Population Growth 2017-2018",
+      "value": -90,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Population Change 2016-2017",
+      "value": 0.1,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2015
+    },
+    {
+      "label": "Population",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "Population",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2017
+    },
+    {
+      "label": "Population",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Pop. 2015",
+      "value": null,
+      "unit": "COUNT"
+    },
+    {
+      "label": "Pop. 2016",
+      "value": null,
+      "unit": "COUNT"
+    },
+    {
+      "label": "Pop. 2017",
+      "value": null,
+      "unit": "COUNT"
+    },
+    {
+      "label": "% Chg 2016-2017",
+      "value": null,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "% Chg 2015-2016",
+      "value": null,
+      "unit": "PERCENT"
+    },
+    {
+      "label": "Population",
+      "value": 191064,
+      "unit": "COUNT",
+      "year": 2017
+    },
+    {
+      "label": "# Growth",
+      "value": 239,
+      "unit": "COUNT",
+      "year": 2016
+    },
+    {
+      "label": "% Chg",
+      "value": 1.2,
+      "unit": "PERCENT",
+      "year": 2016
+    },
+    {
+      "label": "Kansas Population 2015",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2015
+    },
+    {
+      "label": "Kansas Population 2016",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "Kansas Population 2017",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2017
+    },
+    {
+      "label": "Kansas Population 2018",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Douglas County Population 2015",
+      "value": 118053,
+      "unit": "NUMBER",
+      "year": 2015
+    },
+    {
+      "label": "Douglas County Population 2016",
+      "value": 119440,
+      "unit": "NUMBER",
+      "year": 2016
+    },
+    {
+      "label": "Douglas County Population 2017",
+      "value": 120793,
+      "unit": "NUMBER",
+      "year": 2017
+    },
+    {
+      "label": "Douglas County Population 2018",
+      "value": null,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Population",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "# Growth 2015-2016",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "# Growth 2016-2017",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "% Chg 2016-2017",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "% Chg 2015-2016",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 55498,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Population",
+      "value": 163831,
+      "unit": "OTHER",
+      "year": 2016
+    },
+    {
+      "label": "Population",
+      "value": 165288,
+      "unit": "OTHER",
+      "year": 2017
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2018",
+      "year": 2018,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Certified to the Secretary of State by Division of the Budget on July 1, 2018"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Source: U.S. Census Bureau",
+      "note": null
+    }
+  ]
+}

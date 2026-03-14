@@ -1,0 +1,26 @@
+{
+  "program_type": "STAR_BOND",
+  "title": "STAR bonds in Kansas",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "STAR bonds issued",
+      "value": 104,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "STAR bonds outstanding",
+      "value": 110,
+      "unit": "NUMBER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "STAR bonds are a type of tax increment financing (TIF) bond issued to support economic development projects in Kansas.",
+      "note": "Source: Kansas Legislative Research Department"
+    }
+  ]
+}

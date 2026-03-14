@@ -1,0 +1,24 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Douglas",
+    "Johnson"
+  ],
+  "entities": [
+    {
+      "name": "Douglas County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Johnson County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

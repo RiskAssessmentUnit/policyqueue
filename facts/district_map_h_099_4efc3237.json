@@ -1,0 +1,213 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Revenue",
+      "value": 400,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Revenue",
+      "value": 54,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Revenue",
+      "value": 96,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 91,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 103,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 89,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 95,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 92,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 100,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 94,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 105,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 83,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 84,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 87,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 96,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 97,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 88,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 86,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 81,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 98,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 99,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 114,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 101,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 90,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 75,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 72,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 85,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 93,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 77,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 82,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Revenue",
+      "value": 35,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Revenue",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Distance",
+      "value": 2,
+      "unit": "MILES",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    }
+  ],
+  "evidence": []
+}

@@ -1,0 +1,46 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Overland Park"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "40",
+      "value": 40,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "5",
+      "value": 5,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "14",
+      "value": 14,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    },
+    {
+      "quote": "District",
+      "note": ""
+    },
+    {
+      "quote": "City & District Boundary",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

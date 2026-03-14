@@ -1,0 +1,17 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Kansas Legislative Research Department",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

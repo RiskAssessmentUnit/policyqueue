@@ -1,0 +1,218 @@
+# Research Draft: Item_1_Proposed_Minutes_August_14_2025
+
+- Source JSON: `Item_1_Proposed_Minutes_August_14_2025.json`
+- Keyword hits: **committee**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Ashland",
+    "Kansas",
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Ty Masterson",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Dan Hawkins",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Chase Blasi",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Tim Shallenburger",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Dinah Sykes",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Chris Croft",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Brandon Woodard",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Kris Kobach",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Gordon Self",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Corey Carnahan",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Leo Delperdang",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Shirley Morrow",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Tom Day",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Hawkins",
+      "type": "PERSON"
+    },
+    {
+      "name": "Shallenburger",
+      "type": "PERSON"
+    },
+    {
+      "name": "Masterson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "Blasi",
+      "type": "PERSON"
+    },
+    {
+      "name": "Croft",
+      "type": "PERSON"
+    },
+    {
+      "name": "Self",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "80",
+      "value": 80,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Annual cost for vendor support",
+      "value": 400000,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Annual cost for AWS",
+      "value": 245000,
+      "unit": "USD",
+      "year": 2025
+    }
+  ],
+  "events": [
+    {
+      "date": "August 14, 2025",
+      "year": 2025,
+      "description": "Legislative Coordinating Council meeting"
+    },
+    {
+      "date": "July 11, 2025",
+      "year": 2025,
+      "description": "Notice of intent to dispose of school building"
+    },
+    {
+      "date": "July 7, 2025",
+      "year": 2025,
+      "description": "LCC meeting"
+    },
+    {
+      "date": "July 7, 2025",
+      "year": 2025,
+      "description": "KLISS Modernization Project Steering Committee informed the Legislative Coordinating Council that the production deployment of the KLISS bill drafting system did not occur on June 30, 2025"
+    },
+    {
+      "date": "September 2, 2025",
+      "year": 2025,
+      "description": "LCC directed the Steering Committee to work with the vendor to make significant progress toward having a session-ready system"
+    },
+    {
+      "date": "October 2025",
+      "year": 2025,
+      "description": "Current data center will reach the end of its life"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The Attorney General indicated that the State of Kansas had filed an amicus brief that argued that the Governor lacked",
+      "note": ""
+    },
+    {
+      "quote": "Vice Chairperson Hawkins moved that the Legislative Coordinating Council determine (1) That the Kansas Attorney General has the sole authority",
+      "note": ""
+    },
+    {
+      "quote": "Extended vendor support will cost approximately $400,000 per year.",
+      "note": ""
+    },
+    {
+      "quote": "Vice Chairperson Hawkins moved to approve moving data center services to cloud environment with Amazon Web Services for $245,000 annually",
+      "note": ""
+    },
+    {
+      "quote": "The motion carried.",
+      "note": ""
+    },
+    {
+      "quote": "The LCC directed the Steering Committee to work with the vendor to make significant progress toward having a session-ready system",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "Whether the Governor has the authority to represent the State of Kansas in litigation",
+    "many complex bugs to be resolved and data validation work to be completed before a final decision can be made on a go-live date"
+  ],
+  "recommended_next_queries": [
+    "What is the process for the LCC to review and consider notices of intent to dispose of school buildings?",
+    "Status of KLISS Modernization project",
+    "Reasons for delay in production deployment of KLISS bill drafting system",
+    "Potential costs and benefits of moving data center to AWS"
+  ]
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
+
+
+---
+
+## Web Verification (links only)
+
+Search query:
+`Research Draft Item_1_Proposed_Minutes_August_14_2025 site:ks.gov site:kansas.gov`
+
+Search link:
+https://duckduckgo.com/?q=Research+Draft+Item_1_Proposed_Minutes_August_14_2025+site%3Aks.gov+site%3Akansas.gov
+
+Checked:
+**2026-03-05**
+
+Status: **REVIEWED (LINKS ONLY)**
+
+Notes:
+- Open the link and confirm against authoritative sources.
+- Add 1–3 official URLs under this section.

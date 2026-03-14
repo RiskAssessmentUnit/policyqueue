@@ -1,0 +1,46 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 22863,
+      "unit": "PERSONS"
+    },
+    {
+      "label": "Voting Age Population",
+      "value": 17927,
+      "unit": "PERSONS"
+    },
+    {
+      "label": "Family Households with Persons Under 18",
+      "value": 2171,
+      "unit": "PERCENT"
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Census of Population and Housing"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Data Source:",
+      "note": "U.S. Census Bureau"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

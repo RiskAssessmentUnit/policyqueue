@@ -1,0 +1,36 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2021 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Receipts",
+      "value": 805640841,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total Taxes",
+      "value": 854400298,
+      "unit": "USD",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": "7/2/2021",
+      "year": 2021,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Receipts $665,617,500 $805,640,841 $140,023,341 21.0%",
+      "note": null
+    },
+    {
+      "quote": "Total Taxes $696,977,500 $854,400,298 $157,422,798 22.6%",
+      "note": null
+    }
+  ]
+}

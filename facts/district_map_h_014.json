@@ -1,0 +1,25 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Olathe"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": 2022,
+      "description": "Legislative District Profiles"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "\"2022 Legislative District Profiles\"",
+      "note": "Kansas Legislative Research Department"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

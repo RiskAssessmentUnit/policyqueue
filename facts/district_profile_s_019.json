@@ -1,0 +1,57 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "73,960",
+      "value": 73960,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "100.0%",
+      "value": 100,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "6,331",
+      "value": 6331,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "45.2%",
+      "value": 45.2,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Profile produced by: Kansas Legislative Research Department",
+      "note": "Kansas Legislative Research Department is the data source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

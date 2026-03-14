@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Cities",
+      "value": 2,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Townships",
+      "value": 3,
+      "unit": "OTHER",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

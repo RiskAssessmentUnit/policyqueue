@@ -1,0 +1,117 @@
+﻿param(
+  [Parameter(Position=0)][string]$cmd = "menu",
+  [Parameter(Position=1)][string]$target = "",
+  [Parameter(ValueFromRemainingArguments=$true)][string[]]$rest = @()
+)
+
+$ErrorActionPreference = "Stop"
+
+$root = Split-Path -Parent $MyInvocation.MyCommand.Path
+$pids = Join-Path $root "pids"
+$logs = Join-Path $root "logs"
+New-Item -ItemType Directory -Force -Path $pids,$logs | Out-Null
+
+# Map logical names -> script paths
+$scripts = @{
+  "runner"   = (Join-Path $root "runner.py")
+  "approver" = (Join-Path $root "discord_notifier.py")  # change if needed
+}
+
+function PidFile([string]$name) { Join-Path $pids ("{0}.pid" -f $name) }
+
+function Get-ProcById([int]$procId) {
+  if ($procId -le 0) { return $null }
+  try { return (Get-Process -Id $procId -ErrorAction Stop) }
+  catch { return $null }
+}
+
+function Start-One([string]$name) {
+  if (-not $scripts.ContainsKey($name)) { Write-Host "ERR: unknown target '$name'"; return }
+
+  $scriptPath = $scripts[$name]
+  if ([string]::IsNullOrWhiteSpace($scriptPath)) { Write-Host "ERR: scriptPath for '$name' is empty"; return }
+  if (-not (Test-Path $scriptPath)) { Write-Host "ERR: missing $scriptPath"; return }
+
+  $pp = PidFile $name
+  $procId = 0
+  if (Test-Path $pp) { try { $procId = [int](Get-Content $pp -Raw).Trim() } catch { $procId = 0 } }
+
+  if (Get-ProcById $procId) {
+    Write-Host "OK: $name already running pid=$procId"
+    return
+  }
+
+  $out = Join-Path $logs ("{0}.out.log" -f $name)
+  $err = Join-Path $logs ("{0}.err.log" -f $name)
+
+  $p = Start-Process -FilePath "python" `
+    -ArgumentList @("$scriptPath") `
+    -WorkingDirectory $root `
+    -RedirectStandardOutput $out `
+    -RedirectStandardError $err `
+    -WindowStyle Hidden `
+    -PassThru
+
+  Set-Content -Encoding ascii -Path $pp -Value $p.Id
+  Write-Host ("STARTED: {0} pid={1} -> {2} + {3}" -f $name, $p.Id, (Split-Path $out -Leaf), (Split-Path $err -Leaf))
+}
+
+function Stop-One([string]$name) {
+  $pp = PidFile $name
+  if (-not (Test-Path $pp)) { Write-Host "OK: $name not running (no pid file)"; return }
+
+  $procId = 0
+  try { $procId = [int](Get-Content $pp -Raw).Trim() } catch { $procId = 0 }
+
+  try { Stop-Process -Id $procId -Force -ErrorAction Stop; Write-Host "STOPPED: $name pid=$procId" }
+  catch { Write-Host "OK: $name not running (pid=$procId)" }
+
+  Remove-Item $pp -Force -ErrorAction SilentlyContinue
+}
+
+function Status() {
+  Write-Host "=== PolicyQueue Processes ==="
+  foreach ($name in @("runner","approver")) {
+    $pp = PidFile $name
+    $procId = 0
+    if (Test-Path $pp) { try { $procId = [int](Get-Content $pp -Raw).Trim() } catch { $procId = 0 } }
+    $p = Get-ProcById $procId
+    if ($p) { Write-Host ("OK    {0,-7} pid={1}" -f $name, $procId) } else { Write-Host ("DOWN  {0}" -f $name) }
+  }
+}
+
+function Menu() {
+  while ($true) {
+    Status
+    Write-Host ""
+    Write-Host "=== Menu ==="
+    Write-Host "  1) Start ALL"
+    Write-Host "  2) Stop  ALL"
+    Write-Host "  3) Restart runner"
+    Write-Host "  4) Restart approver"
+    Write-Host "  5) Tail runner.err.log"
+    Write-Host "  6) Tail approver.err.log"
+    Write-Host "  0) Exit"
+    $pick = Read-Host "Pick"
+    switch ($pick) {
+      "1" { Start-One "runner"; Start-One "approver" }
+      "2" { Stop-One "runner"; Stop-One "approver" }
+      "3" { Stop-One "runner"; Start-One "runner" }
+      "4" { Stop-One "approver"; Start-One "approver" }
+      "5" { Get-Content (Join-Path $logs "runner.err.log") -Tail 120 }
+      "6" { Get-Content (Join-Path $logs "approver.err.log") -Tail 120 }
+      "0" { return }
+    }
+    Write-Host ""
+  }
+}
+
+switch ($cmd.ToLower()) {
+  "start"   { if ($target -eq "all") { Start-One "runner"; Start-One "approver" } else { Start-One $target } }
+  "stop"    { if ($target -eq "all") { Stop-One "runner"; Stop-One "approver" } else { Stop-One $target } }
+  "restart" { if ($target -eq "all") { Stop-One "runner"; Stop-One "approver"; Start-One "runner"; Start-One "approver" }
+              else { Stop-One $target; Start-One $target } }
+  "status"  { Status }
+  "menu"    { Menu }
+  default   { Write-Host "Usage: pqctl.ps1 (menu|status|start|stop|restart) (runner|approver|all)" }
+}

@@ -1,0 +1,173 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dan Hawkins",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tim Shallenburger",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dinah Sykes",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chase Blasi",
+      "type": "PERSON"
+    },
+    {
+      "name": "Blake Carpenter",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chris Croft",
+      "type": "PERSON"
+    },
+    {
+      "name": "Brandon Woodard",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dylan Dear",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gordon Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Revenue collected",
+      "value": 3394,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Budget request for FY 2026",
+      "value": null,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Budget request for FY 2027",
+      "value": null,
+      "unit": "USD",
+      "year": 2027
+    },
+    {
+      "label": "10% increase in salary and wages line item",
+      "value": 0.1,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Price for K.S.A. volumes",
+      "value": 28,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Price for Supplemental volumes",
+      "value": 10,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Price for Supplemental volumes set",
+      "value": 90,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Price for General Index volumes set",
+      "value": 20,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "October 13, 2025",
+      "year": 2025,
+      "description": "Meeting of the Legislative Coordinating Council"
+    },
+    {
+      "date": "September 24, 2025",
+      "year": 2025,
+      "description": "Meeting of the Legislative Coordinating Council"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Vice Chairperson Hawkins moved that the minutes as presented be approved.",
+      "note": ""
+    },
+    {
+      "quote": "The motion carried.",
+      "note": ""
+    },
+    {
+      "quote": "Chairperson Masterson reported that the Senate Committee on Organization, Calendar and Rules recommended Senator Rick Kloos to be appointed to",
+      "note": ""
+    },
+    {
+      "quote": "Chairperson Masterson moved to appoint Senator Kloos to the Legislative Budget Committee.",
+      "note": ""
+    },
+    {
+      "quote": "Mr. Dylan Dear, Assistant Director for Fiscal Affairs, Legislative Research Department, presented the legislative staff agency budget requests for FY",
+      "note": ""
+    },
+    {
+      "quote": "The recommended price for the KSA volumes is $28 per volume and the recommended price for the Supplemental volumes is",
+      "note": ""
+    },
+    {
+      "quote": "Vice Chairperson Hawkins moved to approve such recommendations.",
+      "note": ""
+    },
+    {
+      "quote": "Mr. Day reported that after the reposting of the CITO position as directed by the LCC an additional 13 applications",
+      "note": ""
+    },
+    {
+      "quote": "The subcommittee recommendation is to accept the recommendation of the Steering Committee.",
+      "note": ""
+    },
+    {
+      "quote": "Vice Chairperson Hawkins expressed concerns over the amount of money already expended on this project.",
+      "note": ""
+    },
+    {
+      "quote": "Senate Minority Leader Dinah Sykes expressed the disappointment of the subcommittee on the progress of the project and costs related",
+      "note": ""
+    },
+    {
+      "quote": "Vice Chairperson Hawkins moved that the bill drafting system currently under development not be utilized as planned during the 2026",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "The amount of money already expended on the KLISS Modernization Project",
+    "The costs related to the KLISS Modernization Project"
+  ],
+  "recommended_next_queries": [
+    "What is the current status of the KLISS Modernization Project?"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Thomas A. Day",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Revenue",
+      "value": 3934.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Document Packet Price",
+      "value": 544.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Number of Packets Prepared",
+      "value": 34,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2025 legislative session"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Attached is the Document Service Report for this year’s legislative session.",
+      "note": "Report attached to email"
+    }
+  ],
+  "uncertainties": [
+    "Recommendations for 2026 legislative session"
+  ],
+  "recommended_next_queries": [
+    "2026 legislative session document packet prices"
+  ]
+}

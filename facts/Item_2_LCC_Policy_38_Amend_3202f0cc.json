@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": "Legislative Correspondence and Mailing Policy",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Postage and newsletter printing allotment per calendar year",
+      "value": 6000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Postage and newsletter printing allotment per calendar year (senators)",
+      "value": 18000,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

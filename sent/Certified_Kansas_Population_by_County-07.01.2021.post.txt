@@ -1,0 +1,7 @@
+**Kansas Certified Population**
+
+As of July 1, 2021, the certified population of Kansas was announced by the Division of the Budget. The population growth in Kansas from 2018 to 2019 was 1.0% ("% Chg 2018-2019", value: 1.0, unit: PERCENT, year: 2019), and from 2019 to 2020 was 2.5% ("% Chg 2019-2020", value: 2.5, unit: PERCENT, year: 2020).
+
+The certified population for 2021 is 2,919,111, according to the provided data. This marks a slight decrease from the previous year's certified population of 2,931,991.
+
+Source: UNKNOWN_URL

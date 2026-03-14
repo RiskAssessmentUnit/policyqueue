@@ -1,0 +1,305 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Consensus Revenue Estimates",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund receipts",
+      "value": 6.3,
+      "unit": "BILLIONS USD",
+      "year": 2017
+    },
+    {
+      "label": "Total taxes",
+      "value": 61.6,
+      "unit": "MILLIONS USD",
+      "year": 2017
+    },
+    {
+      "label": "Other revenue",
+      "value": 225.1,
+      "unit": "MILLIONS USD",
+      "year": 2017
+    },
+    {
+      "label": "Net transfers",
+      "value": 199.4,
+      "unit": "MILLIONS USD",
+      "year": 2017
+    },
+    {
+      "label": "Interest earnings",
+      "value": 63.7,
+      "unit": "MILLIONS USD",
+      "year": 2016
+    },
+    {
+      "label": "Interest earnings",
+      "value": 200,
+      "unit": "THOUSANDS USD",
+      "year": 2018
+    },
+    {
+      "label": "Total--General Government",
+      "value": 54282102,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total--Human Services",
+      "value": 15146130,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total--Education",
+      "value": 200835116,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total--Public Safety",
+      "value": 12184444,
+      "unit": "USD",
+      "year": 2017
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 60842990,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 58482632,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Department of Administration FTE Positions",
+      "value": 385.95,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Department of Revenue FTE Positions",
+      "value": 877.9,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Kansas Lottery total positions",
+      "value": 105.0,
+      "unit": "NUMBER",
+      "year": 2018
+    },
+    {
+      "label": "Total--Board of Cosmetology",
+      "value": 15.5,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Board of Cosmetology",
+      "value": 14.0,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Total--Board of Cosmetology",
+      "value": 15.5,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Total--Governmental Ethics Commission",
+      "value": 8.0,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Governmental Ethics Commission",
+      "value": 8.0,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Total--Board of Healing Arts",
+      "value": 53.0,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Board of Healing Arts",
+      "value": 53.0,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Total--Office of the Governor",
+      "value": 33.24,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Office of the Governor",
+      "value": 33.24,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Total--Attorney General",
+      "value": 137.19,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Attorney General",
+      "value": 141.19,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Total--Insurance Department",
+      "value": 139.0,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Insurance Department",
+      "value": 139.0,
+      "unit": "FTE",
+      "year": 2019
+    },
+    {
+      "label": "Authorized Positions - Human Services",
+      "value": 6768,
+      "unit": "FTE",
+      "year": 2018
+    },
+    {
+      "label": "Total--Education",
+      "value": 19386.4,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total--Education",
+      "value": 19388.4,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total--Regents",
+      "value": 18804.75,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total--Regents",
+      "value": 18804.75,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 19366.9,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total--FTE Positions",
+      "value": 19368.9,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 19.5,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total--Non-FTE Unclassified Perm. Pos.",
+      "value": 19.5,
+      "unit": "USD",
+      "year": 2019
+    }
+  ],
+  "events": [
+    {
+      "date": "November",
+      "year": null,
+      "description": "Estimate made"
+    },
+    {
+      "date": "April",
+      "year": null,
+      "description": "Revised estimate made"
+    },
+    {
+      "date": "FY 2017",
+      "year": 2017,
+      "description": "Revised estimate of State General Fund receipts"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2017 Governor's Recommendation"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2017 Budget"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2017 Approved Budget"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2018"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2019"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The revised FY 2017 estimate of State General Fund receipts is $6.3 billion, an increase of $286.7 million from the estimate made in November.",
+      "note": "Consensus Revenue Estimates"
+    },
+    {
+      "quote": "53,937,202",
+      "note": "General Government"
+    },
+    {
+      "quote": "14,896,130",
+      "note": "Human Services"
+    },
+    {
+      "quote": "200,835,116",
+      "note": "Education"
+    },
+    {
+      "quote": "12,184,444",
+      "note": "Public Safety"
+    },
+    {
+      "quote": "Gov. Rec.",
+      "note": null
+    },
+    {
+      "quote": "Leg. Adj.",
+      "note": null
+    },
+    {
+      "quote": "Approved",
+      "note": null
+    }
+  ]
+}

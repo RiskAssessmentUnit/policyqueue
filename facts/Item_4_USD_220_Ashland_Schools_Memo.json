@@ -1,0 +1,74 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Ashland",
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "USD 220 Ashland",
+      "type": "ORG"
+    },
+    {
+      "name": "PaulaRice",
+      "type": "PERSON"
+    },
+    {
+      "name": "Unified School District No. 220",
+      "type": "ORG"
+    },
+    {
+      "name": "Office of the Chief Clerk of the House of Representatives",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Office of the Secretary of the Kansas Senate",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Lot Width",
+      "value": 300.0,
+      "unit": "FEET",
+      "year": null
+    },
+    {
+      "label": "Lot Depth",
+      "value": 284.0,
+      "unit": "FEET",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "May 19, 2025",
+      "year": 2025,
+      "description": "Board of Education adopted a resolution to dispose of a school district building"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Notice of Intention to Dispose of School District Building"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The reason for the above-referenced building's disuse and the decision to dispose of the building is as follows: All students",
+      "note": "Letter from Superintendent of Schools"
+    },
+    {
+      "quote": "The legal description of the real property that is to be disposed is as follows: OT ASHLAND, BLOCK 26, Lot",
+      "note": "Deed Record"
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    "Why were the students consolidated?",
+    "What is the condition of the disposed building?"
+  ]
+}

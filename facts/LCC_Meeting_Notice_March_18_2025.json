@@ -1,0 +1,36 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Statehouse",
+    "Room 548-S"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Gordon L. Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "Tuesday, March 18, 2025",
+      "year": 2025,
+      "description": "Legislative Coordinating Council meeting"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "accommodation requests for Legislative Coordinating Council meetings"
+  ]
+}

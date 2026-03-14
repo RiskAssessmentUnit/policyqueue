@@ -1,0 +1,363 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "State General Fund Revenues",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Ending Balance (Percent)",
+      "value": 7.6,
+      "unit": "PERCENT",
+      "year": 2004
+    },
+    {
+      "label": "Ending Balance (Dollars in Millions)",
+      "value": 327.5,
+      "unit": "USD",
+      "year": 2004
+    },
+    {
+      "label": "Kansas Personal Income (Dollars in Millions)",
+      "value": 88.9,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Nominal U.S. Personal Income",
+      "value": 5.7,
+      "unit": "PERCENT",
+      "year": 2005
+    },
+    {
+      "label": "Beginning Balance",
+      "value": 3199475,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Transfer In From KEY Fund",
+      "value": 51135585,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Total Available",
+      "value": 53835060,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Expenditures",
+      "value": 52387840,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Ending Balance",
+      "value": 1447220,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Transfer In from State General Fund",
+      "value": 375000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total Available",
+      "value": 53567126,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Expenditures",
+      "value": 53492126,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Ending Balance",
+      "value": 75000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total cost of 2.5% salary increase",
+      "value": 49800000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "State General Fund contribution",
+      "value": 23800000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total cost of 27th payroll",
+      "value": 65100000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "State General Fund portion of 27th payroll",
+      "value": 32600000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Reappropriation from State General Fund",
+      "value": 0,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Unanticipated lapses from State General Fund",
+      "value": 0,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "10.0% of KSIP account balances",
+      "value": 0,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "General Assistance",
+      "value": 300000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Regular Medical Assistance",
+      "value": 24800000,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Master Tobacco Settlement Agreement",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Children's Initiatives Fund",
+      "value": 8893491,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Smart Start Kansas Program",
+      "value": 8889279,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Healthcare Access Improvement Program",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "State Hospitals",
+      "value": 1713961,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "State Security Hospital",
+      "value": 1094764,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Contract teacher salaries",
+      "value": 38268,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Parsons State Hospital and Training Center",
+      "value": 24677,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Expenditures",
+      "value": 942122708,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Total--DHPF",
+      "value": 411103634,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--KHPA",
+      "value": 700000,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--Department on Aging",
+      "value": 162488299,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--Human Resources",
+      "value": 974775863,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--Department of Education",
+      "value": 353770,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--Board of Regents",
+      "value": 17534162,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--KU Medical Center",
+      "value": 5842770,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total Expenditures",
+      "value": 1021013640,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Transportation Total",
+      "value": 907381042,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Agriculture & Natural Resources Total",
+      "value": 6289698,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Total--General Government",
+      "value": 5829.5,
+      "unit": "USD",
+      "year": 2005
+    },
+    {
+      "label": "Total--General Government",
+      "value": 5834.87,
+      "unit": "USD",
+      "year": 2006
+    },
+    {
+      "label": "Authorized Positions",
+      "value": 41981,
+      "unit": "NUMBER",
+      "year": 2005
+    },
+    {
+      "label": "Authorized Positions",
+      "value": 42037,
+      "unit": "NUMBER",
+      "year": 2006
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 1990,
+      "description": "Legislation enacted to establish minimum ending balances"
+    },
+    {
+      "date": null,
+      "year": 2006,
+      "description": "Governor's recommended budget and budget approved by Legislature do not adhere to 1990 ending balance requirement"
+    },
+    {
+      "date": null,
+      "year": 2005,
+      "description": "2005 House Substitute for SB 272"
+    },
+    {
+      "date": null,
+      "year": 2006,
+      "description": "Legislature approved $500,000 from Children’s Initiatives Fund to expand outreach efforts"
+    },
+    {
+      "date": "FY 2006",
+      "year": 2006,
+      "description": "2.5% salary increase for state employees"
+    },
+    {
+      "date": "FY 2006",
+      "year": 2006,
+      "description": "27th payroll in FY 2006"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "2004 HB 2912 established a mechanism for funding a new Healthcare Access Improvement Program"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Master Settlement Agreement signed in 1998"
+    },
+    {
+      "date": null,
+      "year": 2005,
+      "description": "Legislature added $1,094,764 from the State General Fund for 79.00 additional FTE positions at the new State Security Hospital"
+    },
+    {
+      "date": "FY 2006",
+      "year": 2006,
+      "description": "Budget for Capital Improvements"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Although the ending cash balance for FY 2004 was 7.6 percent, concerns over large school aid payments that must be made earlier in the fiscal year than in previous years made it necessary to issue additional $450.0 million certificates of indebtedness in July 2004 and July 2005.",
+      "note": null
+    },
+    {
+      "quote": "With the transfer of this program to the Department of Administration, the $2.0 million from the CIF Fund will be shown in that budget instead of the SRS budget.",
+      "note": null
+    },
+    {
+      "quote": "The Children’s Initiatives Fund dollars are part of the state’s matching funds for federal Medicaid reimbursement.",
+      "note": null
+    },
+    {
+      "quote": "The Legislature approved $500,000 from Children’s Initiatives Fund to expand outreach efforts and emphasize the importance of timely immunizations within the Medical Assistance Program.",
+      "note": null
+    },
+    {
+      "quote": "The $2,212 reduction to the Smart Start Kansas Program is the result of the Legislature’s reductions to the state employee pay plan and the death and disability insurance rate.",
+      "note": null
+    },
+    {
+      "quote": "The Tiny-K Program is part of the federal Individuals with Disabilities Education Act, and the state is required to provide early intervention services to children aged birth to three years with or at risk of developmental disabilities or delays.",
+      "note": null
+    },
+    {
+      "quote": "The Governor recommended a base salary increase for state employees of 2.5 percent for all of FY 2006.",
+      "note": "Source: FY 2006 Governor's Budget Report"
+    },
+    {
+      "quote": "The Legislature approved the 2.5 percent increase but phased-it in by approving half, or 1.25 percent, effective for the first 13 biweekly payrolls of FY 2006 and the other 1.25 percent increase for the last 14 biweekly payrolls, which includes the 27th payroll that will occur in FY 2006.",
+      "note": "Source: FY 2006 Governor's Budget Report"
+    }
+  ]
+}

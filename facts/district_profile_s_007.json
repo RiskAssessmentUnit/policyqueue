@@ -1,0 +1,14 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [
+    "chunk_json_parse_failed"
+  ],
+  "recommended_next_queries": []
+}

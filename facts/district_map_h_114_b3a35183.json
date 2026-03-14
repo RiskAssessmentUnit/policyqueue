@@ -1,0 +1,15 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 2,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

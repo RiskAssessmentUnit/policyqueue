@@ -1,0 +1,76 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "International Roll Call (IRC)",
+      "type": "ORG"
+    },
+    {
+      "name": "DL Smith",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total Cost",
+      "value": 494408,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Cost for Voting Control Equipment and Member Consoles",
+      "value": 263732,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Cost to Remove and Install Cable",
+      "value": 230676,
+      "unit": "USD",
+      "year": 2025
+    }
+  ],
+  "events": [
+    {
+      "date": "July 7, 2025",
+      "year": 2025,
+      "description": "MEMORANDUM To: Legislative Coordinating Council From: Tom Day, Director LAS"
+    },
+    {
+      "date": "August",
+      "year": 2025,
+      "description": "Manufacturing of voting consoles will begin"
+    },
+    {
+      "date": "November",
+      "year": 2025,
+      "description": "Proposed completion date for installation of voting system equipment"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The total cost for the project is $494,408.",
+      "note": ""
+    },
+    {
+      "quote": "The new system reduces the footprint of the technology and simplifies the troubleshooting and replacement process should future issues arise.",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "The new system will provide integrated audio capabilities, but it is unclear what specific audio features will be included."
+  ],
+  "recommended_next_queries": [
+    "What specific audio features will be included in the new system?",
+    "How will the new system improve the reliability and stability of the voting system?"
+  ]
+}

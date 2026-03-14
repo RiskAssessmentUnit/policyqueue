@@ -1,0 +1,21 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Cities",
+      "value": 11,
+      "unit": "COUNT",
+      "year": null
+    },
+    {
+      "label": "Townships",
+      "value": 11,
+      "unit": "COUNT",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": []
+}

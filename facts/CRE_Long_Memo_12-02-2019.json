@@ -1,0 +1,48 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Property Tax/Fee",
+      "value": 12400,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Income Taxes",
+      "value": 3740000,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Taxes",
+      "value": 7493993,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 7431693,
+      "unit": "USD",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "December 2, 2019",
+      "year": 2019,
+      "description": "Comparison of November 2019 Estimate to May 2019 Estimate"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Total Taxes $7,493,993",
+      "note": null
+    },
+    {
+      "quote": "Total Receipts $7,431,693",
+      "note": null
+    }
+  ]
+}

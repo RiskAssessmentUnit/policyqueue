@@ -1,0 +1,22 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Olathe",
+    "Overland Park"
+  ],
+  "entities": [
+    {
+      "name": "House District 49",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas Legislative Research Department"
+  ]
+}

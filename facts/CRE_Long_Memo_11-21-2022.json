@@ -1,0 +1,141 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "State General Fund Revenue Estimates for FY 2023 and FY 2024",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "State General Fund (SGF) Revenue Increase",
+      "value": 794200000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Taxes Increase",
+      "value": 773000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Other Revenues Increase",
+      "value": 21200000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas GSP Nominal Growth",
+      "value": 9.8,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "Kansas GSP Nominal Growth",
+      "value": 6.1,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Kansas GSP Nominal Growth",
+      "value": 5.6,
+      "unit": "PERCENT",
+      "year": 2024
+    },
+    {
+      "label": "U.S. GDP Nominal Growth",
+      "value": 9.8,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "U.S. GDP Nominal Growth",
+      "value": 6.1,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "U.S. GDP Nominal Growth",
+      "value": 5.6,
+      "unit": "PERCENT",
+      "year": 2024
+    },
+    {
+      "label": "Kansas Oil Production",
+      "value": 27.5,
+      "unit": "MILLION BARRELS",
+      "year": 2023
+    },
+    {
+      "label": "Kansas Natural Gas Price",
+      "value": 5.5,
+      "unit": "USD/THOUSAND CUBIC FEET",
+      "year": 2023
+    },
+    {
+      "label": "Pooled Money Investment Portfolio Earnings",
+      "value": 0.28,
+      "unit": "PERCENT",
+      "year": 2022
+    },
+    {
+      "label": "Pooled Money Investment Portfolio Earnings",
+      "value": 3.69,
+      "unit": "PERCENT",
+      "year": 2023
+    },
+    {
+      "label": "Pooled Money Investment Portfolio Earnings",
+      "value": 4.48,
+      "unit": "PERCENT",
+      "year": 2024
+    },
+    {
+      "label": "Total Taxes",
+      "value": 10058300,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Taxes",
+      "value": 10153800,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Total Receipts",
+      "value": 9712200,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Total Receipts",
+      "value": 10124400,
+      "unit": "USD",
+      "year": 2024
+    }
+  ],
+  "events": [
+    {
+      "date": "November 9, 2022",
+      "year": 2022,
+      "description": "Consensus Group met to revise estimates for FY 2023 and make initial forecast for FY 2024"
+    },
+    {
+      "date": "November 9, 2022",
+      "year": 2022,
+      "description": "Consensus Estimate"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The overall estimate for FY 2023 was increased by $794.2 million. Of this amount, the estimate for total taxes was increased by $773.0 million, while the estimate for other revenues was increased by $21.2 million.",
+      "note": "Source: State General Fund Revenue Estimates for FY 2023 and FY 2024"
+    },
+    {
+      "quote": "The recent slowing of the long-term declines in oil and natural gas production by the Kansas energy sector is expected to continue during the forecast period, as commodity prices are anticipated to remain high relative to recent years.",
+      "note": "Source: State General Fund Revenue Estimates for FY 2023 and FY 2024"
+    },
+    {
+      "quote": "Ongoing uncertainty about inflation, monetary policy, international conflicts, U.S. foreign policy, trade policy, health policy, and tax policy has the potential to increase volatility in global and domestic markets.",
+      "note": "Kansas Legislative Research Department"
+    }
+  ]
+}

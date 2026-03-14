@@ -1,0 +1,33 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 24642,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Percent of total population",
+      "value": 100.0,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2020",
+      "year": 2020,
+      "description": "Census"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

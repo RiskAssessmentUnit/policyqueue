@@ -1,0 +1,712 @@
+﻿import os, sys, time, json, re, sqlite3, hashlib, shutil
+from pathlib import Path
+from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
+from html.parser import HTMLParser
+from collections import Counter
+
+# ----------------------------
+# Config (environment overrides)
+# ----------------------------
+ROOT = Path.home() / "policyqueue"
+INBOX = ROOT / "inbox"
+FACTS = ROOT / "facts"
+POSTS = ROOT / "posts"
+ARCHIVE = ROOT / "archive"
+SKIP = ROOT / "skip"
+BIG = ROOT / "bigpdfs"
+LOGS = ROOT / "logs"
+LOGFILE = LOGS / "runner.log"
+DB_PATH = ROOT / "runner.sqlite"
+
+OLLAMA_BASE = os.environ.get("PQ_OLLAMA_BASE", "http://100.124.222.121:11434")
+MODEL = os.environ.get("PQ_MODEL", "llama3.1:8b-instruct-q4_K_M")
+
+# crawler pacing / bounds
+CRAWL_DELAY_SEC = float(os.environ.get("PQ_DELAY", "0.8"))
+CRAWL_TIMEOUT_SEC = int(os.environ.get("PQ_CRAWL_TIMEOUT", "20"))
+CRAWL_MAX_PAGES = int(os.environ.get("PQ_CRAWL_MAX_PAGES", "800"))
+CRAWL_MAX_DEPTH = int(os.environ.get("PQ_CRAWL_MAX_DEPTH", "4"))
+
+# processing bounds
+PROCESS_MAX_FILES = int(os.environ.get("PQ_MAX_FILES", "10"))      # per cycle
+PROCESS_TIMEOUT_SEC = int(os.environ.get("PQ_TIMEOUT", "600"))     # ollama generate timeout
+CHUNK_CHARS = int(os.environ.get("PQ_CHUNK_CHARS", "9000"))
+CHUNK_OVERLAP = int(os.environ.get("PQ_CHUNK_OVERLAP", "800"))
+
+# triage thresholds
+BIG_BYTES = int(os.environ.get("PQ_BIG_BYTES", str(5 * 1024 * 1024)))  # 5MB slow-lane
+USEFUL_SCORE_MIN = int(os.environ.get("PQ_USEFUL_MIN", "6"))
+
+USER_AGENT = os.environ.get("PQ_UA", "PolicyQueueRunner/0.1 (+local)")
+
+# Allowed domains (official-ish Kansas sources)
+# You can extend via env: PQ_DOMAINS="kslegislature.org,budget.kansas.gov,postaudit.ks.gov,ksrevisor.org"
+DEFAULT_DOMAINS = ["kslegislature.org", "budget.kansas.gov", "postaudit.ks.gov", "ksrevisor.org"]
+ALLOW_DOMAINS = [d.strip().lower() for d in os.environ.get("PQ_DOMAINS", ",".join(DEFAULT_DOMAINS)).split(",") if d.strip()]
+
+# Seed URLs (targeted to money/accountability-ish areas)
+# You can override via env: PQ_SEEDS="https://postaudit.ks.gov/,https://budget.kansas.gov/"
+DEFAULT_SEEDS = [
+    "https://postaudit.ks.gov/",
+    "https://budget.kansas.gov/",
+    "https://kslegislature.org/",
+]
+SEEDS = [s.strip() for s in os.environ.get("PQ_SEEDS", ",".join(DEFAULT_SEEDS)).split(",") if s.strip()]
+
+# High-signal keywords for URL / anchor filtering (money + accountability)
+FOCUS_KWS = [
+    "star", "bond", "bonds", "tif", "abatement", "tax", "credit", "incentive", "incentives",
+    "economic", "development", "commerce", "grant", "grants", "appropriation", "appropriations",
+    "audit", "post audit", "performance", "report", "fiscal", "note", "budget",
+    "refinanc", "issuance", "debt", "financ", "revenue", "expend", "subsid", "rebate",
+    "irb", "industrial", "district", "kbi", "kdot"
+]
+
+# Obvious procedural junk (skip lane), regardless of size
+SKIP_NAME_RE = re.compile(r"(?i)(permanent_journal|journal|actions_and_subject_index|subject_index|calendar|schedule|rules|procedure|seating|roster|directory|work_info|deadlines|index_report)")
+
+# ----------------------------
+# Helpers
+# ----------------------------
+class LinkParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.links = []  # list of (href, anchor_text)
+        self._in_a = False
+        self._href = None
+        self._text = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == "a":
+            href = None
+            for k, v in attrs:
+                if k.lower() == "href":
+                    href = v
+                    break
+            self._in_a = True
+            self._href = href
+            self._text = []
+
+    def handle_endtag(self, tag):
+        if tag.lower() == "a" and self._in_a:
+            txt = "".join(self._text).strip()
+            if self._href:
+                self.links.append((self._href, txt))
+            self._in_a = False
+            self._href = None
+            self._text = []
+
+    def handle_data(self, data):
+        if self._in_a and data:
+            self._text.append(data)
+
+def log(msg: str):
+    LOGS.mkdir(parents=True, exist_ok=True)
+    ts = time.strftime("%Y-%m-%d %H:%M:%S")
+    LOGFILE.open("a", encoding="utf-8").write(f"{ts}  {msg}\n")
+
+def ensure_dirs():
+    for p in (ROOT, INBOX, FACTS, POSTS, ARCHIVE, SKIP, BIG, LOGS):
+        p.mkdir(parents=True, exist_ok=True)
+
+def db():
+    con = sqlite3.connect(str(DB_PATH))
+    con.execute("""create table if not exists seen_url(
+        url text primary key,
+        kind text,
+        status integer,
+        last_seen integer
+    )""")
+    con.execute("""create table if not exists file_ledger(
+        url text primary key,
+        sha256 text,
+        bytes integer,
+        saved_as text,
+        fetched_at integer,
+        processed_at integer,
+        useful_score integer,
+        disposition text
+    )""")
+    con.commit()
+    return con
+
+def sha256_bytes(b: bytes) -> str:
+    h = hashlib.sha256()
+    h.update(b)
+    return h.hexdigest()
+
+def normalize_url(base, href):
+    u = urljoin(base, href)
+    u, _frag = urldefrag(u)
+    return u
+
+def same_allowed_domain(url):
+    host = (urlparse(url).hostname or "").lower()
+    return any(host == d or host.endswith("." + d) for d in ALLOW_DOMAINS)
+
+def kw_hit(s: str) -> bool:
+    s = (s or "").lower()
+    return any(k in s for k in FOCUS_KWS)
+
+def fetch(url):
+    req = Request(url, headers={"User-Agent": USER_AGENT})
+    with urlopen(req, timeout=CRAWL_TIMEOUT_SEC) as r:
+        status = getattr(r, "status", 200)
+        ctype = (r.headers.get("Content-Type") or "").lower()
+        data = r.read()
+        return status, ctype, data
+
+def mark_seen(con, url, kind, status):
+    con.execute(
+        "insert into seen_url(url,kind,status,last_seen) values(?,?,?,?) "
+        "on conflict(url) do update set kind=excluded.kind, status=excluded.status, last_seen=excluded.last_seen",
+        (url, kind, int(status), int(time.time())),
+    )
+    con.commit()
+
+def already_have_url(con, url):
+    cur = con.execute("select 1 from file_ledger where url=? limit 1", (url,))
+    return cur.fetchone() is not None
+
+def safe_filename(url):
+    p = urlparse(url)
+    name = Path(p.path).name or "download.pdf"
+    name = re.sub(r"[^a-zA-Z0-9._-]+", "_", name)
+    if not name.lower().endswith(".pdf"):
+        name += ".pdf"
+    return name
+
+def save_pdf(con, url, data):
+    digest = sha256_bytes(data)
+
+    # content de-dupe
+    cur = con.execute("select saved_as from file_ledger where sha256=? limit 1", (digest,))
+    row = cur.fetchone()
+    if row:
+        saved_as = row[0]
+        log(f"DUP content already saved as {saved_as}: {url}")
+        con.execute(
+            "insert or replace into file_ledger(url,sha256,bytes,saved_as,fetched_at,processed_at,useful_score,disposition) "
+            "values(?,?,?,?,?,?,?,?)",
+            (url, digest, len(data), saved_as, int(time.time()), None, None, "dup"),
+        )
+        con.commit()
+        return None
+
+    out = INBOX / safe_filename(url)
+    if out.exists():
+        out = INBOX / f"{out.stem}_{digest[:8]}{out.suffix}"
+    out.write_bytes(data)
+
+    con.execute(
+        "insert or replace into file_ledger(url,sha256,bytes,saved_as,fetched_at,processed_at,useful_score,disposition) "
+        "values(?,?,?,?,?,?,?,?)",
+        (url, digest, len(data), out.name, int(time.time()), None, None, "downloaded"),
+    )
+    con.commit()
+
+    log(f"SAVED {out.name} ({len(data)} bytes) <- {url}")
+    return out
+
+def crawl_once(con):
+    # BFS queue of (url, depth)
+    q = [(s, 0) for s in SEEDS]
+    seen_run = set()
+    pages = 0
+    saved = 0
+
+    while q and pages < CRAWL_MAX_PAGES:
+        url, depth = q.pop(0)
+        if url in seen_run:
+            continue
+        seen_run.add(url)
+
+        if not same_allowed_domain(url):
+            continue
+
+        is_pdf_url = url.lower().endswith(".pdf")
+        if is_pdf_url and already_have_url(con, url):
+            continue
+
+        time.sleep(CRAWL_DELAY_SEC)
+
+        try:
+            status, ctype, data = fetch(url)
+        except HTTPError as e:
+            mark_seen(con, url, "error", getattr(e, "code", 0))
+            log(f"HTTPError {getattr(e,'code',0)} {url}")
+            continue
+        except URLError as e:
+            mark_seen(con, url, "error", 0)
+            log(f"URLError {url}: {e}")
+            continue
+        except Exception as e:
+            mark_seen(con, url, "error", 0)
+            log(f"ERROR fetch {url}: {repr(e)}")
+            continue
+
+        is_pdf = is_pdf_url or ("application/pdf" in (ctype or ""))
+        if is_pdf:
+            # Download only if url looks relevant (keeps things sane)
+            if not kw_hit(url) and not kw_hit(Path(urlparse(url).path).name):
+                mark_seen(con, url, "pdf_nonfocus", status)
+                pages += 1
+                continue
+            mark_seen(con, url, "pdf", status)
+            out = save_pdf(con, url, data)
+            if out:
+                saved += 1
+            pages += 1
+            continue
+
+        mark_seen(con, url, "page", status)
+        pages += 1
+
+        if depth >= CRAWL_MAX_DEPTH:
+            continue
+
+        # Parse HTML for links
+        if "text/html" not in (ctype or "") and b"<html" not in data[:500].lower():
+            continue
+
+        html = data.decode("utf-8", errors="replace")
+        parser = LinkParser()
+        try:
+            parser.feed(html)
+        except Exception:
+            continue
+
+        for href, anchor in parser.links:
+            u = normalize_url(url, href)
+            if not u or not u.lower().startswith(("http://", "https://")):
+                continue
+            if not same_allowed_domain(u):
+                continue
+            # avoid media blobs
+            if any(u.lower().endswith(ext) for ext in (".zip",".jpg",".jpeg",".png",".gif",".mp4",".mp3",".doc",".docx",".xls",".xlsx")):
+                continue
+            # Only follow “likely relevant” pages a bit more aggressively
+            if kw_hit(u) or kw_hit(anchor) or depth < 2:
+                q.append((u, depth + 1))
+
+    log(f"CRAWL done pages={pages} pdfs_saved={saved}")
+    return saved
+
+def triage_inbox():
+    moved_big = 0
+    moved_skip = 0
+    pdfs = [p for p in INBOX.iterdir() if p.is_file() and p.suffix.lower() == ".pdf"]
+
+    for p in pdfs:
+        if SKIP_NAME_RE.search(p.name):
+            shutil.move(str(p), str(SKIP / p.name))
+            moved_skip += 1
+            continue
+        if p.stat().st_size >= BIG_BYTES:
+            shutil.move(str(p), str(BIG / p.name))
+            moved_big += 1
+            continue
+
+    if moved_big or moved_skip:
+        log(f"TRIAGE moved_big={moved_big} moved_skip={moved_skip}")
+    return moved_big, moved_skip
+
+def api_check():
+    req = Request(f"{OLLAMA_BASE}/api/tags", method="GET")
+    with urlopen(req, timeout=10):
+        pass
+
+def http_post_json(url: str, payload: dict, timeout=PROCESS_TIMEOUT_SEC) -> dict:
+    import urllib.request
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8", errors="replace"))
+
+def ollama_generate(prompt: str) -> str:
+    resp = http_post_json(
+        f"{OLLAMA_BASE}/api/generate",
+        {"model": MODEL, "prompt": prompt, "stream": False},
+        timeout=PROCESS_TIMEOUT_SEC,
+    )
+    return (resp.get("response") or "").strip()
+
+def pdf_to_text(path: Path) -> str:
+    import fitz  # PyMuPDF
+    doc = fitz.open(str(path))
+    chunks = []
+    for i, page in enumerate(doc, start=1):
+        txt = (page.get_text("text") or "").replace("\x00", "")
+        chunks.append(f"\n\n[PAGE {i}]\n{txt}")
+    out = "\n".join(chunks).strip()
+    return out if out else "[NO_TEXT_EXTRACTED]"
+
+def split_text(text: str, max_chars: int, overlap: int):
+    text = text.strip()
+    if len(text) <= max_chars:
+        return [text]
+    parts = []
+    i = 0
+    n = len(text)
+    while i < n:
+        j = min(i + max_chars, n)
+        parts.append(text[i:j])
+        if j >= n:
+            break
+        i = max(0, j - overlap)
+    return parts
+
+def extraction_prompt(text: str) -> str:
+    # Focus prompt: money/accountability only
+    return f"""You are an information extraction engine.
+Output MUST be valid JSON only. No markdown. No extra text.
+
+Focus: Kansas public money & accountability.
+Extract ONLY facts relevant to:
+- STAR bonds, tax credits, abatements, TIF/IRB, incentives, subsidies
+- appropriations, grants, bond issuance/refinancing, debt, revenue impacts
+- audits, post-audits, performance reports, findings/recommendations about spending/programs
+- named officials/orgs tied to these items (no accusations)
+
+Rules:
+- If unknown, use null.
+- Use numbers for numeric fields.
+- Do not guess; only extract what is in TEXT.
+- Evidence quotes <= 20 words, verbatim.
+
+Return JSON with exactly this top-level shape:
+{{
+  "program_type": "STAR_BOND" | "INCENTIVE" | "BOND_FINANCE" | "APPROPRIATION" | "GRANT" | "AUDIT" | "FISCAL_NOTE" | "BILL" | "OTHER",
+  "title": string|null,
+  "jurisdiction": "Kansas"|null,
+  "locations": [string],
+  "entities": [
+    {{ "name": string, "type": "PERSON"|"ORG"|"GOV_BODY"|"PROJECT"|"OTHER" }}
+  ],
+  "key_numbers": [
+    {{ "label": string, "value": number, "unit": "USD"|"PERCENT"|"JOBS"|"YEAR"|"OTHER", "year": number|null }}
+  ],
+  "events": [
+    {{ "date": string|null, "year": number|null, "description": string }}
+  ],
+  "evidence": [
+    {{ "quote": string, "note": string }}
+  ],
+  "uncertainties": [string],
+  "recommended_next_queries": [string]
+}}
+
+TEXT:
+\"\"\"{text}\"\"\"
+"""
+
+def safe_json_parse(s: str):
+    return json.loads(s)
+
+def to_text(x):
+    if x is None:
+        return ""
+    if isinstance(x, str):
+        return x
+    try:
+        return json.dumps(x, ensure_ascii=False)
+    except Exception:
+        return str(x)
+
+def merge_facts(parts):
+    merged = {
+        "program_type": "OTHER",
+        "title": None,
+        "jurisdiction": "Kansas",
+        "locations": [],
+        "entities": [],
+        "key_numbers": [],
+        "events": [],
+        "evidence": [],
+        "uncertainties": [],
+        "recommended_next_queries": [],
+    }
+
+    pt = [p.get("program_type") for p in parts if p.get("program_type")]
+    if pt:
+        merged["program_type"] = Counter(pt).most_common(1)[0][0]
+
+    for p in parts:
+        if merged["title"] is None and p.get("title"):
+            merged["title"] = p.get("title")
+        if p.get("jurisdiction") == "Kansas":
+            merged["jurisdiction"] = "Kansas"
+
+    # de-dupe helper
+    def dedupe_list(items, key_fn):
+        out, seen = [], set()
+        for it in items:
+            k = key_fn(it)
+            if not k or k in seen:
+                continue
+            seen.add(k)
+            out.append(it)
+        return out
+
+    locs = []
+    for p in parts:
+        for x in (p.get("locations") or []):
+            s = to_text(x).strip()
+            if s:
+                locs.append(s)
+    merged["locations"] = dedupe_list(locs, lambda s: s.lower())
+
+    ents = []
+    for p in parts:
+        for e in (p.get("entities") or []):
+            name = to_text(e.get("name")).strip()
+            et = to_text(e.get("type")).strip() or "OTHER"
+            if name:
+                ents.append({"name": name, "type": et})
+    merged["entities"] = dedupe_list(ents, lambda e: (e["name"].lower(), e["type"].lower()))
+
+    kns = []
+    for p in parts:
+        for kn in (p.get("key_numbers") or []):
+            label = to_text(kn.get("label")).strip()
+            val = kn.get("value")
+            unit = to_text(kn.get("unit")).strip() or "OTHER"
+            year = kn.get("year") if isinstance(kn.get("year"), int) else None
+            if label and isinstance(val, (int, float)):
+                kns.append({"label": label, "value": val, "unit": unit, "year": year})
+    merged["key_numbers"] = dedupe_list(kns, lambda k: (k["label"].lower(), float(k["value"]), k["unit"].lower(), k["year"] or 0))
+
+    evs = []
+    for p in parts:
+        for ev in (p.get("events") or []):
+            desc = to_text(ev.get("description")).strip()
+            date = to_text(ev.get("date")).strip() if ev.get("date") else None
+            year = ev.get("year") if isinstance(ev.get("year"), int) else None
+            if desc:
+                evs.append({"date": date if date else None, "year": year, "description": desc})
+    merged["events"] = dedupe_list(evs, lambda e: (e["description"].lower(), e["date"] or "", e["year"] or 0))
+
+    evid = []
+    for p in parts:
+        for e in (p.get("evidence") or []):
+            q = to_text(e.get("quote")).strip()
+            note = to_text(e.get("note")).strip()
+            if q:
+                evid.append({"quote": q, "note": note})
+    merged["evidence"] = dedupe_list(evid, lambda e: e["quote"].lower())
+
+    def merge_str(field):
+        out = []
+        for p in parts:
+            for x in (p.get(field) or []):
+                s = to_text(x).strip()
+                if s:
+                    out.append(s)
+        return dedupe_list(out, lambda s: s.lower())
+
+    merged["uncertainties"] = merge_str("uncertainties")
+    merged["recommended_next_queries"] = merge_str("recommended_next_queries")
+    return merged
+
+def usefulness_score(facts: dict) -> int:
+    score = 0
+
+    # numbers with USD are the strongest signal
+    for kn in (facts.get("key_numbers") or []):
+        unit = (kn.get("unit") or "").upper()
+        if unit == "USD":
+            score += 3
+        elif unit in ("PERCENT", "JOBS"):
+            score += 1
+
+    # entities
+    ents = facts.get("entities") or []
+    score += min(3, len(ents))
+
+    # events / years
+    evs = facts.get("events") or []
+    score += 1 if evs else 0
+    if any(isinstance(ev.get("year"), int) for ev in evs):
+        score += 1
+
+    # program type focus boost
+    pt = (facts.get("program_type") or "OTHER").upper()
+    if pt in ("STAR_BOND", "INCENTIVE", "BOND_FINANCE", "APPROPRIATION", "GRANT", "AUDIT", "FISCAL_NOTE"):
+        score += 2
+
+    # evidence quote
+    if facts.get("evidence"):
+        score += 1
+
+    return score
+
+def make_post(facts: dict, source_name: str) -> str:
+    header_map = {
+        "STAR_BOND": "Kansas Money Watch — STAR Bond Micro Finding",
+        "INCENTIVE": "Kansas Money Watch — Incentive Micro Finding",
+        "BOND_FINANCE": "Kansas Money Watch — Bond/Finance Micro Finding",
+        "APPROPRIATION": "Kansas Money Watch — Appropriation Micro Finding",
+        "GRANT": "Kansas Money Watch — Grant Micro Finding",
+        "AUDIT": "Kansas Money Watch — Audit Micro Finding",
+        "FISCAL_NOTE": "Kansas Money Watch — Fiscal Note Micro Finding",
+        "BILL": "Kansas Money Watch — Bill Micro Finding",
+        "OTHER": "Kansas Money Watch — Micro Finding",
+    }
+    pt = (facts.get("program_type") or "OTHER").upper()
+    header = header_map.get(pt, header_map["OTHER"])
+    title = to_text(facts.get("title")).strip()
+    locs = facts.get("locations") or []
+    loc = ", ".join([to_text(x).strip() for x in locs if to_text(x).strip()]) or "Kansas"
+
+    lines = [header, f"Location: {loc}"]
+    if title:
+        lines.append(f"Title: {title}")
+
+    # show up to 4 key numbers, prioritize USD
+    kns = facts.get("key_numbers") or []
+    kns_sorted = sorted(kns, key=lambda k: 0 if (k.get("unit") or "").upper()=="USD" else 1)
+    for kn in kns_sorted[:4]:
+        label = to_text(kn.get("label")).strip()
+        val = kn.get("value")
+        unit = to_text(kn.get("unit")).strip()
+        yr = kn.get("year")
+        if label and isinstance(val, (int, float)):
+            tail = f" ({yr})" if isinstance(yr, int) else ""
+            if unit.upper() == "USD":
+                lines.append(f"{label}: ${val:,.0f}{tail}")
+            else:
+                lines.append(f"{label}: {val} {unit}{tail}".strip())
+
+    # 1 short evidence quote if present
+    ev = facts.get("evidence") or []
+    if ev:
+        q = to_text(ev[0].get("quote")).strip()
+        note = to_text(ev[0].get("note")).strip()
+        if q:
+            lines.append(f'Evidence: "{q}"')
+            if note:
+                lines.append(f"Note: {note}")
+
+    lines.append(f"Source file: {source_name} (add primary link when posting)")
+    lines.append("(Tone rule: numbers + citations; no motive; no accusations.)")
+    return "\n".join(lines)
+
+def archive_file(src: Path, disposition: str):
+    ts = time.strftime("%Y%m%d-%H%M%S")
+    dst_dir = ARCHIVE if disposition == "posted" else SKIP
+    dst = dst_dir / f"{src.stem}.{ts}{src.suffix}"
+    shutil.move(str(src), str(dst))
+    return dst
+
+def process_cycle(con):
+    api_check()
+
+    # pick up to N from inbox, smallest first (faster signal)
+    files = [p for p in INBOX.iterdir() if p.is_file() and p.suffix.lower() in (".pdf",".txt")]
+    files.sort(key=lambda p: (p.stat().st_size, p.stat().st_mtime))
+    files = files[:PROCESS_MAX_FILES]
+
+    if not files:
+        log("PROCESS no files in inbox")
+        return 0, 0
+
+    posted = 0
+    skipped = 0
+
+    for p in files:
+        log(f"PROCESS start {p.name} bytes={p.stat().st_size}")
+        try:
+            if p.suffix.lower() == ".txt":
+                full_text = p.read_text(encoding="utf-8", errors="replace")
+            else:
+                full_text = pdf_to_text(p)
+
+            if not full_text.strip():
+                log(f"PROCESS no text {p.name} -> skip")
+                dst = archive_file(p, "skip")
+                skipped += 1
+                continue
+
+            chunks = split_text(full_text, CHUNK_CHARS, CHUNK_OVERLAP)
+            log(f"CHUNK {p.name} total_chars={len(full_text)} chunks={len(chunks)}")
+
+            parts = []
+            for idx, ch in enumerate(chunks, start=1):
+                raw = ollama_generate(extraction_prompt(ch))
+                try:
+                    parts.append(safe_json_parse(raw))
+                except Exception:
+                    raw_path = FACTS / f"{p.stem}.chunk{idx}.raw.txt"
+                    raw_path.write_text(raw, encoding="utf-8", errors="replace")
+                    log(f"CHUNK parse fail {p.name} wrote {raw_path.name}")
+
+            if not parts:
+                log(f"PROCESS no valid chunks {p.name} -> skip")
+                dst = archive_file(p, "skip")
+                skipped += 1
+                continue
+
+            merged = merge_facts(parts)
+            score = usefulness_score(merged)
+
+            out_json = FACTS / f"{p.stem}.json"
+            out_json.write_text(json.dumps(merged, indent=2, ensure_ascii=False), encoding="utf-8")
+
+            if score >= USEFUL_SCORE_MIN:
+                out_post = POSTS / f"{p.stem}.post.txt"
+                out_post.write_text(make_post(merged, p.name), encoding="utf-8")
+                dst = archive_file(p, "posted")
+                posted += 1
+                disp = "posted"
+                log(f"PROCESS posted {p.name} score={score} -> {out_post.name}")
+            else:
+                dst = archive_file(p, "skip")
+                skipped += 1
+                disp = "skip"
+                log(f"PROCESS low-signal {p.name} score={score} -> skip")
+
+            # ledger update by filename if we can find URL row, else just record by saved_as
+            con.execute(
+                "update file_ledger set processed_at=?, useful_score=?, disposition=? where saved_as=? and processed_at is null",
+                (int(time.time()), score, disp, p.name),
+            )
+            con.commit()
+
+        except Exception as e:
+            log(f"ERROR processing {p.name}: {repr(e)}")
+
+    return posted, skipped
+
+def loop_forever():
+    ensure_dirs()
+    con = db()
+    log(f"RUNNER start domains={ALLOW_DOMAINS} seeds={SEEDS} model={MODEL} ollama={OLLAMA_BASE}")
+
+    while True:
+        try:
+            saved = crawl_once(con)
+            triage_inbox()
+            posted, skipped = process_cycle(con)
+            log(f"CYCLE done saved={saved} posted={posted} skipped={skipped} inbox={len(list(INBOX.glob('*.pdf')))}")
+        except KeyboardInterrupt:
+            log("RUNNER stopped by user")
+            print("Stopped.")
+            return
+        except Exception as e:
+            log(f"RUNNER ERROR: {repr(e)}")
+
+        sleep_s = int(os.environ.get("PQ_SLEEP", "120"))
+        time.sleep(sleep_s)
+
+def main():
+    cmd = (sys.argv[1] if len(sys.argv) > 1 else "run").lower()
+    if cmd in ("run","loop"):
+        loop_forever()
+    else:
+        print("Usage: python runner.py run")
+        sys.exit(2)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,37 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Crawford County",
+    "Neosho County"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "73",
+      "value": 73,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "109",
+      "value": 109,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    },
+    {
+      "quote": "Legislative District Profiles",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

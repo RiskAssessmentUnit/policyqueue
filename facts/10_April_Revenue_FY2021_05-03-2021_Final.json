@@ -1,0 +1,50 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2021 State General Fund Receipts Final Report: April 2021",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 982383022,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "Total Receipts",
+      "value": 1028897472,
+      "unit": "USD",
+      "year": 2021
+    },
+    {
+      "label": "% of Total Received",
+      "value": 159.5,
+      "unit": "PERCENT",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "5/3/2021",
+      "year": 2021,
+      "description": null
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$285,013,192",
+      "note": "Total Severance Revenue for FY 2021"
+    },
+    {
+      "quote": "$319,921,616",
+      "note": "Total Severance Revenue for FY 2021"
+    },
+    {
+      "quote": "$34,908,424",
+      "note": "Dollar Change in Severance Revenue from FY 2020 to FY 2021"
+    },
+    {
+      "quote": "12.2%",
+      "note": "Percent Change in Severance Revenue from FY 2020 to FY 2021"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "program_type": "BUDGET",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "STAR Bond",
+      "value": 50000000,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "August 22nd, 2024",
+      "year": null,
+      "description": "Marty Long appointed to fill vacancy in 124th Legislative District"
+    },
+    {
+      "date": "September 25th, 2024",
+      "year": null,
+      "description": "Wanda Brownlee Paige appointed to fill vacancy in 35th Legislative District"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "I do solemnly swear, or affirm, that I will support the Constitution of the United States, and the Constitution of the State of Kansas, and will faithfully discharge the duties of the office of KANSAS STATE REPRESENTATIVE OF THE 124th Legislative District so help me God.",
+      "note": "Marty Long's oath of office"
+    },
+    {
+      "quote": "I do solemnly swear, or affirm, that I will support the Constitution of the United States, and the Constitution of the State of Kansas, and will faithfully discharge the duties of the office of KANSAS STATE REPRESENTATIVE OF THE 35th Legislative District so help me God.",
+      "note": "Wanda Brownlee Paige's oath of office"
+    }
+  ]
+}

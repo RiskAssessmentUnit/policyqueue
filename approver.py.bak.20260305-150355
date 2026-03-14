@@ -1,0 +1,140 @@
+import os
+import time
+import json
+import hashlib
+import urllib.request
+from pathlib import Path
+from datetime import datetime
+import shutil
+
+ROOT  = Path.home() / "policyqueue"
+QUEUE = ROOT / "queue"
+SENT_STATE = ROOT / "state" / "sent_queue.json"
+LOGS  = ROOT / "logs"
+LOG   = LOGS / "approver.log"
+
+# Archive folder for keeping sent post files (NEW)
+SENT_DIR = ROOT / "sent"
+DUPE_DIR = ROOT / "sent" / "_dupes"
+EMPTY_DIR = ROOT / "sent" / "_empty"
+
+INTERVAL_SEC = int(os.environ.get("PQ_APPROVER_INTERVAL", "10"))
+
+# Optional notifiers (env)
+DISCORD_WEBHOOK = os.environ.get("PQ_DISCORD_WEBHOOK", "").strip()
+TELEGRAM_BOT    = os.environ.get("PQ_TELEGRAM_BOT", "").strip()
+TELEGRAM_CHAT   = os.environ.get("PQ_TELEGRAM_CHAT", "").strip()
+
+def log(msg: str):
+    LOGS.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with LOG.open("a", encoding="utf-8") as f:
+        f.write(f"{ts}  {msg}\n")
+
+def load_json(path: Path, default):
+    try:
+        if path.exists():
+            return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        pass
+    return default
+
+def save_json(path: Path, obj):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
+    tmp.replace(path)
+
+def sha(s: str) -> str:
+    return hashlib.sha256(s.encode("utf-8", errors="ignore")).hexdigest()
+
+def http_post(url: str, payload: dict):
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={"Content-Type": "application/json", "User-Agent": "policyqueue-approver"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        _ = r.read()
+
+def send_discord(text: str):
+    if not DISCORD_WEBHOOK:
+        return
+    http_post(DISCORD_WEBHOOK, {"content": text[:1900]})
+
+def send_telegram(text: str):
+    if not TELEGRAM_BOT or not TELEGRAM_CHAT:
+        return
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT}/sendMessage"
+    http_post(url, {"chat_id": TELEGRAM_CHAT, "text": text[:3500]})
+
+def stamp_name(original: str) -> str:
+    # Keep original base name but add a timestamp for uniqueness
+    ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+    return f"{ts}__{original}"
+
+def move_to(dirpath: Path, p: Path) -> Path:
+    dirpath.mkdir(parents=True, exist_ok=True)
+    dest = dirpath / stamp_name(p.name)
+    # Use move (same disk is atomic-ish; across disks will copy+delete)
+    shutil.move(str(p), str(dest))
+    return dest
+
+def main():
+    QUEUE.mkdir(parents=True, exist_ok=True)
+    SENT_DIR.mkdir(parents=True, exist_ok=True)
+
+    sent = load_json(SENT_STATE, {})
+    if not isinstance(sent, dict):
+        sent = {}
+
+    log("APPROVER start")
+
+    while True:
+        try:
+            files = sorted(
+                [p for p in QUEUE.glob("*.post.txt") if p.is_file()],
+                key=lambda p: p.stat().st_mtime,
+            )
+
+            if not files:
+                time.sleep(max(10, INTERVAL_SEC))
+                continue
+
+            for p in files:
+                txt = p.read_text(encoding="utf-8", errors="ignore").strip()
+
+                # Empty file -> archive to _empty (don’t just delete silently)
+                if not txt:
+                    dest = move_to(EMPTY_DIR, p)
+                    log(f"EMPTY {p.name} -> {dest}")
+                    continue
+
+                h = sha(txt)
+
+                # Already sent -> archive to _dupes (don’t delete)
+                if h in sent:
+                    dest = move_to(DUPE_DIR, p)
+                    log(f"DUPE {p.name} -> {dest}")
+                    continue
+
+                # send
+                send_discord(txt)
+                send_telegram(txt)
+
+                # record
+                sent[h] = {"file": p.name, "ts": time.time()}
+                save_json(SENT_STATE, sent)
+
+                # archive sent file (NEW behavior)
+                dest = move_to(SENT_DIR, p)
+                log(f"SENT {p.name} -> {dest}")
+
+        except Exception as e:
+            log(f"ERROR {type(e).__name__}: {e}")
+            time.sleep(5)
+
+if __name__ == "__main__":
+    main()

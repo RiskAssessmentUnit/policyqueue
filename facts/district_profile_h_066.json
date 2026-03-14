@@ -1,0 +1,65 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "24,145",
+      "value": 24145,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "21,683",
+      "value": 21683,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "17,768",
+      "value": 17768,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1,288",
+      "value": 1288,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1,415",
+      "value": 1415,
+      "unit": "JOBS",
+      "year": null
+    },
+    {
+      "label": "1,081",
+      "value": 1081,
+      "unit": "JOBS",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File",
+      "note": "Data Source"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

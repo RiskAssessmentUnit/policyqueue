@@ -1,0 +1,52 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2025 CRE Est. and FY 2026 CRE Est.",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 9715600,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Total Receipts",
+      "value": 9889700,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Total Taxes",
+      "value": 9957200,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Total Receipts",
+      "value": 10065800,
+      "unit": "USD",
+      "year": 2026
+    }
+  ],
+  "events": [
+    {
+      "date": "June 5, 2025",
+      "year": 2025,
+      "description": "Revised estimates for FY 2025 and FY 2026"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "(Dollars in Thousands)",
+      "note": ""
+    },
+    {
+      "quote": "HB 2231",
+      "note": "Personal Exemption & Property Tax Refund Changes"
+    },
+    {
+      "quote": "Kansas Legislative Research Department",
+      "note": "Legislative Adjustments to Consensus Estimates"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "program_type": "OTHER",
+  "title": "Kansas Open Records Act (KORA)",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Fees for records requests",
+      "value": 25,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Fees for mailing paper copies",
+      "value": 50,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Fees for faxing",
+      "value": 65,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Kansas Open Records Act (KORA) established"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "For records requests, the following rates apply:",
+      "note": "K.S.A. 45-215 Et seq."
+    },
+    {
+      "quote": "The agency will provide the requestor with an estimate of the fees before gathering and processing or providing access to the records.",
+      "note": "K.S.A. 45-226 and 45-227"
+    }
+  ]
+}

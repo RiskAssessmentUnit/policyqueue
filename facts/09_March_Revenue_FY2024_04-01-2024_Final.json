@@ -1,0 +1,52 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 760449065,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Total Receipts",
+      "value": 781411062,
+      "unit": "USD",
+      "year": 2024
+    }
+  ],
+  "events": [
+    {
+      "date": "4/1/2024",
+      "year": 2024,
+      "description": "Kansas Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$425,000,000 in tax revenue from Income Taxes: Individual",
+      "note": null
+    },
+    {
+      "quote": "$443,622,212 in tax revenue from Income Taxes: Individual",
+      "note": null
+    },
+    {
+      "quote": "$423,396,473 in tax revenue from Income Taxes: Corporation",
+      "note": null
+    },
+    {
+      "quote": "$443,622,212 in tax revenue from Income Taxes: Corporation",
+      "note": null
+    },
+    {
+      "quote": "$21,130,000 in tax revenue from Other Excise Taxes",
+      "note": null
+    },
+    {
+      "quote": "$20,207,146 in tax revenue from Other Excise Taxes",
+      "note": null
+    }
+  ]
+}

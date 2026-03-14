@@ -1,0 +1,97 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Total Population",
+      "value": 23353,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "White",
+      "value": 18218,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Black",
+      "value": 1810,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "American Indian",
+      "value": 601,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Asian",
+      "value": 168,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Hawaiian",
+      "value": 674,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 16,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "Under 5 years of age",
+      "value": 635,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "5 to 17 years of age",
+      "value": 2250,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "18 to 21 years of age",
+      "value": 614,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "22 to 29 years of age",
+      "value": 1020,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "30 to 44 years of age",
+      "value": 2058,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "45 to 64 years of age",
+      "value": 2960,
+      "unit": "PERSONS",
+      "year": null
+    },
+    {
+      "label": "65 years of age and older",
+      "value": 2117,
+      "unit": "PERSONS",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

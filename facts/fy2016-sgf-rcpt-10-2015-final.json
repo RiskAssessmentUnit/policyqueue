@@ -1,0 +1,71 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 1813915909,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 1818878967,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 1839371167,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Revenue Source",
+      "value": 10154780878,
+      "unit": "USD",
+      "year": 2015
+    }
+  ],
+  "events": [
+    {
+      "date": "11/2/2015",
+      "description": " Cumulative actual net transfers includes approximately $22.0 million in special revenue fund transfers authorized by HB 2135 that occurred in August 2015."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$1,891,795,000",
+      "note": "Total Taxes"
+    },
+    {
+      "quote": "$1,813,915,909",
+      "note": "Total Taxes"
+    },
+    {
+      "quote": "$1,896,725,000",
+      "note": "Total Receipts"
+    },
+    {
+      "quote": "$1,839,371,167",
+      "note": "Total Receipts"
+    },
+    {
+      "quote": "$2,315,059",
+      "note": "Gas"
+    },
+    {
+      "quote": "$8,468,660",
+      "note": "Gas"
+    },
+    {
+      "quote": "$2,733,489",
+      "note": "Oil"
+    },
+    {
+      "quote": "$22,916,965",
+      "note": "Oil"
+    }
+  ]
+}

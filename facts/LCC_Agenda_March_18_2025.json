@@ -1,0 +1,31 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas",
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": "March 18, 2025",
+      "year": 2025,
+      "description": "Discussion and possible action regarding statehouse space"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "March 18, 2025",
+      "note": "Agenda item 1"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

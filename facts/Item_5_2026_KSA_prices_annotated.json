@@ -1,0 +1,74 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Gordon L. Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Jill A. Wolters",
+      "type": "PERSON"
+    },
+    {
+      "name": "LEGISLATURE of THE STATE of KANSAS",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "2024-2025 Prices",
+      "value": 30.0,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "2025-2026 Prices",
+      "value": 28.0,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Supplements per set (including index)",
+      "value": 90.0,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Supplements per volume",
+      "value": 10.0,
+      "unit": "USD",
+      "year": 2026
+    },
+    {
+      "label": "Index (separately)",
+      "value": 20.0,
+      "unit": "USD",
+      "year": 2026
+    }
+  ],
+  "events": [
+    {
+      "date": "October 13, 2025",
+      "year": 2025,
+      "description": "Recommended Prices for Kansas Statutes Annotated"
+    },
+    {
+      "date": "December 2, 2024",
+      "year": 2024,
+      "description": "Current prices established by LCC"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Based on cost estimates received from the Division of Printing, I recommend the following prices for bound volumes of the",
+      "note": "Letter from Gordon L. Self to LCC"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

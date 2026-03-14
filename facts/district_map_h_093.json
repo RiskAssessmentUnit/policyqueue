@@ -1,0 +1,40 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Cheney",
+    "Clearwater",
+    "Goddard",
+    "Haysville",
+    "Mulvane",
+    "Peck",
+    "Viola",
+    "Wichita"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 42,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 49,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

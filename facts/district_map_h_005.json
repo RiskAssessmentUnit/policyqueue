@@ -1,0 +1,25 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wellsville",
+    "Osawatomie",
+    "Spring Hill",
+    "Baldwin City",
+    "Edgerton",
+    "Gardner",
+    "Olathe"
+  ],
+  "entities": [],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": null,
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

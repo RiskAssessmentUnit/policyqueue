@@ -1,0 +1,85 @@
+{
+  "program_type": "FISCAL_NOTE",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dan Hawkins",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chase Blasi",
+      "type": "PERSON"
+    },
+    {
+      "name": "Tim Shallenburger",
+      "type": "PERSON"
+    },
+    {
+      "name": "Dinah Sykes",
+      "type": "PERSON"
+    },
+    {
+      "name": "Blake Carpenter",
+      "type": "PERSON"
+    },
+    {
+      "name": "Chris Croft",
+      "type": "PERSON"
+    },
+    {
+      "name": "Brandon Woodard",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gordon Self",
+      "type": "PERSON"
+    },
+    {
+      "name": "Laura Kelly",
+      "type": "PERSON"
+    },
+    {
+      "name": "Kris Kobach",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "42,000",
+      "value": 42000,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "November 5, 2025",
+      "year": 2025,
+      "description": "LCC meeting"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The motion carried.",
+      "note": "After Vice Chairperson Hawkins moved to approve such holidays, including the discretionary day, as holidays for Legislative Branch for 2026."
+    },
+    {
+      "quote": "The motion carried after having received the necessary six votes required by K.S.A. 46-1204.",
+      "note": "Regarding amicus brief on behalf of the Legislature in the case involving the Attorney General and the Governor."
+    },
+    {
+      "quote": "The motion failed.",
+      "note": "Regarding adding an additional function to the KanFocus subscription."
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

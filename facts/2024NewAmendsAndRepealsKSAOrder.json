@@ -1,0 +1,91 @@
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Kansas",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "2023",
+      "value": null,
+      "unit": "YEAR",
+      "year": null
+    },
+    {
+      "label": "2024",
+      "value": null,
+      "unit": "YEAR",
+      "year": null
+    },
+    {
+      "label": "1",
+      "value": 1,
+      "unit": "YEAR",
+      "year": 1
+    },
+    {
+      "label": "6/27/2024",
+      "value": null,
+      "unit": "DATE",
+      "year": null
+    },
+    {
+      "label": "7/1/2024",
+      "value": null,
+      "unit": "DATE",
+      "year": null
+    },
+    {
+      "label": "1/1/2025",
+      "value": null,
+      "unit": "DATE",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2023",
+      "year": null,
+      "description": "SB 28"
+    },
+    {
+      "date": "2024",
+      "year": null,
+      "description": "SB 410"
+    },
+    {
+      "date": "1/1/2025",
+      "year": null,
+      "description": "Delayed effective date"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "As amended by § 189 of 2023 SB 28; delayed effective date 7/1/2024",
+      "note": ""
+    },
+    {
+      "quote": "As amended by § 190 of 2023 SB 28; delayed effective date 7/1/2024",
+      "note": ""
+    },
+    {
+      "quote": "Delayed effective date 1/1/2025",
+      "note": ""
+    }
+  ],
+  "uncertainties": [
+    "chunk_json_parse_failed",
+    "unknown"
+  ],
+  "recommended_next_queries": [
+    "Kansas public policy",
+    "Kansas public finance"
+  ]
+}

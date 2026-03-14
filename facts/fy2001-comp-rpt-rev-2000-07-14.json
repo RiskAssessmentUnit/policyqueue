@@ -1,0 +1,50 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Expenditures from All Funding Sources for Other Assistance, Grants, & Benefits",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total--Other Assist., Grants, & Benefits",
+      "value": 216470065,
+      "unit": "USD",
+      "year": 2001
+    },
+    {
+      "label": "STAR Bond Revenue",
+      "value": 554544523,
+      "unit": "USD",
+      "year": 2001
+    },
+    {
+      "label": "Total--General Government",
+      "value": 55486.8,
+      "unit": "USD",
+      "year": 2001
+    },
+    {
+      "label": "Total--Department of Human Resources",
+      "value": 992.3,
+      "unit": "USD",
+      "year": 2001
+    },
+    {
+      "label": "Total--Revisor of Statutes",
+      "value": 362.0,
+      "unit": "FTE",
+      "year": 1998
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": 2001,
+      "description": "FY 2001 Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$ 2,216,470,065",
+      "note": "Total--Other Assist., Grants, & Benefits for FY 2001"
+    }
+  ]
+}

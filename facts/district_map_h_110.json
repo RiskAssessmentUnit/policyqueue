@@ -1,0 +1,198 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Ellis",
+    "Catharine",
+    "Codell",
+    "Clayton",
+    "Edmond",
+    "Lenora",
+    "Hill City",
+    "Morland",
+    "Bogue",
+    "Nicodemus",
+    "Damar",
+    "Norton",
+    "Prairie View",
+    "Almena",
+    "Long Island",
+    "Logan",
+    "Stuttgart",
+    "Palco",
+    "Speed",
+    "Glade",
+    "Phillipsburg",
+    "Stockton",
+    "Kirwin",
+    "Woodston",
+    "Agra",
+    "Zurich",
+    "Plainville",
+    "Schoenchen",
+    "Munjor",
+    "Woodruff"
+  ],
+  "entities": [
+    {
+      "name": "Ellis County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Catharine",
+      "type": "PLACE"
+    },
+    {
+      "name": "Codell",
+      "type": "PLACE"
+    },
+    {
+      "name": "Clayton",
+      "type": "PLACE"
+    },
+    {
+      "name": "Edmond",
+      "type": "PLACE"
+    },
+    {
+      "name": "Lenora",
+      "type": "PLACE"
+    },
+    {
+      "name": "Hill City",
+      "type": "PLACE"
+    },
+    {
+      "name": "Morland",
+      "type": "PLACE"
+    },
+    {
+      "name": "Bogue",
+      "type": "PLACE"
+    },
+    {
+      "name": "Nicodemus",
+      "type": "PLACE"
+    },
+    {
+      "name": "Damar",
+      "type": "PLACE"
+    },
+    {
+      "name": "Norton",
+      "type": "PLACE"
+    },
+    {
+      "name": "Prairie View",
+      "type": "PLACE"
+    },
+    {
+      "name": "Almena",
+      "type": "PLACE"
+    },
+    {
+      "name": "Long Island",
+      "type": "PLACE"
+    },
+    {
+      "name": "Logan",
+      "type": "PLACE"
+    },
+    {
+      "name": "Stuttgart",
+      "type": "PLACE"
+    },
+    {
+      "name": "Palco",
+      "type": "PLACE"
+    },
+    {
+      "name": "Speed",
+      "type": "PLACE"
+    },
+    {
+      "name": "Glade",
+      "type": "PLACE"
+    },
+    {
+      "name": "Phillipsburg",
+      "type": "PLACE"
+    },
+    {
+      "name": "Stockton",
+      "type": "PLACE"
+    },
+    {
+      "name": "Kirwin",
+      "type": "PLACE"
+    },
+    {
+      "name": "Woodston",
+      "type": "PLACE"
+    },
+    {
+      "name": "Agra",
+      "type": "PLACE"
+    },
+    {
+      "name": "Zurich",
+      "type": "PLACE"
+    },
+    {
+      "name": "Plainville",
+      "type": "PLACE"
+    },
+    {
+      "name": "Schoenchen",
+      "type": "PLACE"
+    },
+    {
+      "name": "Munjor",
+      "type": "PLACE"
+    },
+    {
+      "name": "Woodruff",
+      "type": "PLACE"
+    },
+    {
+      "name": "Graham",
+      "type": "PLACE"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "110",
+      "value": 110,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "111",
+      "value": 111,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "2022 Legislative District Profiles",
+      "value": null,
+      "unit": null,
+      "year": 2022
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "House District 110"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

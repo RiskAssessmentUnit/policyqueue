@@ -1,0 +1,253 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Legislature - Subject Index Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": null,
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Kansas Tax Revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Tax incentives for rural grocery stores",
+      "value": null,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "Kansas tax revenue",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "State Assessments",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Education Opportunity Tax Credit",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Ad Astra Opportunity Tax Credit",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Tax Credit for Low Income Students Scholarship Program",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "State aid, determination of",
+      "value": 0,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "STAR bond proceeds",
+      "value": 2000000,
+      "unit": "USD",
+      "year": 2024
+    },
+    {
+      "label": "Income tax rates",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Social security benefits exemption",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Kansas standard deduction",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Kansas personal exemption",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Household and dependent care expenses credit",
+      "value": null,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "01/10/2023",
+      "year": null,
+      "description": "S 19 Introduced—SJ 9"
+    },
+    {
+      "date": "04/25/2024",
+      "year": null,
+      "description": "Enrolled and presented to Governor on Monday, April 15, 2024"
+    },
+    {
+      "date": "04/25/2024",
+      "year": null,
+      "description": "Approved by Governor on Tuesday, April 23, 2024"
+    },
+    {
+      "date": "02/02/2023",
+      "year": 2023,
+      "description": "S 156 Bill by Federal and State Affairs Repealing statutes that prohibit, limit and otherwise restrict municipal regulation of firearms."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 158 Bill by Federal and State Affairs Enacting the community defense and human trafficking reduction act to regulate sexually oriented businesses and human trafficking and to impose criminal penalties."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 159 Bill by Federal and State Affairs Creating the Kansas rural grocery store development incentive act to provide tax incentives for the development of grocery businesses in rural areas of the state."
+    },
+    {
+      "date": "02/13/2023",
+      "year": 2023,
+      "description": "S 162 Bill by Local Government Creating the Riley county unincorporated area nuisance abatement act and the Crawford county unincorporated area nuisance abatement act to establish procedures for the removal and abatement of nuisances in the unincorporated areas of such counties and the assessment of the costs for such abatement."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 164 Bill by Commerce Providing a $2,000 tax credit for qualified employees of licensed child care facilities."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 165 Bill by Commerce Permitting workers compensation benefits for first responders who suffer from post-traumatic stress disorder."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 166 Bill by Utilities Requiring public disclosure of an application for a transmission line siting permit under the jurisdiction of the state corporation commission."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 167 Bill by Education Requiring certain school district employees to receive training for seizure recognition and related first aid."
+    },
+    {
+      "date": "02/06/2023",
+      "year": 2023,
+      "description": "S 168 Bill by Assessment and Taxation Authorizing cities and counties to exempt sales of food and food ingredients from sales taxes levied by such city or county."
+    },
+    {
+      "date": "02/02/2023",
+      "year": 2023,
+      "description": "S 170 Bill by Federal and State Affairs Enacting the Kansas assistance animals in housing act, authorizing housing providers to require documentation of the need for an assistance animal and creating the crime of misrepresentation of entitlement to an assistance animal."
+    },
+    {
+      "date": "July 18, 2024",
+      "year": 2024,
+      "description": "Subject Index Report"
+    },
+    {
+      "date": "July 18, 2024",
+      "year": 2024,
+      "description": "Enacted revenue measures"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "Senate—Introduced—SJ 2"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "Senate—Motion to advance to EFA, subject to amendment, debate and roll call. Motion carried.—SJ 13"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "Senate—Call the Question. Motion carried. Yea: 22 Nay: 16—SJ 13"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "Senate—Emergency Final Action - Passed; Yea: 34 Nay: 4—SJ 14"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "House—Received and Introduced—HJ 7"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "House—Motion to advance to Emergency Final Action Subject to Amendment and debate adopted.—HJ 7"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "House—Emergency Final Action - Passed; Yea: 121 Nay: 2—HJ 7"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "Senate—Enrolled and presented to Governor on Thursday, June 20, 2024—SJ 17"
+    },
+    {
+      "date": "06/18/2024",
+      "year": 2024,
+      "description": "Senate—Approved by Governor on Thursday, June 20, 2024—SJ 17"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Providing an annual sales tax holiday for sales of certain school supplies.",
+      "note": "S 21"
+    },
+    {
+      "quote": "Providing a sales tax exemption for certain purchases and sales by the Johnson county Christmas bureau association.",
+      "note": "S 22"
+    },
+    {
+      "quote": "Eliminating the statutory 15% alternative investment limit for the KPERS fund and requiring the KPERS board to establish an alternative investment percentage limit.",
+      "note": "S 23"
+    },
+    {
+      "quote": "Creating the Kansas rural grocery store development incentive act to provide tax incentives for the development of grocery businesses in rural areas of the state.",
+      "note": null
+    },
+    {
+      "quote": "No relevant information found on Kansas tax revenue or STAR bonds.",
+      "note": null
+    },
+    {
+      "quote": "HB2738, SB387",
+      "note": "State aid, determination of"
+    },
+    {
+      "quote": "SB82",
+      "note": "Concussion management teams"
+    },
+    {
+      "quote": "Economic development, Incentives, Angel investor tax credit, sunset ............................................... SB329",
+      "note": "Repeal of angel investor tax credit"
+    }
+  ]
+}

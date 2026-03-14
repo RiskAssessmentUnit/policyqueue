@@ -1,0 +1,56 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2019 CRE Est. and FY 2020 CRE Est.",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 7280400,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total Receipts",
+      "value": 7236600,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total Taxes",
+      "value": 7494000,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 7431693,
+      "unit": "USD",
+      "year": 2020
+    }
+  ],
+  "events": [
+    {
+      "date": "05/31/19",
+      "year": 2019,
+      "description": "Revised estimate"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "7,280,400 $ 7,280,400 $  --  --  --%",
+      "note": "Total Taxes FY 2019"
+    },
+    {
+      "quote": "7,236,600 $ 7,231,200 $ (5,400) $ (0.1)%",
+      "note": "Total Receipts FY 2019"
+    },
+    {
+      "quote": "7,494,000 $ 7,493,993 $ (7) $ (0.0)%",
+      "note": "Total Taxes FY 2020"
+    },
+    {
+      "quote": "7,327,000 $ 7,431,693 $ 104,693 $ 1.4%",
+      "note": "Total Receipts FY 2020"
+    }
+  ]
+}

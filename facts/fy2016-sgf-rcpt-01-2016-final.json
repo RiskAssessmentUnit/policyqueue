@@ -1,0 +1,48 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2016 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Dollar Change",
+      "value": -234794563,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Percent Change",
+      "value": 1.52,
+      "unit": "PERCENT",
+      "year": 2016
+    },
+    {
+      "label": "Total Taxes",
+      "value": 535055917,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 545975548,
+      "unit": "USD",
+      "year": 2016
+    }
+  ],
+  "events": [
+    {
+      "date": "2/1/2016",
+      "year": 2016,
+      "description": "*  Miscellaneous taxes now include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$700,000",
+      "note": "Motor Carrier Property Tax/Fee revenue in FY 2015"
+    },
+    {
+      "quote": "$541,877",
+      "note": "Motor Carrier Property Tax/Fee revenue in FY 2016"
+    }
+  ]
+}

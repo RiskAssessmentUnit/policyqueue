@@ -1,0 +1,33 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Mulvane",
+    "Derby",
+    "Sumner",
+    "Sedgwick"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "miles",
+      "value": 2.5,
+      "unit": "MILES"
+    },
+    {
+      "label": null,
+      "value": 98,
+      "unit": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

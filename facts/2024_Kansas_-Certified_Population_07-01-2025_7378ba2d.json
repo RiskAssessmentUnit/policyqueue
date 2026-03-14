@@ -1,0 +1,331 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 2937150,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Population",
+      "value": 2940546,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 2970606,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "Growth",
+      "value": 30,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "% Change",
+      "value": 1.0,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Population 2022",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population 2023",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population 2024",
+      "value": null,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Growth 2022-2023",
+      "value": 0.6,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Growth 2023-2024",
+      "value": 0.1,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "Population 2022",
+      "value": null,
+      "unit": null,
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": null,
+      "unit": null,
+      "year": 2023
+    },
+    {
+      "label": "Population 2024",
+      "value": null,
+      "unit": null,
+      "year": 2024
+    },
+    {
+      "label": "Population",
+      "value": 7197000,
+      "unit": "NUMBER",
+      "year": 2025
+    },
+    {
+      "label": "Population 2022",
+      "value": 7183000,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": 7183000,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population 2024",
+      "value": 7182000,
+      "unit": "NUMBER",
+      "year": 2024
+    },
+    {
+      "label": "Population 2025",
+      "value": 7187000,
+      "unit": "NUMBER",
+      "year": 2025
+    },
+    {
+      "label": "Kansas tax revenue",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Certified Population 2022",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2022
+    },
+    {
+      "label": "Certified Population 2023",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Certified Population 2024",
+      "value": 0,
+      "unit": "NUMBER",
+      "year": 2024
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2022
+    },
+    {
+      "label": "Pop. 2023",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2023
+    },
+    {
+      "label": "Pop. 2024",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2024
+    },
+    {
+      "label": "Pop. 2025",
+      "value": 0,
+      "unit": "OTHER",
+      "year": 2025
+    },
+    {
+      "label": "Pop. 2022",
+      "value": 0,
+      "unit": "OTHER"
+    },
+    {
+      "label": "Pop. 2023",
+      "value": 0,
+      "unit": "OTHER"
+    },
+    {
+      "label": "Pop. 2024",
+      "value": 0,
+      "unit": "OTHER"
+    },
+    {
+      "label": "Pop. 2025",
+      "value": 0,
+      "unit": "OTHER"
+    },
+    {
+      "label": "Population",
+      "value": 5751196,
+      "unit": "NUMBER",
+      "year": 2025
+    },
+    {
+      "label": "Population",
+      "value": 5721193,
+      "unit": "NUMBER",
+      "year": 2024
+    },
+    {
+      "label": "Population",
+      "value": 5721152,
+      "unit": "NUMBER",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 20872,
+      "unit": "NUMERIC"
+    },
+    {
+      "label": "Population",
+      "value": 21124,
+      "unit": "NUMERIC",
+      "year": 2023
+    },
+    {
+      "label": "Population",
+      "value": 21376,
+      "unit": "NUMERIC",
+      "year": 2024
+    },
+    {
+      "label": "Population",
+      "value": 21528,
+      "unit": "NUMERIC",
+      "year": 2025
+    },
+    {
+      "label": "Population 2022",
+      "value": 165746,
+      "unit": "COUNT",
+      "year": 2022
+    },
+    {
+      "label": "Population 2023",
+      "value": 169418,
+      "unit": "COUNT",
+      "year": 2023
+    },
+    {
+      "label": "Population 2024",
+      "value": 169418,
+      "unit": "COUNT",
+      "year": 2024
+    },
+    {
+      "label": "Growth 2022-2023",
+      "value": 465,
+      "unit": "COUNT",
+      "year": 2023
+    },
+    {
+      "label": "% Change 2023-2024",
+      "value": 2.5,
+      "unit": "PERCENT",
+      "year": 2024
+    },
+    {
+      "label": "% Change 2022-2023",
+      "value": 0.3,
+      "unit": "PERCENT",
+      "year": 2023
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2025",
+      "year": null,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": "July 1, 2025",
+      "year": 2025,
+      "description": "Kansas Certified Population"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": null
+    },
+    {
+      "date": "July 1, 2025",
+      "year": 2025,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": "July 1, 2024",
+      "year": 2024,
+      "description": "Population"
+    },
+    {
+      "date": "July 1, 2023",
+      "year": 2023,
+      "description": "Population"
+    },
+    {
+      "date": "July 1, 2022",
+      "year": 2022,
+      "description": "Population"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Certified to the Secretary of State by Division of the Budget on July 1, 2025",
+      "note": null
+    },
+    {
+      "quote": "Kansas Certified Population Certified to the Secretary of State by Division of the Budget on July 1, 2025",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2022",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2023",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2024",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2022 ",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2023 ",
+      "note": null
+    },
+    {
+      "quote": "Pop. 2024 ",
+      "note": null
+    }
+  ]
+}

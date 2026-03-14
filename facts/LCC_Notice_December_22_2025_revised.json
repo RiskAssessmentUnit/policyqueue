@@ -1,0 +1,44 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka"
+  ],
+  "entities": [
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Ty Masterson",
+      "type": "PERSON"
+    },
+    {
+      "name": "Gordon L. Self",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "number of days",
+      "value": 2,
+      "unit": "WORKING_DAYS"
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-12-22",
+      "year": 2025,
+      "description": "meeting"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "In accordance with K.S.A. 46-1201",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

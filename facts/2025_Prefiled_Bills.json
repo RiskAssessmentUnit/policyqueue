@@ -1,0 +1,47 @@
+{
+  "program_type": "BILL",
+  "title": "Continuing the reimbursement from the taxpayer notification costs fund for printing and postage costs of county clerks through calendar year 2029.",
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Kansas"
+  ],
+  "entities": [
+    {
+      "name": "Representatives Fairchild",
+      "type": "PERSON"
+    },
+    {
+      "name": "Rhiley",
+      "type": "PERSON"
+    },
+    {
+      "name": "Xu",
+      "type": "PERSON"
+    }
+  ],
+  "key_numbers": [],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "Prefiled Date: 12/23/2024"
+    },
+    {
+      "date": "January 6, 2025",
+      "year": 2025,
+      "description": "The text of these bills will be available on the legislative website"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Note: The text of these bills will be available on the legislative website beginning January 6, 2025.",
+      "note": null
+    },
+    {
+      "quote": "Prior to that time, contact Susan Kannarr",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

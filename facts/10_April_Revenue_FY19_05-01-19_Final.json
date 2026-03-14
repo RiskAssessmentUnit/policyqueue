@@ -1,0 +1,40 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2019 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 1188733660,
+      "unit": "USD",
+      "year": 2019
+    },
+    {
+      "label": "Total Receipts",
+      "value": 1275300676,
+      "unit": "USD",
+      "year": 2019
+    }
+  ],
+  "events": [
+    {
+      "date": "5/1/2019",
+      "year": 2019,
+      "description": "*  Miscellaneous taxes include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Subtotal -  KDOR Tax Collections $1,106,229,385 $1,187,275,834 $81,046,449 7.33 % $929,753,778 $257,522,056 27.70 %",
+      "note": ""
+    },
+    {
+      "quote": "Total Taxes $1,107,581,484 $1,188,733,660 $81,152,176 7.33 % $932,332,519 $256,401,141 27.50 %",
+      "note": ""
+    },
+    {
+      "quote": "Total Receipts $1,194,051,756 $1,275,300,676 $81,248,921 6.80 % $1,015,260,702 $260,039,974 25.61 %",
+      "note": ""
+    }
+  ]
+}

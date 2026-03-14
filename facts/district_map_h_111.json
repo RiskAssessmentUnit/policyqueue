@@ -1,0 +1,31 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Hays",
+    "Victoria"
+  ],
+  "entities": [
+    {
+      "name": "House District 111",
+      "type": "OTHER"
+    },
+    {
+      "name": "Ellis County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas legislative district boundaries"
+  ]
+}

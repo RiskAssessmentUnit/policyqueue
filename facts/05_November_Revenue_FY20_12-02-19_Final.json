@@ -1,0 +1,68 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2020 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 2812247331,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Total Receipts",
+      "value": 2794546771,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 2825872385,
+      "unit": "USD",
+      "year": 2020
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 2704539577,
+      "unit": "USD",
+      "year": 2019
+    }
+  ],
+  "events": [
+    {
+      "date": "12/2/2019",
+      "year": null,
+      "description": "12/2/2019"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Subtotal -  KDOR Tax Collections",
+      "note": "$2,817,760,000"
+    },
+    {
+      "quote": "Total Taxes",
+      "note": "$2,812,010,000"
+    },
+    {
+      "quote": "Total Receipts",
+      "note": "$2,779,400,000"
+    },
+    {
+      "quote": "Subtotal -  KDOR Tax Collections",
+      "note": "$2,704,539,577"
+    },
+    {
+      "quote": "Other Revenues & Receipts: Interest",
+      "note": "$32,500,000"
+    },
+    {
+      "quote": "Net Transfers & Other Receipts",
+      "note": "($89,110,000)"
+    },
+    {
+      "quote": "Agency Earnings",
+      "note": "$24,000,000"
+    }
+  ]
+}

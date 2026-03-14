@@ -1,0 +1,102 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2016 State General Fund Receipts Final Report: November 2015",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 22359100000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 22391600000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Other Taxes",
+      "value": -2250000,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Interest",
+      "value": 17388500,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Net Transfers",
+      "value": -9124289,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Agency Earnings",
+      "value": 34747594,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 2278788001,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Taxes",
+      "value": 430124497,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 439416834,
+      "unit": "USD",
+      "year": 2016
+    }
+  ],
+  "events": [
+    {
+      "date": "December 1, 2015",
+      "year": 2015,
+      "description": "Miscellaneous taxes now include corporate franchise taxes and fees."
+    },
+    {
+      "date": "12/1/2015",
+      "description": "Miscellaneous taxes now include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Subtotal -  KDOR Tax Collections $2,238,160,000",
+      "note": "Source: FY 2016 State General Fund Receipts Final Report: November 2015"
+    },
+    {
+      "quote": "Other Taxes ($2,250,000)",
+      "note": "Source: FY 2016 State General Fund Receipts Final Report: November 2015"
+    },
+    {
+      "quote": "Interest $16,900,000",
+      "note": "Source: FY 2016 State General Fund Receipts Final Report: November 2015"
+    },
+    {
+      "quote": "Net Transfers (14,980,000)",
+      "note": "Source: FY 2016 State General Fund Receipts Final Report: November 2015"
+    },
+    {
+      "quote": "Agency Earnings $28,320,000",
+      "note": "Source: FY 2016 State General Fund Receipts Final Report: November 2015"
+    },
+    {
+      "quote": "Total Receipts $2,264,230,000",
+      "note": "Source: FY 2016 State General Fund Receipts Final Report: November 2015"
+    },
+    {
+      "quote": "101.93% 104.32%",
+      "note": "% of Total Received"
+    }
+  ]
+}

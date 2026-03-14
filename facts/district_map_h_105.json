@@ -1,0 +1,36 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Sedgwick"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "91",
+      "value": 91,
+      "unit": null
+    },
+    {
+      "label": "100",
+      "value": 100,
+      "unit": null
+    },
+    {
+      "label": "99",
+      "value": 99,
+      "unit": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": ""
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

@@ -1,0 +1,46 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2018 State General Fund Receipts Final Report: March 2018",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 489621909,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Subtotal -  KDOR Tax Collections",
+      "value": 467907684,
+      "unit": "USD",
+      "year": 2018
+    },
+    {
+      "label": "Total Receipts",
+      "value": 482632164,
+      "unit": "USD",
+      "year": 2018
+    }
+  ],
+  "events": [
+    {
+      "date": "4/2/2018",
+      "year": 2018,
+      "description": "4/2/2018"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "$450,150,000 $489,621,909 $39,471,909 8.77 % $428,713,462 $60,908,447 14.21 %",
+      "note": "Total Taxes"
+    },
+    {
+      "quote": "$424,480,000 $467,907,684 $43,427,684 10.23 % $403,723,132 $64,184,552 15.90 %",
+      "note": "Subtotal -  KDOR Tax Collections"
+    },
+    {
+      "quote": "$446,160,000 $482,632,164 $36,472,164 8.17 % $424,845,868 $57,786,296 13.60 %",
+      "note": "Total Receipts"
+    }
+  ]
+}

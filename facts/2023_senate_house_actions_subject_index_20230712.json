@@ -1,0 +1,71 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Senate Actions Report",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Transferred from state general fund",
+      "value": 1000000000,
+      "unit": "USD",
+      "year": 2023
+    },
+    {
+      "label": "None",
+      "value": null,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Funding",
+      "value": null,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "July 10, 2023",
+      "year": 2023,
+      "description": "Transferring $1,000,000,000 from the state general fund to the budget stabilization fund of the department of administration during the fiscal year ending June 30, 2023."
+    },
+    {
+      "date": "July 10, 2023",
+      "year": 2023,
+      "description": "Subject Index Report"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Providing for a sales tax exemption for construction or repair of buildings used for human habitation by the Kansas state school for the blind and the Kansas state school for the deaf.",
+      "note": null
+    },
+    {
+      "quote": "Increasing the rate of compensation for legislators for service during regular and special sessions and the interim period between regular sessions.",
+      "note": "Bill by Federal and State Affairs"
+    },
+    {
+      "quote": "Amending the definition of ancestry in the Kansas act against discrimination to include traits historically associated with ancestry, including hair texture and protective hairstyles.",
+      "note": "Bill by Federal and State Affairs"
+    },
+    {
+      "quote": "Expanding the transferability of income, privilege and premium tax credits issued under the Kansas housing investor tax credit act.",
+      "note": "Bill by Federal and State Affairs"
+    },
+    {
+      "quote": "Increasing the maximum compensation benefits payable by an employer for permanent total disability suffered by an injured employee.",
+      "note": "Bill by Federal and State Affairs"
+    },
+    {
+      "quote": "Directing the capitol preservation committee to develop and approve plans for a mural honoring the 1st Kansas (Colored) Voluntary Infantry regiment.",
+      "note": "Bill by Federal and State Affairs"
+    },
+    {
+      "quote": "Permitting the carryforward of certain net operating losses for individuals for Kansas income tax purposes and excluding social security payments from household income and increasing the appraised value and household income thresholds for eligibility of seniors and disabled veterans related to increased property tax homestead claims.",
+      "note": "Bill by Assessment and Taxation"
+    },
+    {
+      "quote": "Providing a remittance credit to retailers for the collection of sales and compensating use tax.",
+      "note": "Bill by Assessment and Taxation"
+    }
+  ]
+}

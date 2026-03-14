@@ -1,0 +1,31 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Revenue",
+      "value": 393570000.0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Difference",
+      "value": 5572097.0,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "FY 2014 State General Fund Receipts Final: July 2013"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

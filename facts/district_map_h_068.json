@@ -1,0 +1,53 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Geary County",
+    "Morris County",
+    "Riley County"
+  ],
+  "entities": [
+    {
+      "name": "Fort Riley",
+      "type": "PROJECT"
+    },
+    {
+      "name": "Manhattan",
+      "type": "OTHER"
+    },
+    {
+      "name": "Ogden",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 68,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "Legislative Districts",
+      "value": 110,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2022 Legislative District Profiles, Kansas Legislative Research Department"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Legislative District Profiles"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

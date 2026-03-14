@@ -1,0 +1,41 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Sedgwick"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 135,
+      "unit": "JOBS"
+    },
+    {
+      "label": "Districts",
+      "value": 400,
+      "unit": "OTHER"
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "\"2022 Legislative District Profiles, Kansas Legislative Research Department\"",
+      "note": null
+    },
+    {
+      "quote": "House District 84",
+      "note": null
+    },
+    {
+      "quote": "Sedgwick County:  City:  Wichita(part)",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas Legislative Research Department"
+  ]
+}

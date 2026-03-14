@@ -1,0 +1,43 @@
+{
+  "program_type": "NEWS",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 23632,
+      "unit": "number",
+      "year": null
+    },
+    {
+      "label": "Voting Age",
+      "value": 18440,
+      "unit": "number",
+      "year": null
+    },
+    {
+      "label": "Hispanic (all races)",
+      "value": 202,
+      "unit": "number",
+      "year": null
+    },
+    {
+      "label": "Occupied Housing Units",
+      "value": 10000,
+      "unit": "number",
+      "year": null
+    },
+    {
+      "label": "Owner Occupied Housing Units",
+      "value": 9267,
+      "unit": "number",
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

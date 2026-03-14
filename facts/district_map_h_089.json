@@ -1,0 +1,38 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Wichita",
+    "Bel Aire",
+    "Sedgwick"
+  ],
+  "entities": [
+    {
+      "name": "House District 89",
+      "type": "OTHER"
+    },
+    {
+      "name": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "Sedgwick County:  Cities:  Bel Aire(part) and Wichita(part)",
+      "note": null
+    },
+    {
+      "quote": "103",
+      "note": "unknown"
+    },
+    {
+      "quote": "0",
+      "note": "unknown"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

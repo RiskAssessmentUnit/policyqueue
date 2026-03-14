@@ -1,0 +1,44 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "E 23RD ST",
+    "E 77TH ST N",
+    "E CENTRAL ST",
+    "N 159TH ST E",
+    "N 63RD ST E",
+    "N HILLSIDE RD",
+    "N HOOVER RD",
+    "N MAIN ST",
+    "N RIDGE RD",
+    "NE 24TH ST",
+    "NE 36TH ST",
+    "NW 24TH ST",
+    "NW 90TH ST",
+    "NW COUNTY LINE RD",
+    "S ELM ST",
+    "S HOOVER RD",
+    "S OSAGE RD",
+    "SW 125TH ST",
+    "SW 96TH ST",
+    "W 2ND ST"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "0",
+      "value": 0,
+      "unit": "JOBS"
+    },
+    {
+      "label": "5",
+      "value": 5,
+      "unit": "miles"
+    }
+  ],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

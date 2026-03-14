@@ -1,0 +1,21 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "De Soto",
+    "Gardner",
+    "Olathe"
+  ],
+  "entities": [
+    {
+      "name": "House District 121",
+      "type": "OTHER"
+    }
+  ],
+  "key_numbers": [],
+  "events": [],
+  "evidence": [],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

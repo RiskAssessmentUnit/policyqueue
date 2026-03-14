@@ -1,0 +1,36 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    null
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 23097,
+      "unit": "number"
+    },
+    {
+      "label": "Total Voting Age",
+      "value": null,
+      "unit": "PERCENT"
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census"
+    }
+  ],
+  "evidence": [],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    "Kansas public policy",
+    "Kansas public finance"
+  ]
+}

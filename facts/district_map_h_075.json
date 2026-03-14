@@ -1,0 +1,66 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Butler County",
+    "Benton(part)",
+    "Cassoday",
+    "El Dorado",
+    "Elbing",
+    "Potwin",
+    "Towanda"
+  ],
+  "entities": [],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 177,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 254,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 196,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 35,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 77,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 54,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles, Kansas Legislative Research Department",
+      "note": null
+    },
+    {
+      "quote": "House District 75",
+      "note": null
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

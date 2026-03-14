@@ -1,0 +1,63 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [],
+  "entities": [
+    {
+      "name": "Kansas Legislative Research Department",
+      "type": "ORG"
+    },
+    {
+      "name": "U.S. Census Bureau",
+      "type": "ORG"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "23,543",
+      "value": 23543,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": "100.0%",
+      "value": 100,
+      "unit": "PERCENT",
+      "year": null
+    },
+    {
+      "label": "16,498",
+      "value": 16498,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": null,
+      "year": null,
+      "description": "2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    },
+    {
+      "date": null,
+      "year": null,
+      "description": "Census of Population and Housing"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Profile produced by: Kansas Legislative Research Department",
+      "note": null
+    },
+    {
+      "quote": "Data Source:",
+      "note": "U.S. Census Bureau, Census of Population and Housing, 2020 Census PL 94-171 and 2020 Census Demographic and Housing Characteristics File"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": [
+    "Kansas public policy",
+    "public finance in Kansas"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "program_type": "OTHER",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Linn",
+    "Anderson",
+    "Allen",
+    "Miami",
+    "Osawatomie",
+    "Fontana",
+    "Welda",
+    "Garnett",
+    "Colony",
+    "Kincaid",
+    "Mont Ida",
+    "Lone Elm",
+    "Mildred",
+    "Gas",
+    "Moran",
+    "La Harpe",
+    "Elsmore",
+    "Savonburg",
+    "Iola",
+    "Bassett",
+    "Westphalia",
+    "Humboldt",
+    "Harris"
+  ],
+  "entities": [
+    {
+      "name": "Linn County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Allen County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Anderson County",
+      "type": "GOV_BODY"
+    },
+    {
+      "name": "Miami County",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": null,
+      "value": 31,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 58,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 57,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 169,
+      "unit": null,
+      "year": null
+    },
+    {
+      "label": null,
+      "value": 59,
+      "unit": null,
+      "year": null
+    }
+  ],
+  "events": [],
+  "evidence": [
+    {
+      "quote": "2022 Legislative District Profiles",
+      "note": "Kansas Legislative Research Department"
+    }
+  ],
+  "uncertainties": [],
+  "recommended_next_queries": []
+}

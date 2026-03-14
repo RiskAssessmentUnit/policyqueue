@@ -1,0 +1,491 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "Kansas Certified Population",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Population",
+      "value": 2939191,
+      "unit": "PERSON",
+      "year": 2020
+    },
+    {
+      "label": "Population 2018",
+      "value": 7,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2019",
+      "value": 8,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2020",
+      "value": 9,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population 2021",
+      "value": 10,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Growth 2018-2019",
+      "value": 1,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Growth 2019-2020",
+      "value": 2,
+      "unit": "NUMBER",
+      "year": null
+    },
+    {
+      "label": "Population",
+      "value": 2915111,
+      "unit": "NUMBER",
+      "year": 2021
+    },
+    {
+      "label": "Pop. 2018",
+      "value": 0,
+      "unit": null,
+      "year": 2018
+    },
+    {
+      "label": "Pop. 2019",
+      "value": 0,
+      "unit": null,
+      "year": 2019
+    },
+    {
+      "label": "Pop. 2020",
+      "value": 0,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "Pop. 2021",
+      "value": 0,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Douglas County Population",
+      "value": 122530,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Baldwin City city Population",
+      "value": 4689,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Eudora city Population",
+      "value": 6393,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Lawrence city Population",
+      "value": 98448,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Lecompton city Population",
+      "value": 659,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Douglas County Population",
+      "value": 12341,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Clinton township Population",
+      "value": 621,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Eudora township Population",
+      "value": 1389,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Grant township Population",
+      "value": 404,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Kanwaka township Population",
+      "value": 1467,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Lecompton township Population",
+      "value": 1136,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Marion township Population",
+      "value": 871,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Palmyra township Population",
+      "value": 2721,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Wakarusa township Population",
+      "value": 2174,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Willow Springs township Population",
+      "value": 1558,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Edwards County Population",
+      "value": 2750,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Belpre city Population",
+      "value": 81,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Kinsley city Population",
+      "value": 1330,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Lewis city Population",
+      "value": 407,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Offerle city Population",
+      "value": 180,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Edwards County Population",
+      "value": 752,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Belpre township Population",
+      "value": 79,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Franklin township Population",
+      "value": 73,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Jackson township Population",
+      "value": 51,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Kinsley township Population",
+      "value": 119,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Lincoln township Population",
+      "value": 107,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Logan township Population",
+      "value": 30,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "North Brown township Population",
+      "value": 57,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "South Brown township Population",
+      "value": 73,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Trenton township Population",
+      "value": 67,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Wayne township Population",
+      "value": 96,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Elk County Population",
+      "value": 2507,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Elk Falls city Population",
+      "value": 93,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Grenola city Population",
+      "value": 187,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Howard city Population",
+      "value": 600,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Longton city Population",
+      "value": 306,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Moline city Population",
+      "value": 319,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Elk County Population",
+      "value": 1002,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Elk Falls township Population",
+      "value": 70,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Greenfield township Population",
+      "value": 74,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Howard township Population",
+      "value": 159,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Liberty township Population",
+      "value": 98,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Longton township Population",
+      "value": 79,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Bal. of Victoria township Population",
+      "value": 260,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Wheatland township Population",
+      "value": 388,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Population 2018",
+      "value": 7.336,
+      "unit": "PERSONS",
+      "year": 2018
+    },
+    {
+      "label": "Population 2019",
+      "value": 7.15,
+      "unit": "PERSONS",
+      "year": 2019
+    },
+    {
+      "label": "Population 2020",
+      "value": 7.077,
+      "unit": "PERSONS",
+      "year": 2020
+    },
+    {
+      "label": "Population 2021",
+      "value": 7.077,
+      "unit": "PERSONS",
+      "year": 2021
+    },
+    {
+      "label": "# Growth 2018-2019",
+      "value": 186,
+      "unit": "PERSONS",
+      "year": 2019
+    },
+    {
+      "label": "# Growth 2019-2020",
+      "value": 73,
+      "unit": "PERSONS",
+      "year": 2020
+    },
+    {
+      "label": "% Chg 2019-2020",
+      "value": 2.5,
+      "unit": "PERCENT",
+      "year": 2020
+    },
+    {
+      "label": "% Chg 2018-2019",
+      "value": 1.0,
+      "unit": "PERCENT",
+      "year": 2019
+    },
+    {
+      "label": "Revenue",
+      "value": 0,
+      "unit": "USD",
+      "year": null
+    },
+    {
+      "label": "Sumner township",
+      "value": 633,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Republic County",
+      "value": 4664,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Belleville city",
+      "value": 1887,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Courtland city",
+      "value": 267,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Cuba city",
+      "value": 145,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Munden city",
+      "value": 93,
+      "unit": "OTHER",
+      "year": null
+    },
+    {
+      "label": "Population 2018",
+      "value": null,
+      "unit": null,
+      "year": 2018
+    },
+    {
+      "label": "Population 2019",
+      "value": null,
+      "unit": null,
+      "year": 2019
+    },
+    {
+      "label": "Population 2020",
+      "value": null,
+      "unit": null,
+      "year": 2020
+    },
+    {
+      "label": "Population 2021",
+      "value": null,
+      "unit": null,
+      "year": 2021
+    },
+    {
+      "label": "Population",
+      "value": 2021,
+      "unit": "NUMBER",
+      "year": 2021
+    }
+  ],
+  "events": [
+    {
+      "date": "July 1, 2021",
+      "year": 2021,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    },
+    {
+      "date": "July 1, 2021",
+      "year": null,
+      "description": "Certified to the Secretary of State by Division of the Budget"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "Certified to the Secretary of State by Division of the Budget on July 1, 2021",
+      "note": ""
+    },
+    {
+      "quote": "Certified to the Secretary of State by Division of the Budget on July 1, 2021",
+      "note": null
+    }
+  ]
+}

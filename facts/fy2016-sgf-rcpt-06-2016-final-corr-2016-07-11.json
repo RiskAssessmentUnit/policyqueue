@@ -1,0 +1,61 @@
+{
+  "program_type": "REVENUE_REPORT",
+  "title": "FY 2016 State General Fund Receipts",
+  "jurisdiction": "Kansas",
+  "key_numbers": [
+    {
+      "label": "Total Taxes",
+      "value": 5768344618,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 6073463086,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Taxes",
+      "value": 575434051,
+      "unit": "USD",
+      "year": 2016
+    },
+    {
+      "label": "Total Receipts",
+      "value": 727784890,
+      "unit": "USD",
+      "year": 2016
+    }
+  ],
+  "events": [
+    {
+      "date": "7/11/2016",
+      "year": null,
+      "description": "Miscellaneous taxes now include corporate franchise taxes and fees."
+    },
+    {
+      "date": "7/11/2016",
+      "year": 2016,
+      "description": "Miscellaneous taxes now include corporate franchise taxes and fees."
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "98.19%",
+      "note": "% of Total Received"
+    },
+    {
+      "quote": "102.44%",
+      "note": "% of Total Received"
+    },
+    {
+      "quote": "$584,640,795 of Total Taxes",
+      "note": "Percentage decrease: 1.57%"
+    },
+    {
+      "quote": "$619,037,465 of Total Receipts",
+      "note": "Percentage increase: 17.57%"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+# Research Draft: Item_8_Subscription_for_upgrades_and_support_of_virtual_statehouse_system
+
+- Source JSON: `Item_8_Subscription_for_upgrades_and_support_of_virtual_statehouse_system.json`
+- Keyword hits: **committee**
+- Generated: **2026-03-05**
+- Status: **UNVERIFIED**
+
+## Local Findings
+```json
+{
+  "program_type": "BILL",
+  "title": null,
+  "jurisdiction": "Kansas",
+  "locations": [
+    "Topeka, Kansas",
+    "Statehouse"
+  ],
+  "entities": [
+    {
+      "name": "Tom Day",
+      "type": "PERSON"
+    },
+    {
+      "name": "John Langer",
+      "type": "PERSON"
+    },
+    {
+      "name": "World Wide Technology",
+      "type": "ORG"
+    },
+    {
+      "name": "Legislative Coordinating Council",
+      "type": "GOV_BODY"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "Total cost for 5-year renewal",
+      "value": 430320,
+      "unit": "USD",
+      "year": 2025
+    },
+    {
+      "label": "Annual payment",
+      "value": 86064,
+      "unit": "USD",
+      "year": null
+    }
+  ],
+  "events": [
+    {
+      "date": "March 2020",
+      "year": 2020,
+      "description": "Temporary closure of Kansas Statehouse due to COVID-19 pandemic"
+    },
+    {
+      "date": "September 24, 2025",
+      "year": 2025,
+      "description": "Subscription renewal for World Wide Technology"
+    }
+  ],
+  "evidence": [
+    {
+      "quote": "The total cost for the 5-year renewal is $430,320.",
+      "note": "Recommendation for Legislative Coordinating Council"
+    }
+  ],
+  "uncertainties": [
+    null
+  ],
+  "recommended_next_queries": [
+    "equipment upgrades for committee and conference rooms"
+  ]
+}
+```
+
+## Verification Checklist
+- Confirm with authoritative government pages
+- Confirm numbers/dates if present
+- Note whether the local finding is current or outdated
+
+## Web Verification Notes
+_TODO_
