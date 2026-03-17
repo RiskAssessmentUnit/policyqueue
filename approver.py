@@ -6,15 +6,15 @@
 #     duplicates -> .\sent_dupes\
 #     empty -> .\skip\empty_posts\
 
-import os, time, json, hashlib, urllib.request
+import os, time, json, urllib.request
 from pathlib import Path
 
-ROOT = Path.home() / "policyqueue"
+import db
+
+ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "queue"
 LOGS  = ROOT / "logs"
 LOG   = LOGS / "approver.log"
-
-SENT_STATE = ROOT / "state" / "sent_queue.json"
 
 SENT_DIR        = ROOT / "sent"
 SENT_DUPES_DIR  = ROOT / "sent_dupes"
@@ -34,24 +34,6 @@ def log(msg: str):
     print(line, flush=True)
     with LOG.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
-
-
-def load_json(path: Path, default):
-    try:
-        if path.exists():
-            return json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        pass
-    return default
-
-
-def save_json(path: Path, obj):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=2, sort_keys=True), encoding="utf-8")
-
-
-def sha(text: str) -> str:
-    return hashlib.sha256(text.encode("utf-8", errors="ignore")).hexdigest()
 
 
 def http_post(url: str, payload: dict):
@@ -98,10 +80,7 @@ def main():
     SENT_DUPES_DIR.mkdir(parents=True, exist_ok=True)
     EMPTY_DIR.mkdir(parents=True, exist_ok=True)
 
-    sent = load_json(SENT_STATE, {})
-    if not isinstance(sent, dict):
-        sent = {}
-
+    db.init(ROOT / "pq.sqlite")
     log("APPROVER start (non-destructive)")
 
     while True:
@@ -124,10 +103,10 @@ def main():
                     log(f"EMPTY -> {moved.name}")
                     continue
 
-                h = sha(txt)
+                h = db.sha256_text(txt)
 
                 # Duplicate -> move aside (never delete)
-                if h in sent:
+                if db.is_post_hash_seen(h):
                     moved = safe_move(p, SENT_DUPES_DIR)
                     log(f"DUPE  -> {moved.name}")
                     continue
@@ -136,9 +115,9 @@ def main():
                 send_discord(txt)
                 send_telegram(txt)
 
-                # Record
-                sent[h] = {"file": p.name, "ts": time.time()}
-                save_json(SENT_STATE, sent)
+                # Record in DB
+                db.save_post_hash(h, p.name)
+                db.add_event("APPROVER_SENT", pdf_name=p.name)
 
                 # Move to sent (never delete)
                 moved = safe_move(p, SENT_DIR)
