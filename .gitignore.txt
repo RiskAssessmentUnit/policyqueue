@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# PolicyQueue generated data
+sent/
+skip/
+state/
+facts/
+research_bundle/
+archive/
+data/
+exports/
+queue/
+logs/
+
+# Databases / local files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
