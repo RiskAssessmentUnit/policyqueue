@@ -18,7 +18,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import db
-import approver
+import approver  # noqa: E402 (after sys.path insert)
 
 
 # ---------------------------------------------------------------------------
@@ -208,6 +208,8 @@ class TestMainLoop:
             patch.object(approver, "TELEGRAM_CHAT",   "chat"),
             patch.object(approver, "http_post") as mock_post,
             patch("time.sleep", side_effect=StopIteration),
+            # prevent main() from reinitialising db to real pq.sqlite
+            patch.object(db, "init"),
         ):
             try:
                 approver.main()

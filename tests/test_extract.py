@@ -5,14 +5,14 @@ Tests cover:
   - score_facts()     — pure scoring logic, no API
   - merge_facts()     — pure dedup/merge logic, no API
   - _truncate()       — pure text truncation
-  - extract_facts()   — mocked Claude API (tool_use path + error paths)
-  - generate_post()   — mocked Claude API (valid + rejection paths)
+  - extract_facts()   — mocked Ollama (_ollama_generate)
+  - generate_post()   — mocked Ollama (_ollama_generate)
 """
 
+import json
 import sys
 from pathlib import Path
-from types import SimpleNamespace
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
@@ -22,20 +22,8 @@ import extract
 
 
 # ---------------------------------------------------------------------------
-# Helpers
+# Shared fixtures
 # ---------------------------------------------------------------------------
-
-def _make_tool_use_response(input_data: dict):
-    """Build a minimal mock anthropic response containing a tool_use block."""
-    tool_block = SimpleNamespace(type="tool_use", input=input_data)
-    return SimpleNamespace(content=[tool_block])
-
-
-def _make_text_response(text: str):
-    """Build a minimal mock anthropic response containing a text block."""
-    text_block = SimpleNamespace(type="text", text=text)
-    return SimpleNamespace(content=[text_block])
-
 
 GOOD_FACTS = {
     "program_type": "REVENUE_REPORT",
@@ -78,12 +66,22 @@ class TestScoreFacts:
         assert extract.score_facts(f) == 1
 
     def test_key_numbers_capped_at_four(self):
+        # Non-USD units: no USD bonus, so max from key_numbers alone is 4
         f = {
             **extract.EMPTY_FACTS,
             "program_type": "OTHER",
-            "key_numbers": [{"label": f"k{i}", "value": i, "unit": "USD"} for i in range(10)],
+            "key_numbers": [{"label": f"k{i}", "value": i, "unit": "PERCENT"} for i in range(10)],
         }
         assert extract.score_facts(f) == 4
+
+    def test_usd_key_number_adds_bonus(self):
+        f = {
+            **extract.EMPTY_FACTS,
+            "program_type": "OTHER",
+            "key_numbers": [{"label": "Revenue", "value": 1000000, "unit": "USD"}],
+        }
+        # 1 (key_numbers) + 1 (USD bonus) = 2
+        assert extract.score_facts(f) == 2
 
     def test_events_capped_at_two(self):
         f = {
@@ -100,8 +98,9 @@ class TestScoreFacts:
 
     def test_full_signal_doc(self):
         score = extract.score_facts(GOOD_FACTS)
-        # 3 (REVENUE_REPORT) + 1 (title) + 4 (4 key_numbers) + 2 (2 events) + 1 (evidence) = 11
-        assert score == 11
+        # 3 (REVENUE_REPORT) + 1 (title) + 4 (4 key_numbers) + 1 (USD bonus)
+        # + 2 (2 events) + 1 (evidence) = 12
+        assert score == 12
 
     def test_empty_facts_scores_zero(self):
         assert extract.score_facts(extract.EMPTY_FACTS) == 0
@@ -162,11 +161,12 @@ class TestMergeFacts:
         result = extract.merge_facts(parts)
         assert len(result["key_numbers"]) == 2
 
-    def test_evidence_capped_at_eight(self):
+    def test_evidence_merged_without_cap(self):
+        # merge_facts itself doesn't cap; capping happens in extract_facts()
         ev = [{"quote": f"quote {i}", "note": "p1"} for i in range(12)]
         parts = [{**extract.EMPTY_FACTS, "evidence": ev}]
         result = extract.merge_facts(parts)
-        assert len(result["evidence"]) == 8
+        assert len(result["evidence"]) == 12
 
     def test_locations_deduplicated_case_insensitive(self):
         parts = [
@@ -203,7 +203,6 @@ class TestTruncate:
         assert extract._truncate(text) == text
 
     def test_long_text_truncated(self):
-        # Temporarily lower the limit to make the test fast
         original = extract.MAX_TOTAL_CHARS
         extract.MAX_TOTAL_CHARS = 100
         try:
@@ -231,7 +230,7 @@ class TestTruncate:
 
 
 # ---------------------------------------------------------------------------
-# extract_facts — mocked API
+# extract_facts — mocked _ollama_generate
 # ---------------------------------------------------------------------------
 
 class TestExtractFacts:
@@ -244,85 +243,81 @@ class TestExtractFacts:
         assert result == dict(extract.EMPTY_FACTS)
 
     def test_successful_extraction(self):
-        mock_response = _make_tool_use_response(GOOD_FACTS)
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = mock_response
-
-        with patch("extract._client", return_value=mock_client):
+        with patch("extract._ollama_generate", return_value=json.dumps(GOOD_FACTS)):
             result = extract.extract_facts("Some Kansas revenue document text")
-
         assert result["program_type"] == "REVENUE_REPORT"
         assert result["title"] == "FY2025 State General Fund Receipts"
-        mock_client.messages.create.assert_called_once()
 
-    def test_tool_choice_forced(self):
-        """Verify that tool_choice is passed as forced tool use."""
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _make_tool_use_response(
-            dict(extract.EMPTY_FACTS)
-        )
-        with patch("extract._client", return_value=mock_client):
-            extract.extract_facts("some text")
-
-        call_kwargs = mock_client.messages.create.call_args.kwargs
-        assert call_kwargs["tool_choice"] == {"type": "tool", "name": "record_facts"}
-
-    def test_api_error_returns_empty_facts(self):
-        mock_client = MagicMock()
-        mock_client.messages.create.side_effect = RuntimeError("API down")
-
-        with patch("extract._client", return_value=mock_client):
+    def test_ollama_error_returns_empty_like_facts(self):
+        # Empty response → JSON parse fails → EMPTY_FACTS structure with uncertainty note
+        with patch("extract._ollama_generate", return_value=""):
             result = extract.extract_facts("some text")
+        assert result["program_type"] == "OTHER"
+        assert result["key_numbers"] == []
+        assert result["evidence"] == []
+        assert "chunk_json_parse_failed" in result["uncertainties"]
 
-        assert result == dict(extract.EMPTY_FACTS)
-
-    def test_no_tool_use_block_returns_empty_facts(self):
-        """Response with only a text block (no tool_use) should fall back."""
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _make_text_response("oops, plain text")
-
-        with patch("extract._client", return_value=mock_client):
+    def test_invalid_json_returns_empty_like_facts(self):
+        with patch("extract._ollama_generate", return_value="not json at all"):
             result = extract.extract_facts("some text")
-
-        assert result == dict(extract.EMPTY_FACTS)
+        assert result["program_type"] == "OTHER"
+        assert result["key_numbers"] == []
+        assert "chunk_json_parse_failed" in result["uncertainties"]
 
     def test_evidence_capped_at_eight(self):
         facts_with_lots_of_evidence = {
             **GOOD_FACTS,
-            "evidence": [{"quote": f"quote {i}", "note": "p1"} for i in range(12)],
+            "evidence": [{"quote": f"quote {i} words here", "note": "p1"} for i in range(12)],
         }
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _make_tool_use_response(
-            facts_with_lots_of_evidence
-        )
-        with patch("extract._client", return_value=mock_client):
+        with patch("extract._ollama_generate", return_value=json.dumps(facts_with_lots_of_evidence)):
             result = extract.extract_facts("text")
-
         assert len(result["evidence"]) == 8
 
     def test_source_url_included_in_prompt(self):
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _make_tool_use_response(
-            dict(extract.EMPTY_FACTS)
-        )
-        with patch("extract._client", return_value=mock_client):
+        captured = []
+        def fake_generate(prompt):
+            captured.append(prompt)
+            return json.dumps(dict(extract.EMPTY_FACTS))
+
+        with patch("extract._ollama_generate", side_effect=fake_generate):
             extract.extract_facts("text", source_url="https://ksrevenue.gov/report.pdf")
 
-        prompt = mock_client.messages.create.call_args.kwargs["messages"][0]["content"]
-        assert "https://ksrevenue.gov/report.pdf" in prompt
+        assert any("https://ksrevenue.gov/report.pdf" in p for p in captured)
+
+    def test_markdown_fenced_json_parsed(self):
+        fenced = "```json\n" + json.dumps(GOOD_FACTS) + "\n```"
+        with patch("extract._ollama_generate", return_value=fenced):
+            result = extract.extract_facts("text")
+        assert result["program_type"] == "REVENUE_REPORT"
+
+    def test_multi_chunk_results_merged(self):
+        chunk1 = {**extract.EMPTY_FACTS, "program_type": "REVENUE_REPORT",
+                  "key_numbers": [{"label": "Sales Tax", "value": 100, "unit": "USD", "year": 2025}]}
+        chunk2 = {**extract.EMPTY_FACTS, "program_type": "OTHER",
+                  "key_numbers": [{"label": "Income Tax", "value": 200, "unit": "USD", "year": 2025}]}
+        responses = [json.dumps(chunk1), json.dumps(chunk2)]
+
+        original = extract.MAX_CHARS_PER_CHUNK
+        extract.MAX_CHARS_PER_CHUNK = 5  # force two chunks
+        try:
+            with patch("extract._ollama_generate", side_effect=responses):
+                result = extract.extract_facts("chunk one\n\nchunk two here")
+        finally:
+            extract.MAX_CHARS_PER_CHUNK = original
+
+        assert result["program_type"] == "REVENUE_REPORT"  # higher pref wins
+        assert len(result["key_numbers"]) == 2
 
 
 # ---------------------------------------------------------------------------
-# generate_post — mocked API
+# generate_post — mocked _ollama_generate
 # ---------------------------------------------------------------------------
 
 class TestGeneratePost:
     URL = "https://ksrevenue.gov/report.pdf"
 
     def _call_with_response(self, text: str):
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _make_text_response(text)
-        with patch("extract._client", return_value=mock_client):
+        with patch("extract._ollama_generate", return_value=text):
             return extract.generate_post(GOOD_FACTS, self.URL, "report.pdf")
 
     def test_valid_post_returned(self):
@@ -331,13 +326,11 @@ class TestGeneratePost:
         assert result == post_text
 
     def test_missing_source_line_rejected(self):
-        post_text = '"Total Taxes were $665M"\nNo source line here'
-        result = self._call_with_response(post_text)
+        result = self._call_with_response('"Total Taxes were $665M"\nNo source line here')
         assert result == ""
 
     def test_missing_quotes_rejected(self):
-        post_text = f"Kansas taxes rose in FY2025\nSource: {self.URL}"
-        result = self._call_with_response(post_text)
+        result = self._call_with_response(f"Kansas taxes rose in FY2025\nSource: {self.URL}")
         assert result == ""
 
     def test_empty_response_rejected(self):
@@ -353,20 +346,19 @@ class TestGeneratePost:
         result = self._call_with_response(long_text)
         assert len(result) <= extract.MAX_POST_CHARS
 
-    def test_api_error_returns_empty_string(self):
-        mock_client = MagicMock()
-        mock_client.messages.create.side_effect = ConnectionError("timeout")
-        with patch("extract._client", return_value=mock_client):
+    def test_ollama_error_returns_empty_string(self):
+        # _ollama_generate swallows errors and returns ""; simulate that
+        with patch("extract._ollama_generate", return_value=""):
             result = extract.generate_post(GOOD_FACTS, self.URL, "report.pdf")
         assert result == ""
 
     def test_evidence_quotes_included_in_prompt(self):
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _make_text_response(
-            f'"Total Taxes were $665M in FY2025"\nSource: {self.URL}'
-        )
-        with patch("extract._client", return_value=mock_client):
+        captured = []
+        def fake_generate(prompt):
+            captured.append(prompt)
+            return f'"Total Taxes were $665M in FY2025"\nSource: {self.URL}'
+
+        with patch("extract._ollama_generate", side_effect=fake_generate):
             extract.generate_post(GOOD_FACTS, self.URL, "report.pdf")
 
-        prompt = mock_client.messages.create.call_args.kwargs["messages"][0]["content"]
-        assert "Total Taxes were $665M in FY2025" in prompt
+        assert any("Total Taxes were $665M in FY2025" in p for p in captured)

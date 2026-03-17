@@ -114,7 +114,7 @@ def main() -> None:
         db.init(ROOT / "pq.sqlite")
         _log(
             f"RUNNER start domains={crawler.DOMAINS} seeds={crawler.SEEDS} "
-            f"model={extract_mod.CLAUDE_MODEL}"
+            f"model={extract_mod.OLLAMA_MODEL} ollama={extract_mod.OLLAMA_BASE}"
         )
 
         cmd = (sys.argv[1] if len(sys.argv) > 1 else "loop").lower()

@@ -1,113 +1,53 @@
 """
-extract.py — LLM-backed fact extraction and post generation via Claude API.
+extract.py — Local LLM fact extraction and post generation via Ollama.
 
-Drop-in replacement for the Ollama calls in pq.py and runner_focus_v4.py.
-Uses claude-sonnet-4-6 with forced tool_use for guaranteed structured output.
+Uses llama3.1:8b-instruct-q4_K_M (or any model configured via PQ_MODEL).
+Because the local model has a limited practical context window, large documents
+are split into chunks and results are merged with merge_facts().
+
+Public API (unchanged from Claude version):
+  extract_facts(text, source_url)  -> dict
+  score_facts(facts)               -> int
+  generate_post(facts, source_url, pdf_name) -> str
+  merge_facts(parts)               -> dict
 """
 
 import json
 import logging
 import os
+import re
+import urllib.request
 from typing import Optional
-
-import anthropic
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 
-CLAUDE_MODEL    = os.environ.get("PQ_MODEL", "claude-sonnet-4-6")
-MAX_TOTAL_CHARS = int(os.environ.get("PQ_MAX_TOTAL_CHARS", "180000"))  # ~45k tokens, well within 200k ctx
-MAX_POST_CHARS  = int(os.environ.get("PQ_MAX_POST_CHARS", "900"))
+OLLAMA_BASE     = os.environ.get("PQ_OLLAMA_BASE", "http://127.0.0.1:11434").rstrip("/")
+OLLAMA_MODEL    = os.environ.get("PQ_MODEL", "llama3.1:8b-instruct-q4_K_M")
+OLLAMA_TIMEOUT  = int(os.environ.get("PQ_OLLAMA_TIMEOUT", "900"))
+
+MAX_TOTAL_CHARS     = int(os.environ.get("PQ_MAX_TOTAL_CHARS", "120000"))
+MAX_CHARS_PER_CHUNK = int(os.environ.get("PQ_MAX_CHARS_PER_CHUNK", "9000"))
+MAX_CHUNKS          = int(os.environ.get("PQ_MAX_CHUNKS", "80"))
+MAX_POST_CHARS      = int(os.environ.get("PQ_MAX_POST_CHARS", "900"))
 
 # ---------------------------------------------------------------------------
-# Fact extraction tool schema (unified from pq.py + runner_focus_v4.py)
+# Fact schema (prompt version — no tool_use with local models)
 # ---------------------------------------------------------------------------
 
-_FACT_TOOL = {
-    "name": "record_facts",
-    "description": (
-        "Record structured facts extracted from a Kansas public-policy document. "
-        "Only include data explicitly supported by the text."
-    ),
-    "input_schema": {
-        "type": "object",
-        "properties": {
-            "program_type": {
-                "type": "string",
-                "enum": ["STAR_BOND", "REVENUE_REPORT", "BUDGET", "AUDIT", "BILL", "FISCAL_NOTE", "OTHER"],
-            },
-            "title": {"type": ["string", "null"]},
-            "jurisdiction": {"type": ["string", "null"]},
-            "locations": {
-                "type": "array",
-                "items": {"type": "string"},
-            },
-            "entities": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "name": {"type": "string"},
-                        "type": {
-                            "type": "string",
-                            "enum": ["PERSON", "ORG", "GOV_BODY", "PROJECT", "OTHER"],
-                        },
-                    },
-                    "required": ["name", "type"],
-                },
-            },
-            "key_numbers": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "label": {"type": "string"},
-                        "value": {"type": "number"},
-                        "unit": {
-                            "type": "string",
-                            "enum": ["USD", "PERCENT", "JOBS", "YEAR", "OTHER"],
-                        },
-                        "year": {"type": ["integer", "null"]},
-                    },
-                    "required": ["label", "value", "unit"],
-                },
-            },
-            "events": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "date": {"type": ["string", "null"]},
-                        "year": {"type": ["integer", "null"]},
-                        "description": {"type": "string"},
-                    },
-                    "required": ["description"],
-                },
-            },
-            "evidence": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "quote": {
-                            "type": "string",
-                            "description": "Verbatim quote from the document, 20 words or fewer.",
-                        },
-                        "note": {"type": "string", "description": "Page or section reference."},
-                    },
-                    "required": ["quote", "note"],
-                },
-            },
-            "uncertainties": {"type": "array", "items": {"type": "string"}},
-            "recommended_next_queries": {"type": "array", "items": {"type": "string"}},
-        },
-        "required": [
-            "program_type", "title", "jurisdiction", "locations", "entities",
-            "key_numbers", "events", "evidence", "uncertainties", "recommended_next_queries",
-        ],
-    },
-}
+_FACT_SCHEMA = """{
+  "program_type": "STAR_BOND" | "REVENUE_REPORT" | "BUDGET" | "AUDIT" | "BILL" | "FISCAL_NOTE" | "OTHER",
+  "title": string | null,
+  "jurisdiction": "Kansas" | null,
+  "locations": [string],
+  "entities": [{"name": string, "type": "PERSON"|"ORG"|"GOV_BODY"|"PROJECT"|"OTHER"}],
+  "key_numbers": [{"label": string, "value": number, "unit": "USD"|"PERCENT"|"JOBS"|"YEAR"|"OTHER", "year": number|null}],
+  "events": [{"date": string|null, "year": number|null, "description": string}],
+  "evidence": [{"quote": string, "note": string}],
+  "uncertainties": [string],
+  "recommended_next_queries": [string]
+}"""
 
 EMPTY_FACTS: dict = {
     "program_type": "OTHER",
@@ -123,27 +63,79 @@ EMPTY_FACTS: dict = {
 }
 
 # ---------------------------------------------------------------------------
-# Internal helpers
+# Ollama HTTP helper
 # ---------------------------------------------------------------------------
 
-def _client() -> anthropic.Anthropic:
-    key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not key:
-        raise RuntimeError(
-            "ANTHROPIC_API_KEY environment variable is not set. "
-            "Get a key at https://console.anthropic.com/."
-        )
-    return anthropic.Anthropic(api_key=key)
+def _ollama_generate(prompt: str) -> str:
+    """POST to Ollama /api/generate, return the response string."""
+    payload = json.dumps({
+        "model":  OLLAMA_MODEL,
+        "prompt": prompt,
+        "stream": False,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        f"{OLLAMA_BASE}/api/generate",
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=OLLAMA_TIMEOUT) as r:
+            resp = json.loads(r.read().decode("utf-8", errors="replace"))
+            return (resp.get("response") or "").strip()
+    except Exception as exc:
+        logging.error("Ollama generate error: %s", exc)
+        return ""
 
+
+def _extract_json(raw: str) -> Optional[dict]:
+    """Pull the first JSON object out of a raw LLM response string."""
+    raw = raw.strip()
+    # Strip markdown fences if present
+    raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.I)
+    raw = re.sub(r"\s*```$", "", raw)
+    # Find first { ... } block
+    m = re.search(r"\{.*\}", raw, re.DOTALL)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(0))
+    except Exception:
+        return None
+
+# ---------------------------------------------------------------------------
+# Text helpers
+# ---------------------------------------------------------------------------
 
 def _truncate(text: str) -> str:
-    """Keep head (65%) + tail (35%) so both the document header and closing
-    summary tables are preserved when the text exceeds the safe limit."""
+    """Cap total chars, preserving head (65%) + tail (35%)."""
     if len(text) <= MAX_TOTAL_CHARS:
         return text
     head = int(MAX_TOTAL_CHARS * 0.65)
     tail = MAX_TOTAL_CHARS - head
     return text[:head] + "\n\n[...TRUNCATED...]\n\n" + text[-tail:]
+
+
+def _chunk_text(text: str) -> list:
+    """Split on paragraph boundaries into chunks <= MAX_CHARS_PER_CHUNK."""
+    text = (text or "").strip()
+    if len(text) <= MAX_CHARS_PER_CHUNK:
+        return [text]
+    parts = re.split(r"\n{2,}", text)
+    chunks, cur = [], ""
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        if len(cur) + len(p) + 2 <= MAX_CHARS_PER_CHUNK:
+            cur = (cur + "\n\n" + p).strip()
+        else:
+            if cur:
+                chunks.append(cur)
+            cur = p[:MAX_CHARS_PER_CHUNK]
+    if cur:
+        chunks.append(cur)
+    return chunks
 
 
 def _to_text(x) -> str:
@@ -156,67 +148,88 @@ def _to_text(x) -> str:
     except Exception:
         return str(x)
 
-
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
 
 def extract_facts(text: str, source_url: str = "") -> dict:
-    """Extract structured facts from document text via Claude tool use.
+    """Extract structured facts from document text via local Ollama model.
 
-    Claude's 200k context window handles full documents without chunking.
-    Falls back to EMPTY_FACTS on any API or parsing error.
+    Large documents are chunked; results are merged with merge_facts().
+    Falls back to EMPTY_FACTS on total failure.
     """
     text = (text or "").strip()
     if not text or text == "[NO_TEXT_EXTRACTED]":
         return dict(EMPTY_FACTS)
 
     text = _truncate(text)
+    chunks = _chunk_text(text)
+
+    if len(chunks) > MAX_CHUNKS:
+        keep_head = MAX_CHUNKS // 2
+        keep_tail = MAX_CHUNKS - keep_head
+        chunks = chunks[:keep_head] + chunks[-keep_tail:]
 
     url_note = f"\nSource URL: {source_url}" if source_url else ""
-    user_msg = (
-        "Extract Kansas public-policy facts from the document text below.\n"
-        "Rules:\n"
-        "- Only extract what is explicitly stated. Do not guess or infer.\n"
-        "- Evidence quotes must be 20 words or fewer and verbatim.\n"
-        "- Focus on Kansas tax revenue, STAR bonds, budgets, and audits."
-        f"{url_note}\n\n"
-        f"DOCUMENT TEXT:\n\"\"\"\n{text}\n\"\"\""
-    )
+    partials = []
 
-    try:
-        response = _client().messages.create(
-            model=CLAUDE_MODEL,
-            max_tokens=4096,
-            tools=[_FACT_TOOL],
-            tool_choice={"type": "tool", "name": "record_facts"},
-            messages=[{"role": "user", "content": user_msg}],
+    for i, chunk in enumerate(chunks, start=1):
+        logging.debug("extract_facts chunk %d/%d chars=%d", i, len(chunks), len(chunk))
+        prompt = (
+            "You are an information extraction engine.\n"
+            "Output MUST be valid JSON only. No markdown fences. No extra text.\n\n"
+            "Task: extract Kansas public-policy facts from the TEXT below.\n\n"
+            "Rules:\n"
+            "- Only extract what is explicitly stated. Do not guess or infer.\n"
+            "- Evidence quotes must be 20 words or fewer and verbatim.\n"
+            "- Use null for unknown fields. Use numbers for numeric values.\n"
+            f"- Focus on Kansas tax revenue, STAR bonds, budgets, and audits.{url_note}\n\n"
+            f"Return JSON matching this exact shape:\n{_FACT_SCHEMA}\n\n"
+            f"TEXT:\n\"\"\"\n{chunk}\n\"\"\""
         )
-    except Exception as exc:
-        logging.error("extract_facts API error: %s", exc)
+        raw = _ollama_generate(prompt)
+        obj = _extract_json(raw)
+        if obj:
+            partials.append(obj)
+        else:
+            logging.warning("extract_facts: chunk %d/%d failed JSON parse", i, len(chunks))
+            partial = dict(EMPTY_FACTS)
+            partial["uncertainties"] = ["chunk_json_parse_failed"]
+            partials.append(partial)
+
+    if not partials:
         return dict(EMPTY_FACTS)
 
-    tool_use = next((b for b in response.content if b.type == "tool_use"), None)
-    if tool_use is None:
-        logging.warning("extract_facts: no tool_use block in response")
-        return dict(EMPTY_FACTS)
+    merged = merge_facts(partials)
 
-    facts = dict(tool_use.input)
-    # Cap evidence list (consistent with runner_focus_v4.py)
-    if "evidence" in facts:
-        facts["evidence"] = facts["evidence"][:8]
-    return facts
+    # Trim and sanitise evidence quotes
+    clean_ev = []
+    for item in (merged.get("evidence") or [])[:8]:
+        if isinstance(item, dict):
+            q = " ".join((item.get("quote") or "").split()[:20])
+            n = (item.get("note") or "")[:140]
+            if q:
+                clean_ev.append({"quote": q, "note": n})
+    merged["evidence"] = clean_ev
+
+    return merged
 
 
 def score_facts(f: dict) -> int:
     """Score extracted facts for publishing signal quality (0–10+)."""
     score = 0
-    if f.get("program_type") in ("STAR_BOND", "REVENUE_REPORT", "BUDGET", "AUDIT"):
+    pt = f.get("program_type") or "OTHER"
+    if pt in ("STAR_BOND", "REVENUE_REPORT", "BUDGET", "AUDIT", "BILL", "FISCAL_NOTE"):
         score += 3
     if f.get("title"):
         score += 1
     score += min(4, len(f.get("key_numbers") or []))
     score += min(2, len(f.get("events") or []))
+    # Bonus for USD figures
+    for kn in (f.get("key_numbers") or []):
+        if isinstance(kn, dict) and kn.get("unit") == "USD":
+            score += 1
+            break
     if f.get("evidence"):
         score += 1
     return score
@@ -225,18 +238,19 @@ def score_facts(f: dict) -> int:
 def generate_post(facts: dict, source_url: str, pdf_name: str) -> str:
     """Generate a publish-ready social-media post from extracted facts.
 
-    Returns an empty string when facts lack sufficient evidence or Claude
-    cannot produce a well-formed post (missing source line or evidence quotes).
+    Returns empty string if the model can't produce a well-formed post.
     """
     ev = facts.get("evidence") or []
     e1 = ev[0].get("quote", "") if len(ev) > 0 and isinstance(ev[0], dict) else ""
     e2 = ev[1].get("quote", "") if len(ev) > 1 and isinstance(ev[1], dict) else ""
 
-    user_msg = (
-        f"Write a factual social-media post (under {MAX_POST_CHARS} characters) about Kansas "
-        "tax revenue or STAR bonds based on the data below.\n\n"
+    prompt = (
+        f"You write short public-policy research posts.\n\n"
+        f"Return ONLY the final post text. No markdown fences. "
+        f"Keep it under {MAX_POST_CHARS} characters.\n\n"
         "Hard rules:\n"
-        '- Include 1–2 verbatim evidence quotes enclosed in "double quotes".\n'
+        "- Must be clearly about Kansas public policy or public finance.\n"
+        '- Must include 1–2 verbatim evidence quotes in "double quotes".\n'
         f'- The last line must be exactly: Source: {source_url}\n'
         "- Neutral tone. No speculation. No accusations.\n"
         "- If there is not enough evidence, output only the single word: EMPTY\n\n"
@@ -248,46 +262,29 @@ def generate_post(facts: dict, source_url: str, pdf_name: str) -> str:
         f"{json.dumps(facts.get('events') or [], ensure_ascii=False)}\n\n"
         "Allowed evidence quotes:\n"
         f'1) "{e1}"\n'
-        f'2) "{e2}"\n'
+        f'2) "{e2}"\n\n'
+        f"Now write the post.\nSource: {source_url}"
     )
 
-    try:
-        response = _client().messages.create(
-            model=CLAUDE_MODEL,
-            max_tokens=512,
-            messages=[{"role": "user", "content": user_msg}],
-        )
-    except Exception as exc:
-        logging.error("generate_post API error: %s", exc)
-        return ""
-
-    out = (response.content[0].text if response.content else "").strip()
+    out = _ollama_generate(prompt).strip()
 
     if not out or out.upper() == "EMPTY":
         return ""
     if f"Source: {source_url}" not in out:
         return ""
-    if '"' not in out:
+    if '"' not in out and "\u201c" not in out and "\u201d" not in out:
         return ""
 
     return out[:MAX_POST_CHARS].rstrip()
 
 
 def merge_facts(parts: list) -> dict:
-    """Merge fact dicts from multiple text chunks into one deduplicated result.
+    """Merge fact dicts from multiple chunks into one deduplicated result."""
+    merged = dict(EMPTY_FACTS)
+    merged.update({k: [] for k in
+                   ("locations", "entities", "key_numbers", "events",
+                    "evidence", "uncertainties", "recommended_next_queries")})
 
-    Still needed by pq.py when processing very large documents chunk-by-chunk.
-    """
-    merged = {k: (list(v) if isinstance(v, list) else v) for k, v in EMPTY_FACTS.items()}
-    merged["locations"] = []
-    merged["entities"] = []
-    merged["key_numbers"] = []
-    merged["events"] = []
-    merged["evidence"] = []
-    merged["uncertainties"] = []
-    merged["recommended_next_queries"] = []
-
-    # program_type: highest-specificity wins
     pref = {
         "STAR_BOND": 6, "REVENUE_REPORT": 5, "BUDGET": 4,
         "AUDIT": 4, "BILL": 3, "FISCAL_NOTE": 3, "OTHER": 1,
@@ -341,5 +338,4 @@ def merge_facts(parts: list) -> dict:
 
     _str_list("uncertainties")
     _str_list("recommended_next_queries")
-    merged["evidence"] = merged["evidence"][:8]
     return merged
