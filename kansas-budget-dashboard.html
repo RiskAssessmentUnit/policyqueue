@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kansas FY 2026 Budget Dashboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:       #0a1628;
+      --navy-mid:   #112240;
+      --navy-light: #1a3a5c;
+      --gold:       #f2a900;
+      --gold-light: #ffc533;
+      --gold-dim:   #b87e00;
+      --text:       #e8edf5;
+      --text-muted: #8da0b8;
+      --text-dim:   #c5d0de;
+      --success:    #3ecf8e;
+      --danger:     #f86c6c;
+      --card-bg:    #112240;
+      --border:     rgba(242,169,0,0.18);
+      --shadow:     0 4px 24px rgba(0,0,0,0.45);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--navy);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--navy-mid); }
+    ::-webkit-scrollbar-thumb { background: var(--navy-light); border-radius: 4px; }
+
+    /* ── Layout ── */
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #0a1628 0%, #0d1f3c 60%, #0f2545 100%);
+      border-bottom: 3px solid var(--gold);
+      padding: 2rem 0 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.6);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .header-left { display: flex; align-items: center; gap: 1rem; }
+
+    .ks-seal {
+      width: 60px; height: 60px;
+      background: radial-gradient(circle at 50% 40%, var(--gold-light), var(--gold), var(--gold-dim));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem;
+      box-shadow: 0 0 20px rgba(242,169,0,0.4);
+      flex-shrink: 0;
+    }
+
+    .header-title h1 {
+      font-size: clamp(1.2rem, 3vw, 1.75rem);
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.02em;
+      line-height: 1.2;
+    }
+
+    .header-title .subtitle {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .header-title .bill-badge {
+      display: inline-block;
+      background: rgba(242,169,0,0.15);
+      border: 1px solid rgba(242,169,0,0.4);
+      color: var(--gold-light);
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.15rem 0.55rem;
+      border-radius: 20px;
+      margin-top: 0.3rem;
+      letter-spacing: 0.04em;
+    }
+
+    .header-right { text-align: right; flex-shrink: 0; }
+
+    .updated-tag {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .source-links { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end; }
+
+    .source-links a {
+      font-size: 0.72rem;
+      color: var(--gold-light);
+      text-decoration: none;
+      border: 1px solid rgba(242,169,0,0.3);
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+
+    .source-links a:hover {
+      background: rgba(242,169,0,0.15);
+      border-color: var(--gold);
+    }
+
+    /* ── Main ── */
+    main { padding: 2rem 0 3rem; }
+
+    /* ── Section headings ── */
+    .section-heading {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── KPI Cards ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .kpi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.4rem 1.5rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    }
+
+    .kpi-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .kpi-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .kpi-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--gold-light);
+      line-height: 1;
+    }
+
+    .kpi-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+
+    .kpi-delta {
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+
+    .kpi-delta.down { color: var(--danger); }
+    .kpi-delta.up   { color: var(--success); }
+
+    /* ── Charts Grid ── */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .charts-grid { grid-template-columns: 1fr; }
+    }
+
+    .chart-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .chart-card .card-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .chart-card .card-title span {
+      width: 10px; height: 10px;
+      border-radius: 2px;
+      background: var(--gold);
+      display: inline-block;
+    }
+
+    .chart-wrapper { position: relative; }
+
+    /* ── Variance Table ── */
+    .table-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+      overflow-x: auto;
+    }
+
+    .table-card .card-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .table-card .card-title span {
+      width: 10px; height: 10px;
+      border-radius: 2px;
+      background: var(--gold);
+      display: inline-block;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 0.65rem 1rem;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    thead th:not(:first-child) { text-align: right; }
+
+    tbody tr {
+      border-bottom: 1px solid rgba(242,169,0,0.07);
+      transition: background 0.15s;
+    }
+
+    tbody tr:hover { background: rgba(242,169,0,0.05); }
+    tbody tr:last-child { border-bottom: none; }
+
+    tbody td {
+      padding: 0.75rem 1rem;
+      color: var(--text-dim);
+      white-space: nowrap;
+    }
+
+    tbody td:not(:first-child) { text-align: right; }
+
+    .agency-cell { display: flex; align-items: center; gap: 0.6rem; }
+
+    .agency-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .agency-name { font-weight: 600; color: var(--text); }
+    .agency-abbr { font-size: 0.72rem; color: var(--text-muted); }
+
+    .num { font-variant-numeric: tabular-nums; }
+
+    .delta-cell { font-weight: 700; }
+    .delta-cell.up   { color: var(--success); }
+    .delta-cell.down { color: var(--danger); }
+
+    .arrow-up   { display: inline-block; margin-right: 2px; }
+    .arrow-down { display: inline-block; margin-right: 2px; }
+
+    tfoot td {
+      padding: 0.75rem 1rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      border-top: 2px solid rgba(242,169,0,0.3);
+      background: rgba(242,169,0,0.04);
+    }
+
+    tfoot td:not(:first-child) { text-align: right; }
+
+    /* ── Progress bars in table ── */
+    .bar-cell { min-width: 120px; }
+
+    .mini-bar-track {
+      height: 6px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+
+    .mini-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+    }
+
+    /* ── Sources Section ── */
+    .sources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .source-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+      text-decoration: none;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .source-card:hover {
+      border-color: var(--gold);
+      background: rgba(242,169,0,0.06);
+      transform: translateY(-1px);
+    }
+
+    .source-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      background: rgba(242,169,0,0.12);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .source-info .source-title {
+      font-weight: 700;
+      color: var(--gold-light);
+      font-size: 0.9rem;
+    }
+
+    .source-info .source-desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* ── Notice Banner ── */
+    .notice-banner {
+      background: rgba(242,169,0,0.06);
+      border: 1px solid rgba(242,169,0,0.25);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 8px 8px 0;
+      padding: 0.85rem 1.2rem;
+      margin-bottom: 2.5rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+    }
+
+    .notice-banner .notice-icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+    .notice-banner strong { color: var(--text-dim); }
+
+    /* ── Footer ── */
+    footer {
+      background: #070f1e;
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+
+    .footer-text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
+    .footer-text a {
+      color: var(--gold-light);
+      text-decoration: none;
+    }
+
+    .footer-text a:hover { text-decoration: underline; }
+
+    /* ── Fiscal Year Toggle ── */
+    .view-toggle {
+      display: flex;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .toggle-btn {
+      background: none;
+      border: 1px solid rgba(242,169,0,0.3);
+      color: var(--text-muted);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      padding: 0.3rem 0.85rem;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .toggle-btn.active, .toggle-btn:hover {
+      background: rgba(242,169,0,0.15);
+      border-color: var(--gold);
+      color: var(--gold-light);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      .header-inner { flex-direction: column; }
+      .header-right { text-align: left; }
+      .source-links { justify-content: flex-start; }
+      .kpi-value { font-size: 1.6rem; }
+      table { font-size: 0.78rem; }
+      tbody td, thead th { padding: 0.5rem 0.6rem; }
+    }
+
+    /* ── Tooltip ── */
+    .tooltip-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* ── Stat mini grid ── */
+    .stat-row {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    .stat-item { font-size: 0.78rem; color: var(--text-muted); }
+    .stat-item strong { color: var(--text); }
+
+    /* ── Highlight ── */
+    .highlight { color: var(--gold-light); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════ HEADER ══════════════════════ -->
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="ks-seal">🌻</div>
+        <div class="header-title">
+          <h1>Kansas FY 2026 Budget Dashboard</h1>
+          <div class="subtitle">State of Kansas • Division of the Budget • Public Transparency Portal</div>
+          <div class="bill-badge">Enacted via Senate Bill 125 · Signed April 9, 2025</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="updated-tag">📅 Data as of July 16, 2025 Comparison Report</div>
+        <div class="source-links">
+          <a href="https://kanview.ks.gov/" target="_blank" rel="noopener">KanView Live ↗</a>
+          <a href="https://budget.kansas.gov/" target="_blank" rel="noopener">Budget Division ↗</a>
+          <a href="https://kansasopengov.org/" target="_blank" rel="noopener">KansasOpenGov ↗</a>
+          <a href="https://budget.kansas.gov/wp-content/uploads/FY2026_Comparison_Report-07.16.2025.pdf" target="_blank" rel="noopener">FY2026 Report PDF ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════ MAIN ══════════════════════ -->
+<main>
+  <div class="container">
+
+    <!-- ── KPI Cards ── -->
+    <div style="margin-top: 2rem;">
+      <div class="section-heading">Fiscal Year 2026 At a Glance</div>
+
+      <div class="kpi-grid">
+
+        <div class="kpi-card">
+          <div class="kpi-icon" style="background:rgba(242,169,0,0.12);">💰</div>
+          <div class="kpi-label">All Funds Total</div>
+          <div class="kpi-value">$25.6B</div>
+          <div class="kpi-sub">All revenue sources · FY 2026</div>
+          <div class="kpi-delta down">▼ −$1.47B vs FY 2025 (−5.4%)</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon" style="background:rgba(62,207,142,0.12);">🏛️</div>
+          <div class="kpi-label">State General Fund</div>
+          <div class="kpi-value">$10.6B</div>
+          <div class="kpi-sub">Core state tax revenue · FY 2026</div>
+          <div class="kpi-delta down">▼ −$210.5M vs FY 2025 (−1.9%)</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon" style="background:rgba(248,108,108,0.12);">📉</div>
+          <div class="kpi-label">YoY All Funds Change</div>
+          <div class="kpi-value">−5.4%</div>
+          <div class="kpi-sub">Compared to FY 2025 ($27.09B)</div>
+          <div class="kpi-delta down">▼ COVID federal fund expiration</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon" style="background:rgba(100,149,237,0.12);">🏢</div>
+          <div class="kpi-label">Agencies Funded</div>
+          <div class="kpi-value">100+</div>
+          <div class="kpi-sub">State departments &amp; agencies</div>
+          <div class="kpi-delta up">▲ 8 major agencies highlighted</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── Charts Grid ── -->
+    <div class="section-heading">Budget Allocation Overview</div>
+    <div class="charts-grid">
+
+      <!-- Bar Chart -->
+      <div class="chart-card" style="grid-column: 1 / -1;">
+        <div class="card-title"><span></span> Agency Allocations — All Funds (FY 2026 vs FY 2025)</div>
+        <div class="view-toggle">
+          <button class="toggle-btn active" onclick="switchChart('allfunds')">All Funds</button>
+          <button class="toggle-btn" onclick="switchChart('sgf')">State General Fund</button>
+        </div>
+        <div class="chart-wrapper" style="height: 340px;">
+          <canvas id="barChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Donut Chart -->
+      <div class="chart-card">
+        <div class="card-title"><span></span> All Funds Budget Composition (FY 2026)</div>
+        <div class="chart-wrapper" style="height: 290px;">
+          <canvas id="donutChart"></canvas>
+        </div>
+      </div>
+
+      <!-- SGF Donut -->
+      <div class="chart-card">
+        <div class="card-title"><span></span> State General Fund Composition (FY 2026)</div>
+        <div class="chart-wrapper" style="height: 290px;">
+          <canvas id="sgfDonutChart"></canvas>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Variance Table ── -->
+    <div class="section-heading">Year-over-Year Variance Detail</div>
+    <div class="table-card">
+      <div class="card-title"><span></span> FY 2025 vs FY 2026 — Agency-Level Comparison</div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Agency</th>
+            <th>FY 2025 All Funds</th>
+            <th>FY 2026 All Funds</th>
+            <th>All Funds Δ</th>
+            <th>FY 2025 SGF</th>
+            <th>FY 2026 SGF</th>
+            <th>SGF Δ</th>
+            <th>Share of Budget</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- KSDE -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#f2a900;"></div>
+                <div>
+                  <div class="agency-name">K-12 Education</div>
+                  <div class="agency-abbr">KSDE</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$6.84B</td>
+            <td class="num">$6.60B</td>
+            <td class="delta-cell down num">▼ −3.5%</td>
+            <td class="num">$5.06B</td>
+            <td class="num">$4.90B</td>
+            <td class="delta-cell down num">▼ −3.2%</td>
+            <td class="bar-cell">
+              25.8%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:100%;"></div></div>
+            </td>
+          </tr>
+          <!-- KDHE -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#3ecf8e;"></div>
+                <div>
+                  <div class="agency-name">Health &amp; Environment</div>
+                  <div class="agency-abbr">KDHE</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$4.02B</td>
+            <td class="num">$4.00B</td>
+            <td class="delta-cell down num">▼ −0.4%</td>
+            <td class="num">$919M</td>
+            <td class="num">$918M</td>
+            <td class="delta-cell down num">▼ −0.1%</td>
+            <td class="bar-cell">
+              15.6%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:60.7%;"></div></div>
+            </td>
+          </tr>
+          <!-- KDADS -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#6495ed;"></div>
+                <div>
+                  <div class="agency-name">Aging &amp; Disability Services</div>
+                  <div class="agency-abbr">KDADS</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$3.40B</td>
+            <td class="num">$3.37B</td>
+            <td class="delta-cell down num">▼ −0.9%</td>
+            <td class="num">$1.40B</td>
+            <td class="num">$1.39B</td>
+            <td class="delta-cell down num">▼ −0.7%</td>
+            <td class="bar-cell">
+              13.2%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:51.1%;"></div></div>
+            </td>
+          </tr>
+          <!-- KDOT -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#f86c6c;"></div>
+                <div>
+                  <div class="agency-name">Transportation</div>
+                  <div class="agency-abbr">KDOT</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$2.58B</td>
+            <td class="num">$1.70B</td>
+            <td class="delta-cell down num">▼ −34.1%</td>
+            <td class="num">$0</td>
+            <td class="num">$0</td>
+            <td class="delta-cell num" style="color: var(--text-muted);">— N/A</td>
+            <td class="bar-cell">
+              6.6%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:25.7%;"></div></div>
+            </td>
+          </tr>
+          <!-- KBOR -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#a78bfa;"></div>
+                <div>
+                  <div class="agency-name">Higher Education</div>
+                  <div class="agency-abbr">KBOR</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$1.42B</td>
+            <td class="num">$1.45B</td>
+            <td class="delta-cell up num">▲ +2.1%</td>
+            <td class="num">$1.42B</td>
+            <td class="num">$1.45B</td>
+            <td class="delta-cell up num">▲ +2.1%</td>
+            <td class="bar-cell">
+              5.7%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:22.1%;"></div></div>
+            </td>
+          </tr>
+          <!-- DCF -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#fb923c;"></div>
+                <div>
+                  <div class="agency-name">Children &amp; Families</div>
+                  <div class="agency-abbr">DCF</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$870M</td>
+            <td class="num">$850M</td>
+            <td class="delta-cell down num">▼ −2.3%</td>
+            <td class="num">$430M</td>
+            <td class="num">$420M</td>
+            <td class="delta-cell down num">▼ −2.3%</td>
+            <td class="bar-cell">
+              3.3%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:12.9%;"></div></div>
+            </td>
+          </tr>
+          <!-- KDOC -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#38bdf8;"></div>
+                <div>
+                  <div class="agency-name">Corrections</div>
+                  <div class="agency-abbr">KDOC</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">$600M</td>
+            <td class="num">$612M</td>
+            <td class="delta-cell up num">▲ +2.0%</td>
+            <td class="num">$564M</td>
+            <td class="num">$576M</td>
+            <td class="delta-cell up num">▲ +2.1%</td>
+            <td class="bar-cell">
+              2.4%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:9.3%;"></div></div>
+            </td>
+          </tr>
+          <!-- All Other -->
+          <tr>
+            <td>
+              <div class="agency-cell">
+                <div class="agency-dot" style="background:#64748b;"></div>
+                <div>
+                  <div class="agency-name">All Other Agencies</div>
+                  <div class="agency-abbr">Various</div>
+                </div>
+              </div>
+            </td>
+            <td class="num">~$7.84B</td>
+            <td class="num">~$7.01B</td>
+            <td class="delta-cell down num">▼ est.</td>
+            <td class="num">~$1.08B</td>
+            <td class="num">~$990M</td>
+            <td class="delta-cell down num">▼ est.</td>
+            <td class="bar-cell">
+              27.4%
+              <div class="mini-bar-track"><div class="mini-bar-fill" style="width:100%;background:linear-gradient(90deg,#475569,#64748b);"></div></div>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total (All Funds)</td>
+            <td>$27.09B</td>
+            <td>$25.60B</td>
+            <td class="delta-cell down">▼ −5.4%</td>
+            <td>$10.85B</td>
+            <td>$10.64B</td>
+            <td class="delta-cell down">▼ −1.9%</td>
+            <td>100%</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div class="tooltip-label" style="margin-top:1rem;">
+        † KDOT decrease reflects completion of major one-time highway projects and expiration of COVID-era federal transportation funds. SGF appropriation to KDOT is $0 as transportation is funded via dedicated highway funds and federal aid.
+      </div>
+    </div>
+
+    <!-- ── Notice Banner ── -->
+    <div class="notice-banner">
+      <div class="notice-icon">ℹ️</div>
+      <div>
+        <strong>About This Data:</strong> Data reflects enacted FY 2026 budget per Senate Bill 125, signed April 9, 2025. Figures based on the FY 2026 Comparison Report published July 16, 2025 by the Kansas Division of the Budget. Live expenditure data, actual spending, and allotment information are available at <a href="https://kanview.ks.gov/" target="_blank" rel="noopener" style="color:var(--gold-light);">KanView.ks.gov</a>. Some figures are estimates based on publicly available budget documents.
+      </div>
+    </div>
+
+    <!-- ── Data Sources ── -->
+    <div class="section-heading">Official Data Sources</div>
+    <div class="sources-grid">
+
+      <a class="source-card" href="https://kanview.ks.gov/" target="_blank" rel="noopener">
+        <div class="source-icon">📊</div>
+        <div class="source-info">
+          <div class="source-title">KanView</div>
+          <div class="source-desc">Live Kansas government expenditure, revenue, and contract transparency portal. Updated continuously.</div>
+        </div>
+      </a>
+
+      <a class="source-card" href="https://budget.kansas.gov/" target="_blank" rel="noopener">
+        <div class="source-icon">🏛️</div>
+        <div class="source-info">
+          <div class="source-title">Kansas Division of the Budget</div>
+          <div class="source-desc">Official source for budget documents, governor's budget reports, and enacted appropriations.</div>
+        </div>
+      </a>
+
+      <a class="source-card" href="https://budget.kansas.gov/wp-content/uploads/FY2026_Comparison_Report-07.16.2025.pdf" target="_blank" rel="noopener">
+        <div class="source-icon">📄</div>
+        <div class="source-info">
+          <div class="source-title">FY 2026 Comparison Report (PDF)</div>
+          <div class="source-desc">Official July 2025 comparison report with full agency-level FY 2025 vs FY 2026 detail.</div>
+        </div>
+      </a>
+
+      <a class="source-card" href="https://kansasopengov.org/" target="_blank" rel="noopener">
+        <div class="source-icon">🔍</div>
+        <div class="source-info">
+          <div class="source-title">KansasOpenGov</div>
+          <div class="source-desc">Independent transparency site with searchable vendor payments, contracts, and state spending.</div>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+</main>
+
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-text">
+      Built for public transparency · Data from <a href="https://budget.kansas.gov/" target="_blank" rel="noopener">Kansas Division of the Budget</a><br>
+      FY 2026 enacted via Senate Bill 125 · Signed April 9, 2025 · Fiscal Year: July 1, 2025 – June 30, 2026<br>
+      <span style="margin-top:0.3rem; display:inline-block; color:#506070;">This dashboard is a public transparency tool. For official figures, consult <a href="https://budget.kansas.gov/" target="_blank" rel="noopener">budget.kansas.gov</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════ SCRIPTS ══════════════════════ -->
+<script>
+// ── Palette ──────────────────────────────────────────────
+const GOLD   = '#f2a900';
+const NAVY   = '#0a1628';
+const TEXT   = '#c5d0de';
+const MUTED  = '#8da0b8';
+const BORDER = 'rgba(242,169,0,0.15)';
+
+const COLORS = [
+  '#f2a900', // gold  – KSDE
+  '#3ecf8e', // green – KDHE
+  '#6495ed', // blue  – KDADS
+  '#f86c6c', // red   – KDOT
+  '#a78bfa', // violet – KBOR
+  '#fb923c', // orange – DCF
+  '#38bdf8', // sky   – KDOC
+  '#64748b', // slate – Other
+];
+
+Chart.defaults.color = TEXT;
+Chart.defaults.borderColor = BORDER;
+Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
+
+// ── Shared tooltip config ─────────────────────────────────
+const tooltipPlugin = {
+  backgroundColor: '#0d1f3c',
+  borderColor: 'rgba(242,169,0,0.4)',
+  borderWidth: 1,
+  titleColor: '#f2a900',
+  bodyColor: '#c5d0de',
+  padding: 12,
+  cornerRadius: 8,
+  callbacks: {
+    label: ctx => {
+      const v = ctx.parsed.x ?? ctx.parsed.y ?? ctx.raw;
+      return `  $${(v/1000).toFixed(2)}B`;
+    }
+  }
+};
+
+// ── Agency Data ───────────────────────────────────────────
+const agencies = [
+  'K-12 Education (KSDE)',
+  'Health & Env (KDHE)',
+  'Aging & Disability (KDADS)',
+  'Transportation (KDOT)',
+  'Higher Ed (KBOR)',
+  'Children & Families (DCF)',
+  'Corrections (KDOC)',
+  'All Other Agencies',
+];
+
+const allFunds26 = [6600, 4000, 3370, 1700, 1450, 850, 612, 7018]; // $M
+const allFunds25 = [6840, 4020, 3400, 2580, 1420, 870, 600, 7360];
+const sgf26      = [4900,  918, 1390,    0, 1450, 420, 576,  986];
+const sgf25      = [5060,  919, 1400,    0, 1420, 430, 564, 1057];
+
+// ── BAR CHART ─────────────────────────────────────────────
+const barCtx = document.getElementById('barChart').getContext('2d');
+
+function makeBarDatasets(funds26, funds25) {
+  return [
+    {
+      label: 'FY 2026',
+      data: funds26,
+      backgroundColor: COLORS.map(c => c + 'dd'),
+      borderColor: COLORS,
+      borderWidth: 1,
+      borderRadius: 4,
+    },
+    {
+      label: 'FY 2025',
+      data: funds25,
+      backgroundColor: COLORS.map(c => c + '44'),
+      borderColor: COLORS.map(c => c + '88'),
+      borderWidth: 1,
+      borderRadius: 4,
+      borderDash: [4,2],
+    }
+  ];
+}
+
+const barConfig = {
+  type: 'bar',
+  data: {
+    labels: agencies,
+    datasets: makeBarDatasets(allFunds26, allFunds25),
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    layout: { padding: { right: 10 } },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: { font: { size: 11 }, boxWidth: 12, padding: 16 }
+      },
+      tooltip: {
+        ...tooltipPlugin,
+        callbacks: {
+          label: ctx => `  ${ctx.dataset.label}: $${(ctx.parsed.x/1000).toFixed(2)}B`
+        }
+      },
+    },
+    scales: {
+      x: {
+        grid: { color: 'rgba(255,255,255,0.05)' },
+        ticks: {
+          color: MUTED,
+          font: { size: 11 },
+          callback: v => `$${(v/1000).toFixed(0)}B`
+        }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: TEXT, font: { size: 11 } }
+      }
+    }
+  }
+};
+
+const barChart = new Chart(barCtx, barConfig);
+
+function switchChart(mode) {
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  if (mode === 'allfunds') {
+    barChart.data.datasets = makeBarDatasets(allFunds26, allFunds25);
+  } else {
+    barChart.data.datasets = makeBarDatasets(sgf26, sgf25);
+    barChart.options.plugins.tooltip.callbacks = {
+      label: ctx => `  ${ctx.dataset.label}: $${(ctx.parsed.x/1000).toFixed(2)}B`
+    };
+  }
+  barChart.update();
+}
+
+// ── DONUT CHART (All Funds) ────────────────────────────────
+const donutCtx = document.getElementById('donutChart').getContext('2d');
+
+new Chart(donutCtx, {
+  type: 'doughnut',
+  data: {
+    labels: agencies,
+    datasets: [{
+      data: allFunds26,
+      backgroundColor: COLORS.map(c => c + 'cc'),
+      borderColor: COLORS,
+      borderWidth: 2,
+      hoverOffset: 8,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '62%',
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: {
+          font: { size: 10 },
+          boxWidth: 10,
+          padding: 10,
+          generateLabels: chart => {
+            const data = chart.data;
+            return data.labels.map((label, i) => ({
+              text: `${label.split(' ')[0]} ${label.split(' ')[1] || ''} — $${(data.datasets[0].data[i]/1000).toFixed(1)}B`,
+              fillStyle: COLORS[i],
+              strokeStyle: COLORS[i],
+              index: i,
+              hidden: false,
+            }));
+          }
+        }
+      },
+      tooltip: {
+        ...tooltipPlugin,
+        callbacks: {
+          label: ctx => {
+            const v = ctx.raw;
+            const total = ctx.dataset.data.reduce((a,b)=>a+b, 0);
+            const pct = ((v/total)*100).toFixed(1);
+            return `  $${(v/1000).toFixed(2)}B (${pct}%)`;
+          }
+        }
+      },
+    }
+  }
+});
+
+// ── SGF DONUT CHART ────────────────────────────────────────
+const sgfDonutCtx = document.getElementById('sgfDonutChart').getContext('2d');
+
+const agenciesNoKDOT = agencies.filter((_,i) => i !== 3);
+const sgf26NoKDOT    = sgf26.filter((_,i) => i !== 3);
+const colorsNoKDOT   = COLORS.filter((_,i) => i !== 3);
+
+new Chart(sgfDonutCtx, {
+  type: 'doughnut',
+  data: {
+    labels: agenciesNoKDOT,
+    datasets: [{
+      data: sgf26NoKDOT,
+      backgroundColor: colorsNoKDOT.map(c => c + 'cc'),
+      borderColor: colorsNoKDOT,
+      borderWidth: 2,
+      hoverOffset: 8,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '62%',
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: {
+          font: { size: 10 },
+          boxWidth: 10,
+          padding: 10,
+          generateLabels: chart => {
+            const data = chart.data;
+            return data.labels.map((label, i) => ({
+              text: `${label.split(' ')[0]} ${label.split(' ')[1] || ''} — $${(data.datasets[0].data[i]/1000).toFixed(1)}B`,
+              fillStyle: colorsNoKDOT[i],
+              strokeStyle: colorsNoKDOT[i],
+              index: i,
+              hidden: false,
+            }));
+          }
+        }
+      },
+      tooltip: {
+        ...tooltipPlugin,
+        callbacks: {
+          label: ctx => {
+            const v = ctx.raw;
+            const total = ctx.dataset.data.reduce((a,b)=>a+b, 0);
+            const pct = ((v/total)*100).toFixed(1);
+            return `  $${(v/1000).toFixed(2)}B (${pct}%)`;
+          }
+        }
+      },
+    }
+  }
+});
+</script>
+</body>
+</html>
